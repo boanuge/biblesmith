@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'unifont';
+    src: url('unifont.ttf');
+}
+
+body {
+    font-family: 'unifont';
+	font-size: 12pt;
+	line-height: 14pt;
+	background-color: #FFFFFF;
+}

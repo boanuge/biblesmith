@@ -1,0 +1,10 @@
+/* <link href='../font.css' rel='stylesheet' type='text/css'/> */ /* To Use */
+
+@font-face {
+    font-family: 'Boanuge';
+    src: url('Boanuge.ttf');
+}
+
+body {
+    font-family: 'Boanuge';
+}

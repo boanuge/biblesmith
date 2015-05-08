@@ -1,0 +1,105 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	/* Simple page reset */
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	/* Setting default text color, background and a font stack */
+	color:black;
+	font-size:17px;
+	background: white;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+ul.container-OC{
+	/* The topmost UL */
+	width:270px;
+	margin:0 auto;
+	padding:0px;
+	position:relative;
+}
+
+li{
+	list-style:none;
+	text-align:left;
+}
+
+li.menu{
+	/* The main list elements */
+	padding:5px 0;
+	width:100%;
+}
+
+li.button a{
+	/* The section titles */
+	display:block;
+	font-family:BPreplay,Arial,Helvetica,sans-serif;
+	font-size:17px;
+	height:34px;
+	overflow:hidden;
+	padding:10px 20px 0;
+	position:relative;
+	width:90%;
+}
+
+li.button a:hover{
+	/* Removing the inherited underline from the titles */
+	text-decoration:none;
+}
+
+/* Setting up different styles for each section color */
+
+li.button a.green{background:url(images-ColorAccordion/green_wide.png) repeat-x top left; color:#436800; font-weight:bold;}
+li.button a.green span{ background:url(images-ColorAccordion/green_wide.png) repeat-x top right;}
+
+li.button a.red{background:url(images-ColorAccordion/red_wide.png) repeat-x top left; color:#641603; font-weight:bold;}
+li.button a.red span{ background:url(images-ColorAccordion/red_wide.png) repeat-x top right;}
+
+li.button a.orange{background:url(images-ColorAccordion/orange_wide.png) repeat-x top left; color:#882e02; font-weight:bold;}
+li.button a.orange span{ background:url(images-ColorAccordion/orange_wide.png) repeat-x top right;}
+
+li.button a.blue{background:url(images-ColorAccordion/blue_wide.png) repeat-x top left; color:#074384; text-align:right; font-weight:bold; font-size:11px; height:22; padding:5px 20px 0;}
+li.button a.blue span{ background:url(images-ColorAccordion/blue_wide.png) repeat-x top right;}
+
+/* The hover effects */
+
+li.button a:hover{ background-position:bottom left;}
+li.button a:hover span{ background-position:bottom right;}
+
+.dropdown{
+	/* The expandable lists */
+	display:none;
+	padding-left:35px;
+	padding-top:5px;
+	width:90%;
+}
+
+.dropdown li{
+	/* Each element in the expandable list */
+	background-color:#373128;
+	border:1px solid #40392C;
+	color:#CCCCCC;
+	margin:5px 0;
+	padding:4px 14px;
+}
+
+.clear{
+	clear:both;
+}
+
+a, a:visited {
+	color:white;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	color:yellow;
+	text-decoration:none;
+}

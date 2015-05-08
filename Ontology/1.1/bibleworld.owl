@@ -1,0 +1,1158 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY bibleworld "http://mannam.cc/Ontology/bibleworld.owl#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:bibleworld="http://mannam.cc/Ontology/bibleworld.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Ontology rdf:about="http://mannam.cc/Ontology/bibleworld.owl">
+        <versionInfo rdf:datatype="&xsd;string">1.1</versionInfo>
+        <dc:date rdf:datatype="&xsd;string">2011.04.28</dc:date>
+        <dc:creator rdf:datatype="&xsd;string">Seung-Hwa Chung</dc:creator>
+        <rdfs:comment rdf:datatype="&xsd;string">This is the ontology to describe things in the bible.</rdfs:comment>
+        <dc:publisher rdf:datatype="&xsd;string">http://mannam.cc</dc:publisher>
+    </Ontology>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <AnnotationProperty rdf:about="&dc;creator"/>
+    <AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    <AnnotationProperty rdf:about="&dc;publisher"/>
+    <AnnotationProperty rdf:about="&dc;date"/>
+    <AnnotationProperty rdf:about="&rdfs;comment"/>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasAncestor -->
+    <ObjectProperty rdf:about="&bibleworld;hasAncestor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasFamily"/>
+        <inverseOf rdf:resource="&bibleworld;hasOffspring"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasBrother -->
+    <ObjectProperty rdf:about="&bibleworld;hasBrother">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasSibling"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasChangedNameTo -->
+    <ObjectProperty rdf:about="&bibleworld;hasChangedNameTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasChild -->
+    <ObjectProperty rdf:about="&bibleworld;hasChild">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasOffspring"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasDaughter -->
+    <ObjectProperty rdf:about="&bibleworld;hasDaughter">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasChild"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasFamily -->
+    <ObjectProperty rdf:about="&bibleworld;hasFamily">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasFather -->
+    <ObjectProperty rdf:about="&bibleworld;hasFather">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasParent"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasHusband -->
+    <ObjectProperty rdf:about="&bibleworld;hasHusband">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasSpouse"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasMother -->
+    <ObjectProperty rdf:about="&bibleworld;hasMother">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasParent"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasOffspring -->
+    <ObjectProperty rdf:about="&bibleworld;hasOffspring">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasFamily"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasParent -->
+    <ObjectProperty rdf:about="&bibleworld;hasParent">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasAncestor"/>
+        <inverseOf rdf:resource="&bibleworld;hasChild"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasSibling -->
+    <ObjectProperty rdf:about="&bibleworld;hasSibling">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasFamily"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasSister -->
+    <ObjectProperty rdf:about="&bibleworld;hasSister">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasSibling"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasSon -->
+    <ObjectProperty rdf:about="&bibleworld;hasSon">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasChild"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasSpouse -->
+    <ObjectProperty rdf:about="&bibleworld;hasSpouse">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasFamily"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasWife -->
+    <ObjectProperty rdf:about="&bibleworld;hasWife">
+        <inverseOf rdf:resource="&bibleworld;hasHusband"/>
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;hasSpouse"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#knowsAbout -->
+    <ObjectProperty rdf:about="&bibleworld;knowsAbout">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#knowsPerson -->
+    <ObjectProperty rdf:about="&bibleworld;knowsPerson">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;knowsAbout"/>
+    </ObjectProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#knowsSpiritualBeing -->
+    <ObjectProperty rdf:about="&bibleworld;knowsSpiritualBeing">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;knowsAbout"/>
+    </ObjectProperty>
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasChangedNameAtTheAge -->
+    <DatatypeProperty rdf:about="&bibleworld;hasChangedNameAtTheAge">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;isAtTheAge"/>
+    </DatatypeProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#hasGoneToSpiritualWorldAtTheAge -->
+    <DatatypeProperty rdf:about="&bibleworld;hasGoneToSpiritualWorldAtTheAge">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;isAtTheAge"/>
+    </DatatypeProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#isAtTheAge -->
+    <DatatypeProperty rdf:about="&bibleworld;isAtTheAge">
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </DatatypeProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#isBornAtTheFatherAge -->
+    <DatatypeProperty rdf:about="&bibleworld;isBornAtTheFatherAge">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;isAtTheAge"/>
+    </DatatypeProperty>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#isDeadAtTheAge -->
+    <DatatypeProperty rdf:about="&bibleworld;isDeadAtTheAge">
+        <rdfs:subPropertyOf rdf:resource="&bibleworld;isAtTheAge"/>
+    </DatatypeProperty>
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+    <DatatypeProperty rdf:about="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Angel -->
+    <Class rdf:about="&bibleworld;Angel">
+        <rdfs:subClassOf rdf:resource="&bibleworld;SpiritualBeing"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Bird -->
+    <Class rdf:about="&bibleworld;Bird">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Living"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Cloud -->
+    <Class rdf:about="&bibleworld;Cloud">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Sky"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Country -->
+    <Class rdf:about="&bibleworld;Country">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Land"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Day -->
+    <Class rdf:about="&bibleworld;Day">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Time"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#DaysOfTheWeek -->
+    <Class rdf:about="&bibleworld;DaysOfTheWeek">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Time"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Devil -->
+    <Class rdf:about="&bibleworld;Devil">
+        <rdfs:subClassOf rdf:resource="&bibleworld;SpiritualBeing"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#EarthlyWorld -->
+    <Class rdf:about="&bibleworld;EarthlyWorld"/>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Fish -->
+    <Class rdf:about="&bibleworld;Fish">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Living"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#God -->
+    <Class rdf:about="&bibleworld;God">
+        <rdfs:subClassOf rdf:resource="&bibleworld;SpiritualWorld"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Heaven -->
+    <Class rdf:about="&bibleworld;Heaven">
+        <rdfs:subClassOf rdf:resource="&bibleworld;SpiritualPlace"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Hell -->
+    <Class rdf:about="&bibleworld;Hell">
+        <rdfs:subClassOf rdf:resource="&bibleworld;SpiritualPlace"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Human -->
+    <Class rdf:about="&bibleworld;Human">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Living"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Lake -->
+    <Class rdf:about="&bibleworld;Lake">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Water"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Land -->
+    <Class rdf:about="&bibleworld;Land">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Nature"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Light -->
+    <Class rdf:about="&bibleworld;Light">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Nature"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Living -->
+    <Class rdf:about="&bibleworld;Living">
+        <rdfs:subClassOf rdf:resource="&bibleworld;EarthlyWorld"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Man -->
+    <Class rdf:about="&bibleworld;Man">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Human"/>
+        <disjointWith rdf:resource="&bibleworld;Woman"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Mountain -->
+    <Class rdf:about="&bibleworld;Mountain">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Land"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Nature -->
+    <Class rdf:about="&bibleworld;Nature">
+        <rdfs:subClassOf rdf:resource="&bibleworld;EarthlyWorld"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Ocean -->
+    <Class rdf:about="&bibleworld;Ocean">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Water"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Plant -->
+    <Class rdf:about="&bibleworld;Plant">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Living"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Sky -->
+    <Class rdf:about="&bibleworld;Sky">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Nature"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#SpiritualBeing -->
+    <Class rdf:about="&bibleworld;SpiritualBeing">
+        <rdfs:subClassOf rdf:resource="&bibleworld;SpiritualWorld"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#SpiritualPlace -->
+    <Class rdf:about="&bibleworld;SpiritualPlace">
+        <rdfs:subClassOf rdf:resource="&bibleworld;SpiritualWorld"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#SpiritualWorld -->
+    <Class rdf:about="&bibleworld;SpiritualWorld"/>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Star -->
+    <Class rdf:about="&bibleworld;Star">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Light"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Stream -->
+    <Class rdf:about="&bibleworld;Stream">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Water"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Street -->
+    <Class rdf:about="&bibleworld;Street">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Land"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Terrestrial -->
+    <Class rdf:about="&bibleworld;Terrestrial">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Living"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Time -->
+    <Class rdf:about="&bibleworld;Time">
+        <rdfs:subClassOf rdf:resource="&bibleworld;EarthlyWorld"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Water -->
+    <Class rdf:about="&bibleworld;Water">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Nature"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Weather -->
+    <Class rdf:about="&bibleworld;Weather">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Sky"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Week -->
+    <Class rdf:about="&bibleworld;Week">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Time"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Well -->
+    <Class rdf:about="&bibleworld;Well">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Water"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Woman -->
+    <Class rdf:about="&bibleworld;Woman">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Human"/>
+    </Class>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Year -->
+    <Class rdf:about="&bibleworld;Year">
+        <rdfs:subClassOf rdf:resource="&bibleworld;Time"/>
+    </Class>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Abel -->
+    <NamedIndividual rdf:about="&bibleworld;Abel">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Adam"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Cain"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Eve"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Seth"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Abida -->
+    <NamedIndividual rdf:about="&bibleworld;Abida">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Eldaah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Ephah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Epher"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Hanoch"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Midian"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Abijah -->
+    <NamedIndividual rdf:about="&bibleworld;Abijah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Asaph"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Rehoboam"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Abiud -->
+    <NamedIndividual rdf:about="&bibleworld;Abiud">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Eliakim"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Zerubbabel"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Abraham -->
+    <NamedIndividual rdf:about="&bibleworld;Abraham">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <sameAs rdf:resource="&bibleworld;Abram"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Isaac"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Ishbak"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jokshan"/>
+        <bibleworld:hasWife rdf:resource="&bibleworld;Keturah"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Medan"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Midian"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Shuah"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Zimran"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Abram -->
+    <NamedIndividual rdf:about="&bibleworld;Abram">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">175</bibleworld:isDeadAtTheAge>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">70</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:hasChangedNameAtTheAge rdf:datatype="&xsd;integer">99</bibleworld:hasChangedNameAtTheAge>
+        <bibleworld:hasChangedNameTo rdf:resource="&bibleworld;Abraham"/>
+        <bibleworld:hasWife rdf:resource="&bibleworld;Hagar"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Haran"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Nahor_2"/>
+        <bibleworld:hasWife rdf:resource="&bibleworld;Sarai"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Terah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Adam -->
+    <NamedIndividual rdf:about="&bibleworld;Adam">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">930</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Abel"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Cain"/>
+        <bibleworld:hasWife rdf:resource="&bibleworld;Eve"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Seth"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Ahaz -->
+    <NamedIndividual rdf:about="&bibleworld;Ahaz">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Hezekiah"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Jotham"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Akim -->
+    <NamedIndividual rdf:about="&bibleworld;Akim">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Eliud"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Zadok"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Amminadab -->
+    <NamedIndividual rdf:about="&bibleworld;Amminadab">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Nahshon"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Ram"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Amos -->
+    <NamedIndividual rdf:about="&bibleworld;Amos">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Josiah"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Manasseh"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Arphaxad -->
+    <NamedIndividual rdf:about="&bibleworld;Arphaxad">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">100</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">438</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Shelah"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Shem"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Asaph -->
+    <NamedIndividual rdf:about="&bibleworld;Asaph">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Abijah"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jehoshaphat"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Azor -->
+    <NamedIndividual rdf:about="&bibleworld;Azor">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Eliakim"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Zadok"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Bathsheba -->
+    <NamedIndividual rdf:about="&bibleworld;Bathsheba">
+        <rdf:type rdf:resource="&bibleworld;Woman"/>
+        <bibleworld:hasHusband rdf:resource="&bibleworld;David"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Eliam"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Solomon"/>
+        <bibleworld:hasHusband rdf:resource="&bibleworld;Uriah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Boaz -->
+    <NamedIndividual rdf:about="&bibleworld;Boaz">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Obed"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Rahab"/>
+        <bibleworld:hasWife rdf:resource="&bibleworld;Ruth"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Salmon"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Cain -->
+    <NamedIndividual rdf:about="&bibleworld;Cain">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Abel"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Adam"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Eve"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Seth"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#David -->
+    <NamedIndividual rdf:about="&bibleworld;David">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasWife rdf:resource="&bibleworld;Bathsheba"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Jesse"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Solomon"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Dedan -->
+    <NamedIndividual rdf:about="&bibleworld;Dedan">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Jokshan"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Sheba"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Eber -->
+    <NamedIndividual rdf:about="&bibleworld;Eber">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">30</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">464</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Peleg"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Shelah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Eldaah -->
+    <NamedIndividual rdf:about="&bibleworld;Eldaah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Abida"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Ephah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Epher"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Hanoch"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Midian"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Eleazar -->
+    <NamedIndividual rdf:about="&bibleworld;Eleazar">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Eliud"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Matthan"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Eliakim -->
+    <NamedIndividual rdf:about="&bibleworld;Eliakim">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Abiud"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Azor"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Eliam -->
+    <NamedIndividual rdf:about="&bibleworld;Eliam">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasDaughter rdf:resource="&bibleworld;Bathsheba"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Eliud -->
+    <NamedIndividual rdf:about="&bibleworld;Eliud">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Akim"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Eleazar"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Enoch -->
+    <NamedIndividual rdf:about="&bibleworld;Enoch">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">162</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:hasGoneToSpiritualWorldAtTheAge rdf:datatype="&xsd;integer">365</bibleworld:hasGoneToSpiritualWorldAtTheAge>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Jared"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Methuselah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Enosh -->
+    <NamedIndividual rdf:about="&bibleworld;Enosh">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">105</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">905</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Kenan"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Seth"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Ephah -->
+    <NamedIndividual rdf:about="&bibleworld;Ephah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Abida"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Eldaah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Epher"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Hanoch"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Midian"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Epher -->
+    <NamedIndividual rdf:about="&bibleworld;Epher">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Abida"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Eldaah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Ephah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Hanoch"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Midian"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Esau -->
+    <NamedIndividual rdf:about="&bibleworld;Esau">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Isaac"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Jacob"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Rebekah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Eve -->
+    <NamedIndividual rdf:about="&bibleworld;Eve">
+        <rdf:type rdf:resource="&bibleworld;Woman"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Abel"/>
+        <bibleworld:hasHusband rdf:resource="&bibleworld;Adam"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Cain"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Seth"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Friday -->
+    <NamedIndividual rdf:about="&bibleworld;Friday">
+        <rdf:type rdf:resource="&bibleworld;DaysOfTheWeek"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Hagar -->
+    <NamedIndividual rdf:about="&bibleworld;Hagar">
+        <rdf:type rdf:resource="&bibleworld;Woman"/>
+        <bibleworld:hasHusband rdf:resource="&bibleworld;Abram"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Ishmael"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Ham -->
+    <NamedIndividual rdf:about="&bibleworld;Ham">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Japheth"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Noah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Shem"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Hanoch -->
+    <NamedIndividual rdf:about="&bibleworld;Hanoch">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Abida"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Eldaah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Ephah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Epher"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Midian"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Haran -->
+    <NamedIndividual rdf:about="&bibleworld;Haran">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">70</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Abram"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Iscah"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Lot"/>
+        <bibleworld:hasDaughter rdf:resource="&bibleworld;Milcah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Nahor_2"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Terah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Hezekiah -->
+    <NamedIndividual rdf:about="&bibleworld;Hezekiah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Ahaz"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Manasseh"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Hezron -->
+    <NamedIndividual rdf:about="&bibleworld;Hezron">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Perez"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Ram"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Isaac -->
+    <NamedIndividual rdf:about="&bibleworld;Isaac">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">100</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">180</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Abraham"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Ishmael"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jacob"/>
+        <bibleworld:hasWife rdf:resource="&bibleworld;Rebekah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Iscah -->
+    <NamedIndividual rdf:about="&bibleworld;Iscah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Haran"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Lot"/>
+        <bibleworld:hasSister rdf:resource="&bibleworld;Milcah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Ishbak -->
+    <NamedIndividual rdf:about="&bibleworld;Ishbak">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Abraham"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Jokshan"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Keturah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Medan"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Midian"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Shuah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Zimran"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Ishmael -->
+    <NamedIndividual rdf:about="&bibleworld;Ishmael">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">86</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Abram"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Hagar"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Isaac"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Israel -->
+    <NamedIndividual rdf:about="&bibleworld;Israel">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <sameAs rdf:resource="&bibleworld;Jacob"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Jacob -->
+    <NamedIndividual rdf:about="&bibleworld;Jacob">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Esau"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Isaac"/>
+        <bibleworld:hasChangedNameTo rdf:resource="&bibleworld;Israel"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Judah"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Rebekah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Jacob_2 -->
+    <NamedIndividual rdf:about="&bibleworld;Jacob_2">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Joseph"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Matthan"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#James -->
+    <NamedIndividual rdf:about="&bibleworld;James">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Jesus"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Joseph"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Joseph_2"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Judas"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Mary"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Simon"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Japheth -->
+    <NamedIndividual rdf:about="&bibleworld;Japheth">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Ham"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Noah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Shem"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Jared -->
+    <NamedIndividual rdf:about="&bibleworld;Jared">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">65</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">962</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Enoch"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Mahalalel"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Jehoiachin -->
+    <NamedIndividual rdf:about="&bibleworld;Jehoiachin">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Josiah"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Shealtiel"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Jehoram -->
+    <NamedIndividual rdf:about="&bibleworld;Jehoram">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Jehoshaphat"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Uzziah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Jehoshaphat -->
+    <NamedIndividual rdf:about="&bibleworld;Jehoshaphat">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Asaph"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jehoram"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Jesse -->
+    <NamedIndividual rdf:about="&bibleworld;Jesse">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;David"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Obed"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Jesus -->
+    <NamedIndividual rdf:about="&bibleworld;Jesus">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">33</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;James"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Joseph"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Joseph_2"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Judas"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Mary"/>
+        <sameAs rdf:resource="&bibleworld;Messiah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Simon"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Jokshan -->
+    <NamedIndividual rdf:about="&bibleworld;Jokshan">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Abraham"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Dedan"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Ishbak"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Keturah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Medan"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Midian"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Sheba"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Shuah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Zimran"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Joseph -->
+    <NamedIndividual rdf:about="&bibleworld;Joseph">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Jacob_2"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;James"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jesus"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Joseph_2"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Judas"/>
+        <bibleworld:hasWife rdf:resource="&bibleworld;Mary"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Simon"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Joseph_2 -->
+    <NamedIndividual rdf:about="&bibleworld;Joseph_2">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;James"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Jesus"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Joseph"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Judas"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Mary"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Simon"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Josiah -->
+    <NamedIndividual rdf:about="&bibleworld;Josiah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Amos"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jehoiachin"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Jotham -->
+    <NamedIndividual rdf:about="&bibleworld;Jotham">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Ahaz"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Uzziah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Judah -->
+    <NamedIndividual rdf:about="&bibleworld;Judah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Jacob"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Perez"/>
+        <bibleworld:hasWife rdf:resource="&bibleworld;Tamar"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Judas -->
+    <NamedIndividual rdf:about="&bibleworld;Judas">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;James"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Jesus"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Joseph"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Joseph_2"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Mary"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Simon"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Kenan -->
+    <NamedIndividual rdf:about="&bibleworld;Kenan">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">90</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">910</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Enosh"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Mahalalel"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Keturah -->
+    <NamedIndividual rdf:about="&bibleworld;Keturah">
+        <rdf:type rdf:resource="&bibleworld;Woman"/>
+        <bibleworld:hasHusband rdf:resource="&bibleworld;Abraham"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Ishbak"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jokshan"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Medan"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Midian"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Shuah"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Zimran"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Lamech -->
+    <NamedIndividual rdf:about="&bibleworld;Lamech">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">187</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">777</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Methuselah"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Noah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Lot -->
+    <NamedIndividual rdf:about="&bibleworld;Lot">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Haran"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Iscah"/>
+        <bibleworld:hasSister rdf:resource="&bibleworld;Milcah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Mahalalel -->
+    <NamedIndividual rdf:about="&bibleworld;Mahalalel">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">70</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">895</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jared"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Kenan"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Manasseh -->
+    <NamedIndividual rdf:about="&bibleworld;Manasseh">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Amos"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Hezekiah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Mary -->
+    <NamedIndividual rdf:about="&bibleworld;Mary">
+        <rdf:type rdf:resource="&bibleworld;Woman"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;James"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jesus"/>
+        <bibleworld:hasHusband rdf:resource="&bibleworld;Joseph"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Joseph_2"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Judas"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Simon"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Matthan -->
+    <NamedIndividual rdf:about="&bibleworld;Matthan">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Eleazar"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jacob_2"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Medan -->
+    <NamedIndividual rdf:about="&bibleworld;Medan">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Abraham"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Ishbak"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Jokshan"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Keturah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Midian"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Shuah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Zimran"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Messiah -->
+    <NamedIndividual rdf:about="&bibleworld;Messiah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Methuselah -->
+    <NamedIndividual rdf:about="&bibleworld;Methuselah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">65</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">969</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Enoch"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Lamech"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Midian -->
+    <NamedIndividual rdf:about="&bibleworld;Midian">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Abida"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Abraham"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Eldaah"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Ephah"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Epher"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Hanoch"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Ishbak"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Jokshan"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Keturah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Medan"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Shuah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Zimran"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Milcah -->
+    <NamedIndividual rdf:about="&bibleworld;Milcah">
+        <rdf:type rdf:resource="&bibleworld;Woman"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Haran"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Iscah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Lot"/>
+        <bibleworld:hasHusband rdf:resource="&bibleworld;Nahor_2"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Monday -->
+    <NamedIndividual rdf:about="&bibleworld;Monday">
+        <rdf:type rdf:resource="&bibleworld;DaysOfTheWeek"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Nahor -->
+    <NamedIndividual rdf:about="&bibleworld;Nahor">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">148</bibleworld:isDeadAtTheAge>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">30</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Serug"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Terah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Nahor_2 -->
+    <NamedIndividual rdf:about="&bibleworld;Nahor_2">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">70</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Abram"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Haran"/>
+        <bibleworld:hasWife rdf:resource="&bibleworld;Milcah"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Terah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Nahshon -->
+    <NamedIndividual rdf:about="&bibleworld;Nahshon">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Amminadab"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Salmon"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Noah -->
+    <NamedIndividual rdf:about="&bibleworld;Noah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">182</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">950</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Lamech"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Shem"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Obed -->
+    <NamedIndividual rdf:about="&bibleworld;Obed">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Boaz"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jesse"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Ruth"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Peleg -->
+    <NamedIndividual rdf:about="&bibleworld;Peleg">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">239</bibleworld:isDeadAtTheAge>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">34</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Eber"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Reu"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Perez -->
+    <NamedIndividual rdf:about="&bibleworld;Perez">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Hezron"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Judah"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Tamar"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Rahab -->
+    <NamedIndividual rdf:about="&bibleworld;Rahab">
+        <rdf:type rdf:resource="&bibleworld;Woman"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Boaz"/>
+        <bibleworld:hasHusband rdf:resource="&bibleworld;Salmon"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Ram -->
+    <NamedIndividual rdf:about="&bibleworld;Ram">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Amminadab"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Hezron"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Rebekah -->
+    <NamedIndividual rdf:about="&bibleworld;Rebekah">
+        <rdf:type rdf:resource="&bibleworld;Woman"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Esau"/>
+        <bibleworld:hasHusband rdf:resource="&bibleworld;Isaac"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jacob"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Rehoboam -->
+    <NamedIndividual rdf:about="&bibleworld;Rehoboam">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Abijah"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Solomon"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Reu -->
+    <NamedIndividual rdf:about="&bibleworld;Reu">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">239</bibleworld:isDeadAtTheAge>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">30</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Peleg"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Serug"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Ruth -->
+    <NamedIndividual rdf:about="&bibleworld;Ruth">
+        <rdf:type rdf:resource="&bibleworld;Woman"/>
+        <bibleworld:hasHusband rdf:resource="&bibleworld;Boaz"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Obed"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Salmon -->
+    <NamedIndividual rdf:about="&bibleworld;Salmon">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Boaz"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Nahshon"/>
+        <bibleworld:hasWife rdf:resource="&bibleworld;Rahab"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Sarah -->
+    <NamedIndividual rdf:about="&bibleworld;Sarah">
+        <rdf:type rdf:resource="&bibleworld;Woman"/>
+        <sameAs rdf:resource="&bibleworld;Sarai"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Sarai -->
+    <NamedIndividual rdf:about="&bibleworld;Sarai">
+        <rdf:type rdf:resource="&bibleworld;Woman"/>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">127</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasHusband rdf:resource="&bibleworld;Abram"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Isaac"/>
+        <bibleworld:hasChangedNameTo rdf:resource="&bibleworld;Sarah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Saturday -->
+    <NamedIndividual rdf:about="&bibleworld;Saturday">
+        <rdf:type rdf:resource="&bibleworld;DaysOfTheWeek"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Serug -->
+    <NamedIndividual rdf:about="&bibleworld;Serug">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">230</bibleworld:isDeadAtTheAge>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">32</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Nahor"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Reu"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Seth -->
+    <NamedIndividual rdf:about="&bibleworld;Seth">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">130</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">912</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Abel"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Adam"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Cain"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Enosh"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Eve"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Shealtiel -->
+    <NamedIndividual rdf:about="&bibleworld;Shealtiel">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Jehoiachin"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Zerubbabel"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Sheba -->
+    <NamedIndividual rdf:about="&bibleworld;Sheba">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Dedan"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Jokshan"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Shelah -->
+    <NamedIndividual rdf:about="&bibleworld;Shelah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">35</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">433</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Arphaxad"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Eber"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Shem -->
+    <NamedIndividual rdf:about="&bibleworld;Shem">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">500</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">600</bibleworld:isDeadAtTheAge>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Arphaxad"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Ham"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Japheth"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Noah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Shuah -->
+    <NamedIndividual rdf:about="&bibleworld;Shuah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Abraham"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Ishbak"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Jokshan"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Keturah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Medan"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Midian"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Zimran"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Simon -->
+    <NamedIndividual rdf:about="&bibleworld;Simon">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;James"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Jesus"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Joseph"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Joseph_2"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Judas"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Mary"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Solomon -->
+    <NamedIndividual rdf:about="&bibleworld;Solomon">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Bathsheba"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;David"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Rehoboam"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Sunday -->
+    <NamedIndividual rdf:about="&bibleworld;Sunday">
+        <rdf:type rdf:resource="&bibleworld;DaysOfTheWeek"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Tamar -->
+    <NamedIndividual rdf:about="&bibleworld;Tamar">
+        <rdf:type rdf:resource="&bibleworld;Woman"/>
+        <bibleworld:hasHusband rdf:resource="&bibleworld;Judah"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Terah -->
+    <NamedIndividual rdf:about="&bibleworld;Terah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:isDeadAtTheAge rdf:datatype="&xsd;integer">205</bibleworld:isDeadAtTheAge>
+        <bibleworld:isBornAtTheFatherAge rdf:datatype="&xsd;integer">29</bibleworld:isBornAtTheFatherAge>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Abram"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Nahor"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Thursday -->
+    <NamedIndividual rdf:about="&bibleworld;Thursday">
+        <rdf:type rdf:resource="&bibleworld;DaysOfTheWeek"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Tuesday -->
+    <NamedIndividual rdf:about="&bibleworld;Tuesday">
+        <rdf:type rdf:resource="&bibleworld;DaysOfTheWeek"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Uriah -->
+    <NamedIndividual rdf:about="&bibleworld;Uriah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasWife rdf:resource="&bibleworld;Bathsheba"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Uzziah -->
+    <NamedIndividual rdf:about="&bibleworld;Uzziah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Jehoram"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Jotham"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Wednesday -->
+    <NamedIndividual rdf:about="&bibleworld;Wednesday">
+        <rdf:type rdf:resource="&bibleworld;DaysOfTheWeek"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Zadok -->
+    <NamedIndividual rdf:about="&bibleworld;Zadok">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Akim"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Azor"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Zerah -->
+    <NamedIndividual rdf:about="&bibleworld;Zerah">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Judah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Perez"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Tamar"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Zerubbabel -->
+    <NamedIndividual rdf:about="&bibleworld;Zerubbabel">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasSon rdf:resource="&bibleworld;Abiud"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Shealtiel"/>
+    </NamedIndividual>
+    <!-- http://mannam.cc/Ontology/bibleworld.owl#Zimran -->
+    <NamedIndividual rdf:about="&bibleworld;Zimran">
+        <rdf:type rdf:resource="&bibleworld;Man"/>
+        <bibleworld:hasFather rdf:resource="&bibleworld;Abraham"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Ishbak"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Jokshan"/>
+        <bibleworld:hasMother rdf:resource="&bibleworld;Keturah"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Medan"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Midian"/>
+        <bibleworld:hasBrother rdf:resource="&bibleworld;Shuah"/>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="generator" content="Seung-Hwa Chung">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>Ontology</title>
+<link href="../ontology.ui.css" rel="stylesheet" type="text/css"/>
+<script src="../ontology.min.js"></script>
+<script src="../ontology.ui.js"></script>
+<script>
+$(document).ready(function() {
+$("#accordion1").accordion({ animated : 'slide', autoHeight  : false, collapsible : true, active : false });
+$("#accordion2").accordion({ animated : 'slide', autoHeight  : false, collapsible : true, active : false });
+$("#accordion3").accordion({ animated : 'slide', autoHeight  : false, collapsible : true, active : false });
+});
+</script>
+</head>
+<body style="font-size:62.5%;">
+
+<div id="accordion1">
+
+<h3><a href="#">Description - bibleworld v1.0</a></h3>
+	<div><p><b>This is the ontology to describe things in the bible.</b></p>
+		<ul>
+			<li>This owl is focused on the genealogy of Jesus Christ.
+			<p><ul>
+				<li>Based on: Genesis 5:1-32
+				<li>Based on: Matthew 1:1-17
+			</ul></p>
+			<li>Available Classes
+			<p><ul>
+				<li>Class: EarthlyWorld, Living, Human, Man
+				<li>ObjectProperty: hasFamily, hasAncestor, hasParent, hasFather, hasOffspring, hasChild, hasSon
+			</ul></p>
+		</ul>
+	</div>
+</div>
+
+<div id="accordion2">
+<h3><a href="#">OWL Download - bibleworld v1.0</a></h3>
+	<div><a href="bibleworld.owl"><b>http://mannam.cc/Ontology/1.0/bibleworld.owl</b></a></div>
+</div>
+
+<div id="accordion3">
+<h3><a href="#">Information Model - bibleworld v1.0</a></h3>
+	<div><img src="bibleworld.v.1.0.jpg" border=0></div>
+</div>
+
+</body>
+</html>
