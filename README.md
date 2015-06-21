@@ -18,7 +18,7 @@ http://mannam.cc
 | established       = {{Start date|mf=yes|2012|1|1}}
 | current status    = Active
 | url               = {{URL|http://mannam.cc}}
-| num_users         = 1 million and more Companions in Android/iOS apps and YouTube
+| num_users         = 1 million and more Companions on Android/iOS apps and YouTube
 | footnotes         = This project develops any kind of Bible related Apps/Info. for more effective and efficient evangelism.
 }}
 
