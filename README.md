@@ -24,7 +24,7 @@ http://mannam.cc
 
 '''The Bible-smith Project''' is the project that works on any kind of [[Bible]] related applications and information for more effective and efficient [[Evangelism]] with the vision "The [[Gospel]] for Everyone".
 
-From the project, more than 10,000 Gospel related contents and more than 200 android and iOS applications - including Bibles in more than 70 different languages - have been developed and/or shared to the world since 2012.
+From the project, more than 10,000 Gospel related contents and more than 200 android/iOS applications - including Bibles in more than 70 different languages - have been developed and/or shared to the world since 2012.
 
 == About Bible ==
 The Bible<br>
