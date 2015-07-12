@@ -10,16 +10,17 @@ ps. Please walk together with this project by prayer, and you can send us the Bi
 
 http://mannam.cc
 
-{{Infobox project
-| name              = The Bible-smith Project
-| mission_statement = The Gospel for Everyone
-| owner             = The Holy Spirit
-| founder           = Dr. Seung-Hwa Chung
-| established       = {{Start date|mf=yes|2012|1|1}}
-| current status    = Active
-| url               = {{URL|http://mannam.cc}}
-| num_users         = 1 million and more Companions on Android/iOS apps and YouTube
-| footnotes         = This project develops any kind of Bible related Apps/Info. for more effective and efficient evangelism.
+{{Infobox project 
+| name              = The Bible-smith Project 
+| mission_statement = The Gospel for Everyone 
+| owner             = The Holy Spirit 
+| founder           = Dr. Seung-Hwa Chung 
+| established       = {{Start date|mf=yes|2012|1|1}} 
+| current status    = Active 
+| url_home          = {{URL|http://mannam.cc}} 
+| url_video         = {{URL|http://youtube.com/boanuge}} 
+| num_users         = 1 million and more Companions on Android/iOS apps and YouTube 
+| footnotes         = This project develops any kind of Bible related Apps/Info. for more effective and efficient evangelism. 
 }}
 
 '''The Bible-smith Project''' is the project that works on any kind of [[Bible]] related applications and information for more effective and efficient [[Evangelism]] with the vision "The [[Gospel]] for Everyone".
