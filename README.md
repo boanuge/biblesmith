@@ -1,3 +1,6 @@
+<!-- Information -->
+<!-- Last Updated Date: 20150828 -->
+
 ※ The Bible-smith Project: "The Gospel for Everyone"
 
 This project develops any kind of Bible related Apps/Info. for more effective and efficient evangelism.
@@ -9,6 +12,8 @@ ps. Please walk together with this project by prayer, and you can send us the Bi
 + He who overcomes, and keeps my works to the end, to him I will give rule over the nations. [Revelation 2:26]
 
 http://mannam.cc
+
+<!-- Wikipedia Syntax -->
 
 {{Infobox project 
 | name              = The Bible-smith Project 
