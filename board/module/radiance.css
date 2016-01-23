@@ -1,0 +1,132 @@
+.bbody {background:#A9B3BB url(radiance/img01.gif) repeat-x;}
+.cbody {background-color:#D4DADD}
+.menu20 {margin-top:15px; text-align:left}
+.menu20 td {vertical-align:top}
+.menu20 .menu40 {clear:both; padding:7px 0 0 10px; text-align:left; overflow:hidden; line-height:15px; background: url(radiance/img13.gif) repeat-x;}
+.menu20 .entry-content div {overflow:hidden; white-space:nowrap; width:98%}
+.menu20 .entry-content div.link {background: url(radiance/img14.gif) no-repeat left center; padding-left:8%; width:90%}
+.menu20 .entry-content div a:link, .menu20 .entry-content div a:visited {text-decoration:none}
+.menu20 .entry-content div a:hover, .menu20 .entry-content div a:active {text-decoration:none; color:#145DAA}
+.menu20 .menu40 input {font-family:Gulim; font-size:9pt; height:15px; letter-spacing:0}
+.menu20 .menu40 span {cursor:pointer; margin:2px}
+.menu20 form.shform {margin:0; padding:7px 0 7px 0}
+.menu20 form.shform input.find {width:75%; height:16px; padding:2%}
+.menu20 .menu40 form.shform input.srbt {width:13%; height:24px}
+input.search {background:#FEFEFE url('../icon/b1.gif'); border:0; border-right:1px solid #BEBDBE; border-left:1px solid #D1D1D1; font-family:Gulim; font-size:9pt; height:20px; cursor:pointer}
+.menu52 {border:0}
+.menu20 .menu50 a {display:block; font-size:12px; font-family:Gulim; font-size:9pt}
+.menu20 .menu50 a.linK,.menu20 .menu50 a.linK:link,.menu20 .menu50 a.linK:hover,.menu20 .menu50 a.linK:visited,.menu20 .menu50 a.linK:active {border:1px solid #B8B8B8; background:#D4DADD; text-decoration:none; padding:7px 0 0 20px; height:17px; color:#222222; text-align:left; margin:1px 0 1px 0}
+.menu20 .menu50 a.thbd,.menu20 .menu50 a.thbd:link,.menu20 .menu50 a.thbd:hover,.menu20 .menu50 a.thbd:visited,.menu20 .menu50 a.thbd:active {background:#FAFAFA}
+.menu20 .menu50 a.linK:hover {border:0; height:19px; background:url(radiance/img12.gif) 0% 100%; color:#FFF}
+.menu20 .menu50 a.linK:hover span {color:#FFF}
+.menu20 .menu50 a.heaD,.menu20 .menu50 a.heaD:link,.menu20 .menu50 a.heaD:hover,.menu20 .menu50 a.heaD:visited,.menu20 .menu50 a.heaD:active {border:0; text-decoration:none; height:19px; border-top:1px solid #AFBEC7; background:url(radiance/img12.gif) 0% 100%; color:#456; font-weight:bold; text-align:center; padding:7px 0 0 0}
+.menu20 .menu50 div.secc div {display:none}
+.menu20 .menu50 div.secc:hover div {display:block}
+.menu20 .menu60 {padding:0; border:0}
+.menu20 .menu70 {padding:0; border:0; height:0}
+.menu20 .center10 {padding-top:3px; padding-bottom:10px; text-align:center}
+#st_visitor {padding:5px 0 5px 40px}
+#st_visitor a,#st_visitor a:link,#st_visitor a:hover {display:block; padding-top:0; padding-bottom:4px; height:16px; color:#222; border:0}
+.menu20 .menu40 .gthumb_100 {width:75px; height:75px; border:3px solid #F0F0F0; margin:0 3px 3px 0}
+.menu20 .menu40 .gthumb_100:hover {border-color:#FF871B}
+.menutg {clear:both; padding:7px 0 0 10px}
+.menu20 .menu25 {background:#DB8603 url(radiance/img12.gif) no-repeat 0% 0%; height:35px}
+.menu20 .menu_title div {padding-top:8px; height:27px; margin-left:10px; background:#DB8603 url(radiance/img12.gif) no-repeat 100% 0%}
+.menu20 .menuone div, .menu20 .menu_title div {font-size:12px; font-family:'Malgun Gothic',Dotum; letter-spacing:-1px; font-weight:bold}
+.menu20 .menuon {float:left; color:#5A5A43; width:40%; padding-left:10%}
+.menu20 .menuoff {float:left; color:#EDE3CC; width:40%; padding-left:10%}
+.menu20 .menuone {color:#5A5A43}
+.menu20 .calendar {width:94%}
+.menu20 .calendar td {text-align:center; padding-top:4px}
+.menu20 .calendar .date {background-color:#FFFFFF}
+.menu20 .calendar .isdoc {border:1px solid #C7C7C7; padding-top:3px; cursor:pointer}
+.menu20 .calendar .thisdoc {border:1px solid #FF6633; background-color:#FFFAD9; padding-top:3px; cursor:pointer}
+.small {font-family:tahoma,Gulim; font-size:11px; color:#8E8E8E}
+.dh_allmenu {display:block}
+#sectiongroup .sctgrp div {color:#EF81E2}
+#sectiongroup a,#sectiongroup a:link, #sectiongroup a:visited, #sectiongroup a:hover, #sectiongroup a:active {color:#D0D0D0}
+.menu20 .menu15 {border:1px dotted #BDBDBD}
+.bx_login .menu30,.bx_profile .menu30 {padding:15px 0 15px 0}
+.plus {border:0; background-color:#FFFFFF; color:#145DAA; width:15px; height:14px; margin:3px 3px 3px 0; font-size:10pt}
+
+.navigation {position:relative; z-index:7; height: 70px}
+#section {padding:0; margin:auto; list-style-type:none; text-align:center}
+#section a {display:block; text-decoration:none; font-size:9pt; cursor:pointer}
+#section li {float:left; width:auto; text-decoration:none; display:inline}
+#section li a.trigger span {display:block; height:43px; color:#555; font: bold 1.2em "Malgun Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif; padding:12px 30px 0 30px}
+#section ul {list-style-type:none; position:absolute; display:none; background-color:#000; width:130px; border:3px solid #F2CD71; padding:0; margin:0}
+#section ul li {margin:0; background:none; line-height:31px; vertical-align:middle; text-align:left}
+#section ul li a {padding:3px 12px 3px 16px; color:#EDF4F7; width:102px}
+#section li:hover a.trigger span, #section li.active a.trigger span, #section li a.tregger span {background: url(radiance/img03.gif) no-repeat center bottom; color:#000}
+#section li:hover a.trigger {color:#000; background:none}
+#section li:hover ul {display:block}
+#section ul li:hover a, #section ul li.iesix a {background:#EFC153; color:#000}
+
+
+.stbLR {padding-top:10px; padding-bottom:20px}
+.container {background-color:#FFFFFF; border:0; padding:0 10px 0 10px; margin:0}
+.brace {font-size:11px; color:#145DAA; float:right; text-align:right; padding-right:15px}
+.floatleft {float:left}
+.analdv {background:url(radiance/img01.gif) repeat-x 0% 90%; padding-top:2px; font-family:tahoma,Gulim; font-size:7pt; color:#FFFFFF; text-align:center}
+#sbt {float:left; margin:0; border:0}
+#sbt .sbtL, #sbt .sbtR {background: url(radiance/img05.gif) no-repeat; height:20px}
+#sbt .sbbL, #sbt .sbbR {background: url(radiance/img06.gif) no-repeat; height:20px}
+#sbt .sbtL {background-position:0% 0%}
+#sbt .sbtR {background-position:100% 0%;}
+#sbt .sbbL {background-position:0% 100%;}
+#sbt .sbbR {background-position:100% 100%;}
+#sbt .sbtC {background-color:#D4DADD; border-left:6px solid #848C8F; border-right:6px solid #848C8F; padding:20px}
+
+h1, h2, h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+#logo {
+	height: 130px;
+	padding: 70px 0 0 100px;
+	background: url(radiance/img02.gif) no-repeat 0px 50px;
+}
+
+#logo h1, #logo p {
+	color: #FFFFFF;
+}
+
+#logo h1 {
+}
+
+#logo p {
+	margin: 0;
+	padding: 0 0 0 2px;
+	line-height: normal;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#footer {
+	padding: 40px 0;
+	background:#3F4244 url(radiance/img18.gif) repeat-x;
+}
+
+#footer p {
+	text-align: center;
+	font-size: smaller;
+	color: #666666;
+}
+
+#footer a {
+	color: #666666;
+}

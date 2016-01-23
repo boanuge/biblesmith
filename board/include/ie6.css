@@ -1,0 +1,22 @@
+.gthumb_100 {
+  font-size:expression(
+  this.onmouseenter = new Function("this.className=this.className + ' gthumb_100ie6'"),
+  this.onmouseleave = new Function("this.className=this.className.replace(/ gthumb_100ie6/,'')"),
+ "9pt");
+}
+#section a.trigger {width:0}
+#section span {overflow:hidden; white-space:nowrap}
+#section .supsec {
+  letter-spacing:expression(
+  this.onmouseenter = new Function("this.firstChild.className=this.firstChild.className.replace(/ tregger/,'') + ' tregger';if(this.childNodes.length >= 2) this.childNodes[1].style.display = 'block';"),
+  this.onmouseleave = new Function("this.firstChild.className=this.firstChild.className.replace(/ tregger/,'');if(this.childNodes.length >= 2) this.childNodes[1].style.display = 'none';"),
+ "0");
+}
+a.butt3 {width:expression(this.scrollWidth - 12)}
+ul.butn li {
+  display:expression(
+  this.onmouseenter = new Function("if(this.childNodes[1] && this.childNodes[1].tagName=='UL') this.childNodes[1].style.display='block'"),
+  this.onmouseleave = new Function("if(this.childNodes[1] && this.childNodes[1].tagName=='UL') this.childNodes[1].style.display='none'"),
+ "block");
+}
+.pngEX {color:expression(IE6png(this));}

@@ -1,0 +1,107 @@
+.menu20 {margin-bottom:15px; text-align:left; background:#FFFFFF url(boxedtype/img02.gif) repeat-x; }
+.menu20 td {vertical-align:top}
+.menu20 .menu40 {clear:both; padding:7px 0 0 10px; text-align:left; overflow:hidden; line-height:15px}
+.menu20 .entry-content div {overflow:hidden; white-space:nowrap; width:98%}
+.menu20 .entry-content div a:link, .menu20 .entry-content div a:visited {text-decoration:none}
+.menu20 .entry-content div a:hover, .menu20 .entry-content div a:active {text-decoration:none; color:#145DAA}
+.menu20 .menu40 input {font-family:Gulim; font-size:9pt; height:15px; letter-spacing:0}
+.menu20 .menu40 span {cursor:pointer; margin:2px}
+.menu20 form.shform {margin:0; padding:7px 0 7px 0}
+.menu20 form.shform input.find {width:75%; height:16px; padding:2%}
+.menu20 .menu40 form.shform input.srbt {width:13%; height:24px}
+input.search {background:#FEFEFE url('../icon/b1.gif'); border:0; border-right:1px solid #BEBDBE; border-left:1px solid #D1D1D1; font-family:Gulim; font-size:9pt; height:20px; cursor:pointer}
+.menu52 {border:0}
+.menu20 .menu50 a {display:block; font-size:12px; font-family:Gulim; font-size:9pt}
+.menu20 .menu50 a.linK,.menu20 .menu50 a.linK:link,.menu20 .menu50 a.linK:hover,.menu20 .menu50 a.linK:visited,.menu20 .menu50 a.linK:active {border:1px solid #B8B8B8; background:#FAFAFA; text-decoration:none; padding:7px 0 0 20px; height:17px; color:#222222; text-align:left; margin:1px 0 1px 0}
+.menu20 .menu50 a.thbd,.menu20 .menu50 a.thbd:link,.menu20 .menu50 a.thbd:hover,.menu20 .menu50 a.thbd:visited,.menu20 .menu50 a.thbd:active {background:#F0F0F0}
+.menu20 .menu50 a.linK:hover {border:0; height:19px; background:#8E8E8E; color:#FFF}
+.menu20 .menu50 a.linK:hover span {color:#FFF}
+.menu20 .menu50 a.heaD,.menu20 .menu50 a.heaD:link,.menu20 .menu50 a.heaD:hover,.menu20 .menu50 a.heaD:visited,.menu20 .menu50 a.heaD:active {border:0; text-decoration:none; height:19px; background:#8E8E8E; color:#FFF; text-align:center; padding:7px 0 0 0}
+.menu20 .menu50 div.secc div {display:none}
+.menu20 .menu50 div.secc:hover div {display:block}
+.menu20 .menu60 {padding:0; border:0}
+.menu20 .menu70 {padding:0; border:0; height:0}
+.menu20 .center10 {padding-top:3px; padding-bottom:10px; text-align:center}
+#st_visitor {padding:5px 0 5px 40px}
+#st_visitor a,#st_visitor a:link,#st_visitor a:hover {display:block; padding-top:0; padding-bottom:4px; height:16px; color:#222; border:0}
+.menu20 .menu40 .gthumb_100 {width:75px; height:75px; border:3px solid #F0F0F0; margin:0 3px 3px 0}
+.menu20 .menu40 .gthumb_100:hover {border-color:#FF871B}
+.menutg {clear:both; padding:7px 0 0 10px}
+.menu20 .menu_title {height:30px}
+.menu20 .menuone div, .menu20 .menu_title div {font-size:12px; font-weight:bold; text-align:center; cursor:pointer}
+.menu20 .menuon {float:left; color:#505050; width:49.9%}
+.menu20 .menuoff {float:left; background-color:#F2F2F2; color:#8B8B8B; width:49.9%}
+.menu20 .menuone, .menuone div {color:#505050}
+.menu20 .menu_title div {padding-top:10px}
+.small {font-family:tahoma,Gulim; font-size:11px; color:#BABABA}
+.menu20 .calendar {width:94%}
+.menu20 .calendar td {text-align:center; padding-top:4px}
+.menu20 .calendar .date {background-color:#FFFFFF}
+.menu20 .calendar .isdoc {border:1px solid #C7C7C7; padding-top:3px; cursor:pointer}
+.menu20 .calendar .thisdoc {border:1px solid #FF6633; background-color:#FFFAD9; padding-top:3px; cursor:pointer}
+.dh_allmenu {display:block}
+#sectiongroup a,#sectiongroup a:link, #sectiongroup a:visited, #sectiongroup a:hover, #sectiongroup a:active {color:#D0D0D0}
+.bx_login,.bx_profile {padding-top:12px}
+.bx_login .menu30,.bx_profile .menu30 {padding:15px 0 15px 0}
+.plus {border:0; background-color:#FFFFFF; color:#145DAA; width:15px; height:14px; margin:3px 3px 3px 0; font-size:10pt}
+
+#nav {position:relative; height:120px; text-align:center; z-index:7; clear:both}
+#section {padding:0; margin:auto; list-style-type:none; text-align:center}
+#section a {display:block; text-decoration:none; font-size:9pt; font-weight:normal; cursor:pointer}
+#section li {float:left; width:auto; text-decoration:none; display:inline}
+#section li a.trigger span {display:block; width:122px; height:60px; padding:38px 15px 12px 15px; font-size: 1.6em; color:#333333; font-family:'Malgun Gothic'}
+#section ul {list-style-type:none; position:absolute; display:none; width:150px; border-width:1px; border-style:solid; padding:0; margin:0}
+#section ul li {margin:0; background:none; line-height:31px; vertical-align:middle; text-align:left}
+#section ul li a {color:#000000; padding:3px 12px 3px 16px; width:122px}
+#section li:hover a.trigger {color:#333333; background:none}
+#section li:hover ul {display:block}
+#section ul li:hover a, #section ul li.iesix a {background-color:#505050!important; color:#FFFFFF!important}
+#section li.page1 a.trigger span { background:#E5FAA1 url(boxedtype/img03.gif) no-repeat; }
+#section li.page2 a.trigger span { background:#97F0E6 url(boxedtype/img04.gif) no-repeat; }
+#section li.page3 a.trigger span { background:#F3B6CE url(boxedtype/img05.gif) no-repeat; }
+#section li.page4 a.trigger span { background:#FADDA1 url(boxedtype/img06.gif) no-repeat; }
+#section li.page5 a.trigger span { background:#C9CDFF url(boxedtype/img07.gif) no-repeat; }
+#section li.page1 ul {background:#E5FAA1; border-color:#F6FDDF #CDDF96 #BACA82 #EDFBBD}
+#section li.page2 ul {background:#97F0E6; border-color:#DBFAF6 #8AD5CC #7AC2BB #B4F4ED}
+#section li.page3 ul {background:#F3B6CE; border-color:#FBE6EF #D5A0B6 #C594A7 #F6CBDD}
+#section li.page4 ul {background:#FADDA1; border-color:#FDF3DF #DDC38F #CBB483 #FBE6BB}
+#section li.page5 ul {background:#C9CDFF; border-color:#F7F8FF #B4B7E1 #A4A8CF #D9DCFF}
+#section li.page1:hover a.trigger span, #section li.page1 a.tregger span, #section li.active1 a.trigger span { background-image: url(boxedtype/img08.gif); }
+#section li.page2:hover a.trigger span, #section li.page2 a.tregger span, #section li.active2 a.trigger span { background-image: url(boxedtype/img09.gif); }
+#section li.page3:hover a.trigger span, #section li.page3 a.tregger span, #section li.active3 a.trigger span { background-image: url(boxedtype/img10.gif); }
+#section li.page4:hover a.trigger span, #section li.page4 a.tregger span, #section li.active4 a.trigger span { background-image: url(boxedtype/img11.gif); }
+#section li.page5:hover a.trigger span, #section li.page5 a.tregger span, #section li.active5 a.trigger span { background-image: url(boxedtype/img12.gif); }
+
+
+.stbLR {background-color:#FFFFFF; padding-bottom:20px}
+
+#header {
+	height: 40px;
+	background:#5A5A5A url(boxedtype/img01.gif) repeat-x;
+}
+
+#header h1 {
+	margin: 0 auto;
+	padding: 12px 0 0 0;
+	font-size: 1em;
+}
+
+#header h2 {
+	margin: -18px auto 0 auto;
+	text-align: right;
+	font-size: 1em;
+}
+
+#header a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#pages {
+	height: 120px;
+	padding-top: 20px;
+	background: url(boxedtype/img02.gif) repeat-x;
+}
+.brace {font-size:11px; color:#145DAA; float:right; text-align:right; padding-right:15px}
+.floatleft {float:left}
+.analdv {background:#F3B6CE; padding-top:2px; font-family:tahoma,Gulim; font-size:7pt; color:#FFFFFF; text-align:center}
+#footer {background:url(boxedtype/img02.gif) repeat-x; color:#666666; font-family:"Trebuchet MS", Arial, Helvetica; padding:20px; text-align:center}

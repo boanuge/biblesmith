@@ -1,0 +1,46 @@
+<?
+if($set) {
+$pollno = "00001";// 설문번호를 5자리 값으로 넣습니다.
+if($pollno) {
+$plla = $dxr."poll_1.dat"; //질문
+if($fa = @fopen($plla,"r")) {
+while($fao = fgets($fa)) {
+if(substr($fao,0,5) == $pollno) {$faa = explode("\x1b",$fao);break;}
+}
+fclose($fa);
+?>
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div class='menu_title menuone'><div>설문조사</div></div></div>
+<div class='menu60'><div class='menu40' style='padding-bottom:10px' align='center'>
+<ul style='padding:0;margin:0 0 5px 0;list-style-type:none;line-height:20px;text-align:left'>
+<li style='border-bottom:1px dotted #EAEAEA;padding-bottom:3px'><?=substr($faa[0],5)?></li>
+<?
+for($pl = 1;$faa[$pl + 1];$pl++){
+?>
+<li><input type='radio' name='sublist_<?=$pollno?>' value='<?=$pl?>' /> <?=$faa[$pl]?></li>
+<?
+}
+?>
+</ul>
+<input type='hidden' id='main_survey' value='' />
+<input type='button' class='srbt' value='투표하기' style='margin-right:10px' onclick='survey_<?=$pollno?>(1)' />
+<input type='button' class='srbt' value='결과보기' onclick='popup("include/poll.php?no=<?=$pollno?>",640,480)' />
+</div></div><div class='menu70'><div></div></div></div></div>
+<script type='text/javascript'> 
+//<![CDATA[
+function survey_<?=$pollno?>(pono) {
+if(pono) {
+var mvl = '';
+for(var i=document.getElementsByName('sublist_<?=$pollno?>').length -1;i >= 0;i--) {
+if(document.getElementsByName('sublist_<?=$pollno?>')[i].checked == true) {
+mvl = document.getElementsByName('sublist_<?=$pollno?>')[i].value;
+}}
+if(mvl != '') {
+azax("include/poll.php?&poll=<?=$pollno?>&vote=" + mvl,9);
+} else alert('답변을 선택하세요');
+}}
+//]]>
+</script>
+<?
+}}}
+?>

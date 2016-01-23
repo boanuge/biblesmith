@@ -1,0 +1,34 @@
+<?
+if($sect[$section]) {
+$secb = '';
+for($ii=0;$bfsb[$section][$ii];$ii++) {
+if(!strpos($bfsb[$section][$ii],'>')) {
+$secc = '';
+if($id && $id == $bfsb[$section][$ii]) {$linK = 'linK thbd';$ctslys = $crt;}
+else {$linK = 'linK';$ctslys = '';}
+if(strlen($ctgo[$bfsb[$section][$ii]]) > 2) {
+$cttg = explode("\x1b",trim($ctgo[$bfsb[$section][$ii]]));
+for($ctc = 1;$cttg[$ctc];$ctc++) {
+$category = substr($cttg[$ctc],0,-6);
+$cttgn = (int)substr($cttg[$ctc],-6);
+if($_GET['ct'] && $_GET['ct'] == $ctc) $lincK = 'linK';
+else $lincK = 'linK thbd';
+$secc .= "\n<a href='{$index}?id=".encodee($bfsb[$section][$ii]).$ctslys."&amp;ct={$ctc}' class='{$lincK}'><span style='float:left'> &nbsp;<img src='icon/rpa.gif' alt='' border='0' /> &nbsp;{$category}</span><span class='brace'>[{$cttgn}]</span></a>";
+}}
+if($secc) {
+if($bwr == 'ie6') $secb .= "\n<div class='secc' onmouseover=\"this.getElementsByTagName('div')[0].style.display='block';\" onmouseleave=\"this.getElementsByTagName('div')[0].style.display='none';\">";
+else  $secb .= "\n<div class='secc'>";
+$secb .= "<a href='{$index}?id=".encodee($bfsb[$section][$ii])."' class='{$linK}'><img src='icon/rb8.gif' alt='' border='0' /> &nbsp;{$bdidnm[$bfsb[$section][$ii]]}</a><div>{$secc}</div></div>";
+} else $secb .= "\n<a href='{$index}?id=".encodee($bfsb[$section][$ii])."' class='{$linK}'><img src='icon/rb8.gif' alt='' border='0' /> &nbsp;{$bdidnm[$bfsb[$section][$ii]]}</a>";
+}}
+if($secb) {
+?>
+<div class='menu20 menu52'>
+<div class='menu50'>
+<a href='<?=$index?>?section=<?=$section?>' class='heaD'><?=$sect[$section][0]?></a>
+<?=$secb?>
+</div></div>
+<?
+}
+}
+?>

@@ -1,0 +1,24 @@
+<?
+if($id && $sss[26] == 'e' && $wdth[3]) {
+?>
+<div class='menu20 bx_profile'><div class='menu15'><div class='menu80'><div></div></div>
+<div class='menu60'><div class='menu30'><center>
+<?
+$fm = fopen($dim, "r");
+while($fmo = fgets($fm)) {
+if(trim(substr($fmo,5,15)) == $wdth[3]) {$blm = (int)substr($fmo,0,5);$fmo = substr($fmo,53);$blnk = substr($fmo,0,strpos($fmo,"\x1b"));break;}
+}
+fclose($fm);
+if(file_exists("icon/m80_".$blm)) echo "<img src='icon/m80_".$blm."' style='width:80px;height:80px;margin-bottom:5px' alt='' /><br />";
+?>
+<b><?=$blnk?></b> 님의 블로그
+<div style='padding:3px 0 4px 0' align='center'><span style='font-family:verdana;font-size:11px;font-weight:bold;color:#F37219;cursor:pointer' onmouseover="this.style.marginLeft='3px'" onmouseout="this.style.marginLeft='0'" onclick="nwopn('<?=$exe?>?rss=<?=$eid?>')"><img src='icon/rss.gif' alt='' style='border:0;vertical-align:middle' /> rss feed</span></div>
+<div style='width:80px;text-align:left;margin:0 auto 0 auto;line-height:15px'>
+<? if($sett[57] != 'a' && $sett[57] <= $mbr_level) echo '<span style="cursor:pointer;vertical-align:middle" onmouseover="this.style.fontWeight=\'bold\'" onmouseout="this.style.fontWeight=\'normal\'" onclick="send(\'memo\', \''.$blm.'\',\''.urlencode($blnk).'\')"><span style=\'font-size:7px;color:#FF6633;vertical-align:middle\'>■</span> 쪽지보내기</span><br />';?>
+<? if($sett[8] != 'a' && $sett[8] <= $mbr_level) echo '<span style="cursor:pointer;vertical-align:middle" onmouseover="this.style.fontWeight=\'bold\'" onmouseout="this.style.fontWeight=\'normal\'" onclick="send(\'mail\', \''.$blm.'\',\''.urlencode($blnk).'\')"><span style=\'font-size:7px;color:#FF6633;vertical-align:middle\'>■</span> 메일보내기</span><br />';?>
+<a target="_blank" href="<?=$mblog?>?mno=<?=$blm?>" style="text-decoration:none;color:#000"><span style="cursor:pointer;vertical-align:middle;" onmouseover="this.style.fontWeight='bold'" onmouseout="this.style.fontWeight='normal'"><span style='font-size:7px;color:#FF6633;vertical-align:middle'>■</span> 회원로그</span></a>
+<? if($mbr_level == 9) echo '<br /><span style="cursor:pointer;vertical-align:middle" onmouseover="this.style.fontWeight=\'bold\'" onmouseout="this.style.fontWeight=\'normal\'"><a target=\'_blank\' href=\''.$admin.'\' style=\'text-decoration:none;color:#222\'><span style=\'font-size:7px;color:#FF6633;vertical-align:middle\'>■</span> 관리자기능</span></a>';?>
+</div></center></div></div><div class='menu70'><div></div></div></div></div>
+<?
+}
+?>

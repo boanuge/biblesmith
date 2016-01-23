@@ -1,0 +1,3 @@
+
+pretxt[0] = "<div class='prsjt'>제목2 부분<\/div><span class='n8'> by 보안유지<\/span> <span class='r7'>[2]<\/span><br \/>내용2 부분";
+pretxt[1] = "<div class='prsjt'>제목 부분<\/div><span class='n8'> by 보안유지<\/span> <span class='r7'>[0]<\/span><br \/>내용 부분";

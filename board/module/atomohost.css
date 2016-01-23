@@ -1,0 +1,194 @@
+.bbody {background:#FFFFFF url(atomohost/img01.gif) repeat-x}
+.menu20 {margin-bottom:15px; text-align:left; border: 1px solid #CCCCCC;}
+.menu20 .menu10,.menu20 .menu15,.menu52 {background:#F7F7F7 url(atomohost/img07.gif) repeat-x}
+.menu20 .menu15 {background-position:0px -30px; padding-top:10px}
+.menu20 td {vertical-align:top}
+.menu20 .menu40 {clear:both; padding:10px 0 0 10px; text-align:left; overflow:hidden; line-height:15px}
+.menu20 .entry-content div {overflow:hidden; white-space:nowrap; width:98%}
+.menu20 .entry-content div.link {background: url(../icon/arw.gif) no-repeat left center; padding-left:4%; width:94%}
+.menu20 .entry-content div a:link, .menu20 .entry-content div a:visited {text-decoration:none}
+.menu20 .entry-content div a:hover, .menu20 .entry-content div a:active {text-decoration:none; color:#145DAA}
+.menu20 .menu40 input {font-family:Gulim; font-size:9pt; height:15px; letter-spacing:0}
+.menu20 .menu40 span {cursor:pointer; margin:2px}
+.menu20 form.shform {margin:0; padding:7px 0 7px 0}
+.menu20 form.shform input.find {width:75%; height:16px; padding:2%}
+.menu20 .menu40 form.shform input.srbt {width:13%; height:24px}
+input.search {background:#FEFEFE url('../icon/b1.gif'); border:0; border-right:1px solid #BEBDBE; border-left:1px solid #D1D1D1; font-family:Gulim; font-size:9pt; height:20px; cursor:pointer}
+.menu20 .menu50 {margin:0}
+.menu20 .menu50 a {display:block; font-size:12px; font-family:Gulim; font-size:9pt}
+.menu20 .menu50 a.linK,.menu20 .menu50 a.linK:link,.menu20 .menu50 a.linK:hover,.menu20 .menu50 a.linK:visited,.menu20 .menu50 a.linK:active {border:1px solid #B8B8B8; background:#FAFAFA; text-decoration:none; padding:7px 0 0 20px; height:17px; color:#222222; text-align:left; margin:1px 0 1px 0}
+.menu20 .menu50 a.thbd,.menu20 .menu50 a.thbd:link,.menu20 .menu50 a.thbd:hover,.menu20 .menu50 a.thbd:visited,.menu20 .menu50 a.thbd:active {background:#C1EAF7}
+.menu20 .menu50 a.linK:hover {border:0; height:19px; background:#11A6D4; color:#FFF}
+.menu20 .menu50 a.linK:hover span {color:#FFF}
+.menu20 .menu50 a.heaD,.menu20 .menu50 a.heaD:link,.menu20 .menu50 a.heaD:hover,.menu20 .menu50 a.heaD:visited,.menu20 .menu50 a.heaD:active {text-decoration:none; background: url(atomohost/img08.gif) no-repeat 10px 50%; border:0; height:25px; font-size:12px; font-weight:bold; cursor:pointer; color:#FFF; padding:13px 0 0 30px}
+.menu20 .menu50 div.secc div {display:none}
+.menu20 .menu50 div.secc:hover div {display:block}
+.menu20 .menu60 {padding:0; border:0}
+.menu20 .menu70 {padding:0; border:0; height:0}
+.menu20 .center10 {padding-top:3px; padding-bottom:10px; text-align:center}
+#st_visitor {padding:5px 0 5px 40px}
+#st_visitor a,#st_visitor a:link,#st_visitor a:hover {display:block; padding-top:0; padding-bottom:4px; height:16px; color:#222; border:0}
+.menu20 .menu40 .gthumb_100 {width:75px; height:75px; border:3px solid #F0F0F0; margin:0 3px 3px 0}
+.menu20 .menu40 .gthumb_100:hover {border-color:#FF871B}
+.menutg {clear:both; padding:10px 0 0 10px}
+.menu20 .menu25 {height:38px; background: url(atomohost/img08.gif) no-repeat 10px 50%;}
+.menu20 .menu_title {padding-top:13px; height:25px}
+.menu20 .menuone div, .menu20 .menu_title div {font-size:12px; font-weight:bold; cursor:pointer}
+.menu20 .menuoff {float:left; text-align:center; background:#56B3D1; color:#D1D1D1; width:49.9%}
+.menu20 .menuon {float:left; text-align:center; color:#FFFFFF; width:49.9%}
+.menu20 .menuone {color:#FFFFFF; padding-left:30px}
+.small {font-family:tahoma,Gulim; font-size:11px; color:#BABABA}
+.menu20 .calendar {width:94%}
+.menu20 .calendar td {text-align:center; padding-top:4px}
+.menu20 .calendar .date {background-color:#FFFFFF}
+.menu20 .calendar .isdoc {border:1px solid #C7C7C7; padding-top:3px; cursor:pointer}
+.menu20 .calendar .thisdoc {border:1px solid #FF6633; background-color:#FFFAD9; padding-top:3px; cursor:pointer}
+.dh_allmenu {display:block}
+#sectiongroup .sctgrp div {color:#0C81B0}
+#sectiongroup a,#sectiongroup a:link, #sectiongroup a:visited, #sectiongroup a:hover, #sectiongroup a:active {color:#0B7EAB}
+.bx_login, .bx_profile {}
+.menu20 .menu30 {padding-top:10px; padding-bottom:10px}
+.plus {border:0; background-color:#FFFFFF; color:#145DAA; width:15px; height:14px; margin:3px 3px 3px 0; font-size:10pt}
+
+#nav {position:absolute; top:0px; z-index:7}
+#section {margin:0; padding:0; list-style-type:none; height:40px; text-align:center}
+#section a {display:block; width:auto; text-decoration:none; font-size:9pt; font-weight:normal; cursor:pointer}
+#section li {float:left; width:auto; text-decoration:none; display:inline; margin-left:2px; background: url(atomohost/img06.gif) no-repeat;}
+#section li.first {background:none}
+#section li a.trigger {padding:10px 18px 0 20px; height:30px}
+#section li a.trigger span {font-size:14px; color: #EA672E; font-weight: bold; font-family:'Malgun Gothic'}
+#section ul {list-style-type:none; position:absolute; z-index:7; text-align:left; width:140px; display:none; background:#FFFFFF; border:6px solid #12A6D6; padding:0; margin:0}
+#section ul li {margin:0; background:none; line-height:31px; vertical-align:middle; text-align:left}
+#section ul li a, #section ul li a:link {color:#005476; padding-top:3px; padding-bottom:3px; padding-left:12px; width:128px}
+#section li:hover a.trigger span, #section li.active a.trigger span, #section li a.tregger span {color:#11A6D4}
+#section li:hover a.trigger {color:#11A6D4; background:none}
+#section li:hover ul {display:block}
+#section ul li:hover a, #section ul li.iesix a {background-color:#ABEAFF!important; font-weight:bold}
+
+
+#stbC, .stbLR {padding-top:20px; padding-bottom:20px}
+
+.brace {font-size:11px; color:#145DAA; float:right; text-align:right; padding-right:15px}
+.floatleft {float:left}
+.analdv {background:#11A6D4; padding-top:2px; font-family:tahoma,Gulim; font-size:7pt; color:#FFFFFF; text-align:center}
+
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	color: #11A6D4;
+}
+
+#header {
+	height: 130px;
+	background: url(atomohost/img02.jpg) no-repeat;
+	margin:0;
+}
+#header, #footer {
+	font: normal small Arial, Helvetica, sans-serif;
+	color: #999999;
+}
+
+#header a:hover, #footer a:hover {
+	text-decoration: none;
+	color: #11A6D4;
+}
+
+#logo {
+	float: left;
+	padding: 65px 0 0 0;
+}
+
+#logo h1 {
+	text-transform: uppercase;
+	font-size: 21pt;
+}
+
+#logo h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 13pt;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#logo a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#topmenu {
+	float: right;
+}
+
+#topmenu ul {
+	margin: 0;
+	padding: 0;
+	padding: 100px 0 0 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#topmenu li {
+	display: inline
+}
+
+#topmenu a {
+	display: block;
+	float: left;
+	margin: 0 0 0 20px;
+	padding: 0 0 0 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: x-small;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#topmenu1 {
+	background: url(atomohost/img03.gif) no-repeat left center;
+}
+
+#topmenu2 {
+	background: url(atomohost/img04.gif) no-repeat left center;
+}
+
+#topmenu3 {
+	background: url(atomohost/img05.gif) no-repeat left center;
+}
+
+#topmenu a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#footer {
+	background:#F7F7F7 url(atomohost/img07.gif) repeat-x;
+	border: 1px solid #CCCCCC;
+}
+
+#legal {
+	margin: 0;
+	padding: 8px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#legal a {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#links {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+#links a {
+	text-decoration: underline;
+	color: #EA672E;
+}

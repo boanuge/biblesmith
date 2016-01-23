@@ -1,0 +1,125 @@
+.bbody {background:#F5F9EC url(primitif/0008d-background.jpg); margin: 30px 0px 0px 0px}
+.menu20 {margin-bottom:15px; text-align:left; background:#CDE2A1 url(primitif/img01.gif) no-repeat left top}
+.menu20 td {vertical-align:top}
+.menu20 .menu40 {clear:both; padding:7px 0 0 10px; text-align:left; overflow:hidden; line-height:15px; background-color:#F5F9EC; border:2px solid #CDE2A1; border-top-width:0}
+.menu20 .entry-content div {overflow:hidden; white-space:nowrap; width:98%}
+.menu20 .entry-content div.link {background: url(../icon/arw.gif) no-repeat left center; padding-left:4%; width:94%}
+.menu20 .entry-content div a:link, .menu20 .entry-content div a:visited {text-decoration:none}
+.menu20 .entry-content div a:hover, .menu20 .entry-content div a:active {text-decoration:none; color:#145DAA}
+.menu20 .menu40 input {font-family:Gulim; font-size:9pt; height:15px; letter-spacing:0}
+.menu20 .menu40 span {cursor:pointer; margin:2px}
+.menu20 form.shform {margin:0; padding:7px 0 7px 0}
+.menu20 form.shform input.find {width:75%; height:16px; padding:2%}
+.menu20 .menu40 form.shform input.srbt {width:13%; height:24px}
+input.search {background:#FEFEFE url('../icon/b1.gif'); border:0; border-right:1px solid #BEBDBE; border-left:1px solid #D1D1D1; font-family:Gulim; font-size:9pt; height:20px; cursor:pointer}
+.menu52 {border:0; background:#FFF}
+.menu20 .menu50 a {display:block; font-size:12px; font-family:Gulim; font-size:9pt}
+.menu20 .menu50 a.linK,.menu20 .menu50 a.linK:link,.menu20 .menu50 a.linK:hover,.menu20 .menu50 a.linK:visited,.menu20 .menu50 a.linK:active {border:1px solid #B8B8B8; background:#FAFAFA; text-decoration:none; padding:7px 0 0 20px; height:17px; color:#222222; text-align:left; margin:1px 0 1px 0}
+.menu20 .menu50 a.thbd,.menu20 .menu50 a.thbd:link,.menu20 .menu50 a.thbd:hover,.menu20 .menu50 a.thbd:visited,.menu20 .menu50 a.thbd:active {background:#F0F0F0}
+.menu20 .menu50 a.linK:hover {border:0; height:19px; background:#A2C950; color:#FFF}
+.menu20 .menu50 a.linK:hover span {color:#FFF}
+.menu20 .menu50 a.heaD,.menu20 .menu50 a.heaD:link,.menu20 .menu50 a.heaD:hover,.menu20 .menu50 a.heaD:visited,.menu20 .menu50 a.heaD:active {border:0; text-decoration:none; height:19px; background:#A2C950; color:#FFF; text-align:center; padding:7px 0 0 0}
+.menu20 .menu50 div.secc div {display:none}
+.menu20 .menu50 div.secc:hover div {display:block}
+.menu20 .menu60 {padding:0; border:0}
+.menu20 .menu70 {padding:0; border:0; height:0}
+.menu20 .center10 {padding-top:3px; padding-bottom:10px; text-align:center}
+#st_visitor {padding:5px 0 5px 40px}
+#st_visitor a,#st_visitor a:link,#st_visitor a:hover {display:block; padding-top:0; padding-bottom:4px; height:16px; color:#222; border:0}
+.menu20 .menu40 .gthumb_100 {width:75px; height:75px; border:3px solid #F0F0F0; margin:0 3px 3px 0}
+.menu20 .menu40 .gthumb_100:hover {border-color:#FF871B}
+.menutg {clear:both; padding:7px 0 0 10px; background-color:#F5F9EC; border:2px solid #CDE2A1; border-top-width:0}
+.menu20 .menu25 {background:#CDE2A1 url(primitif/img02.gif) no-repeat right top; margin-left:10px; padding:0 20px 0 10px; height:30px}
+.menu20 .menu_title {padding-top:10px; height:20px; color:#336600}
+.menu20 .menuone div, .menu20 .menu_title div {font-size:12px; font-weight:bold; text-align:center; cursor:pointer}
+.menu20 .menuoff, .menu20 .menuon {float:left; width:50%; text-align:center} 
+.menu20 .menuon {background:#F5F9EC}
+.small {font-family:tahoma,Gulim; font-size:11px; color:#BABABA}
+.menu20 .calendar {width:94%}
+.menu20 .calendar td {text-align:center; padding-top:4px}
+.menu20 .calendar .date {background-color:#FFFFFF}
+.menu20 .calendar .isdoc {border:1px solid #C7C7C7; padding-top:3px; cursor:pointer}
+.menu20 .calendar .thisdoc {border:1px solid #FF6633; background-color:#FFFAD9; padding-top:3px; cursor:pointer}
+.dh_allmenu {display:block}
+.menu20 .menu30 {background:#CDE2A1 url(primitif/img02.gif) no-repeat right top; margin-left:10px}
+.menu20 .menu15 .menu40 {border-top:2px solid #CDE2A1}
+.bx_login .menu30,.bx_profile .menu30 {padding:15px 0 15px 0}
+.plus {border:0; background-color:#FFFFFF; color:#145DAA; width:15px; height:14px; margin:3px 3px 3px 0; font-size:10pt}
+#sectiongroup .sctgrp div {float:right; border-top:2px solid #CDE2A1; padding:5px}
+
+#nav {position:relative; background: url(primitif/img03.gif) repeat-x left top; height:30px; text-align:center; z-index:7; clear:both; padding:0 22px 0 0}
+#section {padding:0; margin:auto; list-style-type:none; text-align:center}
+#section a {display:block; padding:3px 12px 3px 16px; text-decoration:none; cursor:pointer}
+#section li {float:left; width:auto; text-decoration:none; display:inline}
+#section li a.trigger {padding:7px 10px 8px 10px; width:auto; font-size: 1em; font-weight:bold; color: #FFFFFF; font-family:'Malgun Gothic'}
+#section ul {list-style-type:none; position:absolute; display:none; background:#F5F9EC; width:130px; border:3px solid #A1C94F; border-top:0; padding:0; margin:0}
+#section ul li {margin:0; background:none; line-height:31px; vertical-align:middle; text-align:left}
+#section ul li a {color:#336600; font-size:9pt; font-weight:normal; padding:3px 12px 3px 16px; width:102px}
+#section li:hover a.trigger, #section li a.tregger {color:#E9F9C8; background:transparent}
+#section li:hover ul {display:block}
+#section ul li:hover a, #section ul li.iesix a {background:#FFFFFF!important; color:#000000!important}
+
+#srboard, #srboard td {margin:0}
+
+
+.stbLR {padding:10px 0 20px 0}
+
+.brace {font-size:11px; color:#145DAA; float:right; text-align:right; padding-right:15px}
+.floatleft {float:left}
+.analdv {background:url(primitif/img03.gif) repeat 0% 100%; padding-top:2px; font-family:tahoma,Gulim; font-size:7pt; color:#FFFFFF; text-align:center}
+
+h1, h1 a, h1 a:link, h1 a:hover, h1 a:visited, h1 a:active {
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	font-weight: normal;
+	letter-spacing: -4px;
+	text-transform: lowercase;
+	color: #336600;
+}
+h2, h3, h4, h5, h6 {
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	color: #336600;
+	text-transform: lowercase;
+	letter-spacing: -2px;
+}
+#header {
+	height: 80px;
+	background:#CDE2A1 url(primitif/img01.gif) no-repeat left top;
+	padding:0 0 0 22px;
+}
+
+#header h1 {
+	float: left;
+	margin: 0px;
+	padding: 35px 0px 0px 10px;
+}
+
+#header h2 {
+	float: right;
+	margin: 0px;
+	padding: 43px 10px 0px 0px;
+	background: url(primitif/img02.gif) no-repeat right top;
+}
+#srboard {
+	clear:both;
+	background-color:#FFFFFF;
+	border-style:solid;
+	border-color:#9AB0E4;
+	border-width:0 1px 0 1px;
+	padding:10px;
+	margin:0 auto;
+}
+#footer {
+	background:#BED985 url(primitif/img05.gif) no-repeat left bottom;
+	padding:0 0 0 22px;
+}
+
+#footer p {
+	margin:0px;
+	padding: 5px 10px 5px 10px;
+	background: url(primitif/img06.gif) no-repeat right bottom;
+	font-size: 11px;
+	color: #336600;
+}

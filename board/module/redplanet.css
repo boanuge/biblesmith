@@ -1,0 +1,148 @@
+.bbody {margin: 30px 0; background:#EFEFEF}
+.menu20 {margin-bottom:15px; text-align:left}
+.menu20 td {vertical-align:top}
+.menu20 .menu40 {clear:both; padding:7px 0 0 10px; text-align:left; overflow:hidden; line-height:15px}
+.menu20 .entry-content div {overflow:hidden; white-space:nowrap; width:98%}
+.menu20 .entry-content div.link {background: url(../icon/arw.gif) no-repeat left center; padding-left:4%; width:94%}
+.menu20 .entry-content div a:link, .menu20 .entry-content div a:visited {text-decoration:none}
+.menu20 .entry-content div a:hover, .menu20 .entry-content div a:active {text-decoration:none; color:#145DAA}
+.menu20 .menu40 input {font-family:Gulim; font-size:9pt; height:15px; letter-spacing:0}
+.menu20 .menu40 span {cursor:pointer; margin:2px}
+.menu20 form.shform {margin:0; padding:7px 0 7px 0}
+.menu20 form.shform input.find {width:75%; height:16px; padding:2%}
+.menu20 .menu40 form.shform input.srbt {width:13%; height:24px}
+input.search {background:#FEFEFE url('../icon/b1.gif'); border:0; border-right:1px solid #BEBDBE; border-left:1px solid #D1D1D1; font-family:Gulim; font-size:9pt; height:20px; cursor:pointer}
+.menu52 {border:0}
+.menu20 .menu50 a {display:block; font-size:12px; font-family:Gulim; font-size:9pt}
+.menu20 .menu50 a.linK,.menu20 .menu50 a.linK:link,.menu20 .menu50 a.linK:hover,.menu20 .menu50 a.linK:visited,.menu20 .menu50 a.linK:active {border:1px solid #B8B8B8; background:#FAFAFA; text-decoration:none; padding:7px 0 0 20px; height:17px; color:#222222; text-align:left; margin:1px 0 1px 0}
+.menu20 .menu50 a.thbd,.menu20 .menu50 a.thbd:link,.menu20 .menu50 a.thbd:hover,.menu20 .menu50 a.thbd:visited,.menu20 .menu50 a.thbd:active {background:#F0F0F0}
+.menu20 .menu50 a.linK:hover {border:0; height:19px; background:#EC5600; color:#FFF}
+.menu20 .menu50 a.linK:hover span {color:#FFF}
+.menu20 .menu50 a.heaD,.menu20 .menu50 a.heaD:link,.menu20 .menu50 a.heaD:hover,.menu20 .menu50 a.heaD:visited,.menu20 .menu50 a.heaD:active {border:0; text-decoration:none; height:19px; background:#EC5600; color:#FFF; text-align:center; padding:7px 0 0 0}
+.menu20 .menu50 div.secc div {display:none}
+.menu20 .menu50 div.secc:hover div {display:block}
+.menu20 .menu60 {padding:0; border:0}
+.menu20 .menu70 {padding:0; border:0; height:0}
+.menu20 .center10 {padding-top:3px; padding-bottom:10px; text-align:center}
+#st_visitor {padding:5px 0 5px 40px}
+#st_visitor a,#st_visitor a:link,#st_visitor a:hover {display:block; padding-top:0; padding-bottom:4px; height:16px; color:#222; border:0}
+.menu20 .menu40 .gthumb_100 {width:75px; height:75px; border:3px solid #F0F0F0; margin:0 3px 3px 0}
+.menu20 .menu40 .gthumb_100:hover {border-color:#FF871B}
+.menutg {clear:both; padding:7px 0 0 10px}
+.menu20 .menu25 {}
+.menu20 .menu_title {border-bottom:2px solid #EC5600; color:#1F0000}
+.menu20 .menuone,.menu20 .menu_title div {font-family:'Malgun Gothic',Gulim; font-size:12px; font-weight:bold; cursor:pointer; padding:5px 0 5px 5px}
+.menu20 .menuoff {float:left; border-bottom-color:#D7D7D7; color:#D7D7D7; width:49.9%}
+.menu20 .menuon {float:left; width:49.9%}
+.small {font-family:tahoma,Gulim; font-size:11px; color:#BABABA}
+.menu20 .calendar {width:94%}
+.menu20 .calendar td {text-align:center; padding-top:4px}
+.menu20 .calendar .date {background-color:#FFFFFF}
+.menu20 .calendar .isdoc {border:1px solid #C7C7C7; padding-top:3px; cursor:pointer}
+.menu20 .calendar .thisdoc {border:1px solid #FF6633; background-color:#FFFAD9; padding-top:3px; cursor:pointer}
+.dh_allmenu {display:block}
+#sectiongroup .sctgrp div {float:right; border-top:2px solid #B3B3B3; padding:5px}
+.menu20 .menu15 {border:1px solid #F4F4F4}
+.bx_login .menu30,.bx_profile .menu30 {padding:15px 0 15px 0}
+.plus {border:0; background-color:#FFFFFF; color:#145DAA; width:15px; height:14px; margin:3px 3px 3px 0; font-size:10pt}
+
+#nav {padding:70px 25px 0 0; background: url(redplanet/img3.gif) no-repeat right top; text-align:center}
+#section {padding:0; list-style-type:none; text-align:center}
+#section a {display:block; width:auto; text-decoration:none; font-size:9pt; font-weight:normal; cursor:pointer}
+#section li a.trigger {padding:7px 0px 0 0px; height:26px; font-size: 1em; color: #3B3B3B; font-family:'Malgun Gothic'}
+#section li a.trigger span {float:left; padding:0 10px 0 10px; border-left: dotted 1px #DBDBDB}
+#section li.first a span {border-left:0}
+#section li {float:right; width:auto; text-decoration:none; display:inline}
+#section ul {list-style-type:none; position:absolute; z-index:7; text-align:left; width:160px; display:none; background:#FFFFFF; border:5px solid #EC5600; padding:0; margin:0}
+#section ul li {margin:0; background:none; line-height:31px; vertical-align:middle; text-align:left}
+#section ul li a {color:#1F0000; padding-top:3px; padding-bottom:3px; padding-left:12px; width:138px}
+#section li:hover a.trigger, #section li a.tregger {color:#EC5600; background:transparent}
+#section li:hover ul {display:block}
+#section ul li:hover a, #section ul li.iesix a {background-color:#EC5600!important; color:#FFFFFF!important}
+
+
+.stbLR {padding-bottom:20px}
+#stbC {padding:0px}
+#srboard {padding-top:30px; background:#FFFFFF}
+
+.brace {font-size:11px; color:#145DAA; float:right; text-align:right; padding-right:15px}
+.floatleft {float:left}
+.analdv {background:#EC5600; padding-top:2px; font-family:tahoma,Gulim; font-size:7pt; color:#FFFFFF; text-align:center}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+	font-weight: normal;
+	color: #000000;
+}
+
+h2 {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #F4F4F4;
+	font-size: 26px;
+}
+
+h3 {
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	font-size: 16px;
+	border-bottom: 1px solid #F4F4F4;
+}
+#header {
+	width:100%;
+	background:url(redplanet/img2.gif) repeat-x;
+}
+#header td {clear:both}
+
+#header .logo {
+	height: 115px;
+	padding: 0 0 0 0;
+	background: url(redplanet/img1.gif) no-repeat;
+}
+
+#header .logo * {
+	text-decoration: none;
+}
+
+#header .logo h1 {
+	float: left;
+	padding: 50px 0 0 40px;
+	font-size: 36px;
+}
+
+#header .logo h1 a {
+	color: #000000;
+}
+
+#header .logo h1 span {
+	font-weight: bold;
+}
+
+#header .logo h2 {
+	float: left;
+	padding: 72px 0 0 8px;
+	font-size: 12px;
+	border: none;
+	color: #B4B4B4;
+}
+
+#splash {
+	height: 170px;
+	background: url(redplanet/img5.gif) repeat-x left bottom;
+	border-right: 20px solid #FFFFFF;
+	border-left: 20px solid #FFFFFF;
+}
+#bottom-bg {background:url(redplanet/img8.gif) no-repeat 0% 0%; height:30px; clear:both}
+#bottom-bg .floatright {float:right; background:url(redplanet/img8.gif) no-repeat 100% 0%; width:49.5%; height:30px}
+
+#footer p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #777777;
+}
+
+#footer a {
+	color: #5D5D5D;
+}

@@ -1,0 +1,20 @@
+<?
+if($id && $ctg) {
+$secb = '';
+foreach($ctg as $ii => $category) {
+if($category) {
+if($_GET['ct'] && $_GET['ct'] == $ii) $linK = 'linK thbd';
+else $linK = 'linK';
+$secb .= "\n<a href='{$index}?id={$eid}{$crt}&amp;ct=".$ii."' class='{$linK}'><span style='float:left'> &nbsp;<img src='icon/rb8.gif' alt='' border='0' /> &nbsp;{$category}</span><span class='brace'>[".$ctgn[$ii]."]</span></a>";
+}}
+if($secb) {
+?>
+<div class='menu20 menu52'>
+<div class='menu50'>
+<a href='<?=$index?>?section=<?=$section?>' class='heaD'>카테고리</a>
+<?=$secb?>
+</div></div>
+<?
+}
+}
+?>

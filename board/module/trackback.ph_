@@ -1,0 +1,53 @@
+<?
+if($id && $sss[22] !== 'a' && $sss[22] <= $mbr_level) {
+if(filesize($dxr.$id."/rtb.dat")||filesize($dxr.$id."/stb.dat")) {
+?>
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div id="head_4" onmouseover="togge('4','5')" onclick="resize_n('4')" class='menu_title menuon'><div class='meleft'>엮인글</div></div>
+<div id="head_5" onmouseover="togge('5','4')" onclick="resize_n('5')" class='menu_title menuoff'><div class='meright'>엮은글</div></div></div>
+<div class='menu60'><div id='resizhgt_4' style='display:block;' class='menu40  entry-content'>
+
+<?
+if(filesize($dxr.$id."/rtb.dat")) {
+$i = 0;
+$fr = fopen($dxr.$id."/rtb.dat","r");
+while(!feof($fr) && $i < 10){
+if($fro = trim(fgets($fr))){
+$froo = explode("\x1b", $fro);
+$frn = (int)substr($fro, 0, 6);
+?>
+<div class='link'><a href='<?=$dxpt?>&amp;no=<?=$frn?>#comment_<?=$frn?>' class='pvxy'><?=$froo[3]?></a></div><div class='small'><?=date("m/d",$froo[5])?> - <?=$froo[1]?></div>
+<?
+}
+$i++;
+}
+fclose($fr);
+}
+?>
+
+</div><div id='resizhgt_5' style='display:none;' class='menu40 entry-content'>
+
+<?
+if(filesize($dxr.$id."/stb.dat")) {
+$i = 0;
+$fr = fopen($dxr.$id."/stb.dat","r");
+while(!feof($fr) && $i < 10){
+if($fro = trim(fgets($fr))){
+$froo = explode("\x1b", $fro);
+$frn = (int)substr($fro, 0, 6);
+?>
+<div class='link'><a href='<?=$dxpt?>&amp;no=<?=$frn?>#comment_<?=$frn?>' class='pvxy'><?=str_replace("&","&amp;",$froo[1])?></a></div>
+
+<?
+}
+$i++;
+}
+fclose($fr);
+}
+?>
+
+</div></div><div class='menu70'><div></div></div></div></div>
+<?
+}
+}
+?>

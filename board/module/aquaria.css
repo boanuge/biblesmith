@@ -1,0 +1,79 @@
+.bbody {background:#FFFFFF url(aquaria/img_2.jpg) repeat-x}
+.menu20 {margin-top:15px; text-align:left}
+.menu20 .menu25,.menu20 .menu15 {background:url(aquaria/img_1.jpg) repeat-x}
+.menu20 .menu15 {padding-top:10px}
+.menu20 .menu10 .menu40,.menu20 .menu15 .menu60 {border:1px solid #0AAAFD; border-top-color:#98D3F3}
+.menu20 td {vertical-align:top}
+.menu20 .menu40 {clear:both; padding:7px 0 0 10px; text-align:left; line-height:15px; overflow:hidden}
+.menu20 .entry-content div {overflow:hidden; white-space:nowrap; width:98%}
+.menu20 .entry-content div a:link, .menu20 .entry-content div a:visited {text-decoration:none}
+.menu20 .entry-content div a:hover, .menu20 .entry-content div a:active {text-decoration:none; color:#145DAA}
+.menu20 .menu40 input {font-family:Gulim; font-size:9pt; height:15px; letter-spacing:0}
+.menu20 .menu40 span {cursor:pointer; margin:2px}
+.menu20 .menu40 form.shform input.find {width:75%; height:16px; padding:2%}
+.menu20 .menu40 form.shform input.srbt {width:15%; height:24px}
+input.search {background:#FEFEFE url('../icon/b1.gif'); border:0; border-right:1px solid #BEBDBE; border-left:1px solid #D1D1D1; font-family:Gulim; font-size:9pt; height:20px; cursor:pointer}
+.menu52 {border:0}
+.menu20 .menu50 a {display:block; font-size:12px; font-family:Gulim; font-size:9pt}
+.menu20 .menu50 a.linK,.menu20 .menu50 a.linK:link,.menu20 .menu50 a.linK:hover,.menu20 .menu50 a.linK:visited,.menu20 .menu50 a.linK:active {border:1px solid #B8B8B8; background:#FAFAFA; text-decoration:none; padding:7px 0 0 20px; height:17px; color:#222222; text-align:left; margin:1px 0 1px 0}
+.menu20 .menu50 a.thbd,.menu20 .menu50 a.thbd:link,.menu20 .menu50 a.thbd:hover,.menu20 .menu50 a.thbd:visited,.menu20 .menu50 a.thbd:active {background:#F0F0F0}
+.menu20 .menu50 a.linK:hover {border:0; height:19px; background:#1E1E1E; color:#FFF}
+.menu20 .menu50 a.linK:hover span {color:#FFF}
+.menu20 .menu50 a.heaD,.menu20 .menu50 a.heaD:link,.menu20 .menu50 a.heaD:hover,.menu20 .menu50 a.heaD:visited,.menu20 .menu50 a.heaD:active {border:0; text-decoration:none; height:25px; background:url(aquaria/img_1.jpg) repeat-x 0% 0%; color:#3D8ED1; text-align:center; padding:15px 0 0 0}
+.menu20 .menu50 div.secc div {display:none}
+.menu20 .menu50 div.secc:hover div {display:block}
+.menu20 .menu60 {padding:0; border:0}
+.menu20 .menu70 {padding:0; border:0; height:0; clear:both}
+.menu20 .center10 {padding-top:3px; padding-bottom:10px; text-align:center}
+#st_visitor {padding:5px 0 5px 40px}
+#st_visitor a,#st_visitor a:link,#st_visitor a:hover {display:block; padding-top:0; padding-bottom:4px; height:16px; color:#222; border:0}
+.menu20 .menu40 .gthumb_100 {width:75px; height:75px; border:3px solid #F0F0F0; margin:0 3px 3px 0}
+.menu20 .menu40 .gthumb_100:hover {border-color:#FF871B}
+.menutg {clear:both; padding:7px 0 0 10px; border:1px solid #0AAAFD}
+.menu20 .menu25 {float:left; width:100%}
+.menu20 .menu10 .menu60 {float:left; width:100%}
+.menu20 .menu_title div {padding-top:13px; height:25px}
+.menu20 .menuone div, .menu20 .menu_title div,.menu20 .menu50 a.heaD {text-align:center; letter-spacing:-1px; color:#3D8ED1; font-size:14px; font-weight:bold}
+.menu20 .menuon {float:left; color:#3D8ED1; width:50%}
+.menu20 .menuoff {float:left; color:#ADADAD; background:#89CBFF; width:49%; border:1px solid #0AAAFD; border-bottom:0}
+.menu20 .menuone {color:#3D8ED1}
+.small {font-family:tahoma,Gulim; font-size:11px; color:#BABABA}
+.menu20 .calendar {width:94%}
+.menu20 .calendar td {text-align:center; padding-top:4px}
+.menu20 .calendar .date {background-color:#FFFFFF}
+.menu20 .calendar .isdoc {border:1px solid #C7C7C7; padding-top:3px; cursor:pointer}
+.menu20 .calendar .thisdoc {border:1px solid #FF6633; background-color:#FFFAD9; padding-top:3px; cursor:pointer}
+.dh_allmenu {display:block}
+/*section group*/
+#sectiongroup .sctgrp div {border-top:2px solid #6294D5; float:right; padding-top:5px; color:#C2D8ED; text-align:right}
+#sectiongroup a,#sectiongroup a:link, #sectiongroup a:visited, #sectiongroup a:hover, #sectiongroup a:active {color:#25568A}
+.menu20 .menu15 .menu60 {color:#3D8ED1; background:#FFFFFF; padding:20px 0 15px 0}
+.folding {padding-left:30px; line-height:20px; list-style-type:none; margin:0 0 5px 0}
+.folding a.foldinga {background:url(../icon/ps.gif) no-repeat 0 20%; padding-left:15px; vertical-align:middle}
+.folding div {display:none; padding-left:20px}
+.folding div a, .menu20 .menu50 input {background:url(../icon/list.png) no-repeat 0 20%; padding-left:17px; vertical-align:middle}
+.folding div a:link, .folding div a:visited {color:#145DAA}
+.folding li:hover div {display:block}
+.plus {border:0; background-color:#FFFFFF; color:#145DAA; width:15px; height:14px; margin:3px 3px 3px 0; font-size:10pt}
+
+#nav {height:55px; margin-top:42px; clear:both}
+#section {padding:0; margin:auto; list-style-type:none; text-align:center}
+#section a {display:block; text-decoration:none; color:#ffffff; font-size:9pt; font-weight:normal; cursor:pointer}
+#section li {float:left}
+#section li a.trigger span {display:block; padding:13px 0 0 0; width:120px; height:25px; cursor:pointer}
+#section li:hover a.trigger, #section li a.tregger {background:url(aquaria/img_3.jpg) no-repeat; color:#272626}
+#section ul {list-style-type:none; position:absolute; display:none; background-color:#ABF0FF; z-index:7; width:170px; padding:0; margin:0}
+#section ul li {margin:0; background:none; line-height:31px; vertical-align:middle;text-align:left}
+#section ul li a {color:#000000; padding:3px 12px 3px 16px; width:142px}
+#section li:hover ul {display:block}
+#section ul li:hover a {background-position:center top!important; background:url(aquaria/img_1.jpg) no-repeat -3px -1px!important}
+#section ul li.iesix a {background:#0FCAFF!important}
+
+
+.stbLR {padding-top:10px; padding-bottom:20px}
+#stbC {padding-top:30px}
+.brace {font-size:11px; color:#145DAA; float:right; text-align:right; padding-right:15px}
+.floatleft {float:left}
+.analdv {background-color:#2FB4F9; border-top:2px solid #2FB4F9; font-family:tahoma,Gulim; font-size:7pt; color:#FFFFFF; text-align:center}
+#footer {clear:both; height:50px; padding:15px 0; background:#D1D1D1; border-top:5px solid #999999; text-align:center;}
+#footer a {color:#999999;}

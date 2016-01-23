@@ -1,0 +1,24 @@
+<div class='menu20 menu52'>
+<div class='menu50'>
+<a href='<?=$index?>' class='heaD'>전체게시판</a>
+<?
+for($i=1;$sect[$i];$i++) {
+if($bfsb[$i] && $sect[$i][1] != '3' && $sect[$i][1] != '7' && $sect[$i][1] != '6' && $sect[$i][1] != 'x' && $sect[$i][1] != 's') {
+$secc = '';
+if($section && $i == $section) $linK = 'linK thbd';
+else $linK = 'linK';
+$ccfsb = count($bfsb[$i]) -1;
+if($ccfsb > -1) {
+for($ii=0;$ii <= $ccfsb;$ii++) {
+if($id && $id == $bfsb[$i][$ii]) $lincK = 'linK';
+else $lincK = 'linK thbd';
+if(!strpos($bfsb[$i][$ii],'>')) $secc .= "\n<a href='{$index}?id=".encodee($bfsb[$i][$ii])."' class='{$lincK}'> &nbsp;<img src='icon/rpa.gif' alt='' border='0' /> &nbsp;{$bdidnm[$bfsb[$i][$ii]]}</a>";
+}}
+if($secc) {
+if($bwr == 'ie6') echo "\n<div class='secc' onmouseover=\"this.getElementsByTagName('div')[0].style.display='block';\" onmouseleave=\"this.getElementsByTagName('div')[0].style.display='none';\">";
+else  echo "\n<div class='secc'>";
+echo "<a href='{$index}?section={$i}' class='{$linK}'><img src='icon/rb8.gif' alt='' border='0' /> &nbsp;{$sect[$i][0]}</a><div>{$secc}</div></div>";
+} else echo "\n<a href='{$index}?section={$i}' class='{$linK}'><img src='icon/rb8.gif' alt='' border='0' /> &nbsp;{$sect[$i][0]}</a>";
+}}
+?>
+</div></div>

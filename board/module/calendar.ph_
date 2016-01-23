@@ -1,0 +1,87 @@
+<?
+if($id && $sss[22] !== 'a' && $sss[22] <= $mbr_level) {
+$dd = "";
+$mnth = ($_GET['date'])? substr($_GET['date'],0,6):date("Ym");
+$day = (int)substr($_GET['date'], 6);
+$fr = fopen($dxr.$id."/date.dat","r");
+while(!feof($fr)){
+if($fro = trim(fgets($fr))){
+$ymdn = substr($fro, 0, 4)."년 ".substr($fro, 4, 2)."월 (".substr($fro, 6).")";
+if($mnth == substr($fro, 0, 6)) {$mnthc=substr($fro, 6);if($_GET['date']) $ymdn = "<u>".$ymdn."</u>";}
+$mclst .= "
+&nbsp; <a href='#none' onclick='locato(\"date\",".substr($fro, 0, 6).")'>{$ymdn}</a><br />
+";
+}
+}
+fclose($fr);
+?>
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div id="head_6" onmouseover="togge('6','7')" class='menu_title menuon'><div class='meleft'>달력</div></div>
+<div id="head_7" onmouseover="togge('7','6')" class='menu_title menuoff'><div class='meright' onclick="resize_n('7')">월별목록</div></div></div>
+<div class='menu60'><div id='resizhgt_6' style='display:block;' class='menu40'>
+
+<?
+$dtype = ($sss[26] == 'd')?'d':'b';
+$month = substr($mnth, 4, 2);
+$year = substr($mnth, 0, 4);
+$pxt = mktime(0, 0, 0, $month, 1, $year);
+$med = date("t", $pxt);
+$nxt = mktime(23, 59, 59, $month, $med, $year);
+
+$fl = fopen($dxr.$id."/list.dat","r");
+while(!feof($fl)){
+$datee = (int)substr(fgets($fl), 0, 10);
+if(!$datee && $wdth[6]) {
+if(!$fida) $fida = $wdth[6];
+else $fida--;
+if($fida > 0) {
+fclose($fl);
+$fl = fopen($dxr.$id."/^".$fida."/list.dat","r");
+} else break;
+} else {
+if($datee >= $pxt && $datee <= $nxt) {
+if($mnthc) {
+$dxx = (int)date("d", $datee);
+$dd[$dxx] = $dd[$dxx] + 1;
+$mnthc--;
+} else break;
+}
+}
+}
+fclose($fl);
+$fem = date("w", $pxt);
+$nxm = $year.str_pad($month + 1, 2, 0, STR_PAD_LEFT);
+$pxm = $year.str_pad($month - 1, 2, 0, STR_PAD_LEFT);
+if($month == '12') $nxm = ($year + 1)."01";
+else if($month == '01') $pxm = ($year - 1)."12";
+?>
+
+<table class='calendar'>
+<tr><td>&nbsp;</td><td><a href='<?=$dxpt?>&amp;date=<?=$pxm?>'>&lt;</a></td><td colspan='3'><?=substr($mnth, 0, 4)?> : <?=(int)substr($mnth, 4, 2)?></td><td><a href='<?=$dxpt?>&amp;date=<?=$nxm?>'>&gt;</a></td><td>&nbsp;</td></tr>
+<tr class='date'><td><font color='#FF0000'>일</font></td><td>월</td><td>화</td><td>수</td><td>목</td><td>금</td><td>토</td></tr><tr>
+
+<?
+if($year == date("Y") && $month == date("m")) $tday = date("d");
+for($i = 0; $i < $fem; $i++) echo "<td>&nbsp;</td>";
+for($stt = 1; $stt <= $med; $stt++) {
+$sst = ($stt + $fem) % 7;
+if($sst == 1) $stc = "<font color='#FF0000'>{$stt}</font>";
+else $stc = $stt;
+if($tday == $stt) $stc = "<b><u>{$stc}</u></b>";
+if($day == $stt) echo "<td class='thisdoc' onclick=\"rplace('".$dxpt."&amp;date=".$mnth.str_pad($stt, 2, 0, STR_PAD_LEFT)."&amp;type=".$dtype."');\">".$stc."</td>";
+else if($dd[$stt]) echo "<td class='isdoc' onclick=\"rplace('".$dxpt."&amp;date=".$mnth.str_pad($stt, 2, 0, STR_PAD_LEFT)."&amp;type=".$dtype."');\"  onmouseover=\"mouxe(this);preview('게시물 ".$dd[$stt]."개','xx')\" onmouseout=\"mouxe(this);preview()\">".$stc."</td>";
+else echo "<td>".$stc."</td>";
+if($sst == 0 && $stt != $med) echo "</tr><tr>";
+}
+if($sst > 0) for($i = $sst; $i < 7; $i++) echo "<td>&nbsp;</td>";
+?>
+
+</tr>
+</table>
+</div><div id='resizhgt_7' style='display:none' class='menu40'>
+<?=$mclst?>
+</div></div><div class='menu70'><div></div></div></div></div>
+
+<?
+}
+?>

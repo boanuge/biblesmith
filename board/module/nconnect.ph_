@@ -1,0 +1,9 @@
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div class='menu_title menuone'><div>접속자수</div></div></div>
+<div class='menu60'><div class='menu40'>
+회원 <span id='isvcnnct1'></span> 명<br />
+비회원 <span id='isvcnnct2'></span> 명<br />
+</div></div><div class='menu70'><div></div></div></div></div>
+<?
+$isvcnnct=1;
+?>

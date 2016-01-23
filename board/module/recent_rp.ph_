@@ -1,0 +1,35 @@
+<?
+if(!$limitrrp) $limitrrp = 15; // 출력할 갯수
+$rbdt = '';
+for($i=0;$rbid = $bfsb[$section][$i];$i++) {
+if($section == $_GET['section'] || $rbid == $id) {
+if(@filesize($dxr.$rbid."/new_rp.dat")) {
+$fr = fopen($dxr.$rbid."/new_rp.dat","r");
+while($fro = fgets($fr)) $rbdt[substr($fro, 34, 10)] = array($rbid,$fro,$fsbs[$rbid][16]);
+fclose($fr);
+}
+}
+}
+if(is_array($rbdt)) {
+krsort($rbdt);
+?>
+<div class='menu20 hslice' id='m20_1'><div class='menu10'>
+<div class='menu25'><div class='menu_title menuone entry-title' onclick="resize_n('1')"><div>최근 덧글</div></div></div>
+<div class='menu60'><div id='resizhgt_1' class='menu40 entry-content'>
+
+<?
+$i = 1;
+while($i <= $limitrrp && list($key,$value) = each($rbdt)) {
+$frr = preg_replace("`<[^>]+>?`i", "",str_replace("\"","",str_replace("&","&amp;",substr($value[1], 44, -1))));
+if($frr[0] == "\x1b") $frr = "[비밀글]";
+?>
+<div class='link'><a href='<?=$index?>?id=<?=urlencode($value[0])?>&amp;<?=($value[2] == 'd')?'rp':'no';?>=<?=(int)substr($value[1],0,6)?>&amp;cc=<?=substr($value[1],6,7)?>' class='pvxy'><?=$frr?></a></div><div class='small'><?=date("m/d", $key)?> - <?=substr($value[1], 14, 20)?><?if($section) echo "[".$bdidnm[$value[0]]."]";?></div>
+<?
+$i++;
+}
+?>
+
+</div></div><div class='menu70'><div></div></div></div></div>
+<?
+}
+?>

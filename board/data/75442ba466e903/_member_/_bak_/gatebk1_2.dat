@@ -1,0 +1,16 @@
+<###$nxs=0;$nwx=0;$tpn=0;$iii=2;###>
+	<colgroup><col width='100%' /></colgroup><tr><td width='100%' valign='top'>
+			<table cellspacing="0" cellpadding="0" class="head_all">
+			<tr class="title_tr"><td class="title_td"><div style="float:left;padding-left:8px;cursor:pointer" onclick="rhref('?id=worship&amp;p=1')"><b>예배</b></div><div style="float:right;margin-right:8px;padding-top:4px"><a href="?id=worship&amp;p=1"><span class="f7">more</span></a></div></td></tr>
+			<tr><td class="gtlst">
+	
+			<div class="nobr ftlft" style="max-width:44px"><span class="f7 d7d"><img src="icon/sg.gif" alt="" /> 07:29</span>&nbsp;
+			<a href='?id=worship&amp;p=1#2' name='pv0' class='lnk'>제목2 부분</a></div><div class="lnkrp"><a target='_blank' href='?id=worship&amp;comment=2' onmouseover='imgview(this.href,5,0)'><img src="icon/rp.gif" alt="" /><span class="r8">2</span></a></div>
+			<div class="fcler"></div>
+	
+			<div class="nobr ftlft" style="max-width:90px"><span class="f7 d7d"><img src="icon/sg.gif" alt="" /> 07:19</span>&nbsp;
+			<a href='?id=worship&amp;p=1#1' name='pv1' class='lnk'>제목 부분</a></div>
+			<div class="fcler"></div>
+	</td></tr></table></td></tr>
+</table>
+	

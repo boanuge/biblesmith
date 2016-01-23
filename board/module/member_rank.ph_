@@ -1,0 +1,38 @@
+<?
+$mnt = 10; // 출력할 회원수
+if(file_exists($dim)) {
+$fim = fopen($dim,"r");
+while(!feof($fim) && $fimo = explode("\x1b",fgets($fim))) {
+$fin = (int)substr($fimo[0],0,5);
+if(file_exists($dxr.'_member_/member_'.$fin)) {
+$fjn = fopen($dxr.'_member_/member_'.$fin,'r');
+$fjno = explode("\x1b",fgets($fjn));fclose($fjn);
+$point = (int)$fjno[11]+$fjno[10]+$fjno[2]*$sett[18]+$fjno[3]+$fjno[6]+$fjno[7]+$fjno[8]+$fjno[9];
+$fimc[$fin] = $point;
+$fimb[$fin] = array($fimo[1],$fimo[10]);
+}}
+fclose($fim);
+arsort($fimc);
+if(!function_exists("name")) {
+function name($name) {return "<b>".$name."<b>";}
+}
+?>
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div class='menu_title menuone'><div>회원랭킹</div></div></div>
+<div class='menu60'><div class='menu40'>
+
+<?
+$i = 0;
+foreach($fimc as $mn => $point) {
+list($name,$url) = $fimb[$mn];
+if($mn) {
+if(file_exists("icon/m20_".$mn)) {$m12 = "<img src='icon/m20_".$mn."' class='icos' alt='' />";$is80 = 1;} else {$is80 = 0;$m12 = '';}
+echo "\n<div style='float:left;padding-left:10px;height:20px'>{$m12}<span onclick=\"wwname('".urlencode($name)."','{$mn}','_self','{$url}','{$is80}')\">{$name}</span></div><span class='brace'>[".$point."]</span><div class='fcler'></div>";
+$i++;
+if($i >= $mnt) break;
+}}
+?>
+</div></div><div class='menu70'><div></div></div></div></div>
+<?
+}
+?>

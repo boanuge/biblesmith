@@ -1,0 +1,25 @@
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div class='menu_title menuone'><div>실시간 방문자</div></div></div>
+<div class='menu60'><div id='st_visitor' class='menu40'>
+</div></div><div class='menu70'><div></div></div></div></div>
+<script type="text/javascript">
+//<![CDATA[
+function wrvst(str) {
+	if(str) {
+	var strr = '';
+	str = str.split(/\x1b/);
+	for(var i=0;i < str.length;i++) {
+	if(str[i]) {
+	if(str[i].substr(0,1) == 'm') {
+	strr += "<a href='#none' onclick=\"wwname('" + encodeURIComponent(str[i].substr(6)) + "','" + parseInt(str[i].substr(1,5)) + "','','')\" class='linK'><img src='icon/user_blue.gif' alt='' border='0' /> &nbsp;" + str[i].substr(6) + "</a>";
+	} else strr += "<a class='linK'><img src='icon/user_red.gif' alt='' border='0' /> &nbsp;" + str[i] + "</a>";
+	}}}
+	$('st_visitor').innerHTML = strr;
+	setTimeout("stwrv()",3000);
+	}
+function stwrv() {
+azax('module/_visitor.php?&mn=<?=$mbr_no?>&clxk=' + String(new Date().getTime()).substr(8),'wrvst(ajax)');
+}
+setTimeout("stwrv()",2000);
+//]]>
+</script>

@@ -1,0 +1,37 @@
+<div class='menu20 menu52'>
+<div class='menu50'>
+<a href='<?=$index?>' class='heaD'>전체메뉴</a>
+<?
+for($i=1;$sect[$i];$i++) {
+if($sect[$i][1] != 'x') {
+$secc = '';
+$href = '';
+if($sect[$i][1] == 3) $href = "href='".str_replace("&","&amp;",$sect[$i][2])."'";
+else if($sect[$i][1] == 7) $href = "href='#none' onclick='".$sect[$i][2]."'";
+else if($sect[$i][1] == 6) $href = "target='_blank' href='".str_replace("&","&amp;",$sect[$i][2])."'";
+else if($sect[$i][1] != 4 && $sect[$i][1] != 5 && $sect[$i][1] != x) {
+if($sect[$i][1] == 1 && count($bfsb[$i]) == 1) $href = "href='{$index}?id=".$sect[$i][2]."'";
+else if($sect[$i][1] != 's') $href = "href='{$index}?section=".$i."'";
+else $href = "href='#none'";
+
+if($section && $i == $section) $linK = 'linK thbd';
+else $linK = 'linK';
+$ccfsb = count($bfsb[$i]) -1;
+if(($sett[40] && $ccfsb > -1) || $ccfsb > 0) {
+for($ii=0;$ii <= $ccfsb;$ii++) {
+if($id && $id == $bfsb[$i][$ii]) $lincK = 'linK';
+else $lincK = 'linK thbd';
+if(!strpos($bfsb[$i][$ii],'>')) $secc .= "\n<a href='{$index}?id=".encodee($bfsb[$i][$ii])."' class='{$lincK}'> &nbsp;<img src='icon/rpa.gif' alt='' border='0' /> &nbsp;{$bdidnm[$bfsb[$i][$ii]]}</a>";
+else if($bfsb[$i][$ii] != '>') {
+$bfsd = explode('>',$bfsb[$i][$ii]);
+if($bfsd[2]=='nw') $bfsd[1] .= "' target='_blank";
+else if($bfsd[2]=='js') $bfsd[1] = "#none' onclick='".$bfsd[1];
+$secc .= "\n<a href='{$bfsd[1]}' class='{$lincK}'> &nbsp;<img src='icon/rpa.gif' alt='' border='0' /> &nbsp;{$bfsd[0]}</a>";
+}}}}
+if($href) {
+if($bwr == 'ie6') echo "\n<div class='secc' onmouseover=\"this.getElementsByTagName('div')[0].style.display='block';\" onmouseleave=\"this.getElementsByTagName('div')[0].style.display='none';\">";
+else  echo "\n<div class='secc'>";
+echo "<a {$href} class='{$linK}'><img src='icon/rb8.gif' alt='' border='0' /> &nbsp;{$sect[$i][0]}</a><div>{$secc}</div></div>";
+}}}
+?>
+</div></div>

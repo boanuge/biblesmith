@@ -1,0 +1,52 @@
+<?
+$limit = 10; // 출력할 갯수
+$rbdt = '';
+$frot = 0;
+$i = 0;
+foreach($fsbs as $rbid => $rbset) {
+if($rbset[16] != 'd' && !$rbset[53] && !$rbset[46] && ($i < $limit || filemtime($dxr.$rbid."/body.dat") > $frot)) {
+$ida = '';
+$frn = fopen($dxr.$rbid."/no.dat","r");
+$frl = fopen($dxr.$rbid."/list.dat","r");
+for($ii = 0;$ii < $limit;$ii++) {
+$frlo = fgets($frl); 
+$frno = fgets($frn);
+if($frno == "" || $frno == "\n") {
+$rdth = explode("\x1b",$rbset);
+list($ida,$frn,$frl) = data6($ida,array($frn,$frl),array($rbid,$rdth[6]));
+if($ida == 'q') break;
+}
+if(substr($frno,6,2) == 'aa') {$limit++;continue;}
+$rbdt[substr($frlo, 0, 10)] = array($rbid,substr($frno,0,6),$frno[8].substr($frlo, 25));
+$i++;
+}
+fclose($frn);
+fclose($frl);
+if($i >= $limit) {
+krsort($rbdt);
+$rbdt = array_slice($rbdt,0,$limit,TRUE);
+$frot = key(array_slice($rbdt,-1,1,TRUE));
+}}}
+if(is_array($rbdt)) {
+krsort($rbdt);
+?>
+<div class='menu20 hslice' id='m20_arct'><div class='menu10'>
+<div class='menu25'><div class='menu_title menuone entry-title' onclick="resize_n('arct')" style="cursor:pointer"><div>전체 최근글</div></div></div>
+<div class='menu60'><div id='resizhgt_arct' class='menu40 entry-content'>
+
+<?
+$i = 1;
+while($i <= $limit && list($key,$value) = each($rbdt)) {
+$frrn = explode("\x1b",$value[2]);
+$frrn[3] = preg_replace("`<[^>]+>?`i", "",str_replace("\"","",str_replace("&","&amp;",$frrn[3])));
+?>
+<div class='link'><a href='<?=$index?>?id=<?=urlencode($value[0])?>&amp;no=<?=(int)$value[1]?>' class='pvxy'><?=$frrn[3]?></a></div><div class='small'><?=date("m/d", $key)?> - <?=$frrn[1]?> [<?=$bdidnm[$value[0]]?>]</div>
+<?
+$i++;
+}
+?>
+
+</div></div><div class='menu70'><div></div></div></div></div>
+<?
+}
+?>

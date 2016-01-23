@@ -1,0 +1,69 @@
+<?
+$limit = 100; // 추적할 개별게시판의 최근게시물 수
+$orderby_0 = 1; // 왼쪽:조회순=1, 덧글순=2, 엮은글순=3, 엮인글순=4, 추천순=5,
+$orderby_1 = 2; // 오른쪽:조회순=1, 덧글순=2, 엮은글순=3, 엮인글순=4, 추천순=5,
+$rbdt = '';
+$rbdt_0 = '';
+$rbdt_1 = '';
+$i = 0;
+foreach($fsbs as $rbid => $rbset) {
+if($rbset[16] != 'd' && !$rbset[53]) {
+$ida = '';
+$frn = fopen($dxr.$rbid."/no.dat","r");
+$frl = fopen($dxr.$rbid."/list.dat","r");
+for($ii = 0;$ii < $limit;$ii++) {
+$frno = fgets($frn);
+$frlo = fgets($frl);
+if($frno == "\n" || $frno == "") {
+$rdth = explode("\x1b",$rbset);
+list($ida,$frn,$frl) = data6($ida,array($frn,$frl),array($rbid,$rdth[6]));
+if($ida == 'q') break;
+$ii--;
+} else {
+if(substr($frno,6,2) == 'aa') {$limit++;continue;}
+$frnx = explode("\x1b",$frno);
+$rbdt[$i] = array($rbid,substr($frnx[0],0,6),substr($frlo, 0, 10),substr($frlo, 26));
+$rbdt_0[$i] = (int)$frnx[$orderby_0];
+$rbdt_1[$i] = (int)$frnx[$orderby_1];
+$i++;
+}}
+fclose($frn);
+fclose($frl);
+}
+}
+if(is_array($rbdt)) {
+?>
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div id="head_ord3" onmouseover="togge('ord3','ord4')" onclick="resize_n('ord3')"  class='menu_title menuon'><div class='meleft'>조회순</div></div>
+<div id="head_ord4" onmouseover="togge('ord4','ord3')" onclick="resize_n('ord4')" class='menu_title menuoff'><div class='meright'>덧글순</div></div></div>
+<div class='menu60'><div id='resizhgt_ord3' style='display:block;' class='menu40 entry-content'>
+<?
+arsort($rbdt_0);
+$i = 1;
+while($i <= 10 && list($key,$value) = each($rbdt_0)) {
+$frrn = explode("\x1b",$rbdt[$key][3]);
+$frrn[2] = preg_replace("`<[^>]+>?`i", "",str_replace("\"","",str_replace("&","&amp;",$frrn[2])));
+?>
+<div class='link'><a href='<?=$index?>?id=<?=urlencode($rbdt[$key][0])?>&amp;no=<?=(int)$rbdt[$key][1]?>' class='pvxy'><?=$frrn[2]?> <span class='r7'>[<?=$value?>]</span></a></div><div class='small'><?=date("m/d", $rbdt[$key][2])?> - <?=$frrn[0]?> [<?=$bdidnm[$rbdt[$key][0]]?>]</div>
+<?
+$i++;
+}
+?>
+</div><div id='resizhgt_ord4' style='display:none;' class='menu40 entry-content'>
+<?
+arsort($rbdt_1);
+$i = 1;
+while($i <= 10 && list($key,$value) = each($rbdt_1)) {
+$frrn = explode("\x1b",$rbdt[$key][3]);
+$frrn[2] = preg_replace("`<[^>]+>?`i", "",str_replace("\"","",str_replace("&","&amp;",$frrn[2])));
+?>
+<div class='link'><a href='<?=$index?>?id=<?=urlencode($rbdt[$key][0])?>&amp;no=<?=(int)$rbdt[$key][1]?>' class='pvxy'><?=$frrn[2]?> <span class='r7'>[<?=$value?>]</span></a></div><div class='small'><?=date("m/d", $rbdt[$key][2])?> - <?=$frrn[0]?> [<?=$bdidnm[$rbdt[$key][0]]?>]</div>
+<?
+$i++;
+}
+?>
+
+</div></div><div class='menu70'><div></div></div></div></div>
+<?
+}
+?>

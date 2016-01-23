@@ -1,0 +1,10 @@
+
+/* 모바일 */
+.mbebg {background:url('default6.png') repeat-x 50% 0%; height:45px; color:#FFFFFF; font-size:24px; font-weight:bold; padding-top:6px; text-align:center}
+.mbebg a, .mbebg a:link, .mbebg a:visited, .mbebg a:hover {color:#FFFFFF}
+.mbebutt {border:1px solid #B4BAC1; background:#F3F3F3; font-size:20px; padding:5px 20px 5px 20px; margin:2px 8px 6px 8px; cursor:pointer}
+.mbeul, .menu_title div, .pvxy {line-height:180%; font-size:22px}
+.mbeul li a, .menu40 a {display:block}
+.mbeslt {width:100%; font-size:22px; padding:5px}
+.menu_title div {font-weight:bold; border:1px solid #B0B0B0; padding:10px; background:url('../icon/chat.png'); margin:5px 0 10px 0}
+.menu40 {height:100%}

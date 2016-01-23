@@ -1,0 +1,36 @@
+<?
+$mcut = $time - 60; // 1분전 접속을 현재 접속으로
+$mlggd = ",";
+$mld = opendir($dxr."_member_");
+while($mldo = readdir($mld)) {
+if(substr($mldo,0,7) == "logged_") {
+if(filemtime($dxr."_member_/".$mldo) > $mcut) $mlggd .= substr($mldo,7).",";
+}}
+closedir($mld);
+$fimc = array();
+$fim = fopen($dim,"r");
+while($fimo = fgets($fim)) {
+$fmn = ",".(int)substr($fimo,0,5).",";
+if(strpos($mlggd,$fmn) !== false) {
+$fmo = explode("\x1b",$fimo);
+$fimc[substr($fmn,1,-1)] = array($fmo[1],$fmo[10]);
+}}
+fclose($fim);
+if(!function_exists("name")) {
+function name($name) {return "<b>".$name."<b>";}
+}
+?>
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div class='menu_title menuone'><div>접속중인 회원</div></div></div>
+<div class='menu60'><div class='menu40'>
+
+<?
+if(!empty($fimc)) {
+foreach($fimc as $mn => $point) {
+list($name,$url) = $point;
+if($mn) {
+if(file_exists("icon/m20_".$mn)) {$m12 = "<img src='icon/m20_".$mn."' class='icos' alt='' />";$is80 = 1;} else {$is80 = 0;$m12 = '';}
+echo "\n<div style='float:left;padding-left:10px;height:20px'>{$m12}<span onclick=\"wwname('".urlencode($name)."','{$mn}','_self','{$url}','{$is80}')\">{$name}</span></div><div class='fcler'></div>";
+}}}
+?>
+</div></div><div class='menu70'><div></div></div></div></div>

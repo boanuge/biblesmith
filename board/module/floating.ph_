@@ -1,0 +1,18 @@
+<div id='fotdv' style='position:fixed;top:200px;left:20px;width:220px;height:180px'>
+플로팅메뉴예제
+좌우메뉴에서 만드는 플로팅메뉴입니다.
+module/floating.ph_
+좌우메뉴에 추가하는 것이니까,
+그 섹션에 한해서 나옵니다.
+다른 섹션에도 출력하고자 한다면,
+그 섹션의 좌우메뉴에도 추가하면 됩니다.
+
+관리자기능/섹션관리/좌우메뉴에서
+floating_menu를 좌우로 배치합니다.
+이름클릭해서 내용편집창을 열고
+내용을 편집합니다.
+
+position:fixed;top:200px;left:20px;width:220px;height:180px
+여기에서 
+left가 들어가면 왼쪽으로, right가 들어가면 오른쪽으로 정렬합니다.
+</div>

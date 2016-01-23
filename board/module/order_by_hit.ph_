@@ -1,0 +1,75 @@
+<?
+if($id && $sss[26] != 'd' && !$sss[63] && !$sss[56]) {
+$order_limit = 500;
+$fida = '';
+$ii = 0;
+$ida = '';
+$ofn = fopen($dxr.$id."/no.dat","r");
+while($ii < $order_limit) {
+$ii++;
+$ofno = explode("\x1b",fgets($ofn));
+if($ofno[0] == "" || $ofno[0] == "\n") {
+	list($ida,$ofn) = data6($ida,array($ofn),0);
+	if($ida == 'q') break;
+} else {
+if(substr($ofno[0],6,2) == 'aa') continue;
+	$odrfn1[$ii] = $ofno[1];
+	$odrfn2[$ii] = $ofno[2];
+}}
+fclose($ofn);
+$fida = '';
+arsort($odrfn1);
+for($i =0;$i < 10;$i++) {list($key,$value) = each($odrfn1);$odrfn3[$key] = $value;}
+unset($odrfn1);
+arsort($odrfn2);
+for($i =0;$i < 10;$i++) {list($key,$value) = each($odrfn2);$odrfn4[$key] = $value;}
+unset($odrfn2);
+$ii = 0;
+$ofn = fopen($dxr.$id."/no.dat","r");
+$ofl = fopen($dxr.$id."/list.dat","r");
+while($ii < $order_limit) {
+$ii++;
+$ofno = fgets($ofn);
+if($wdth[6] && ($ofno[0] == "" || $ofno[0] == "\n")) {
+if(!$fida) $fida = $wdth[6];
+else $fida--;
+if($fida > 0) {
+fclose($ofn);
+fclose($ofl);
+$ofn = fopen($dxr.$id."/^".$fida."/no.dat","r");
+$ofl = fopen($dxr.$id."/^".$fida."/list.dat","r");
+} else break;
+} else {
+if(isset($odrfn3[$ii]) || isset($odrfn4[$ii])) {
+$ofnn = (int)substr($ofno,0,6);
+$oflo = explode("\x1b",fgets($ofl));$oflo[3] = str_replace("&","&amp;",str_replace('"',"",$oflo[3]));
+if(isset($odrfn3[$ii])) $odrfl1[$ii] = "\n<div class='link'><a href='".$index."?id=".$id."&amp;no=".$ofnn."' class='pvxy'>".$oflo[3]."</a></div><div class='small'>".date("m/d", substr($oflo[0],0,10))." - ".$oflo[1]." : ".$odrfn3[$ii]."</div>";
+if(isset($odrfn4[$ii])) $odrfl2[$ii] = "\n<div class='link'><a href='".$index."?id=".$id."&amp;no=".$ofnn."' class='pvxy'>".$oflo[3]."</a></div><div class='small'>".date("m/d", substr($oflo[0],0,10))." - ".$oflo[1]." : ".$odrfn4[$ii]."</div>";
+} else fgets($ofl);
+}}
+fclose($ofn);
+fclose($ofl);
+$fida = '';
+$ii = 0;
+if($odrfl1 || $odrfl2) {
+?>
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div id="head_10" onmouseover="togge('10','11')" onclick="resize_n('10')"  class='menu_title menuon'><div class='meleft'>조회순</div></div>
+<div id="head_11" onmouseover="togge('11','10')" onclick="resize_n('11')" class='menu_title menuoff'><div class='meright'>덧글순</div></div></div>
+<div class='menu60'><div id='resizhgt_10' style='display:block;' class='menu40 entry-content'>
+<?
+foreach($odrfn3 as $key => $value) echo $odrfl1[$key];
+unset($odrfn3);
+?>
+
+</div><div id='resizhgt_11' style='display:none;' class='menu40 entry-content'>
+<?
+foreach($odrfn4 as $key => $value) echo $odrfl2[$key];
+unset($odrfn4);
+?>
+
+</div></div><div class='menu70'><div></div></div></div></div>
+<?
+}
+}
+?>

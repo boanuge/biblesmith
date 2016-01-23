@@ -1,0 +1,21 @@
+<div class='menu20'><div class='menu15'>
+<div class='menu60'>
+<script type='text/javascript'>
+//<![CDATA[
+function rf_clock() {
+var rf_ts = '';
+var rf_ntime = new Date();
+var rf_t = rf_ntime.getHours();
+var rf_m = rf_ntime.getMinutes();
+var rf_s = rf_ntime.getSeconds();
+if(rf_t < 12) rf_ts += "AM "; else {rf_t -= 12;rf_ts += "PM ";}
+rf_ts += (rf_t < 10)? "0"+rf_t+":":rf_t+":";
+rf_ts += (rf_m < 10)? "0"+rf_m+":":rf_m+":";
+rf_ts += (rf_s < 10)? "0"+rf_s:rf_s;
+$('rfclock').innerHTML = rf_ts;
+setTimeout('rf_clock()',1000);
+}
+setTimeout('rf_clock()',1000);
+//]]>
+</script>
+<div id='rfclock' class='menu40'></div></div><div class='menu70'><div></div></div></div></div>

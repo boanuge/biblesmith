@@ -1,0 +1,120 @@
+.menu20 {margin-top:15px; text-align:left}
+.menu20 td {vertical-align:top}
+.menu20 .menu40 {clear:both; padding:7px 0 0 10px; text-align:left; overflow:hidden; line-height:15px}
+.menu20 .entry-content div {overflow:hidden; white-space:nowrap; width:98%}
+.menu20 .entry-content div a:link, .menu20 .entry-content div a:visited {text-decoration:none}
+.menu20 .entry-content div a:hover, .menu20 .entry-content div a:active {text-decoration:none; color:#145DAA}
+.menu20 .menu40 input {font-family:Gulim; font-size:9pt; height:15px; letter-spacing:0}
+.menu20 .menu40 span {cursor:pointer; margin:2px}
+.menu20 .menu40 form.shform {padding:10px}
+.menu20 .menu40 input.find {padding:0; background:none; width:108px; border:0; border-bottom:1px solid #445985}
+.menu20 .menu40 input.search {padding-left:5px; background:url(../icon/b.png); border:0; border:1px solid #8095C4; width:50px}
+.menu20 .menu50 a {display:block; font-size:12px; font-family:Gulim; font-size:9pt}
+.menu20 .menu50 a.linK,.menu20 .menu50 a.linK:link,.menu20 .menu50 a.linK:hover,.menu20 .menu50 a.linK:visited,.menu20 .menu50 a.linK:active {border:1px solid #B8B8B8; background:#FAFAFA; text-decoration:none; padding:7px 20px 0 30px; height:17px; color:#C31900; text-align:left; margin:1px 0 1px 0}
+.menu20 .menu50 a.thbd,.menu20 .menu50 a.thbd:link,.menu20 .menu50 a.thbd:hover,.menu20 .menu50 a.thbd:visited,.menu20 .menu50 a.thbd:active {background:#F0F0F0}
+.menu20 .menu50 a.linK:hover {border:0; height:19px; background:url(economics/img02.jpg) repeat-x 0% 0%; color:#FFF}
+.menu20 .menu50 a.linK:hover span {color:#FFF}
+.menu20 .menu50 a.heaD,.menu20 .menu50 a.heaD:link,.menu20 .menu50 a.heaD:hover,.menu20 .menu50 a.heaD:visited,.menu20 .menu50 a.heaD:active {border:0; text-decoration:none; height:19px; background:url(economics/img02.jpg) repeat-x 0% 0%; color:#FFF; text-align:center; padding:7px 0 0 0}
+.menu20 .menu50 div.secc div {display:none}
+.menu20 .menu50 div.secc:hover div {display:block}
+.menu20 .menu60 {padding:0; border:0}
+.menu20 .menu70 {padding:0; border:0; height:0}
+.menu20 .center10 {padding-top:3px; padding-bottom:10px; text-align:center}
+#st_visitor {padding:5px 0 5px 40px}
+#st_visitor a,#st_visitor a:link,#st_visitor a:hover {display:block; padding-top:0; padding-bottom:4px; height:16px; color:#222; border:0}
+.menu20 .menu40 .gthumb_100 {width:75px; height:75px; border:3px solid #F0F0F0; margin:0 3px 3px 0}
+.menu20 .menu40 .gthumb_100:hover {border-color:#FF871B}
+.menutg {clear:both; padding:7px 0 0 10px}
+.menutg .fav4 {font-size:20px; color:#FFFFFF; font-weight:bold; background-color:#12D763; padding:0px 3px 0px 3px; cursor:pointer}
+.menutg .fav3 {font-size:18px; color:#FFFFFF; background-color:#12D7D7; padding:0px 3px 0px 3px; cursor:pointer}
+.menutg .fav2 {font-size:16px; color:#2A5EB2; font-weight:bold; cursor:pointer}
+.menutg .fav1 {font-size:14px; color:#3C7B66; cursor:pointer}
+.menutg .fav0 {font-size:12px; color:#222222; cursor:pointer}
+.menu20 .menu25 {height:33px}
+.menu20 .menu_title {float:left; border-bottom:3px solid #FC7701}
+.menu20 .menuone div, .menu20 .menu_title div {font-size:14px; font-family:Dotum; letter-spacing:-2px; font-weight:bold; padding-top:8px; height:22px}
+.menu20 .menuon {float:left; color:#525251; width:50%}
+.menu20 .menuoff {float:left; color:#ADADAD; width:50%; border-color:#FCCDA4}
+.menu20 .menuone, .menuone div {color:#525251; width:100%}
+.small {font-family:tahoma,Gulim; font-size:11px; color:#BABABA}
+.menu20 .calendar {width:94%}
+.menu20 .calendar td {text-align:center; padding-top:4px}
+.menu20 .calendar .date {background-color:#FFFFFF}
+.menu20 .calendar .isdoc {border:1px solid #C7C7C7; padding-top:3px; cursor:pointer}
+.menu20 .calendar .thisdoc {border:1px solid #FF6633; background-color:#FFFAD9; padding-top:3px; cursor:pointer}
+.dh_allmenu {display:block}
+.menu20 .menu15 {border:1px dotted #BDBDBD}
+.bx_login .menu30,.bx_profile .menu30 {padding:15px 0 15px 0}
+.plus {border:0; background-color:#FFFFFF; color:#145DAA; width:15px; height:14px; margin:3px 3px 3px 0; font-size:10pt}
+#nav {position:relative; height:50px; background:url(economics/img02.jpg) repeat-x 0% 0%; text-align:center; z-index:7; clear:both; padding:5px 10px 0 10px}
+#section, #section ul {padding:0; margin:auto; list-style-type:none; text-align:center}
+#section a {display:block; text-decoration:none; color:#ffffff; font-size:9pt; font-weight:normal}
+#section a.trigger {padding:0}
+#section li.supsec {padding-top:6px}
+#section li.supsec span {display:block; width:auto; padding:9px 19px 3px 19px}
+#section li.trgr {background:url(economics/img03.gif) no-repeat 0% 80%}
+#section li:hover a.trigger, #section a.tregger {padding:0 0 12px 0}
+#section li:hover a.trigger span, #section a.tregger span {padding:6px 16px 6px 16px; background:#FFFFFF; color:#000000; border:3px solid #FD2500; border-left:3px solid #FD2500}
+#section li {float:left; width:auto; text-decoration:none; display:inline}
+#section li ul, #section ul li  {text-align:left; width:130px; font-size:95%}
+#section .subseca a {padding:3px 12px 3px 16px; color:#000000}
+#section ul.subsec {position:absolute; display:none; border-style:solid; border-color:#FD2500; border-width:3px; background-color:#FFFFFF}
+#section ul.subsec li {display:inline; line-height:31px; vertical-align:middle}
+#section li:hover ul {display:block}
+#section .subseca:hover a, #section .subsecb a {background:#FD2500!important}
+#belowsect {position:relative; padding:5px; font-family:Dotum; letter-spacing:-1px}
+#belowsect a:link, #belowsect a:visited, #belowsect a:hover, #belowsect a:active {margin:0 3px 0 3px; color:#5E5E5E; text-decoration:none}
+.stbLR {width:198px}
+#stbL {padding:10px 15px 0 0}
+#stbC {padding-top:25px}
+#stbR {float:left; padding:10px 0 0 15px}
+#wrapper {background:url(economics/img05.jpg) repeat-x 0% 0%; border:0; padding:0; margin:0}
+.brace {font-size:11px; color:#145DAA; float:right; text-align:right; padding-right:10px}
+.floatleft {float:left}
+.analdv {background: url(economics/img02.jpg) repeat 0% 100%; padding-top:2px; font-family:tahoma,Gulim; font-size:7pt; color:#FFFFFF; text-align:center}
+
+#logo {
+	height: 80px;
+	margin: 0 auto;
+	padding: 2px;
+}
+
+#logo h1, #logo h2 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+#logo h1 {
+	padding: 35px 0px 0 0px;
+	font-size: 36px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #31363B;
+}
+
+#logo h2 {
+	padding: 0px 0 0 25px;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #808080;
+}
+
+#logo p {
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#logo a {color:#31363B; text-decoration:none}
+
+#splash {
+	height: 36px;
+	padding-bottom: 3px;
+	background: url(economics/img04.jpg) repeat-x left top;
+}
+#footer {background:url(economics/img05.jpg) repeat-x 0% 0%; color:#E0E0E0; height:50px; padding:20px; text-align:center}
+#footer a {color:#E0E0E0}
+#footer div,#footer div a {color:#858585}

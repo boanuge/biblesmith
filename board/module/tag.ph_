@@ -1,0 +1,58 @@
+<?
+if(!$wdth[7][32] && @filesize($dxr.$_GET['id']."/tag.dat")) {
+$tg = fopen($dxr.$_GET['id']."/tag.dat", "r");
+for($i = 0;$tgo[$i] = trim(fgets($tg));$i++) {}
+fclose($tg);
+function etag($order) {
+global $sett, $tgo;
+$tago = '';
+for($i = 0;$tgo[$i];$i++) {
+if($order == 1) $tgn = (int)substr($tgo[$i],-8,4);
+else if($order == 2) $tgn = (int)substr($tgo[$i],-4);
+$tgall[$tgo[$i]] = $tgn;
+}
+if(count($tgall)) {
+arsort($tgall);
+$i = 0;
+foreach($tgall as $tgu => $val) {
+if($i < 30) {
+$tmg = (int)substr($tgu,-8,4);
+$fav = (int)($tmg/$sett[21]);
+if($fav > 4) $fav = 4;
+$tgm = substr($tgu,0,-8);
+if($tgm) {
+$tago .= "<a href='#none' onclick='tago(this)'><span onmouseover='tgtt(this,".(int)substr($tgu,-4).",{$tmg})' class='fav{$fav}'>{$tgm}</span></a>\n";
+}}
+$i++;
+}}
+return $tago;
+}
+?>
+<script type='text/javascript'>
+//<![CDATA[
+function tago(ths) {
+var fom = document.sform;
+if(fom) {
+fom.search.value = 't';
+fom.p.value = '1';
+fom.keyword.value = ths.firstChild.innerHTML;
+parent.$('submit').click();
+}}
+function tgtt(ths,a,b) {
+ths.title = "\r\n  ( " + a + " ) 개의 글, ( " + b + " ) 번 검색되었습니다.  \r\n";
+}
+//]]>
+</script>
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div id="head_8" onmouseover="togge('8','9')" class='menu_title menuon'><div class='meleft'>인기순</div></div>
+<div id="head_9" onmouseover="togge('9','8')" class='menu_title menuoff'><div class='meright'>빈도순</div></div></div>
+<div class='menu60'><div id='resizhgt_8' class='menutg' style='display:block'>
+<?=etag(1)?>
+
+</div><div id='resizhgt_9' class='menutg' style='display:none'>
+<?=etag(2)?>
+
+</div></div><div class='menu70'><div></div></div></div></div>
+<?
+}
+?>

@@ -1,0 +1,218 @@
+<sr_top>
+</sr_top>
+<sr_id>
+<sr_head>
+</sr_head>
+<sr_body>
+			<table cellspacing="5px" cellpadding="0" width="<#bd_width#>" class="head_view">
+			<tr><td class="title_view"><a href="<#url#>"><span class="f13"><#subject#></span></a></td></tr>    
+			<tr><td style="text-align:right"><b>글쓴이 :&nbsp;</b><#name#>&nbsp; &nbsp;<span class="f8"><#date#></span> &nbsp;
+			<select id="cfsz" onchange="var xx=this.options[this.selectedIndex].value;cfsz(xx)" class="f7" style="margin-right:5px;border:0;color:#DEDEDE"><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option></select>
+			</td></tr><tr><td style="padding:10px 0 0 20px">
+			<!--/ 본문 /--><script type="text/javascript">/*<![CDATA[*/</script><div id="bdo-1" class="bdo"><#memo#></div><script type="text/javascript">/*]]>*/</script>
+			<#isipr#><div style="text-align:right;width:98%"><a href="?id=<#id#>&amp;search=ip&amp;keyword=<#ipr#>&amp;p=1"><span class="r7"><#ipr#></span></a></div><!--/-->
+			<#isnlink#><div style="text-align:right"><a target="_blank" href="<#rlink#>"><span class="rsslink"><#rlink#></span></a> &nbsp;</div><!--/-->
+			<!--/ 태그 /--><#tag#>
+			<!--/ 업로드목록 /--><#uplist#></td></tr>
+			<tr><td style="background-color:#E6E6E6;height:2px"></td></tr>
+			<tr><td>&nbsp; &nbsp;덧글 <span class="r8"><#nReply#></span>&nbsp; &nbsp;조회 <span class="r8"><#nHit#></span><#is_appr#>&nbsp; &nbsp;추천:<span class="r8"><#nAppr#></span><!--/--><#is_oppo#>&nbsp; &nbsp;비추:<span class="r8"><#nOppo#></span><!--/-->&nbsp; &nbsp;<#isnct#>『 <a href="#none" onclick="locato('ct','<#ct_no#>')" class="ctg"><#ct_name#></a> 』<!--/--><br />
+			<#issign#><fieldset class="sign"><div style="float:left"><#sign12#></div><div style="float:left;padding:5px"><#sign02#></div></fieldset><!--/-->
+			<iframe id="comment_<#no#>" src="<#index#>?id=<#id#>&amp;comment=<#no#>" style="width:100%;height:0" frameborder="0"></iframe></td></tr>
+			<tr><td style="background-color:#D7D7D7;height:2px"></td></tr>
+			<tr><td class="buttcell" style="clear:both;padding-bottom:10px"><a onclick="this.blur()" class="butt4" href="<#url#>"><span>목록</span></a>
+			<#frited#><a href="#none" onclick="frite('<#depth#>')" class="butt4"><span>답글</span></a><!--/-->
+			<#ismbr#><a href="#none" onclick="scrap(xxn,ono)" class="butt4"><span>스크랩</span></a><!--/-->
+			<#is_appr#><a href="#none" onclick="vote(1,xxn,ono)" class="butt4"><span>추천</span></a><!--/-->
+			<#is_oppo#><a href="#none" onclick="vote(2,xxn,ono)" class="butt4"><span>비추</span></a><!--/--> <#is_accs#><a href="#none" onclick="vote(3,xxn,ono)" class="butt5"><span>신고</span></a><!--/--><#is_delete#><a href="#none" onclick="fpass(<#jsdelete#>)" class="butt5"><span>삭제</span></a><!--/--><#is_edit#><a href="#none" onclick="fpass(<#jsedit#>)" class="butt5"><span>수정</span></a> <!--/--></td></tr>
+			</table>
+</sr_body>
+<sr_rp>
+			<#isrrpx#><div class="rptb f8"><b>Trackback URL :: </b><span id="d_clip_button" class="f8"><#bd_url#><#exe#>?tb=<#eid#>^<#pno#></span></div>
+</sr_rp>
+<sr_rpv>
+			<#isrrpx#><fieldset class="rrpdiv" <#rrpmg#>><div class="ftlft"><img src="icon/rpa.gif" alt="" /><#istrrpx#><fieldset class="rpdiv"><div class="ftlft"><!--/-->
+			<#tname#> <span class="f8">(<#rdymd#> <#rdhis#>)</span></div><div class="ftrgt"><#isipr#><a target="_parent" href="?id=<#id#>&amp;search=rip&amp;keyword=<#ipr#>&amp;p=1"><span class="f7 ipc">(<#ipr#>)</span></a><!--/-->
+			<#isrmlnk#><a href="#none" class="rpbt" onclick="<#rmlnk#>"><span title="수정">m</span></a><!--/--><#isrdlnk#><a href="#none" class="rpbt" onclick="<#rdlnk#>"><span title="삭제">x</span></a><!--/--><#isrrlnk#><a href="#none" class="rpbt" onclick="<#rrlnk#>"><span title="리플에 리플"><img src="icon/rpa.gif" alt="" /></span></a><!--/--></div>
+			<div class="fcler"></div><div class="ftrgt rvote"><#x_appr#><a href="#none" onclick="<#vtApp#>"><img src="icon/vote_u.gif" alt="" /><span>추천</span><#nAppr#></a><!--/--><#x_oppo#><a href="#none" onclick="<#vtOpp#>"><img src="icon/vote_d.gif" alt="" /><span>비추</span><#nOppo#></a><!--/--></div>
+			<div class="rpmemo" id="<#cid#>"><#m12#><#bdo#></div><div class="fcler"></div><#rrdiv#></fieldset>
+</sr_rpv>
+<sr_rpw>
+			<form name="cmmt_<#pno#>" method="post" action="<#exe#>">
+			<#cwrt#>
+			<table cellspacing="6px" cellpadding="0" class="comment">
+			<tr style="vertical-align:bottom">
+			<td style="padding-left:8px">
+			<#isxmbr#><table style="padding-bottom:5px;width:100%"><tr><td style="width:240px">
+			<span class="f8">name</span> <input type="text" name="name" style="width:70px" value="<#yname#>" maxlength="20" /> &nbsp;
+			<span class="f8">pass</span> <input type="password" name="pass" value="<#ypass#>" style="width:70px" maxlength="10" /> &nbsp;
+			<#isxlgn#><label><input type="checkbox" onclick="tath=99;chksbmt2(this);" class="rsecrt" /> 로그인</label><!--/--><#isxmbr#></td><td>
+			<input type="text" name="link" value="http://" style="width:100%" onclick="if(this.value=='http://') this.value=''" /></td></tr></table>
+			<!--/-->
+			<textarea name="content" rows="1" cols="1" style="width:100%;height:80px;font-size:9pt" onkeydown="if(xcroll(this,80)) toprsz();"></textarea></td>
+			<td align="center" width="82px"><div><label>비밀글 <input type="checkbox" name="rsecrt" /></label></div><input type="button" onclick="chksbmt(this)" value="write" class="sbmt" /></td></tr>
+			<#isatspm#><tr><td colspan="2" class="antispamdv"><img src="include/antispam.php?no=<#pno#>" /><input type="text" name="antispam" value="" onblur="chkatcode(<#pno#>,this)" /><span class="f8">스팸 방지 코드를 입력하세요</span></td></tr><!--/-->
+			</table>
+			</form>
+</sr_rpw>
+<sr_list>
+	<sr_list_top>
+			<div class="ftrgt"><#icoselect#></div>
+			<#ct_list#>
+			<table id="bd_main" cellspacing="0" cellpadding="0" width="<#bd_width#>">
+	</sr_list_top>
+	<sr_list_head>
+		<sr_list_head_cols>
+			<colgroup>
+			<#x_no#><col width="40px" /><!--/-->
+			<#isct#><col width="60px" /><!--/-->
+			<col width="100%" />
+			<#x_name#><col width="80px" /><!--/-->
+			<#x_date#><col width="70px" /><!--/-->
+			<#x_visit#><col width="40px" /><!--/-->
+			<#x_appr#><col width="40px" /><!--/-->
+			<#x_oppo#><col width="40px" /><!--/-->
+			</colgroup>
+		</sr_list_head_cols>
+		<sr_list_head_a>
+			<tr class="title_tr thead">
+			<#x_no#><td><a href="#none" onclick="arrange('no')" style="width:37px">no</a><div></div></td><!--/-->
+			<#isct#><td><a href="#none" style="width:57px">ct</a><div></div></td><!--/-->
+			<td  ><a href="#none" onclick="arrange('subject')" style="width:90%">subject</a><div></div></td>
+			<#x_name#><td><a href="#none" onclick="arrange('name')" style="width:77px">name</a><div></div></td><!--/-->
+			<#x_date#><td><a href="#none" onclick="arrange('date')" style="width:67px">date</a><div></div></td><!--/-->
+			<#x_visit#><td><a href="#none" onclick="arrange('view')" style="width:37px">hit</a><div></div></td><!--/-->
+			<#x_appr#><td><a href="#none" onclick="arrange('appr')" style="width:37px"><img src="icon/vote_u.gif" alt="" /></a><div></div></td><!--/-->
+			<#x_oppo#><td><a href="#none" onclick="arrange('oppo')" style="width:37px"><img src="icon/vote_d.gif" alt="" /></a><div></div></td><!--/-->
+			</tr>
+		</sr_list_head_a>
+		<sr_list_head_c>
+			<tr class="title_tr"><td colspan="<#cols#>">&nbsp;</td></tr>
+		</sr_list_head_c>
+		<sr_list_head_b>
+		</sr_list_head_b>
+		<sr_list_head_g>
+			<tr class="title_tr"><td colspan="<#cols#>">&nbsp;</td></tr>
+			<tr><td colspan="<#cols#>" style="padding-top:10px">
+		</sr_list_head_g>
+		<sr_list_head_d>
+			<tr class="title_tr"><td colspan="<#cols#>">&nbsp;<a name="guestw"></a></td></tr>
+			<tr style="text-align:center"><td colspan="<#cols#>">
+			<form name="guest_" method="post" action="<#exe#>" style="background-color:#F5FAFF">
+			<#gwrt#>
+			<table cellspacing="15px" cellpadding="0" width="100%">
+			<tr style="vertical-align:bottom"><td>
+			<#isxmbr#>
+			<table cellspacing="0" cellpadding="0" style="width:100%;padding-bottom:15px;table-layout:fixed"><tr><td style="width:310px">이름&nbsp; <input type="text" name="name" style="width:80px" value="<#yname#>" maxlength="20" />
+			&nbsp; 비밀번호&nbsp; <input type="password" name="pass" style="width:80px" value="<#ypass#>" maxlength="10" />&nbsp; 링크</td><td>
+			<input type="text" name="wf_link5" style="width:100%" value="" /></td></tr></table><!--/-->
+			<textarea name="wcontent" rows="1" cols="1" style="width:100%;height:70px;font-size:9pt" onkeydown="xcroll(this, 70)"></textarea></td>
+			<td style="width:70px;text-align:left"><label>비밀글 <input type="checkbox" name="perm_vw" value="0" onclick="this.value=(this.checked==true)?'9':'0'" /></label><input type="button" id="nae" onclick="replax()" value="write" class="sbmt" /></td>
+			</tr>			
+			<#isatspm#><tr><td colspan="2" class="antispamdv"><img src="include/antispam.php?no=<#pno#>" /><input type="text" name="antispam" value="" onblur="chkatcode(<#pno#>,this)" /><span class="f8">스팸 방지 코드를 입력하세요</span></td></tr><!--/-->
+			</table>
+			</form>&nbsp;</td></tr>
+		</sr_list_head_d>
+	</sr_list_head>
+	<sr_list_body>
+		<sr_list_body_a>
+			<tr class="bd_list_tr<#cno#>" style="text-align:center">
+			<#x_no#><td class="g7"><#fnno#></td><!--/-->
+			<#isct#><td><a href="#none" onclick="locato('ct','<#ct_no#>')"><span class="ct8"><#ct_name#></span></a></td><!--/-->
+			<td><div class="nobr ftlft" style="<#wtdh#>"> &nbsp;<#no_check#><img src="icon/sy.gif" alt="" /> &nbsp;<#re_depth#><a href="<#no_link#>" <#target#> <#oprvw#>><#subject#></a><#isnlink#></div><div class="lnkrp"><a target="_blank" href="<#rlink#>"><img src="icon/link.gif" alt="Link" title="Link" class="lkgif" /></a><!--/-->
+			<#isnrp#></div><div class="lnkrp"><#ispvrp#><img src="icon/rp.gif" alt="" /><span class="r8"><#nrp#></span></a><!--/--></div><div class="ftlft"><#isimg#><#isfile#><#isnew#></div></td>
+			<#x_name#><td><div class="nobr"><#name#></div></td><!--/-->
+			<#x_date#><td class="g7"><#date#></td><!--/-->
+			<#x_visit#><td class="g7"><#nHit#></td><!--/-->
+			<#x_appr#><td class="g7"><#nAppr#></td><!--/-->
+			<#x_oppo#><td class="g7"><#nOppo#></td><!--/-->
+			</tr>
+		</sr_list_body_a>
+		<sr_list_body_c>
+			<tr><td colspan="<#cols#>" class="c_td"><#no_check#>&nbsp;<#fnno#>.&nbsp;<#re_depth#><a href="<#no_link#>" <#target#> <#oprvw#>><b><#subject#></b><#isnew#></a></td></tr>
+			<tr><td colspan="<#cols#>"><table cellspacing="0" cellpadding="0" width="100%">
+			<tr><#issimg#><td valign="top" class="c_thumb"><a href="<#no_link#>" <#target#> <#oprvw#>><img src="<#simg#>" class="gthumb_100" alt="" /></a></td><!--/--><td valign="top">
+			<div class="name_c"> &nbsp; &nbsp;<#name#><span class="btw">|</span><span class="f8"><#date#></span>
+			<span class="btw">|</span>조회: <span class="f8"><#nHit#></span><span class="btw">|</span><a href="javascript:;" onclick="vwrp('<#no#>')" title="덧글 열기">덧글: <span class="f8"><#nrp#></span></a>
+			<#isnct#><span class="btw">|</span><a href="#none" onclick="locato('ct','<#ct_no#>')"><#ct_name#></a><!--/--></div>
+			<div class="memo_c"><#memb#></div></td></tr></table></td></tr>
+			<tr><td colspan="<#cols#>"><iframe id="comment_<#no#>" src="" class="listcmt" frameborder="0"></iframe></td></tr>
+			<tr><td colspan="<#cols#>" class="bgd71"></td></tr>
+		</sr_list_body_c>
+		<sr_list_body_b>
+			<tr><td colspan="<#cols#>" class="title_view"><a name="<#no#>"></a>&nbsp;<#no_check#> <#re_depth#><a href="<#no_link#>" <#target#> <#oprvw#> class="f13"><#subject#></a><#isnct#><span class="btw">|</span><a href="#none" onclick="locato('ct','<#ct_no#>')"><#ct_name#></a><!--/--></td></tr>
+			<tr><td colspan="<#cols#>" class="b_memo"><div style="text-align:right"><#tname#>&nbsp; &nbsp;<span class="f8"><#date#></span></div><script type="text/javascript">/*<![CDATA[*/</script><div id="bdo<#ii#>" class="bdo"><#memb#></div><script type="text/javascript">/*]]>*/</script><#uplist#>
+			<#isnlink#><div style="text-align:right;margin-top:15px"><a target="_blank" href="<#rlink#>"><span class="rsslink"><#rlink#></span></a> &nbsp;</div><!--/--><#tag#></td></tr>
+			<tr><td colspan="<#cols#>" class="rpatb">
+			<div style="float:left"><a href="javascript:;" onclick="vwrp('<#no#>')" title="덧글 열기">덧글: <span class="f8"><#nReply#></span></a><span class="btw">|</span><a href="#none" onclick="vwrp('<#no#>')">엮은글: <span class="f8"><#nTrb_out#></span></a><span class="btw">|</span><a href="#none" onclick="vwrp('<#no#>')">엮인글: <span class="f8"><#nTrb_in#></span></a></div>
+			<div class="ftrgt">조회: <span class="f8"><#nHit#></span><#is_appr#><span class="btw">|</span><a href="#none" onclick="vote(1,'<#xx#>','<#no#>')" title="이 글에 추천"><img src="icon/vote_u.gif" alt="" /> <span class="f8"><#nAppr#></span></a><!--/--><#is_oppo#><span class="btw">|</span><a href="#none" onclick="vote(2,'<#xx#>','<#no#>')" title="이 글에 비추"><img src="icon/vote_d.gif" alt="" /> <span class="f8"><#nOppo#></span></a><!--/--></div></td></tr>
+			<tr><td colspan="<#cols#>"><iframe id="comment_<#no#>" src="" style="display:none;width:100%;height:0;border-bottom:2px solid #D7D7D7" frameborder="0"></iframe>&nbsp;</td></tr>
+		</sr_list_body_b>
+		<sr_list_body_g>
+			<div class="thumbdiv_150"><img src="<#simg#>" class="gthumb_100" <#no_jslink#> <#oprvw#> alt="" />
+			<input type="button" <#no_jslink#> <#oprvw#> class="sbjt_g" value="<#subject#>" /><br />
+			<div class="nobr gname">by <#tname#></div>
+			<span class="gdate"><#date#></span><br />
+			<#ispvrp#><span class="f8">덧글</span> &nbsp;<span class="rb7"><#nrp#></span></a>
+			</div>
+		</sr_list_body_g>
+		<sr_list_body_d>
+			<tr><td colspan="<#cols#>" class="name_d"><table width="100%"><tr><td> &nbsp; &nbsp;<#no_check#>&nbsp;<#name#> &nbsp; &nbsp;<#isnlink#><a target="_blank" href="<#rlink#>"><img src="icon/home.gif" alt="link" border="0" /></a><!--/--></td>
+			<td style="text-align:right" class="w8"><#isipr#><a href="?id=<#id#>&amp;search=ip&amp;keyword=<#ipr#>&amp;p=1"><span class="r7"><#ipr#></span></a><!--/-->&nbsp; &nbsp;<span class="w8">No. <#fnno#></span> &nbsp; &nbsp;<span class="f7"><#date#></span> &nbsp; &nbsp;<#is_edit#><input type="button" value="수정" onclick="fpass(<#jsedit#>)" />&nbsp; <!--/--><#is_delete#><input type="button" value="삭제" onclick="fpass(<#jsdelete#>)" />&nbsp; <!--/--><a name="<#no#>">&nbsp;</a></td></tr></table></td></tr>
+			<tr style="vertical-align:top"><td colspan="<#cols#>" style="vertical-align:top;padding:10px"><script type="text/javascript">/*<![CDATA[*/</script><div id="bdo<#ii#>" class="bdo"><#memb#></div><script type="text/javascript">/*]]>*/</script>
+			<br /><br /><a href="javascript:;" onclick="vwrp('<#no#>')" title="덧글 열기"><span class="rplnkb">덧글&nbsp;<#nrp#>개</span></a></td></tr>
+			<tr><td colspan="<#cols#>"><iframe id="comment_<#no#>" src="" class="listcmt" frameborder="0"></iframe></td></tr>
+		</sr_list_body_d>
+	</sr_list_body>
+	<sr_list_tail>
+			<tr><td colspan="<#cols#>" class="botto">&nbsp;</td></tr>
+			<tr><td colspan="<#cols#>"><table style="margin:0;padding:0;width:100%"><tr><td class="buttcell"><a onclick="this.blur()" class="butt4" href="?id=<#id#>&amp;p=1"><span>목록</span></a>
+			<#sss26#><a href="#none" onclick="opeclo('tag')" class="butt4"><span>태그</span></a><!--/-->
+			<#isrss#><a href="#none" onclick="rss(1)" class="butt4" style="color:#FF6633" title="rss새로읽음"><span>수집</span></a>
+			<a href="#none" onclick="rss(2)" class="butt4" style="color:#FF6633" title="rss주소편집"><span>편집</span></a>
+			<!--/--><#isnrss#><a href="javascript:frite()" class="butt4"><span>새글</span></a><!--/-->
+			</td><td align="right">
+			<#icoselect#>
+			</td></tr></table>
+			</td></tr></table>
+	</sr_list_tail>
+</sr_list>
+<!-- 게시판 맨밑 -->
+<sr_listbottom>
+</sr_listbottom>
+</sr_id>
+<sr_noid>
+	<sr_noid_once>
+	</sr_noid_once>
+	<sr_noid_head>
+			<table cellspacing="0" cellpadding="0" class="head_all">
+			<tr class="title_tr"><td class="title_td"> &nbsp; <a href="?id=<#bd_id#>&amp;p=1"><#bd_name#></a></td></tr>
+			<tr><td class="gtlst">
+	</sr_noid_head>
+	<sr_noid_body_1>
+			<div class="nobr ftlft" style="<#wtdh#>"><span class="f7 d7d"><img src="icon/sy.gif" alt="" /> <#datte#></span>&nbsp;
+			<#url#><#subject#></a><#isnlink#></div><div class="lnkrp"><a target="_blank" href="<#rlink#>"><img src="icon/link.gif" alt="Link" title="Link" class="lkgif" /></a><!--/--><#isnrp#></div><div class="lnkrp"><#ispvrp#><img src="icon/rp.gif" alt="" /><span class="r8"><#nrp#></span></a><!--/--></div><#isnew#>
+			<div class="fcler"></div><#memb#>
+	</sr_noid_body_1>
+	<!-- 대문목록 요약형 내용 -->
+	<sr_noid_body_2>
+			<div class="gate_2"><#url#><#simg#></a>
+			<span class="r7">▶</span> <#url#><#subject#></a><#isnlink#>&nbsp;<a target="_blank" href="<#rlink#>"><img src="icon/link.gif" alt="Link" title="Link" class="lkgif" /></a><!--/--><#isnrp#> <#ispvrp#><span class="r8">[<#nrp#>]</span></a><!--/-->
+<br /><span class="n8">&nbsp; by <#nick#></span><span class="f7"> &nbsp;|&nbsp; <#datte#></span>
+<div class="memo"><#memb#></div><div class="fcler"></div></div>
+	</sr_noid_body_2>
+	<!-- 대문목록 갤리리형 내용 -->
+	<sr_noid_body_3>
+			<div class="gate_3"><#url#><#simg#></a><br /><input type="button" class="sbjt_g" value="<#subject#>"  <#jsurl#> /><br /><span class="r7"><img src="icon/sy.gif" alt="" /></span> <span class="f7"><#datte#></span>&nbsp;<span class="n8"> by <#nick#></span></div>
+			<#memb#>
+	</sr_noid_body_3>
+	<!-- 대문목록 뉴스형 내용 -->
+	<sr_noid_body_5>
+			<#memb#>
+			<div class="gate_5"><#gate_5#><a onmouseover="<#newx#>" class="lnk" title="<#subject#>"><#simg#></a></div>
+	</sr_noid_body_5>
+	<sr_noid_tail>
+	</sr_noid_tail>
+</sr_noid>
+<!-- 전체 맨밑 -->
+<sr_bottom>
+</sr_bottom>

@@ -1,0 +1,8 @@
+
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div class='menu_title menuone'><div>전체검색</div></div></div>
+<div class='menu60'><div class='menu40'>
+<form method='get' action='<?=$index?>' class='shform'> 
+<input type='text' name='find' class='find' onfocus='this.className="find userbc"' onblur='this.className="find"' value='' /> 
+<input type='submit' value=' &nbsp;' class='srbt' /></form>
+</div></div><div class='menu70'><div></div></div></div></div>

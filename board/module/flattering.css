@@ -1,0 +1,101 @@
+.bbody {background:#7A1A1A url(flattering/img01.gif) repeat left top}
+.menu20 {margin-bottom:15px}
+.menu20 .menu10 {background:url(flattering/img05.jpg) no-repeat 100% 0%; text-align:left}
+.menu20 td {vertical-align:top; background-color:#F5F2EF}
+.menu20 .menu40 {clear:both; padding:7px 0 0 20px; text-align:left; overflow:hidden; line-height:15px}
+.menu20 .entry-content div {overflow:hidden; white-space:nowrap; width:98%}
+.menu20 .entry-content div.link {background: url(../icon/arw.gif) no-repeat left center; padding-left:4%; width:94%}
+.menu20 .entry-content div a:link, .menu20 .entry-content div a:visited {text-decoration:none}
+.menu20 .entry-content div a:hover, .menu20 .entry-content div a:active {text-decoration:none; color:#145DAA}
+.menu20 .menu40 input {font-family:Gulim; font-size:9pt; height:15px; letter-spacing:0}
+.menu20 .menu40 span {cursor:pointer; margin:2px}
+.menu20 form.shform {margin:0; padding:7px 0 7px 0}
+.menu20 form.shform input.find {width:75%; height:16px; padding:2%}
+.menu20 .menu40 form.shform input.srbt {width:13%; height:24px}
+input.search {background:#FEFEFE url('../icon/b1.gif'); border:0; border-right:1px solid #BEBDBE; border-left:1px solid #D1D1D1; font-family:Gulim; font-size:9pt; height:20px; cursor:pointer}
+.menu52 {border:0}
+.menu20 .menu50 a {display:block; font-size:12px; font-family:Gulim; font-size:9pt}
+.menu20 .menu50 a.linK,.menu20 .menu50 a.linK:link,.menu20 .menu50 a.linK:hover,.menu20 .menu50 a.linK:visited,.menu20 .menu50 a.linK:active {border:1px solid #B8B8B8; background:#FAFAFA; text-decoration:none; padding:7px 0 0 20px; height:17px; color:#222222; text-align:left; margin:1px 0 1px 0}
+.menu20 .menu50 a.thbd,.menu20 .menu50 a.thbd:link,.menu20 .menu50 a.thbd:hover,.menu20 .menu50 a.thbd:visited,.menu20 .menu50 a.thbd:active {background:#F0F0F0}
+.menu20 .menu50 a.linK:hover {border:0; height:19px; background:url(flattering/img02.gif) no-repeat 50% 0%; color:#FFF}
+.menu20 .menu50 a.linK:hover span {color:#FFF}
+.menu20 .menu50 a.heaD,.menu20 .menu50 a.heaD:link,.menu20 .menu50 a.heaD:hover,.menu20 .menu50 a.heaD:visited,.menu20 .menu50 a.heaD:active {border:0; text-decoration:none; height:19px; background:url(flattering/img02.gif) no-repeat 50% 0%; color:#FFF; text-align:center; padding:7px 0 0 0}
+.menu20 .menu50 div.secc div {display:none}
+.menu20 .menu50 div.secc:hover div {display:block}
+.menu20 .menu60 {padding:0; border:0}
+.menu20 .menu70 {padding:0; border:0; height:0}
+.menu20 .center10 {padding-top:3px; padding-bottom:10px; text-align:center}
+#st_visitor {padding:5px 0 5px 40px}
+#st_visitor a,#st_visitor a:link,#st_visitor a:hover {display:block; padding-top:0; padding-bottom:4px; height:16px; color:#222; border:0}
+.menu20 .menu40 .gthumb_100 {width:75px; height:75px; border:3px solid #F0F0F0; margin:0 3px 3px 0}
+.menu20 .menu40 .gthumb_100:hover {border-color:#FF871B}
+.menutg {clear:both; padding:7px 0 0 10px}
+.menu20 .menu25 {background:url(flattering/img05.jpg) no-repeat 0% 0%; margin-right:10px; padding-left:10px; height:40px}
+.menu20 .menu_title {padding:12px 0 0 10px; height:28px}
+.menu20 .menuone div, .menu20 .menu_title div {font-size:12px; font-weight:bold; text-align:left; cursor:pointer}
+.menu20 .menuon {float:left; background:transparent; color:#FFFFFF; width:40%}
+.menu20 .menuoff {float:left; background:#972A2D; color:#7A1A1A; width:40%}
+.menu20 .menuone {color:#FFFFFF}
+.small {font-family:tahoma,Gulim; font-size:11px; color:#BABABA}
+.menu20 .calendar {width:94%}
+.menu20 .calendar td {text-align:center; padding-top:4px}
+.menu20 .calendar .date {background-color:#FFFFFF}
+.menu20 .calendar .isdoc {border:1px solid #C7C7C7; padding-top:3px; cursor:pointer}
+.menu20 .calendar .thisdoc {border:1px solid #FF6633; background-color:#FFFAD9; padding-top:3px; cursor:pointer}
+.dh_allmenu {display:block}
+#sectiongroup a,#sectiongroup a:link, #sectiongroup a:visited, #sectiongroup a:hover, #sectiongroup a:active {color:#D0D0D0}
+.menu20 .menu15 {border:1px solid #D9C5C6; padding:10px 0 10px 0}
+.plus {border:0; background-color:#FFFFFF; color:#145DAA; width:15px; height:14px; margin:3px 3px 3px 0; font-size:10pt}
+
+#nav {position:relative; height:50px; text-align:center; z-index:7; clear:both; margin-bottom:20px; background:url(flattering/img02.gif) no-repeat 0% 0%}
+#section {padding:0; margin:auto; float:left; list-style-type:none; text-align:center}
+#section a {display:block; width:auto; text-decoration:none; font-size:9pt; font-weight:normal; cursor:pointer}
+#section li {float:left; width:auto; text-decoration:none; display:inline}
+#section li a.trigger {border-right:1px solid #61100F; height:35px; padding:15px 20px 0 20px; font-size:1em; font-weight:bold; color:#FFFFFF; font-family:'Malgun Gothic'}
+#section ul {list-style-type:none; position:absolute; display:none; background:#F5F2EF; width:150px; border:6px solid #8C1708; border-top:0; padding:0; margin:0}
+#section ul li {margin:0; background:none; line-height:31px; vertical-align:middle; text-align:left}
+#section ul li a {color:#000000; border-right:0; padding:3px 12px 3px 16px; width:122px}
+#section li:hover a.trigger, #section li a.tregger {color:#FFCCA0; background:transparent}
+#section li:hover ul {display:block}
+#section ul li:hover a, #section ul li.iesix a {background:#FFFFFF!important; color:#000000!important}
+
+#search {float:right; background:url(flattering/img02.gif) no-repeat 100% 0%; height:50px; text-align:right; width:280px}
+#search input {font:12px Georgia, "Times New Roman", Times, serif; letter-spacing:0; border:0}
+#search #search_text {
+	width: 135px;
+	height: 18px;
+	padding: 3px 0 0 5px;
+	background:#ECF9E4;
+	color: #658453;
+	margin-top:13px;
+}
+#search #search-submit {
+	height: 21px;
+	margin-left: 12px;
+	color: #39561D;
+	margin:13px 10px 0 10px;
+	width: 54px;
+}
+#bottom-bg {background:url(flattering/img07.gif) no-repeat 0% 0%; height:25px}
+#bottom-bg .floatright {float:right; background:url(flattering/img07.gif) no-repeat 100% 0%; height:25px; width:50%}
+
+
+.stbLR {padding-bottom:20px}
+#stbL {padding:10px 10px 0 10px}
+#stbC {padding:10px 10px 0 10px}
+#stbR {padding:10px 10px 0 10px}
+#srboard {background-color:#FFFFFF}
+
+.brace {font-size:11px; color:#145DAA; float:right; text-align:right; padding-right:15px}
+.floatleft {float:left}
+.analdv {background:url(flattering/img01.gif) repeat-y 1% 98%; padding-top:2px; font-family:tahoma,Gulim; font-size:7pt; color:#FFFFFF; text-align:center}
+#footer {
+	text-align:center;
+	padding:10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: url(flattering/img07.jpg) no-repeat left top;
+	color: #FFFFFF;}
+
+#footer a {
+	color: #B03336;
+}

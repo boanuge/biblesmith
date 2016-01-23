@@ -1,0 +1,10 @@
+<?
+$chtwidth = '100%'; // 전체넓이
+$chtheight = '150px'; // 전체높이
+$chthorizon = 'v'; // h:가로2단, v:세로2단
+$cht_cntwh = '120px'; // 채팅본문
+$cht_usrwh = '30px'; // 참여자란
+$chtisbr = 'Y'; // 닉과 본문사이 줄바꿈
+$chtid = 'aaa'; // 채팅방아이디
+include("chat_w.php");
+?>

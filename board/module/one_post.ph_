@@ -1,0 +1,42 @@
+<?
+$sdno = array("blog",1084); //게시물지정 = array("게시판id",게시물번호);
+$rdth = explode("\x1b",$fsbs[$sdno[0]]);
+$frn = fopen($dxr.$sdno[0]."/no.dat","r");
+$frl = fopen($dxr.$sdno[0]."/list.dat","r");
+$frb = fopen($dxr.$sdno[0]."/body.dat","r");
+$sdn6 = str_pad($sdno[1],6,0,STR_PAD_LEFT);
+while(!feof($frn)) {
+$frno = fgets($frn);
+if(substr($frno,0,6) == $sdn6) {
+$frlo = explode("\x1b",fgets($frl));
+$frbo = strcut(fgets($frb),128);
+} else if($frno == "\n" || $frno == "") {
+if($rdth[6]) {
+fclose($frn);
+fclose($frl);
+fclose($frb);
+$frn = fopen($dxr.$sdno[0]."/^".$rdth[6]."/no.dat","r");
+$frl = fopen($dxr.$sdno[0]."/^".$rdth[6]."/list.dat","r");
+$frb = fopen($dxr.$sdno[0]."/^".$rdth[6]."/body.dat","r");
+$rdth[6]--;
+} else break;
+} else {
+fgets($frl);
+fgets($frb);
+}}
+fclose($frn);
+fclose($frl);
+fclose($frb);
+if($frlo[3]) {
+if($frlo[4]) $frlo[4] = (substr($frlo[4],0,7) == 'http://')? $frlo[4]:$exe."?id=".$sdno[0]."&amp;file=".$frlo[4];
+$frlo[4] = ($frlo[4])? "<img src='{$frlo[4]}' alt='' style='cursor:pointer;width:70px;height:70px;float:left;margin:5px;border:1px solid #ADB8FF' />":"";
+?>
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div class='menu_title menuone'><div>주목하세요</div></div></div>
+<div class='menu60'><div class='menu40' onclick="rplace('<?=$index?>?id=<?=$sdno[0]?>&amp;no=<?=$sdno[1]?>')" style='padding-right:10px;overflow:auto'>
+<div style='font-weight:bold'><img src='icon/sy.gif' alt='' style='margin-bottom:2px' />&nbsp;<a href='#none'><?=$frlo[3]?></a></div> 
+<div class='f8' style='color:#BBBBBB'>
+<?=$frlo[4]?>
+<?=$frbo?></div>
+</div></div><div class='menu70'><div></div></div></div></div>
+<?}?>

@@ -1,0 +1,155 @@
+.cbody, .bbody {background:#FCA4F7;}
+.menu20 {margin-bottom:15px; text-align:left}
+.menu20 td {vertical-align:top}
+.menu20 .menu40 {clear:both; padding:7px 0 0 10px; text-align:left; overflow:hidden; line-height:15px}
+.menu20 .entry-content div {overflow:hidden; white-space:nowrap; width:98%}
+.menu20 .entry-content div.link {background: url(../icon/arw.gif) no-repeat left center; padding-left:4%; width:94%}
+.menu20 .entry-content div a:link, .menu20 .entry-content div a:visited {text-decoration:none}
+.menu20 .entry-content div a:hover, .menu20 .entry-content div a:active {text-decoration:none; color:#145DAA}
+.menu20 .menu40 input {font-family:Gulim; font-size:9pt; height:15px; letter-spacing:0}
+.menu20 .menu40 span {cursor:pointer; margin:2px}
+.menu20 form.shform {margin:0; padding:7px 0 7px 0}
+.menu20 form.shform input.find {width:75%; height:16px; padding:2%}
+.menu20 .menu40 form.shform input.srbt {width:13%; height:24px}
+input.search {background:#FEFEFE url('../icon/b1.gif'); border:0; border-right:1px solid #BEBDBE; border-left:1px solid #D1D1D1; font-family:Gulim; font-size:9pt; height:20px; cursor:pointer}
+.menu52 {border:0}
+.menu20 .menu50 a,.menu20 .menu50 a:link {display:block; font-size:12px; font-family:Gulim; font-size:9pt}
+.menu50 a.linK:hover,.menu20 .menu50 a.linK:visited,.menu20 .menu20 .menu50 a.linK,.menu20 .menu50 a.linK:link,.menu20 .menu50 a.linK:hover,.menu20 .menu50 a.linK:visited,.menu20 .menu50 a.linK:active {border:1px solid #B8B8B8; text-decoration:none; padding:7px 0 0 20px; height:17px; color:#222222; text-align:left; margin:1px 0 1px 0}
+.menu20 .menu50 a.thbd,.menu20 .menu50 a.thbd:link,.menu20 .menu50 a.thbd:hover,.menu20 .menu50 a.thbd:visited,.menu20 .menu50 a.thbd:active {background:#F0F0F0}
+.menu20 .menu50 a.linK:hover {border:0; height:19px; background:url(flourish/img01.jpg) repeat-x 50% 60%; color:#FFF}
+.menu20 .menu50 a.linK:hover span {color:#FFF}
+.menu20 .menu50 a.heaD,.menu20 .menu50 a.heaD:link,.menu20 .menu50 a.heaD:hover,.menu20 .menu50 a.heaD:visited,.menu20 .menu50 a.heaD:active {border:0; text-decoration:none; height:19px; background:url(flourish/img01.jpg) repeat-x 50% 60%; color:#FFF; text-align:center; padding:7px 0 0 0}
+.menu20 .menu50 div.secc div {display:none}
+.menu20 .menu50 div.secc:hover div {display:block}
+.menu20 .menu60 {padding:0; border:0}
+.menu20 .menu70 {padding:0; border:0; height:0}
+.menu20 .center10 {padding-top:3px; padding-bottom:10px; text-align:center}
+#st_visitor {padding:5px 0 5px 40px}
+#st_visitor a,#st_visitor a:link,#st_visitor a:hover {display:block; padding-top:0; padding-bottom:4px; height:16px; color:#222; border:0}
+.menu20 .menu40 .gthumb_100 {width:75px; height:75px; border:3px solid #F0F0F0; margin:0 3px 3px 0}
+.menu20 .menu40 .gthumb_100:hover {border-color:#FF871B}
+.menutg {clear:both; padding:7px 0 0 10px}
+.menu20 .menu25 {font-family:'Malgun Gothic';background: url(flourish/img02.jpg) no-repeat left top; padding:8px 15px 0px 20px; height:32px;color: #FFFFFF;}
+.menu20 .menu_title,.menu20 .menu_title div {font-weight:bold; cursor:pointer}
+.menu20 .menuoff {float:left; color:#FCA4F7; border-color:#EBEBEB; width:45%}
+.menu20 .menuon {float:left; width:45%}
+.small {font-family:tahoma,Gulim; font-size:11px; color:#FFF0FE}
+.menu20 .calendar {width:94%}
+.menu20 .calendar td {text-align:center; padding-top:4px}
+.menu20 .calendar .date {background-color:#FFFFFF}
+.menu20 .calendar .isdoc {border:1px solid #C7C7C7; padding-top:3px; cursor:pointer}
+.menu20 .calendar .thisdoc {border:1px solid #FF6633; background-color:#FFFAD9; padding-top:3px; cursor:pointer}
+.dh_allmenu {display:block}
+#sectiongroup .sctgrp div {color:#F11EE5}
+#sectiongroup a,#sectiongroup a:link, #sectiongroup a:visited, #sectiongroup a:hover, #sectiongroup a:active {color:#BA17B0}
+.bx_login,.bx_profile {background: url(flourish/img02.jpg) no-repeat left top; padding-top:40px}
+.menu20 .menu15 .menu40 {border:1px dashed #FF20F2}
+.bx_login .menu30 {padding:10px 0 15px 5px}
+.bx_profile .menu30 {padding:5px 10px 10px 10px}
+.plus {border:0; background-color:#FFFFFF; color:#145DAA; width:15px; height:14px; margin:3px 3px 3px 0; font-size:10pt}
+
+#section {position:absolute; text-align:center; z-index:7; margin:0; padding:0; list-style-type:none; text-align:center}
+#section li {float:left; width:auto; text-decoration:none; display:inline}
+#section a {display:block; width:auto; text-decoration:none; font-size:9pt; font-weight:normal; cursor:pointer}
+#section li a.trigger {height:42px}
+#section li a.trigger span {float:left; cursor:pointer; padding:6px 18px 0 18px; height:28px; margin-right: 2px; font-size:11px; font-weight:bold; color:#FFFFFF; font-family:'Malgun Gothic'}
+#section ul {list-style-type:none; position:absolute; display:none; background:#D01AC5; width:140px; border:5px solid #92128B; padding:0; margin:0}
+#section ul li {margin:0; background:none; line-height:31px; vertical-align:middle; text-align:left}
+#section ul li a {color:#FFFFFF; padding:3px 12px 3px 16px; width:102px}
+#section li a.trigger:hover span, #section li.active a.trigger span {color:#FCA4F7}
+#section li:hover a.trigger {color:#FFFFFF; background:none;}
+#section li:hover ul {display:block}
+#section ul li:hover a, #section ul li.iesix a {background:url(flourish/img02.jpg) no-repeat 50% 0%!important; color:#FFFFFF!important}
+
+
+.stbLR {padding-top:10px; padding-bottom:20px}
+#stbC {padding:10px; background:#FCA4F7}
+
+.rpdiv {background-color:#FFD2F9}
+
+.brace {font-size:11px; color:#145DAA; float:right; text-align:right; padding-right:15px}
+.floatleft {float:left}
+.analdv {background:#CC1AC2; padding-top:2px; font-family:tahoma,Gulim; font-size:7pt; color:#FFFFFF; text-align:center}
+
+h1, h2, h3 {
+	margin-top: 0;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 1.6em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1em;
+}
+#header {
+	height: 55px;
+	margin: 0 auto;
+	background: url(flourish/img01.jpg) no-repeat 100% 100%;
+}
+
+
+#nav {
+	padding:8px 0 0 10px;
+	height: 47px;
+	background: url(flourish/img01.jpg) no-repeat 0% 100%;
+}
+
+#logo {
+	height: 58px;
+	margin: 0 auto;
+	padding: 20px 10px;
+}
+
+#logo h1, #logo p {
+	float: left;
+	margin: 0;
+	color: #393019;
+}
+
+#logo h1 {
+	padding: 0px 0 0 20px;
+	text-transform: lowercase;
+	font-weight: normal;
+	font-size: 3em;
+}
+
+#logo p {
+	text-transform: uppercase;
+	padding: 22px 0 0 3px;
+	font-size: 10px;
+	color: #616161;
+}
+
+#logo a {
+	border: none;
+	text-decoration: none;
+	color: #393019;
+}
+#banner {
+	height: 250px;
+	padding:20px 0 0 0;
+}
+#footer {
+	height: 55px;
+	margin: 0 auto;
+	background:#CC1AC2;
+}
+
+#footer p {
+	margin: 0;
+	padding: 15px 0 0 0;
+	text-align: center;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}

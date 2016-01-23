@@ -1,0 +1,24 @@
+<?
+$tday3 =0;
+$tday2 =0;
+$tday1 =0;
+$yday = $today - 86400;
+$fv = fopen($dxr."count_3d.dat","r");
+while($fvo = fgets($fv)) {
+$day = substr($fvo,0,10);
+if($day < $yday) $tday3++;
+else if($day < $today) $tday2++;
+else if($day >= $today) $tday1++;
+}
+fclose($fv);
+$fa = fopen($dxr."count_all.dat", "r");
+$tday3 += fgets($fa);
+fclose($fa);
+$tday3 += $tday1 + $tday2;
+?>
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div class='menu_title menuone'><div>카운터</div></div></div>
+<div class='menu60'><div class='menu40'>
+<table class='bx_counter'><tr><td>전체 <span><?=$tday3?></span><br />오늘 <span><?=$tday1?></span><br />어제 <span><?=$tday2?></span>
+<? if($mbr_level >= $sett[25]) {?><br /><a class='arwg' target='_blank' href='<?=$index?>?view=1'> &nbsp; 방문내역</a><?}?>
+</td></tr></table></div></div><div class='menu70'><div></div></div></div></div>

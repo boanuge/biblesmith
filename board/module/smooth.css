@@ -1,0 +1,136 @@
+.bbody {background:#FFFFFF url(smooth/img01.gif) repeat-x; margin: 20px 0;}
+.menu20 {margin-bottom:15px; text-align:left; background:#FFFFFF url(smooth/img05.gif) repeat-x;}
+.menu20 td {vertical-align:top}
+.menu20 .menu40 {clear:both; padding:7px 0 0 10px; border-top: 1px solid #FFFFFF; background:#FFF url(smooth/img06.gif) repeat-x; text-align:left; overflow:hidden; line-height:15px}
+.menu20 .entry-content div {overflow:hidden; white-space:nowrap; width:98%}
+.menu20 .entry-content div.link {background: url(../icon/arw.gif) no-repeat left center; padding-left:4%; width:94%}
+.menu20 .entry-content div a:link, .menu20 .entry-content div a:visited {text-decoration:none}
+.menu20 .entry-content div a:hover, .menu20 .entry-content div a:active {text-decoration:none; color:#145DAA}
+.menu20 .menu40 input {font-family:Gulim; font-size:9pt; height:15px; letter-spacing:0}
+.menu20 .menu40 span {cursor:pointer; margin:2px}
+.menu20 form.shform {margin:0; padding:7px 0 7px 0}
+.menu20 form.shform input.find {width:75%; height:16px; padding:2%}
+.menu20 .menu40 form.shform input.srbt {width:13%; height:24px}
+input.search {background:#FEFEFE url('../icon/b1.gif'); border:0; border-right:1px solid #BEBDBE; border-left:1px solid #D1D1D1; font-family:Gulim; font-size:9pt; height:20px; cursor:pointer}
+.menu20 .menu50 {margin:0}
+.menu20 .menu50 a {display:block; font-size:12px; font-family:Gulim; font-size:9pt}
+.menu20 .menu50 a.linK,.menu20 .menu50 a.linK:link,.menu20 .menu50 a.linK:hover,.menu20 .menu50 a.linK:visited,.menu20 .menu50 a.linK:active {border:1px solid #B8B8B8; background:#FAFAFA; text-decoration:none; padding:7px 0 0 20px; height:17px; color:#222222; text-align:left; margin:1px 0 1px 0}
+.menu20 .menu50 a.thbd,.menu20 .menu50 a.thbd:link,.menu20 .menu50 a.thbd:hover,.menu20 .menu50 a.thbd:visited,.menu20 .menu50 a.thbd:active {background:#EEFCE4}
+.menu20 .menu50 a.linK:hover {border:0; height:19px; background:#61B02C; color:#FFF}
+.menu20 .menu50 a.linK:hover span {color:#FFF}
+.menu20 .menu50 a.heaD,.menu20 .menu50 a.heaD:link,.menu20 .menu50 a.heaD:hover,.menu20 .menu50 a.heaD:visited,.menu20 .menu50 a.heaD:active {text-decoration:none; background-color:transparent; border:0; height:25px; font-size:12px; font-weight:bold; cursor:pointer; color:#FFF; padding:13px 0 0 20px}
+.menu20 .menu50 div.secc div {display:none}
+.menu20 .menu50 div.secc:hover div {display:block}
+.menu20 .menu60 {padding:0; border:0}
+.menu20 .menu70 {padding:0; border:0; height:0}
+.menu20 .center10 {padding-top:3px; padding-bottom:10px; text-align:center}
+#st_visitor {padding:5px 0 5px 40px}
+#st_visitor a,#st_visitor a:link,#st_visitor a:hover {display:block; padding-top:0; padding-bottom:4px; height:16px; color:#222; border:0}
+.menu20 .menu40 .gthumb_100 {width:75px; height:75px; border:3px solid #F0F0F0; margin:0 3px 3px 0}
+.menu20 .menu40 .gthumb_100:hover {border-color:#FF871B}
+.menutg {clear:both; padding:7px 0 0 10px; border-top: 1px solid #FFFFFF; background:#FFF url(smooth/img06.gif) repeat-x}
+.menu20 .menu25 {height:38px}
+.menu20 .menu_title {padding-top:13px; height:25px}
+.menu20 .menuone div, .menu20 .menu_title div {font-size:12px; font-weight:bold; cursor:pointer}
+.menu20 .menuoff {float:left; text-align:center; background:#72CF34; color:#9BEB67; width:49.9%}
+.menu20 .menuon {float:left; text-align:center; color:#FFFFFF; width:49.9%}
+.menu20 .menuone {color:#FFFFFF; padding-left:20px}
+.small {font-family:tahoma,Gulim; font-size:11px; color:#BABABA}
+.menu20 .calendar {width:94%}
+.menu20 .calendar td {text-align:center; padding-top:4px}
+.menu20 .calendar .date {background-color:#FFFFFF}
+.menu20 .calendar .isdoc {border:1px solid #C7C7C7; padding-top:3px; cursor:pointer}
+.menu20 .calendar .thisdoc {border:1px solid #FF6633; background-color:#FFFAD9; padding-top:3px; cursor:pointer}
+.dh_allmenu {display:block}
+#sectiongroup .sctgrp div {color:#EF81E2}
+#sectiongroup a,#sectiongroup a:link, #sectiongroup a:visited, #sectiongroup a:hover, #sectiongroup a:active {color:#F7C1F2}
+.bx_login, .bx_profile {}
+.menu20 .menu30 {padding:40px 0 10px 0; border-top: 1px solid #FFFFFF}
+.menu20 .menu30 {background:#FFFFFF url(smooth/img06.gif) repeat-x; padding-top:5px}
+.plus {border:0; background-color:#FFFFFF; color:#145DAA; width:15px; height:14px; margin:3px 3px 3px 0; font-size:10pt}
+
+#header {width:100%}
+#nav {position:relative; z-index:7; float:right}
+#section {height:50px; text-align:center; clear:both; margin:79px 0 0 0; padding:0; list-style-type:none; text-align:center}
+#section a {display:block; width:auto; text-decoration:none; font-size:9pt; font-weight:normal; cursor:pointer}
+#section li {float:right; width:auto; text-decoration:none; display:inline; margin-left:2px}
+#section li a.trigger {padding:0; height:40px}
+#section li a.trigger span {float:left; width:80px; color:#000; font-size:14px; font-family:'Malgun Gothic'; padding:12px 20px 0 20px; height:28px; background:url(smooth/img02.gif) no-repeat}
+#section li.active a.trigger span {background-image:url(smooth/img04.gif)}
+#section ul {list-style-type:none; position:absolute; z-index:7; text-align:left; width:140px; display:none; background:#FFFFFF url(smooth/img06.gif) repeat-x; border:6px solid #97EA60; padding:0; margin:0}
+#section ul li {margin:0; background:none; line-height:31px; vertical-align:middle; text-align:left}
+#section ul li a {color:#005476; padding-top:3px; padding-bottom:3px; padding-left:12px; width:128px}
+#section li:hover a.trigger span, #section li a.tregger span {color:#000; background:url(smooth/img03.gif);}
+#section li:hover a.trigger {color:#000; background:none}
+#section li:hover ul {display:block}
+#section ul li:hover a, #section ul li.iesix a {background-color:#005476!important; color:#FFFFFF!important}
+
+
+#stbC, .stbLR {padding-top:20px; padding-bottom:20px}
+
+.brace {font-size:11px; color:#145DAA; float:right; text-align:right; padding-right:15px}
+.floatleft {float:left}
+.analdv {background: url(smooth/img05.gif) repeat 0% 100%; padding-top:2px; font-family:tahoma,Gulim; font-size:7pt; color:#FFFFFF; text-align:center}
+
+#header {
+	height: 120px;
+	padding: 20px 20px 0 20px;
+}
+
+#header .logo h1, #header .logo h2, #footer
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#header .logo 
+{
+	width: 240px;
+	height: 50px;
+	font-size: 11px;
+	vertical-align:bottom;
+}
+#header .logo h1
+{
+	margin: 0;
+	padding: 40px 0 0 0;
+	font-size: 36px;
+}
+
+#header .logo h2
+{
+	margin-top: -5px;
+	font-size: 14px;
+}
+#header .logo a
+{
+	color: #222;
+	text-decoration: none;
+}
+
+.contents
+{
+	padding: 20px;
+	background: url(smooth/img02.jpg) no-repeat;
+	border-top: 1px solid #FFFFFF;
+}
+#footer {
+	height: 40px;
+	padding: 40px 0;
+	background:#EA5ADA;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	line-height: normal;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}

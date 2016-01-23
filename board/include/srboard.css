@@ -1,0 +1,197 @@
+* {outline:none}
+img {border:0}
+input, select {padding:0; vertical-align:middle}
+.srbt {background:#FEFEFE url('../icon/b1.gif'); border:0; border:1px solid; border-color:#D1D1D1 #BEBDBE #BEBDBE #D1D1D1; font-family:Gulim; font-size:9pt; padding:0px 2px 0 2px; height:20px; cursor:pointer}
+.pass {cursor:move}
+.gtlst {line-height:160%; vertical-align:top; padding:5px; text-align:left}
+.lnkrp {float:left; padding-left:4px}
+.ftlft {float:left}
+.ftrgt {float:right}
+.fcler {clear:both}
+.lnkrp img, .mL4 {vertical-align:middle; border:0}
+.mL4 {margin-left:4px}
+.wh13 {width:13px; height:13px}
+.nL4 {float:left; margin-left:4px; margin-top:4px}
+.oL4 {margin-left:4px; margin-top:4px; vertical-align:top}
+table, .allft {text-align:left}
+#imgopen th {background:#FEFEFE url('../icon/c1.gif')}
+#imgopen a, #imgopen input {display:block; background:transparent; border:0; text-align:center; font-weight:normal; height:22px;  width:100%; color:#222; font-size:9pt}
+#imgopen a {text-decoration:none; padding-top:5px; height:17px}
+.pu80 {width:80px; height:80px; margin-bottom:6px}
+.tab_list td {vertical-align:top}
+.mbr_info {background:#FAFAFA; border:1px solid #92ABDB; border-top-width:0}
+.mbr_info div {height:13px}
+.mbr_info div.mbr_title, .c1png {height:27px; padding-top:8px; background:url('../icon/c1.gif') repeat-x 0% 0%; font-family:"Malgun Gothic"; font-size:10pt}
+.mbr_info div.mbr_title {margin-bottom:12px; }
+.mbr_info .left {float:left; width:110px; background:url('../icon/sg.gif') no-repeat 0% 30%; padding-left:16px; margin-left:30px}
+.mbr_info .sy {background-image:url('../icon/sy.gif')}
+.mbr_info .right {float:left; padding-left:10px}
+div.mother {border:1px solid #DDDDDD; padding:20px; width:334px; height:37px; background:#FFF}
+div.mother div {float:left; border:1px solid #DDDDDD; border-right-width:0; padding:10px; height:15px}
+div.mother input {border:0; padding:0}
+fieldset.sign {line-height:140%}
+img.lock {border:0; vertical-align:middle; margin-right:3px}
+.msrbt {border:1px solid #B4BAC1; background:#F3F3F3; font-size:14px; padding:5px 20px 5px 20px; margin:6px 8px 6px 8px; cursor:pointer}
+.nobr {white-space:nowrap; overflow:hidden; text-align:left}
+.iscmtnt {display:none; position:absolute; border:1px solid #B9DCF9; line-height:150%; padding:10px 0px 10px 25px; width:168px; text-align:left; background-color:#FAFFFF}
+
+.gthumb_100 {background:#FFF}
+.ta7,.ta5 {font-family:tahoma,Gulim; font-size:7pt}
+.ta7 {color:#d7d7d7}
+.ta5 {color:#55BEFF}
+
+td.antispamdv {padding-left:9px}
+div.antispamdv {float:right}
+.antispamdv img {width:66px; vertical-align:middle}
+.antispamdv input {width:100px; margin-left:5px; margin-right:5px}
+
+/*섹션그룹*/
+#sectiongroup {position:absolute; top:0; left:0; width:100%; height:24px}
+#sectiongroup .sctgrp {margin:0 auto 0 auto}
+#sectiongroup .sctgrp div {padding-top:5px; color:#D0D0D0; text-align:right}
+#sectiongroup a,#sectiongroup a:link, #sectiongroup a:visited, #sectiongroup a:hover, #sectiongroup a:active {color:#777}
+
+
+#mdrpdv {border-style:solid; border-width:1px; border-color:#D7D7D7 #8E8E8E #8E8E8E #D7D7D7; padding:1px 0 0 1px; background:#EAEAEA}
+#mdrpdv .mdrp {background:#D7D7D7; padding:2px}
+#mdrpdv .mvpopup {border-bottom:1px solid #D7D7D7; height:15px; background:#DFDFDF; padding:2px}
+#mdrpdv .mvpopup input {padding-right:3px; cursor:pointer; background:#DFDFDF; border-style:solid; border-width:1px; border-color:#EAEAEA #8E8E8E #8E8E8E #EAEAEA; float:right; font-size:11px; font-weight:bold; color:#000; font-family:gulim}
+#mdrpdv .passup {border-style:solid; border-width:1px; border-color:#8E8E8E #EAEAEA #EAEAEA #8E8E8E; background:#D7D7D7; padding:0 1px 1px 0}
+#mdrpdv table {width:100%; background:#EAEAEA}
+#mdrpdv td {padding:0 10px 0 10px; text-align:center}
+#pview .prsjt {background-color:#F0F0F0; font-weight:bold; padding:4px} /* 미리보기 제목 */
+
+/*태그목록*/
+.menutg span {cursor:pointer}
+.menutg .fav4 {font-size:20px; line-height:22px; color:#FFFFFF; font-weight:bold; background-color:#12D763; padding:0px 3px 0px 3px}
+.menutg .fav3 {font-size:18px; line-height:20px; color:#FFFFFF; background-color:#12D7D7; padding:0px 3px 0px 3px}
+.menutg .fav2 {font-size:16px; line-height:19px; color:#2A5EB2; font-weight:bold}
+.menutg .fav1 {font-size:14px; line-height:17px; color:#3C7B66}
+.menutg .fav0 {font-size:12px; line-height:16px; color:#222222}
+.menutg a:link, .menutg a:visited, .menutg a:hover, .menutg a:active {text-decoration:none}
+.menutg a:hover, .menutg a:hover span, .menutg a:active span {color:#fff; background:#000}
+
+/* login popup */
+#srlogin {display:none; position:absolute; padding:5px; line-height:130%; z-index:99}
+#srlogin .srlogin {background:#D1D1D1; border:1px solid #9C9C9C; padding:4px}
+#srlogin .srlohead {background:#D1D1D1; height:18px; text-align:right; padding-right:2px; cursor:move}
+#srlogin .srlohead img {height:15px; cursor:pointer}
+#srlogin .srlobody {background:#fff; border:1px solid #9C9C9C}
+
+
+/* board name */
+.bd_name {margin-bottom:20px; text-align:left}
+.bd_name div {text-align:right; height:20px; border-bottom:3px solid #DDD; font-size:8pt; font-family:Dotum; color:#8D8D8D; padding-top:10px}
+.bd_name h2 {margin:0; position:absolute; width:auto; background:url('../icon/F96348.gif') no-repeat 100% 180%; border-bottom:3px solid #F96348; height:30px; font-size:16px; font-weight:bold; font-family:'Malgun Gothic'; padding:0 15px 0 5px}
+.bd_name h2 img {margin-right:10px; vertical-align:middle}
+.bd_name div a,.bd_name div a:link,.bd_name div a:visited {text-decoration:none; color:#8D8D8D}
+.bd_name h2 a,.bd_name h2 a:link,.bd_name h2 a:visited,.bd_name h2 a:hover {text-decoration:none; color:#222}
+
+
+/* 별점 (평점) */
+.rating {width:400px; margin:0 auto 0 auto; padding:10px; margin-top:10px; height:21px; border:1px solid #ccc}
+.rating .rating_bg {height:21px; float:left; width:126px; background:url('../icon/rating_bg.gif') no-repeat}
+.rating .rating_st {height:21px; background:url('../icon/rating_st.gif') no-repeat}
+.rating_set {height:20px; margin-left:50px; text-align:center; border:1px solid #444; cursor:pointer; background:#f1f1f1}
+.rating_fd {display:none; padding:0; margin:0; position:absolute; z-index:3; text-align:left}
+.rating_fd .rating_sel {background:#fff url('../icon/rating_bg.gif') no-repeat; cursor:pointer}
+.rating_fd .rating_sel:hover {background-color:#000}
+.bd_name a,.bd_name a:hover {text-decoration:none; color:#222}
+
+/* list number */
+.p_no {color:#FF6633; font-weight:bold}
+.pageno {font-family:Dotum; font-size:11px; color:#D6D6D6; text-align:center; letter-spacing:1px; padding-bottom:20px; color:#4B4B4B}
+.pageno table {padding-top:10px}
+.pageno td font {display:block; padding:4px 0px 4px 0px; margin:1px}
+.pageno td a {display:block; padding:4px 6px 4px 6px; margin:1px}
+.pageno a:hover {border:1px solid #BABABA; text-decoration:none; margin:0}
+
+/* 목록상단 범주리스트 */
+.ct_vtc {clear:both; padding:0; margin:0; text-align:left}
+.ct_vtc input {border:0; border:1px solid #DDDDDD; background:#F9F9F9 url('../icon/b1.gif') repeat-x; padding:0 9px 0 9px; margin:0 1px 1px 0; height:30px; color:#454545; cursor:pointer}
+.ct_vtc input.slctd {background:#FFFFFF; font-weight:bold; color:#FF6600}
+
+/* 목록하단 검색 */
+select.sform {width:80px; border:0; border:1px solid #E2E3EA; height:18px}
+input.sform {width:150px; height:14px}
+
+/* member_login */
+form.loginfm {margin:0}
+form.loginfm div.minfdv {background:#B9DCF9; width:80%; padding:1px}
+form.loginfm div.minfdv div {text-align:left; background:#FAFAFA url('../icon/450.gif') repeat-x 0% 0%; padding:4px 0 4px 8px; line-height:120%; border:1px solid; border-color:#FFFFFF #E2E9F0 #E2E9F0 #FFFFFF}
+form.loginfm div.minfdv div span {font-family:tahoma; font-size:8pt}
+form.loginfm div.minfdv div span.r8 {color:#f63}
+form.loginfm .minlik {line-height:120%; text-align:left; width:80px; padding:5px}
+.register_find {color:#D1D1D1}
+.register_find a {font-family:Dotum; font-size:8pt}
+form.loginfm .i93 {width:93px; height:16px; border:0; border:1px solid #D7D7D6; padding:0}
+.bx_counter {margin:0 auto}
+.bx_counter span {font-family:arial; font-size:11px}
+
+.c1png {border-right:1px solid #92ABDB; border-left:1px solid #92ABDB}
+form.if140 {margin:0; font-size:8pt}
+form.if140 .div1 {background-color:#FAFAFA; border:1px solid #92ABDB; padding-top:15px; padding-bottom:25px; margin:0 auto}
+form.if140 .div2 {width:280px; margin:50px auto}
+form.if140 .div3 {font-family:tahoma; font-size:23px; font-weight:bold; color:#488ED1; padding-bottom:25px; text-align:left}
+form.if140 .div4 {float:left; width:200px; text-align:left}
+form.if140 .div5 {float:left; width:80px}
+form.if140 .div6 {padding:10px; clear:both}
+form.if140 .div7 {width:230px; margin:0 auto; border:2px solid #FFFFFF; padding:15px 0 15px 0; background:#F7F8F8}
+form.if140 .i140 {width:173px; padding:7px 0 0 7px; height:23px; border:0; font-size:10pt; border:1px solid #D7D7D6}
+.username {background:#F9F9F9 url("../icon/login_name.gif") no-repeat 5% 50%}
+.password {background:#F9F9F9 url("../icon/login_pass.gif") no-repeat 5% 50%}
+.userbc {background:#F8FFF9}
+.sbmt2 {letter-spacing:1px; font-family:verdana,Gulim; font-size:13px; width:80px; height:49px; background:url('../icon/c1.gif') repeat-x 0% 50%; border:0; border:1px solid #5D96CF; margin-top:5px}
+.autolog {border:0; width:14px; height:14px; vertical-align:bottom; margin:0}
+.authority {line-height:100%; border:5px solid #F1F1F1; padding:10px; margin:0 auto; width:70%}
+.arwg {background:url('../icon/dblue.gif') no-repeat left center}
+
+/* curtain */
+#curtain {display:none; position:absolute; top:0; left:0; width:100%; background-color:#000; z-index:8}
+
+/* 달력형 목록*/
+#calendar table {background:#F7F7F7; table-layout:fixed; clear:both}
+#calendar .caption .sum {float:left; padding-top:7px; font-family:tahoma; font-size:7pt; font-weight:normal}
+#calendar .listtype {float:right; padding:4px 5px 0 0}
+#calendar .listtype img {cursor:pointer}
+#calendar .caption select {float:right; font-family:tahoma; font-size:8pt}
+#calendar table {padding-bottom:3px; margin-bottom:5px}
+#calendar th {background:#E9E9E9 url('../module/default.png') repeat-x 50% 80%; height:32px; text-align:center}
+#calendar td {width:14.3%; padding-right:5px; height:85px; overflow:hidden; white-space:nowrap; background:#FFFFFF; vertical-align:top}
+#calendar td, #calendar ul {overflow:hidden; white-space:nowrap}
+#calendar tr.thbtwn td {height:5px; background:#CCE1F7}
+#calendar .day {float:left; width:18px; height:15px; background:#F9F9F9; color:#000; padding-top:2px; text-align:center; border:1px solid #E9E9E9}
+#calendar .cnt {float:right; height:15px; font-family:tahoma; font-size:7pt; color:#91B6DC}
+#calendar ul {clear:both; height:60px; margin:0; padding:0 0 0 5px; background:#fff; list-style-type:none}
+#calendar ul li {height:20px; padding:0}
+#calendar ul li img {margin-right:5px; margin-bottom:2px; vertical-align:middle}
+#calendar ul.onload {height:auto; position:absolute; margin-top:20px; padding:15px 15px 5px 15px; border:1px solid #D7D7D7; background:#FCFCFC}
+
+/* 좌우메뉴 달력-월별목록*/
+#resizhgt_7 {font-family:tahoma; font-size:8pt}
+
+/* 좌우메뉴 높낮이*/
+.entry-content, #resizhgt_7 {height:150px; overflow:hidden}
+
+/* 좌우메뉴 시계*/
+#rfclock {font-family:verdana; font-size:20px; font-weight:bold; padding:15px; text-align:center; height:18px}
+
+/* 쪽지메일 팝업창 배경*/
+.popupbk {background:#FFF url('../icon/450.gif') repeat-x 0% 100%; overflow:hidden; margin:0}
+.popupbk form {padding:15px 0 15px 23px; margin:0}
+
+/* 좌중우박스 */
+.srmgat {margin:0 auto 0 auto; text-align:left; padding:0}
+#srboard {margin:0 auto 0 auto; padding:0; border:0; text-align:left; clear:both}
+#srboard #srbtble {width:100%; table-layout:fixed}
+#srboard .stbLR,#srboard #stbC {vertical-align:top}
+
+/* 크기조절 */
+.rszdv {height:8px; cursor:n-resize; background:url('../icon/b3.png') repeat-x 0% 70%; width:100%; margin-bottom:2px; border:0; border-left:1px solid #CDCDCD; border-right:1px solid #CDCDCD}
+
+/* 본문에 회원 최근글 */
+#mbr_list {width:70%; margin:40px auto 20px auto; background:#F5F5F5; border:2px solid #E0E0E0}
+#mbr_list div {padding:10px; color:#000000}
+#mbr_list ul {clear:both; padding:10px 10px 10px 30px; margin:0; background:#FFFFFF}
+#mbr_list a, #mbr_list a:link, #mbr_list a:visited {text-decoration:none}
+#mbr_list a.opened {color:#FF6633}

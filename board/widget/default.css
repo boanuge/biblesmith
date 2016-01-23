@@ -1,0 +1,43 @@
+/*월별 방문자수, 달력메모*/
+.calm {width:100%; font-family:verdana; table-layout:fixed}
+.calm td {text-align:center; height:36px; padding-top:4px; border:1px solid #EAEAEA; overflow:hidden; white-space:nowrap}
+.calm td div {background:#FFF; float:left; padding:1px 2px; line-height:12px; font-family:tahoma,Gulim; font-size:7pt}
+.calm .day {background-color:#E3F4EE}
+.calm td.isdoc {background-color:#FFF000}
+.calm .thisdoc {background-color:#666; color:#CFFFF6; font-weight:bold}
+.calm .navi td,.calm .day td {height:20px; border:0}
+.calm .navi a {color:#0A75BA; font-weight:bold; font-size:7pt}
+#counter_monsel, #calmemosel {font-family:tahoma; font-size:8pt; border-bottom-width:0}
+#calmwrte {width:176px; height:140px; background:#F0F0F0; padding:0}
+#calmwrte textarea {width:94%; height:85px; overflow:auto}
+#calmwrte div {background:#307BC3; color:#E8F4F9; cursor:move; padding-top:5px; height:15px; margin-bottom:2px}
+#calmwrte input {background:url('../icon/b3.png') repeat-x 50% 100%; height:20px; padding:2px 3px 2px 3px; margin:0 3.5% 0 3.5%}
+/*전광판*/
+#marker_tbl {border:3px solid #FAFAFA; background-color:#C3C3C3;width:100%}
+#marker_tbl td.mkcell {border:#FFFFFF solid; border-width:2px 1px 1px 2px; padding:3px 10px 3px 10px; background-color:#F8F8F8}
+#marker {float:left; padding:5px 0 5px 0}
+/*설문조사*/
+.poll_tbl ul {padding:0; margin:0 0 5px 0; list-style-type:none; line-height:20px; text-align:left}
+.poll_tbl li.frst {border-bottom:1px dotted #EAEAEA; padding-bottom:3px; margin-bottom:2px}
+.poll_tbl .srbt {width:66px}
+/*sitemap*/
+#stbBT {padding-bottom:10px}
+#sitemap {border:1px solid #DEDEDE; background:#F4F4F4; padding:4px}
+#sitemap .title {font-weight:bold; padding:7px}
+#sitemap .main {background:#fff; padding:7px; list-style-type:none; margin:0}
+#sitemap .dt, #sitemap .dd {float:left; padding:5px}
+#sitemap .dt {width:90px}
+#sitemap .dt a:link,#sitemap .dt a:visited {font-weight:bold; color:#5695D4; font-family:Dotum}
+
+.small {font-family:tahoma,Gulim; font-size:11px; color:#BABABA}
+
+#de818 {border:2px solid #F1F1F1; border-bottom:0; background:#808080; height:240px}
+#de818 img {cursor:pointer; border:2px solid #FFF; position:absolute}
+#de828 {border:2px solid #F1F1F1; border-top:0; background:#808080; text-align:right; padding:5px 10px 10px 0}
+#de828 input {cursor:pointer; background:transparent; border:0; border:1px solid #949494; color:#FFFFFF; padding:2px; margin-right:5px; text-align:center}
+
+/* 이미지블록 */
+div.img_block, div.img_block img {border:1px solid #DDDDDD}
+div.img_block img {float:left; margin:2px; padding:1px}
+div.img_block a:hover img,div.img_block a:active img {border-color:#7899AF; background:#7899AF}
+

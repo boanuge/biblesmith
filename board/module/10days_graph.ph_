@@ -1,0 +1,53 @@
+<div class='menu20'><div class='menu10'>
+<div class='menu25'><div class='menu_title menuone'><div>10일간 방문자수</div></div></div>
+<div class='menu60'><div id='reanalysis' class='menu40'>
+<table cellspacing='1px' cellpadding='0px' width='95%'>
+<tr>
+<?
+$big = 0;
+$sday = date("Ymd",$time - 86400*9);
+$fv = fopen($dxr."count.dat","r");
+while($fvo = fgets($fv)) {
+if(substr($fvo,0,8) >= $sday) {
+$scnt = (int)substr($fvo,8);
+if($scnt > $big) $big = $scnt;
+$sdy = substr($fvo,4,4);
+if($ssdy < $sdy && $sdy - $ssdy > 1 && $sdy - $ssdy < 70) {
+for($i = $ssdy + 1;$i < $sdy;$i++) $analy[$i] = 0;
+}
+$ssdy = $sdy;
+$analy[$sdy] = $scnt;
+}
+}
+fclose($fv);
+$tday3 =0;
+$tday2 =0;
+$tday1 =0;
+$yday = $today - 86400;
+$bday = $yday - 86400;
+$fv = fopen($dxr."count_3d.dat","r");
+while($fvo = fgets($fv)) {
+$day = substr($fvo,0,10);
+if($day < $yday) {
+if($day >= $bday) $tday3++;
+else $analy[date("md",$day)]++;
+} else if($day < $today) $tday2++;
+else if($day >= $today) $tday1++;
+}
+fclose($fv);
+if($tday3 > $big) $big = $tday3;
+if($tday2 > $big) $big = $tday2;
+if($tday1 > $big) $big = $tday1;
+$analy[date("md",$bday)] = $tday3;
+$analy[date("md",$yday)] = $tday2;
+$analy[date("md",$today)] = $tday1;
+if($big) $big = (int)(120/$big);
+if(!$big) $big = 1;
+foreach($analy as $key => $value) {?>
+<td style='vertical-align:bottom;width:10%' title='<?=substr($key,0,2)?>:<?=substr($key,2)?>'> 
+<div class='analdv' style='height:<?=$value*$big?>px'><?=$value?></div>
+</td>
+
+<?} unset($analy)?>
+</tr></table>
+</div></div><div class='menu70'><div></div></div></div></div>

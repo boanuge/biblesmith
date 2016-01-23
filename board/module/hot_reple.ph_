@@ -1,0 +1,40 @@
+<?
+$rbdt = '';
+$frot = 0;
+$i = 0;
+foreach($fsbs as $rbid => $rbset) {
+if($rbset[42] != '1' && ($i < 15 || filemtime($dxr.$rbid."/new_rp.dat") > $frot)) {
+$fr = fopen($dxr.$rbid."/new_rp.dat","r");
+while($fro = trim(fgets($fr))) {
+$rbdt[substr($fro, 34, 10)] = array($rbid,$fro,$rbset[16]);
+$i++;
+}
+fclose($fr);
+if($i >= 15) {
+krsort($rbdt);
+$rbdt = array_slice($rbdt,0,15,TRUE);
+$frot = key(array_slice($rbdt,-1,1,TRUE));
+}}}
+if(is_array($rbdt)) {
+krsort($rbdt);
+?>
+<div class='menu20 hslice' id='m20_arrp'><div class='menu10'>
+<div class='menu25'><div class='menu_title menuone entry-title' onclick="resize_n('arrp')" style="cursor:pointer"><div>전체 최근덧글</div></div></div>
+<div class='menu60'><div id='resizhgt_arrp' class='menu40 entry-content'>
+
+<?
+$i = 1;
+while($i <= 15 && list($key,$value) = each($rbdt)) {
+$frr = preg_replace("`<[^>]+>?`i", "",str_replace("\"","",str_replace("&","&amp;",substr($value[1], 44))));
+if($frr[0] == "\x1b") $frr = "[비밀글]";
+?>
+<div class='link'><a href='<?=$index?>?id=<?=urlencode($value[0])?>&amp;<?=($value[2] == 'd')?'rp':'no';?>=<?=(int)substr($value[1],0,6)?>&amp;cc=<?=substr($value[1],6,7)?>' class='pvxy'><?=$frr?></a></div><div class='small'><?=date("m/d", $key)?> - <?=substr($value[1], 14, 20)?><?if($section) echo "[".$bdidnm[$value[0]]."]";?></div>
+<?
+$i++;
+}
+?>
+
+</div></div><div class='menu70'><div></div></div></div></div>
+<?
+}
+?>
