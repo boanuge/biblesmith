@@ -1,0 +1,1284 @@
+@charset "utf-8";
+
+/* CSS Document */
+*,
+html,
+body
+{
+	font-size: 25px;
+	line-height: 25px;
+}
+
+a,
+a:visited,
+a:active
+{
+	outline: 0;
+	outline: none;
+	text-decoration: none;
+	font-color: black;
+}
+
+.intro
+{
+	color: #707070;
+	letter-spacing: .1em;
+	margin: 3px;
+	padding: 10px;
+	line-height: 20px;
+}
+
+.home-date
+{
+	color: #0E5783;
+	vertical-align: middle;
+}
+
+#return
+{
+	line-height: 5px;
+	height: 5px;
+}
+
+.h1
+{
+	font-weight: bold;
+	margin-left: 5px;
+	color: #999;
+}
+
+.region
+{
+	text-transform: uppercase;
+	padding-left: 5px;
+	color:#666666;
+	margin-left: 2px;
+	letter-spacing: 0.7px;
+}
+
+.region1
+{
+	text-transform: uppercase;
+	color:#FFFFFF;
+	margin-left: 2px;
+	letter-spacing: 0.7px;
+	margin-top: 5px;
+}
+
+.region_name
+{
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	font-weight: bold;
+	color:#666666;
+	padding-bottom: 4px;
+}
+
+.region_name1
+{
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	font-weight: bold;
+	color: #FFFFFF;
+	vertical-align: bottom;
+	padding-left: 10px;
+}
+
+.region1 a:link,
+.region1 a:visited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.region1 a:hover { text-decoration: none; }
+
+h2.question a:link
+{
+	padding: 0 0 0 0px;
+	margin: 0 0 0px 0;
+	width: 99%;
+	margin-top: 1px;
+	letter-spacing: 0.7px;
+	text-transform: normal;
+	color: #666666;
+	font-weight: bold;
+	font-size:25px;
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
+
+.flagFit
+{
+	max-width: 130px;
+	max-height: 110px;
+}
+
+/* ----------------------   History Page ---------- */
+#history td
+{
+	letter-spacing: 0.1em;
+	padding-left: 5px;
+	font-weight: normal;
+	vertical-align: top;
+}
+
+.category_data
+{
+	letter-spacing: 1px;
+	line-height: 26px;
+	vertical-align: middle;
+	padding: 5px;
+	color: #707070;
+	padding-left: 10px;
+}
+
+p .category_data
+{
+	display: block;
+	letter-spacing: 1px;
+	line-height: 26px;
+	vertical-align: middle;
+	color: #707070;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+.category_data a:hover,
+.category_data a:link
+{
+	text-decoration: none;/*	margin-left: 5px;*/
+	color: #999;
+}
+
+.category_titles
+{
+	color: #666666;
+	text-transform: none;
+	font-weight: bold;
+	letter-spacing:  0.09em;
+	padding-left: 5px;
+	margin-left: 5px;
+	line-height: 15px;
+}
+
+.year
+{
+	color: #999999;
+	vertical-align: top;
+	line-height: 18px;
+	align: center;
+	font-weight: bold;
+}
+
+.date
+{
+	letter-spacing: 0.05em;
+	text-transform: none;
+	color: #999999;
+}
+
+.address
+{
+	color: #666666;
+	padding-left: 5px;
+}
+
+.category,
+.category a:link
+{
+	color: #666666;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-transform: none;
+	letter-spacing: .06px;
+	vertical-align: middle;
+	line-height: 26px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+/* ----------------------   Reference Maps ---------- */	
+
+.refmap_bkgrnd
+{
+	background-image:    url(../graphics/ref_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#refmaps td
+{
+	align: center;
+	color: #666666;
+}
+
+#refmaps img
+{
+	border: 1px solid #D5CFD0;
+	padding: 1px;
+}
+
+#refmaps #print img
+{
+	border: none;
+	padding: 1px;
+}
+
+#refmaps #print a:link
+{
+	color: #666666;
+	padding-bottom: 5px;
+	text-decoration: none;/*	margin-left: 5px;*/
+}
+
+#refmaps .smalltext_nav a:link,
+#refmaps .smalltext_nav a:visited
+{
+	text-decoration: none;
+	color: #cccccc;
+	text-decoration: none;/*	margin-left: 5px;*/
+}
+
+.refmaps_lgflag_border
+{
+	padding: 10px;
+	border: 1px solid grey;
+	max-height: 600px;
+	max-width: 500px;
+}
+
+.refmaps_dark
+{
+	background-image: url(../graphics/gold_gradiant.gif);
+	background-repeat: repeat-x;
+}
+
+.refmaps_medium { background-color: #F2F2D3; }
+
+#refmaps .smalltext_nav a:hover { text-decoration: none; }
+
+.smalltext_nav
+{
+	font-size: 8px;
+	color:	#666666;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	text-decoration: none;
+	padding-left: 5px;
+}
+
+.smalltext
+{
+	font-size: 9px;
+	color: #666666;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+}
+
+.smalltext a:link,
+.smalltext a:visited
+{
+	font-size: 9px;
+	color: #666666;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+}
+
+.smallertext
+{
+	font-size: 8px;
+	color: #666666;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+}
+
+.smallertext a:link,
+.smallertext a:visited
+{
+	font-size: 8px;
+	color: #666666;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+}
+
+.smallertext a:hover { text-decoration: none; }
+
+/* ------------------------------------------------------------------- COUNTRY PAGE BREAKDOWN -------------------------------------------------------*/
+
+/* AFRICA ---------- */
+
+.afr_dark
+{
+	background-image: url(../graphics/afr_dark.jpg);
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.afr_medium
+{
+	background-image: url(../graphics/afr_medium.jpg);
+	color: #3f7805;
+	text-align: left;
+}
+
+.afr_light
+{
+	background-image: url(../graphics/afr_light.jpg);
+	color: #666666;
+	text-align: left;
+}
+
+.afr_flag_loc_bkgrnd
+{
+	background-image: url(../graphics/afr_flag_loc_bkgrnd.jpg);
+	background-repeat: no-repeat;
+	background-position:top left;
+}
+
+.afr_map_bkgrnd
+{
+	background-image: url(../graphics/afr_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+#afr_smflag_bkgrnd
+{
+	background-image: url(../graphics/afr_smflag_bkgrnd.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	text-align:center;
+}
+
+#afr_lgmapborder
+{
+	border: 2px solid #d9e4cd;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#afr_smmapborder
+{
+	border: 1px solid #d9e4cd;
+	background-color: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+.afr_lglocatorborder
+{
+	border: 2px solid #d9e4cd;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.afr_photogallery_bkgrnd
+{
+	background-image: url(../graphics/afr_photogallery_bkgrnd.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.afr_lgflagborder
+{
+	border: 2px solid #d9e4cd;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+.afr_selected
+{
+	background-image: url(../graphics/afr_light.jpg);
+	background-repeat: repeat;
+}
+
+/* ANTARTCIA ------------------ */
+
+.ant_dark
+{
+	background-image: url(../graphics/ant_dark.jpg);
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.ant_medium
+{
+	background-image: url(../graphics/ant_medium.jpg);
+	color: #734d73;
+	text-align: left;
+}
+
+.ant_light
+{
+	background-image: url(../graphics/ant_light.jpg);
+	color: #666666;
+	text-align: left;
+}
+
+.ant_map_bkgrnd
+{
+	background-image: url(../graphics/ant_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+.ant_flag_loc_bkgrnd
+{
+	background-image: url(../graphics/ant_flag_loc_bkgrnd.jpg);
+	background-repeat: no-repeat;
+	background-position:top left;
+}
+
+#ant_lgmapborder
+{
+	border: 2px solid #e3dbe3;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#ant_smmapborder
+{
+	border: 1px solid #e3dbe3;
+	background-color: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+.ant_lglocatorborder
+{
+	border: 2px solid #e3dbe3;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.ant_photogallery_bkgrnd
+{
+	background-image: url(../graphics/ant_photogallery_bkgrnd.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.ant_selected
+{
+	background-image: url(../graphics/ant_light.jpg);
+	background-repeat: repeat;
+}
+
+.ant_lgflagborder
+{
+	border: 2px solid #e3dbe3;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+/* AUSTRALIA/OCEANIA ------------------ */
+.aus_text { color: #006699; }
+
+.aus_dark
+{
+	background-image: url(../graphics/aus_dark.jpg);
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.aus_medium
+{
+	background-image: url(../graphics/aus_medium.jpg);
+	color: #006699;
+	text-align: left;
+}
+
+.aus_light
+{
+	background-image: url(../graphics/aus_light.jpg);
+	color: #666666;
+	text-align: left;
+}
+
+.aus_flag_loc_bkgrnd
+{
+	background-image: url(../graphics/aus_flag_loc_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+.aus_map_bkgrnd
+{
+	background-image: url(../graphics/aus_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+#aus_lgmapborder
+{
+	border: 2px solid #cce0eb;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#aus_smmapborder
+{
+	border: 1px solid #cce0eb;
+	background-color: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+.aus_lglocatorborder
+{
+	border: 2px solid #cce0eb;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.aus_photogallery_bkgrnd
+{
+	background-image: url(../graphics/aus_photogallery_bkgrnd.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.aus_lgflagborder
+{
+	border: 2px solid #cce0eb;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+.aus_selected
+{
+	background-image: url(../graphics/aus_light.jpg);
+	background-repeat: repeat;
+}
+
+/* CENTRAL AMERICA/CARRIBEAN ------------------ */
+
+.cam_dark
+{
+	background-image: url(../graphics/cam_dark.jpg);
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.cam_medium
+{
+	background-image: url(../graphics/cam_medium.jpg);
+	color: #007D7D;
+	text-align: left;
+}
+
+.cam_light
+{
+	background-image: url(../graphics/cam_light.jpg);
+	color: #666666;
+	text-align: left;
+}
+
+.cam_flag_loc_bkgrnd
+{
+	background-image: url(../graphics/cam_flag_loc_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+.cam_map_bkgrnd
+{
+	background-image: url(../graphics/cam_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+#cam_lgmapborder
+{
+	border: 2px solid #cce5e5;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#cam_smmapborder
+{
+	border: 1px solid #cce5e5;
+	background-color: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+.cam_lglocatorborder
+{
+	border: 2px solid #cce5e5;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.cam_photogallery_bkgrnd
+{
+	background-image: url(../graphics/cam_photogallery_bkgrnd.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.cam_lgflagborder
+{
+	border: 2px solid #cce5e5;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+.cam_selected
+{
+	background-image: url(../graphics/cam_light.jpg);
+	background-repeat: repeat;
+}
+
+/* CENTRAL ASIA ------------------ */
+
+.cas_dark
+{
+	background-image: url(../graphics/cas_dark.jpg);
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.cas_medium
+{
+	background-image: url(../graphics/cas_medium.jpg);
+	color: #993333;
+	text-align: left;
+}
+
+.cas_light
+{
+	background-image: url(../graphics/cas_light.jpg);
+	color: #666666;
+	text-align: left;
+}
+
+.cas_flag_loc_bkgrnd
+{
+	background-image: url(../graphics/cas_flag_loc_bkgrnd.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+.cas_map_bkgrnd
+{
+	background-image: url(../graphics/cas_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+#cas_lgmapborder
+{
+	border: 2px solid #ebd8d8;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#cas_smmapborder
+{
+	border: 1px solid #ebd8d8;
+	background-color: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+.cas_lglocatorborder
+{
+	border: 2px solid #ebd8d8;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.cas_photogallery_bkgrnd
+{
+	background-image: url(../graphics/cas_photogallery_bkgrnd.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.cas_lgflagborder
+{
+	border: 2px solid #ebd8d8;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+.cas_selected
+{
+	background-image: url(../graphics/cas_light.jpg);
+	background-repeat: repeat;
+}
+
+/* EUROPE ------------------ */
+
+.eur_dark
+{
+	background-image: url(../graphics/eur_dark.jpg);
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.eur_medium
+{
+	background-image: url(../graphics/eur_medium.jpg);
+	color: #b97313;
+	text-align: left;
+}
+
+.eur_light
+{
+	background-image: url(../graphics/eur_light.jpg);
+	background-repeat: repeat-x;
+	color: #666666;
+	text-align: left;
+}
+
+.eur_map_bkgrnd
+{
+	background-image: url(../graphics/eur_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+.eur_flag_loc_bkgrnd
+{
+	background-image: url(../graphics/eur_flag_loc_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+#eur_lgmapborder
+{
+	border: 2px solid #f1e3d0;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#eur_smmapborder
+{
+	border: 1px solid #f1e3d0;
+	background-color: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+.eur_lglocatorborder
+{
+	border: 2px solid #f1e3d0;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.eur_photogallery_bkgrnd
+{
+	background-image: url(../graphics/eur_photogallery_bkgrnd.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.eur_lgflagborder
+{
+	border: 2px solid #f1e3d0;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+.eur_selected
+{
+	background-image: url(../graphics/eur_light.jpg);
+	background-repeat: repeat;
+}
+
+/* EAST / SOUTHEAST ASIA ------------------ */
+
+.eas_dark
+{
+	background-image: url(../graphics/eas_dark.jpg);
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.eas_medium
+{
+	background-image: url(../graphics/eas_medium.jpg);
+	color: #762727;
+	text-align: left;
+}
+
+.eas_light
+{
+	background-image: url(../graphics/eas_light.jpg);
+	color: #666666;
+	text-align: left;
+}
+
+.eas_flag_loc_bkgrnd
+{
+	background-image: url(../graphics/eas_flag_loc_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+.eas_map_bkgrnd
+{
+	background-image: url(../graphics/eas_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+#eas_lgmapborder
+{
+	border: 2px solid #efdfd6;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#eas_smmapborder
+{
+	border: 1px solid #efdfd6;
+	background-color: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+.eas_lglocatorborder
+{
+	border: 2px solid #efdfd6;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.eas_photogallery_bkgrnd
+{
+	background-image: url(../graphics/eas_photogallery_bkgrnd.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.eas_lgflagborder
+{
+	border: 2px solid #efdfd6;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+.eas_selected
+{
+	background-image: url(../graphics/eas_light.jpg);
+	background-repeat: repeat;
+}
+
+/* MIDDLE EAST ------------------ */
+
+.mde_dark
+{
+	background-image: url(../graphics/mde_dark.jpg);
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.mde_medium
+{
+	background-image: url(../graphics/mde_medium.jpg);
+	color: #996600;
+	text-align: left;
+}
+
+.mde_light
+{
+	background-image: url(../graphics/mde_light.jpg);
+	color: #666666;
+	text-align: left;
+}
+
+.mde_flag_loc_bkgrnd
+{
+	background-image: url(../graphics/mde_flag_loc_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+#mde_flag_bkgrnd
+{
+	background-image: url(../graphics/mde_flag_bkgrnd.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.mde_map_bkgrnd
+{
+	background-image: url(../graphics/mde_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+#mde_lgmapborder
+{
+	border: 2px solid #ebe0cc;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#mde_smmapborder
+{
+	border: 1px solid #ebe0cc;
+	background-color: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+.mde_lglocatorborder
+{
+	border: 2px solid #ebe0cc;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.mde_photogallery_bkgrnd
+{
+	background-image: url(../graphics/mde_photogallery_bkgrnd.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.mde_lgflagborder
+{
+	border: 2px solid #ebe0cc;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+.mde_selected
+{
+	background-image: url(../graphics/mde_light.jpg);
+	background-repeat: repeat;
+}
+
+/* NORTH AMERICA ------------------ */
+
+.noa_dark
+{
+	background-image: url(../graphics/noa_dark.jpg);
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.noa_medium
+{
+	background-image: url(../graphics/noa_medium.jpg);
+	color: #006699;
+	text-align: left;
+}
+
+.noa_light
+{
+	background-image: url(../graphics/noa_light.jpg);
+	color: #666666;
+	text-align: left;
+}
+
+.noa_flag_loc_bkgrnd
+{
+	background-image: url(../graphics/noa_flag_loc_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+.noa_map_bkgrnd
+{
+	background-image: url(../graphics/noa_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+#noa_lgmapborder
+{
+	border: 2px solid #ccdae5;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#noa_smmapborder
+{
+	border: 1px solid #ccdae5;
+	background-color: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+.noa_lglocatorborder
+{
+	border: 2px solid #ccdae5;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.noa_photogallery_bkgrnd
+{
+	background-image:url(../graphics/noa_photogallery_bkgrnd.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.noa_lgflagborder
+{
+	border: 2px solid #ccdae5;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+.noa_selected
+{
+	background-image: url(../graphics/noa_light.jpg);
+	background-repeat: repeat;
+}
+
+/* OCEANS ------------------ */
+
+.oce_dark
+{
+	background-image: url(../graphics/oce_dark.jpg);
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.oce_medium
+{
+	background-image: url(../graphics/oce_medium.jpg);
+	color: #127B94;
+	text-align: left;
+}
+
+.oce_light
+{
+	background-image: url(../graphics/oce_light.jpg);
+	color: #666666;
+	text-align: left;
+}
+
+.oce_map_bkgrnd
+{
+	background-image: url(../graphics/oce_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+#oce_lgmapborder
+{
+	border: 2px solid #cce3e7;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#oce_smmapborder
+{
+	border: 1px solid #cce3e7;
+	background-color: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+.oce_lglocatorborder
+{
+	border: 2px solid #cce3e7;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.oce_photogallery_bkgrnd
+{
+	background-image: url(../graphics/oce_photogallery_bkgrnd.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.oce_lgflagborder
+{
+	border: 2px solid #cce3e7;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+.oce_selected
+{
+	background-image: url(../graphics/oce_light.jpg);
+	background-repeat: repeat;
+}
+
+/* SOUTH AMERICA ------------------ */
+
+.soa_dark
+{
+	background-image: url(../graphics/soa_dark.jpg);
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.soa_medium
+{
+	background-image: url(../graphics/soa_medium.jpg);
+	color: #828223;
+	text-align: left;
+}
+
+.soa_light
+{
+	background-image: url(../graphics/soa_light.jpg);
+	color: #666666;
+	text-align: left;
+}
+
+.soa_flag_loc_bkgrnd
+{
+	background-image: url(../graphics/soa_flag_loc_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+.soa_map_bkgrnd
+{
+	background-image: url(../graphics/soa_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+#soa_lgmapborder
+{
+	border: 2px solid #e6e6d9;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#soa_smmapborder
+{
+	border: 1px solid #e6e6d9;
+	background-color: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+.soa_lglocatorborder
+{
+	border: 2px solid #e6e6d9;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+#soa_flagborder
+{
+	border: 1px solid #e6e6d9;
+	background-color: #FFFFFF;
+}
+
+.soa_photogallery_bkgrnd
+{
+	background-image: url(../graphics/soa_photogallery_bkgrnd.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.soa_lgflagborder
+{
+	border: 2px solid #e6e6d9;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+.soa_selected
+{
+	background-image: url(../graphics/soa_light.jpg);
+	background-repeat: repeat;
+}
+
+/* SOUTH ASIA ------------------ */
+
+.sas_dark
+{
+	background-image: url(../graphics/sas_dark.jpg);
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.sas_medium
+{
+	background-image: url(../graphics/sas_medium.jpg);
+	color: #762727;
+	text-align: left;
+}
+
+.sas_light
+{
+	background-image: url(../graphics/sas_light.jpg);
+	color: #666666;
+	text-align: left;
+}
+
+.sas_flag_loc_bkgrnd
+{
+	background-image: url(../graphics/sas_flag_loc_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+.sas_map_bkgrnd
+{
+	background-image: url(../graphics/sas_map_bkgrnd.jpg);
+	background-repeat: no-repeat;
+}
+
+#sas_lgmapborder
+{
+	border: 2px solid #e4d4d4;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+#sas_smmapborder
+{
+	border: 1px solid #e4d4d4;
+	background-color: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+.sas_lglocatorborder
+{
+	border: 2px solid #e4d4d4;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.sas_photogallery_bkgrnd
+{
+	background-image: url(../graphics/sas_photogallery_bkgrnd.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+.sas_lgflagborder
+{
+	border: 2px solid #e4d4e4;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+.sas_selected
+{
+	background-image: url(../graphics/sas_light.jpg);
+	background-repeat: repeat;
+}
