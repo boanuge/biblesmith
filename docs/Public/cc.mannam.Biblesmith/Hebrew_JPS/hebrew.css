@@ -1,0 +1,14 @@
+body {font-family:David;color:#000000;background-color:#FFFFFF;}
+p.m {font-size:80%;text-align:left;}
+p.s {font-size:80%;text-align:justify;}
+big {font-size:120%;vertical-align:-7%;}
+small {font-size:80%;vertical-align:12%;font-weight:bold}
+sup {font-size:115%;vertical-align:15%;}
+span.tiny {font-size:80%;}
+span.h {font-size:125%;font-family:David;}
+span.x {color:#660066;}
+span.y {font-size:80%;}
+span.eng {font-family:"Times New Roman, Arial";font-size:80%;}
+TD {vertical-align:top;direction:ltr;unicode-bidi:embed;text-align:left;font-size:120%;}
+TD.h {vertical-align:top;direction:rtl;unicode-bidi:embed;text-align:right;font-size:165%;font-family:David;}
+TD.m {vertical-align:middle;direction:ltr;unicode-bidi:embed;text-align:left;font-size:120%;}
