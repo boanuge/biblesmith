@@ -20,10 +20,10 @@ body { width:880px; margin:0 auto; }
 */
 
 @font-face {
-    font-family: 'Boanuge';
-    src: url('Boanuge.ttf');
+    font-family: 'unifont';
+    src: url('unifont.ttf');
 }
 
 body {
-    font-family: 'Boanuge';
+    font-family: 'unifont';
 }
