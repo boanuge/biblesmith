@@ -78,13 +78,13 @@ function fsize($file)
 				if ($data[$i] != "." && $data[$i] != ".."
 					&& $data[$i] != "index.php" && !(strpos($data[$i], "_") === 0))
 				{
-					//Print the list: click-able files
+					//새로운 디렉토리를 보여준다.
 					{
 						if(is_dir("$file1/$data[$i]"))
 						{ $filesize = "Folder"; }
 						else
 						{ $filesize = fsize("$file1/$data[$i]"); }
-						echo "&nbsp;<a href='$dir_name/$data[$i]'>$data[$i]</a>&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>$filesize</font><br>&nbsp;<br>";
+						echo "&nbsp;<a href='$dir_name/$data[$i]'>$data[$i]</a>&nbsp;&nbsp;&nbsp;&nbsp;<font color=green>$filesize</font><br>&nbsp;<br>";
 					}
 				}
 			}
