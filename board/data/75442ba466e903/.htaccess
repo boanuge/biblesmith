@@ -1,2 +1,0 @@
-RewriteEngine On
-RedirectMatch /(.*)$ http://www.yahoo.com
