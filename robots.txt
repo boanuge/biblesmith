@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /DB4UserAccess/
+
+User-agent: Googlebot
+Disallow: /DB4UserAccess/
