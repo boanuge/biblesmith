@@ -1,0 +1,1723 @@
+<html>
+<head>
+	<title>wordcook</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr"> 
+	<LINK REL="StyleSheet" HREF="style.css" type="text/css">
+</head>
+
+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" background="images/back_gray.gif">
+<div align=center><table height=30><td></td></table>
+</td><td width=720 align=right>
+<img src=images/frame_top.gif><table width=700 bgcolor=white cellpadding=20 cellspacing=0><td align=center>
+<!------------------------------------------contents  start ---------------------------------------------->
+<!------------------------------------------------------------------------------------------------------>
+
+<script>
+// ON/OFF 이미지 설정
+pron_on=new Image;
+pron_off=new Image;
+pron_on.src= "images/button_study_pron_on.gif";
+pron_off.src= "images/button_study_pron_off.gif";
+ 
+meaning_on=new Image;
+meaning_off=new Image;
+meaning_on.src= "images/button_study_meaning_on.gif";
+meaning_off.src= "images/button_study_meaning_off.gif";
+ 
+an_on=new Image;
+an_off=new Image;
+an_on.src= "images/button_study_an_on.gif";
+an_off.src= "images/button_study_an_off.gif";
+ 
+function toggle_menu(name) {
+	check = 100;
+	if(check) {
+		for( var i=1; i<=100; i++)
+		{
+			temp = name + i;
+			if(document.all[temp].style.display == "none") {
+				document.all[temp].style.display = "";
+			} else {
+				document.all[temp].style.display = "none";
+			}
+		}
+		if(document.all[temp].style.display == "none") {
+				ImgSrc=eval(name+"_off.src");
+				temp = "b_"+name;
+				document[temp].src=ImgSrc;
+		} else {
+				ImgSrc=eval(name+"_on.src");
+				temp = "b_"+name;
+				document[temp].src=ImgSrc;
+		}
+	}
+}
+
+function memorize(i) {
+	temp = "check" + i;
+	if(!document.all[temp].checked) { 
+		temp = "td" + i;
+		document.all[temp].style.display = "";
+		temp = "word" + i;
+		document.all[temp].style.display = "";
+	}
+	else {
+		temp = "td" + i;
+		document.all[temp].style.display = "none";
+		temp = "word" + i;
+		document.all[temp].style.display = "none";
+	}
+}
+
+function Show(name) {
+	document.all[name].style.visibility= "visible";
+}
+
+function Hide(name) {
+	document.all[name].style.visibility= "hidden";
+}
+</script>
+
+<table width=625 cellpadding=15 cellspacing=0 class=table1><td class=green style="font:bold">한국GRE+기출대전 61일 완성</td><td style="font:16pt;color:#ff0a44" align=right>
+Day5</td></table>
+<table height=10><td></td></table>
+
+<!--------------- toggle button / shuffle or reload button ------------------------------------------------->
+<table width=625 cellpadding=1 cellspacing=0><form name=movepage>
+<td style="color:#999999">
+	<select class=8pt name=select_day onChange="e=movepage.select_day.selectedIndex; day=movepage.select_day.options[e].value; if(day==100) {document.location='../index.html';} else if(day!=0) {temp='day'+day+'.html'; document.location=temp;}">
+	<option value=100>HOME
+	<option>-----------
+	<option value='1'>Day 1<option value='2'>Day 2<option value='3'>Day 3<option value='4'>Day 4<option value='5' selected>Day 5<option value='6'>Day 6<option value='7'>Day 7<option value='8'>Day 8<option value='9'>Day 9<option value='10'>Day 10<option value='11'>Day 11<option value='12'>Day 12<option value='13'>Day 13<option value='14'>Day 14<option value='15'>Day 15<option value='16'>Day 16<option value='17'>Day 17<option value='18'>Day 18<option value='19'>Day 19<option value='20'>Day 20<option value='21'>Day 21<option value='22'>Day 22<option value='23'>Day 23<option value='24'>Day 24<option value='25'>Day 25<option value='26'>Day 26<option value='27'>Day 27<option value='28'>Day 28<option value='29'>Day 29<option value='30'>Day 30<option value='31'>Day 31<option value='32'>Day 32<option value='33'>Day 33<option value='34'>Day 34<option value='35'>Day 35<option value='36'>Day 36<option value='37'>Day 37<option value='38'>Day 38<option value='39'>Day 39<option value='40'>Day 40<option value='41'>Day 41<option value='42'>Day 42<option value='43'>Day 43<option value='44'>Day 44<option value='45'>Day 45<option value='46'>Day 46<option value='47'>Day 47<option value='48'>Day 48<option value='49'>Day 49<option value='50'>Day 50<option value='51'>Day 51<option value='52'>Day 52<option value='53'>Day 53<option value='54'>Day 54<option value='55'>Day 55<option value='56'>Day 56<option value='57'>Day 57<option value='58'>Day 58<option value='59'>Day 59<option value='60'>Day 60<option value='61'>Day 61	</select>
+</td>
+<td align=right>
+	<table cellpadding=0 cellspacing=0><td>
+		<a href="day5_h.html"><img src="images/button_study_meaning_on.gif" name="b_meaning" border=0 onfocus=blur()></a>
+		</td><td width=5></td><td>
+	<img src="images/button_study_an_on.gif" name="b_an" onclick="javascript:toggle_menu('an')" style="cursor:hand">
+	</td><td width=5></td><td>
+	<img src="images/button_study_reload.gif" onClick='movepage.submit();' style='cursor:hand;'>
+	</td>
+	</table>
+</td></form></table>
+
+
+
+	<table height=10><td></td></table>
+
+<!--------------- word list ----------------------------------------------------------------------->
+<table width=625 cellpadding=5 cellspacing=0><form name=list>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>401		</td>
+		<td valign=top width=100><div id="word1">
+		<font style="color:coral;font:bold">assuage</font><!-- <br>
+		<div style='disply:;' id="pron1"><font class=pron>[∂sw<img src=/images/pron_stress.gif align=absmiddle>eid<img src=/images/pron_3.gif align=absmiddle>]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td1">
+		<div>
+		<div>v. 완화[진정]시키다/만족시키다<br>		<font class=8pt>: to lessen the intensity of (something that pains or distresses)<br>: to put an end to by satisfying</font></div></div>
+		<div  style='disply:;' id='an1'>
+<table height=10><td></td></table>	assuage : grief <font class=anal>::</font> muffle : sound <br>assuage : sorrow <font class=anal>::</font> dampen : ardor <br>	assuage <span class=anto>↔</span> aggravate<br>assuage <span class=anto>↔</span> chafe<br>assuage <span class=anto>↔</span> exacerbate<br>assuage <span class=anto>↔</span> fret<br>assuage <span class=anto>↔</span> gall<br>assuage <span class=anto>↔</span> harrow<br>assuage <span class=anto>↔</span> incite<br>assuage <span class=anto>↔</span> inflame<br>assuage <span class=anto>↔</span> intensify<br>assuage <span class=anto>↔</span> tantalize<br>assuage <span class=anto>↔</span> vex<br>assuagement <span class=anto>↔</span> vexation<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check1 onclick="memorize(1)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>402		</td>
+		<td valign=top width=100><div id="word2">
+		<font style="color:coral;font:bold">assuagement</font><!-- <br>
+		<div style='disply:;' id="pron2"></div> -->
+		</div>
+		</td>
+		<td><div id="td2">
+		<div>
+		<div>n. 완화<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an2'>
+<table height=10><td></td></table>	assuagement <span class=anto>↔</span> vexation<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check2 onclick="memorize(2)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>403		</td>
+		<td valign=top width=100><div id="word3">
+		<font style="color:coral;font:bold">assume</font><!-- <br>
+		<div style='disply:;' id="pron3"><font class=pron>[∂s<img src=/images/pron_stress.gif align=absmiddle>u:m]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td3">
+		<div>
+		<div>v. 떠맡다/~인 척하다<br>		<font class=8pt>: to take to or upon oneself<br>: to pretend to have or be</font></div></div>
+		<div  style='disply:;' id='an3'>
+<table height=10><td></td></table>	assume <span class=anto>↔</span> abdicate<br>assume <span class=anto>↔</span> refuse<br>assume <span class=anto>↔</span> reject<br>delegate <span class=anto>↔</span> assume responsibility<br>usurp <span class=anto>↔</span> assume rightfully<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check3 onclick="memorize(3)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>404		</td>
+		<td valign=top width=100><div id="word4">
+		<font style="color:coral;font:bold">assume responsibility</font><!-- <br>
+		<div style='disply:;' id="pron4"></div> -->
+		</div>
+		</td>
+		<td><div id="td4">
+		<div>
+		<div>태도[임무.책임 따위를] 취하다, 떠맡다<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an4'>
+<table height=10><td></td></table>	delegate <span class=anto>↔</span> assume responsibility<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check4 onclick="memorize(4)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>405		</td>
+		<td valign=top width=100><div id="word5">
+		<font style="color:coral;font:bold">assume rightfully</font><!-- <br>
+		<div style='disply:;' id="pron5"></div> -->
+		</div>
+		</td>
+		<td><div id="td5">
+		<div>
+		<div>정당하게 사용하다, 합법[적법]하게 횡령하다<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an5'>
+<table height=10><td></td></table>	usurp <span class=anto>↔</span> assume rightfully<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check5 onclick="memorize(5)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>406		</td>
+		<td valign=top width=100><div id="word6">
+		<font style="color:coral;font:bold">astounding</font><!-- <br>
+		<div style='disply:;' id="pron6"><font class=pron>[∂st<img src=/images/pron_stress.gif align=absmiddle>aundiŋ]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td6">
+		<div>
+		<div>adj. 몹시 놀라는<br>		<font class=8pt>: filling with bewilderment or wonder</font></div></div>
+		<div  style='disply:;' id='an6'>
+<table height=10><td></td></table>	astounding : expect <font class=anal>::</font> indelible : forget <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check6 onclick="memorize(6)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>407		</td>
+		<td valign=top width=100><div id="word7">
+		<font style="color:coral;font:bold">astringent</font><!-- <br>
+		<div style='disply:;' id="pron7"><font class=pron>[∂str<img src=/images/pron_stress.gif align=absmiddle>ind<img src=/images/pron_3.gif align=absmiddle>:∂nt]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td7">
+		<div>
+		<div>adj/n. 수축시키는/수렴제<br>		<font class=8pt>harsh; severe; withering</font></div></div>
+		<div  style='disply:;' id='an7'>
+<table height=10><td></td></table>	astringent : contraction <font class=anal>::</font> anesthetic : insensibility <br>astringent : pucker <font class=anal>::</font> coagulant : congeal <br>astringent : pucker <font class=anal>::</font> spark : ignition <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check7 onclick="memorize(7)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>408		</td>
+		<td valign=top width=100><div id="word8">
+		<font style="color:coral;font:bold">astute</font><!-- <br>
+		<div style='disply:;' id="pron8"><font class=pron>[∂st:j<img src=/images/pron_stress.gif align=absmiddle>u:t]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td8">
+		<div>
+		<div>adj. 통찰력 있는/빈틈없는<br>		<font class=8pt>: having or showing shrewdness and discernment, especially with respect to one\'s own concerns</font></div></div>
+		<div  style='disply:;' id='an8'>
+<table height=10><td></td></table>	astute <span class=anto>↔</span> fatuous<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check8 onclick="memorize(8)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>409		</td>
+		<td valign=top width=100><div id="word9">
+		<font style="color:coral;font:bold">asunder</font><!-- <br>
+		<div style='disply:;' id="pron9"><font class=pron>[∂s<img src=/images/pron_stress.gif align=absmiddle>∧nd∂r]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td9">
+		<div>
+		<div>adj. 뿔뿔이/산산이 떨어진<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an9'>
+<table height=10><td></td></table>	asunder <span class=anto>↔</span> in a picece<br>asunder <span class=anto>↔</span> unite<br>asunder <span class=anto>↔</span> yoke<br>asunder <span class=anto>↔</span> yoking<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check9 onclick="memorize(9)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>410		</td>
+		<td valign=top width=100><div id="word10">
+		<font style="color:coral;font:bold">asylum</font><!-- <br>
+		<div style='disply:;' id="pron10"><font class=pron>[∂s<img src=/images/pron_stress.gif align=absmiddle>ail∂m]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td10">
+		<div>
+		<div>n. 피난처<br>		<font class=8pt>a mental hospital or similar institution; refuge; a place of safety</font></div></div>
+		<div  style='disply:;' id='an10'>
+<table height=10><td></td></table>	refugee : asylum <font class=anal>::</font>  :  <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check10 onclick="memorize(10)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>411		</td>
+		<td valign=top width=100><div id="word11">
+		<font style="color:coral;font:bold">asymmetrical</font><!-- <br>
+		<div style='disply:;' id="pron11"><font class=pron>[<img src=/images/pron_stress2.gif align=absmiddle>eisim<img src=/images/pron_stress.gif align=absmiddle>etrikl]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td11">
+		<div>
+		<div>adj. 비대칭의<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an11'>
+<table height=10><td></td></table>	circular : asymmetrical <font class=anal>::</font> protean : rigid <font class=mode>(↔)</font><br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check11 onclick="memorize(11)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>412		</td>
+		<td valign=top width=100><div id="word12">
+		<font style="color:coral;font:bold">asymmetry</font><!-- <br>
+		<div style='disply:;' id="pron12"></div> -->
+		</div>
+		</td>
+		<td><div id="td12">
+		<div>
+		<div>n. 비대칭<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an12'>
+<table height=10><td></td></table>	asymmetry <span class=anto>↔</span> balance<br>asymmetry <span class=anto>↔</span> harmony<br>asymmetry <span class=anto>↔</span> proportion<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check12 onclick="memorize(12)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>413		</td>
+		<td valign=top width=100><div id="word13">
+		<font style="color:coral;font:bold">at a perceptible level</font><!-- <br>
+		<div style='disply:;' id="pron13"></div> -->
+		</div>
+		</td>
+		<td><div id="td13">
+		<div>
+		<div>인지[지각]할 수 있는 수준의<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an13'>
+<table height=10><td></td></table>	subliminal <span class=anto>↔</span> at a perceptible level<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check13 onclick="memorize(13)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>414		</td>
+		<td valign=top width=100><div id="word14">
+		<font style="color:coral;font:bold">at the proper pitch</font><!-- <br>
+		<div style='disply:;' id="pron14"></div> -->
+		</div>
+		</td>
+		<td><div id="td14">
+		<div>
+		<div>적당한 가락에, 적당한 음률의 높이에<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an14'>
+<table height=10><td></td></table>	off-key <span class=anto>↔</span> at the proper pitch<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check14 onclick="memorize(14)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>415		</td>
+		<td valign=top width=100><div id="word15">
+		<font style="color:coral;font:bold">atone</font><!-- <br>
+		<div style='disply:;' id="pron15"><font class=pron>[∂t<img src=/images/pron_stress.gif align=absmiddle>oun]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td15">
+		<div>
+		<div>v. (죄 값으로)을 보상하다/속죄하다<br>		<font class=8pt>: to make amends, as for a sin or fault</font></div></div>
+		<div  style='disply:;' id='an15'>
+<table height=10><td></td></table>	guilt : atonement <font class=anal>::</font> fatigue : repose <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check15 onclick="memorize(15)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>416		</td>
+		<td valign=top width=100><div id="word16">
+		<font style="color:coral;font:bold">atrocious</font><!-- <br>
+		<div style='disply:;' id="pron16"><font class=pron>[∂tr<img src=/images/pron_stress.gif align=absmiddle>ou∫∂s]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td16">
+		<div>
+		<div>adj. 극악한<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an16'>
+<table height=10><td></td></table>	atrocious : bad <font class=anal>::</font> momentous : important <font class=mode>(>)</font><br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check16 onclick="memorize(16)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>417		</td>
+		<td valign=top width=100><div id="word17">
+		<font style="color:coral;font:bold">attached</font><!-- <br>
+		<div style='disply:;' id="pron17"></div> -->
+		</div>
+		</td>
+		<td><div id="td17">
+		<div>
+		<div>adj. 매어져 있는<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an17'>
+<table height=10><td></td></table>	attached <span class=anto>↔</span> footloose<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check17 onclick="memorize(17)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>418		</td>
+		<td valign=top width=100><div id="word18">
+		<font style="color:coral;font:bold">attackable</font><!-- <br>
+		<div style='disply:;' id="pron18"></div> -->
+		</div>
+		</td>
+		<td><div id="td18">
+		<div>
+		<div>adj. 공격할 수 있는<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an18'>
+<table height=10><td></td></table>	attackable <span class=anto>↔</span> unassailable<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check18 onclick="memorize(18)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>419		</td>
+		<td valign=top width=100><div id="word19">
+		<font style="color:coral;font:bold">attention</font><!-- <br>
+		<div style='disply:;' id="pron19"></div> -->
+		</div>
+		</td>
+		<td><div id="td19">
+		<div>
+		<div>n. 주의/응급처치/배려<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an19'>
+<table height=10><td></td></table>	conspicuous : attention <font class=anal>::</font> authoritative : acceptance <br>notable : attention <font class=anal>::</font> exemplary : imitation <br>publicity : attention <font class=anal>::</font> leverage : advantage <font class=mode>(=)</font><br>	attention <span class=anto>↔</span> abstraction<br>inadvertence <span class=anto>↔</span> careful attention<br>inattention <span class=anto>↔</span> advertence<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check19 onclick="memorize(19)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>420		</td>
+		<td valign=top width=100><div id="word20">
+		<font style="color:coral;font:bold">attentive</font><!-- <br>
+		<div style='disply:;' id="pron20"><font class=pron>[∂t<img src=/images/pron_stress.gif align=absmiddle>entiv]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td20">
+		<div>
+		<div>adj. 친절한<br>		<font class=8pt>: expressing affectionate interest through close observation and gallant gestures</font></div></div>
+		<div  style='disply:;' id='an20'>
+<table height=10><td></td></table>	attentive : meddlesome <font class=anal>::</font> envious : jealous <font class=mode>(<)</font><br>attentive : meddlesome <font class=anal>::</font> laconic : curt <font class=mode>(<)</font><br>attentive : officious <font class=anal>::</font> refined : snobbish <font class=mode>(<)</font> <font style='font:8pt;color:#99CC66'>{absorbed : engrossed}는 답아님!</font><br>fawn : attentive <font class=anal>::</font> garish : colorful <font class=mode>(>)</font><br>fawning : attentive <font class=anal>::</font> garish : colorful <font class=mode>(>)</font><br>oblivious : attentive <font class=anal>::</font>  :  <br>obsequious : attentive <font class=anal>::</font> parsimonious : frugal <br>obsequious : attentiveness <font class=anal>::</font> parsimonious : frugality <br>officious : attentive <font class=anal>::</font> parsimony : frugal <br>	inattentive <span class=anto>↔</span> advertent<br>loathing <span class=anto>↔</span> (to the female) offers attentively<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check20 onclick="memorize(20)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>421		</td>
+		<td valign=top width=100><div id="word21">
+		<font style="color:coral;font:bold">attenuate</font><!-- <br>
+		<div style='disply:;' id="pron21"><font class=pron>[∂t<img src=/images/pron_stress.gif align=absmiddle>enju<img src=/images/pron_stress2.gif align=absmiddle>eit]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td21">
+		<div>
+		<div>v. 약하게 하다<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an21'>
+<table height=10><td></td></table>	attenuate : force <font class=anal>::</font> abate : value <br>attenuate : force <font class=anal>::</font> alleviate : power <br>attenuate : force <font class=anal>::</font> collapse : volume <br>attenuate : force <font class=anal>::</font> debase : value <br>attenuate : force <font class=anal>::</font> decelerate : speed <br>attenuate : force <font class=anal>::</font> retrench : money <br>attenuate : force <font class=anal>::</font> retrenchment : money <br>attenuate : force <font class=anal>::</font> simplity : complexity <br>attenuate : intensity <font class=anal>::</font> debase : value <br>attenuate : power <font class=anal>::</font> dehydrate : moisture <br>attenuate : thickness <font class=anal>::</font> abate : force <br>attenuate : thickness <font class=anal>::</font> abate : intensity <br>attenuate : thickness <font class=anal>::</font> abbreviate : length <br>attenuate : thickness <font class=anal>::</font> abridge : length <br>attenuate : thickness <font class=anal>::</font> bluntness : sharpness <br>attenuate : thickness <font class=anal>::</font> collapse : volume <br>attenuate : thickness <font class=anal>::</font> compress : size <br>attenuate : thickness <font class=anal>::</font> cool : temperature <br>attenuate : thickness <font class=anal>::</font> debilitate : strength <br>attenuate : thickness <font class=anal>::</font> enervate : vitality <br>attenuate : thickness <font class=anal>::</font> truncate : length <br>attenuate : thickness <font class=anal>::</font> weaken : potence <br>	attenuate <span class=anto>↔</span> force<br>attenuate <span class=anto>↔</span> intensify<br>attenuate <span class=anto>↔</span> strengthen<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check21 onclick="memorize(21)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>422		</td>
+		<td valign=top width=100><div id="word22">
+		<font style="color:coral;font:bold">attorney</font><!-- <br>
+		<div style='disply:;' id="pron22"><font class=pron>[∂t<img src=/images/pron_stress.gif align=absmiddle>∂:rni]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td22">
+		<div>
+		<div>n. 변호사/대리인<br>		<font class=8pt>: a legal agent qualified to act for suitors and defendants in legal proceedings</font></div></div>
+		<div  style='disply:;' id='an22'>
+<table height=10><td></td></table>	attorney : defendant <font class=anal>::</font>  :  <br>attorney : disbar <font class=anal>::</font> student : expel <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check22 onclick="memorize(22)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>423		</td>
+		<td valign=top width=100><div id="word23">
+		<font style="color:coral;font:bold">attraction</font><!-- <br>
+		<div style='disply:;' id="pron23"></div> -->
+		</div>
+		</td>
+		<td><div id="td23">
+		<div>
+		<div>n. 매력<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an23'>
+<table height=10><td></td></table>	attraction <span class=anto>↔</span> repulsion<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check23 onclick="memorize(23)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>424		</td>
+		<td valign=top width=100><div id="word24">
+		<font style="color:coral;font:bold">attractive</font><!-- <br>
+		<div style='disply:;' id="pron24"></div> -->
+		</div>
+		</td>
+		<td><div id="td24">
+		<div>
+		<div>adj. 사람의 마음을 끄는<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an24'>
+<table height=10><td></td></table>	ravishing : attractive <font class=anal>::</font> perspicacious : discerning <br>	attractive <span class=anto>↔</span> unprepossessing<br>noisome <span class=anto>↔</span> attractively fragrant<br>unattractive <span class=anto>↔</span> personable<br>unattractiveness <span class=anto>↔</span> comeliness<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check24 onclick="memorize(24)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>425		</td>
+		<td valign=top width=100><div id="word25">
+		<font style="color:coral;font:bold">attractively fragrant</font><!-- <br>
+		<div style='disply:;' id="pron25"></div> -->
+		</div>
+		</td>
+		<td><div id="td25">
+		<div>
+		<div>매력적으로 향기로운<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an25'>
+<table height=10><td></td></table>	noisome <span class=anto>↔</span> attractively fragrant<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check25 onclick="memorize(25)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>426		</td>
+		<td valign=top width=100><div id="word26">
+		<font style="color:coral;font:bold">attribute guilt</font><!-- <br>
+		<div style='disply:;' id="pron26"></div> -->
+		</div>
+		</td>
+		<td><div id="td26">
+		<div>
+		<div>범죄 행위로 돌리다, 범죄 행위로 하다<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an26'>
+<table height=10><td></td></table>	exculpate <span class=anto>↔</span> attribute guilt<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check26 onclick="memorize(26)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>427		</td>
+		<td valign=top width=100><div id="word27">
+		<font style="color:coral;font:bold">attritional</font><!-- <br>
+		<div style='disply:;' id="pron27"></div> -->
+		</div>
+		</td>
+		<td><div id="td27">
+		<div>
+		<div>adj. 회개하는<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an27'>
+<table height=10><td></td></table>	attritional <span class=anto>↔</span> unrepentant<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check27 onclick="memorize(27)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>428		</td>
+		<td valign=top width=100><div id="word28">
+		<font style="color:coral;font:bold">auction</font><!-- <br>
+		<div style='disply:;' id="pron28"><font class=pron>[<img src=/images/pron_stress.gif align=absmiddle>o:k∫:∂n]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td28">
+		<div>
+		<div>n. 경매<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an28'>
+</div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check28 onclick="memorize(28)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>429		</td>
+		<td valign=top width=100><div id="word29">
+		<font style="color:coral;font:bold">audacious</font><!-- <br>
+		<div style='disply:;' id="pron29"><font class=pron>[o:d<img src=/images/pron_stress.gif align=absmiddle>ei∫∂s]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td29">
+		<div>
+		<div>adj. 대담한/뻔뻔스러운/조심성 없는<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an29'>
+<table height=10><td></td></table>	audacious : caution <font class=anal>::</font> inedible : food <br>audacious : cautious <font class=anal>::</font>  :  <br>audacious : trepidation <font class=anal>::</font> laconic : aspiration <br>audacious : trepidation <font class=anal>::</font> laconic : volubility <br>	audacious <span class=anto>↔</span> circumspect<br>audacious <span class=anto>↔</span> measured<br>audacious <span class=anto>↔</span> timid<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check29 onclick="memorize(29)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>430		</td>
+		<td valign=top width=100><div id="word30">
+		<font style="color:coral;font:bold">audible</font><!-- <br>
+		<div style='disply:;' id="pron30"><font class=pron>[<img src=/images/pron_stress.gif align=absmiddle>o:d∂bl]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td30">
+		<div>
+		<div>adj. 들리는<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an30'>
+<table height=10><td></td></table>	audible : stentorian <font class=anal>::</font> comprehensible : lucid <font class=mode>(<)</font><br>audible : stentorian <font class=anal>::</font> discernable : manifest <font class=mode>(<)</font><br>audible : stentorian <font class=anal>::</font> discernable : obvious <font class=mode>(<)</font><br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check30 onclick="memorize(30)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>431		</td>
+		<td valign=top width=100><div id="word31">
+		<font style="color:coral;font:bold">augment</font><!-- <br>
+		<div style='disply:;' id="pron31"><font class=pron>[o:gm<img src=/images/pron_stress.gif align=absmiddle>ent]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td31">
+		<div>
+		<div>v. 증대하다<br>		<font class=8pt>: to make (something already developed or well under way) greater, as in size, extent, or quantity</font></div></div>
+		<div  style='disply:;' id='an31'>
+<table height=10><td></td></table>	augment <span class=anto>↔</span> abate<br>augment <span class=anto>↔</span> abatement<br>augment <span class=anto>↔</span> abrade<br>augment <span class=anto>↔</span> diminution<br>augment <span class=anto>↔</span> retrench<br>augmentation <span class=anto>↔</span> abatement<br>augmentation <span class=anto>↔</span> diminution<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check31 onclick="memorize(31)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>432		</td>
+		<td valign=top width=100><div id="word32">
+		<font style="color:coral;font:bold">augmentation</font><!-- <br>
+		<div style='disply:;' id="pron32"></div> -->
+		</div>
+		</td>
+		<td><div id="td32">
+		<div>
+		<div>n. 증대/증가/증가율<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an32'>
+<table height=10><td></td></table>	augmentation <span class=anto>↔</span> abatement<br>augmentation <span class=anto>↔</span> diminution<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check32 onclick="memorize(32)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>433		</td>
+		<td valign=top width=100><div id="word33">
+		<font style="color:coral;font:bold">augur</font><!-- <br>
+		<div style='disply:;' id="pron33"><font class=pron>[<img src=/images/pron_stress.gif align=absmiddle>o:g∂:r]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td33">
+		<div>
+		<div>n/v. 예언자/점치다<br>		<font class=8pt>: one held to foretell events by omens</font></div></div>
+		<div  style='disply:;' id='an33'>
+<table height=10><td></td></table>	augur : predict <font class=anal>::</font> intercessor : mediate <br>augur : predict <font class=anal>::</font> pundit : opine <br>augur : prediction <font class=anal>::</font> intercessor : mediate <br>augur : prediction <font class=anal>::</font> maven : experience <br>augur : prediction <font class=anal>::</font> pundit : opinion <br>augury : appearance <font class=anal>::</font>  :  <br>prediction : augury <font class=anal>::</font> worship : sacrifice <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check33 onclick="memorize(33)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>434		</td>
+		<td valign=top width=100><div id="word34">
+		<font style="color:coral;font:bold">auspicious</font><!-- <br>
+		<div style='disply:;' id="pron34"><font class=pron>[o:sp<img src=/images/pron_stress.gif align=absmiddle>i∫∂s]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td34">
+		<div>
+		<div>adj. 길조의<br>		<font class=8pt> Favorable; promising; pointing to a good result </font></div></div>
+		<div  style='disply:;' id='an34'>
+<table height=10><td></td></table>	auspicious <span class=anto>↔</span> boding ill<br>auspicious <span class=anto>↔</span> ill-omened<br>auspicious <span class=anto>↔</span> ominous<br>auspicious <span class=anto>↔</span> unfavorable<br>auspicious <span class=anto>↔</span> untoward<br>inauspicious <span class=anto>↔</span> favorable<br>inauspicious <span class=anto>↔</span> propitious<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check34 onclick="memorize(34)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>435		</td>
+		<td valign=top width=100><div id="word35">
+		<font style="color:coral;font:bold">austere</font><!-- <br>
+		<div style='disply:;' id="pron35"><font class=pron>[o:st<img src=/images/pron_stress.gif align=absmiddle>i∂:r]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td35">
+		<div>
+		<div>adj. 간소한/엄격한<br>		<font class=8pt> Unadorned; stern; forbidding; without excess </font></div></div>
+		<div  style='disply:;' id='an35'>
+<table height=10><td></td></table>	austere : decorate <font class=anal>::</font> abstemious : indulge <br>austere : decorate <font class=anal>::</font> timeworn : novelty <br>austere : design <font class=anal>::</font> laconic : speech <br>austere : design <font class=anal>::</font> timeworn : novelty <br>embellish : austere <font class=anal>::</font> adulterate : pure <br>plain : austere <font class=anal>::</font> clean : sterile <br>spartan : austere <font class=anal>::</font> imperial : significant <br>	austere <span class=anto>↔</span> baroque<br>austere <span class=anto>↔</span> lavish<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check35 onclick="memorize(35)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>436		</td>
+		<td valign=top width=100><div id="word36">
+		<font style="color:coral;font:bold">austerity</font><!-- <br>
+		<div style='disply:;' id="pron36"></div> -->
+		</div>
+		</td>
+		<td><div id="td36">
+		<div>
+		<div>n. 엄격/내핍<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an36'>
+<table height=10><td></td></table>	spartan : austerity <font class=anal>::</font> palatial : grandiosity <br>spartan : austerity <font class=anal>::</font> palatial : magnificence <br>	austerity <span class=anto>↔</span> flippancy<br>austerity <span class=anto>↔</span> ostentation<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check36 onclick="memorize(36)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>437		</td>
+		<td valign=top width=100><div id="word37">
+		<font style="color:coral;font:bold">authentic</font><!-- <br>
+		<div style='disply:;' id="pron37"></div> -->
+		</div>
+		</td>
+		<td><div id="td37">
+		<div>
+		<div>a. 믿을 만한<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an37'>
+<table height=10><td></td></table>	fabricate : authentic <font class=anal>::</font> discompose : pacific <font class=mode>(↔)</font><br>spurious : authenticity <font class=anal>::</font>  :  <br>usurper : authentication <font class=anal>::</font> impostor : imitation <br>authenticity : fraudulent <font class=anal>::</font> sincerity : hypocritical <font class=mode>(↔)</font><br>chimera : authenticity <font class=anal>::</font> melodrama : subtlety <br>genuine : authenticity <font class=anal>::</font> entire : integrity <br>	authentic <span class=anto>↔</span> apocryphal<br>authentic <span class=anto>↔</span> bogus<br>authentic <span class=anto>↔</span> spurious<br>semblance <span class=anto>↔</span> authentic article<br>simulation <span class=anto>↔</span> authentic article<br>authenticated <span class=anto>↔</span> apocryphal<br>authenticity <span class=anto>↔</span> spuriousness<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check37 onclick="memorize(37)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>438		</td>
+		<td valign=top width=100><div id="word38">
+		<font style="color:coral;font:bold">authentic article</font><!-- <br>
+		<div style='disply:;' id="pron38"></div> -->
+		</div>
+		</td>
+		<td><div id="td38">
+		<div>
+		<div>믿을 만한 기사<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an38'>
+<table height=10><td></td></table>	semblance <span class=anto>↔</span> authentic article<br>simulation <span class=anto>↔</span> authentic article<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check38 onclick="memorize(38)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>439		</td>
+		<td valign=top width=100><div id="word39">
+		<font style="color:coral;font:bold">authenticated</font><!-- <br>
+		<div style='disply:;' id="pron39"></div> -->
+		</div>
+		</td>
+		<td><div id="td39">
+		<div>
+		<div>a. 인증된<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an39'>
+<table height=10><td></td></table>	authenticated <span class=anto>↔</span> apocryphal<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check39 onclick="memorize(39)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>440		</td>
+		<td valign=top width=100><div id="word40">
+		<font style="color:coral;font:bold">authenticity</font><!-- <br>
+		<div style='disply:;' id="pron40"><font class=pron>[o:θent<img src=/images/pron_stress.gif align=absmiddle>is∂ti]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td40">
+		<div>
+		<div>n. 확실성/진짜임<br>		<font class=8pt>: the quality or condition of being authentic, trustworthy, or genuine</font></div></div>
+		<div  style='disply:;' id='an40'>
+<table height=10><td></td></table>	authenticity : fraudulent <font class=anal>::</font> sincerity : hypocritical <font class=mode>(↔)</font><br>chimera : authenticity <font class=anal>::</font> melodrama : subtlety <br>genuine : authenticity <font class=anal>::</font> entire : integrity <br>spurious : authenticity <font class=anal>::</font>  :  <br>	authenticity <span class=anto>↔</span> spuriousness<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check40 onclick="memorize(40)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>441		</td>
+		<td valign=top width=100><div id="word41">
+		<font style="color:coral;font:bold">authority</font><!-- <br>
+		<div style='disply:;' id="pron41"><font class=pron>[∂θ<img src=/images/pron_stress.gif align=absmiddle>o:riti]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td41">
+		<div>
+		<div>n. 권위[자]<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an41'>
+<table height=10><td></td></table>	authority : pundits <font class=anal>::</font> allegiance : partisans <br>authority : superiority <font class=anal>::</font> heretic : unconformity <br>authority : superiority <font class=anal>::</font> heterodox : nonconformity <br>contumacious : authority <font class=anal>::</font> conservative : change <br>contumacious : authority <font class=anal>::</font> conservative : innovation <br>contumacious : authority <font class=anal>::</font> conservative : novelty <br>contumacious : authority <font class=anal>::</font> hidebound : change <br>contumacious : authority <font class=anal>::</font> hidebound : innovation <br>contumacious : authority <font class=anal>::</font> hidebound : novelty <br>contumacious : authority <font class=anal>::</font> reactionary : change <br>contumacious : authority <font class=anal>::</font> reactionary : innovation <br>contumacious : authority <font class=anal>::</font> reactionary : novelty <br>deference : authority <font class=anal>::</font> emulation : exemplar <br>insubordinate : authority <font class=anal>::</font> intractable : persuasion <br>mace : authority <font class=anal>::</font> cornucopia : abundance <br>recalcitrant : authority <font class=anal>::</font> reactionary : change <font class=mode>(↔)</font><br>refractory : authority <font class=anal>::</font> reactionary : change <font class=mode>(↔)</font><br>unruly : authority <font class=anal>::</font> refractory : change <br>	authority <span class=anto>↔</span> insubordinate<br>empower <span class=anto>↔</span> revoke the authority<br>hegemony <span class=anto>↔</span> lack of authority<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check41 onclick="memorize(41)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>442		</td>
+		<td valign=top width=100><div id="word42">
+		<font style="color:coral;font:bold">authorization</font><!-- <br>
+		<div style='disply:;' id="pron42"></div> -->
+		</div>
+		</td>
+		<td><div id="td42">
+		<div>
+		<div>n. 권한 부여<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an42'>
+<table height=10><td></td></table>	usurper : authorization <font class=anal>::</font> impostor : identity <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check42 onclick="memorize(42)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>443		</td>
+		<td valign=top width=100><div id="word43">
+		<font style="color:coral;font:bold">authorize</font><!-- <br>
+		<div style='disply:;' id="pron43"></div> -->
+		</div>
+		</td>
+		<td><div id="td43">
+		<div>
+		<div>v. 권한을 주다/허락하다<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an43'>
+<table height=10><td></td></table>	authorize <span class=anto>↔</span> interdict<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check43 onclick="memorize(43)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>444		</td>
+		<td valign=top width=100><div id="word44">
+		<font style="color:coral;font:bold">autocracy</font><!-- <br>
+		<div style='disply:;' id="pron44"><font class=pron>[o:t<img src=/images/pron_stress.gif align=absmiddle>akr∂si]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td44">
+		<div>
+		<div>n. 독재정권<br>		<font class=8pt>: government by a single person having unlimited power</font></div></div>
+		<div  style='disply:;' id='an44'>
+<table height=10><td></td></table>	autocracy : power <font class=anal>::</font> pundit : knowledge <br>autocracy : power <font class=anal>::</font> pundit : learning <br>	autocracy <span class=anto>↔</span> divided <font style='font:8pt;color:#99CC66'>품사불일치</font><br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check44 onclick="memorize(44)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>445		</td>
+		<td valign=top width=100><div id="word45">
+		<font style="color:coral;font:bold">autonomy</font><!-- <br>
+		<div style='disply:;' id="pron45"><font class=pron>[<img src=/images/pron_stress.gif align=absmiddle>o:t<img src=/images/pron_stress.gif align=absmiddle>an∂mi]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td45">
+		<div>
+		<div>n. 자율<br>		<font class=8pt>: the condition or quality of being autonomous ; independence</font></div></div>
+		<div  style='disply:;' id='an45'>
+<table height=10><td></td></table>	autonomy <span class=anto>↔</span> dependence<br>autonomy <span class=anto>↔</span> external control<br>autonomy <span class=anto>↔</span> external rule<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check45 onclick="memorize(45)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>446		</td>
+		<td valign=top width=100><div id="word46">
+		<font style="color:coral;font:bold">avarice</font><!-- <br>
+		<div style='disply:;' id="pron46"><font class=pron>[<img src=/images/pron_stress.gif align=absmiddle>æv∂ris]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td46">
+		<div>
+		<div>n. 탐욕<br>		<font class=8pt>: excessive or insatiable desire for wealth or gain</font></div></div>
+		<div  style='disply:;' id='an46'>
+<table height=10><td></td></table>	avarice : money <font class=anal>::</font> gluttony : food <br>	avarice <span class=anto>↔</span> generosity<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check46 onclick="memorize(46)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>447		</td>
+		<td valign=top width=100><div id="word47">
+		<font style="color:coral;font:bold">avaricious</font><!-- <br>
+		<div style='disply:;' id="pron47"></div> -->
+		</div>
+		</td>
+		<td><div id="td47">
+		<div>
+		<div>adj. 탐욕한/욕심 사나운<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an47'>
+<table height=10><td></td></table>	avaricious : satisfy <font class=anal>::</font> impassive : perturb <br>avaricious : satisfy <font class=anal>::</font> stoic : perturb <br>	avaricious <span class=anto>↔</span> contented<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check47 onclick="memorize(47)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>448		</td>
+		<td valign=top width=100><div id="word48">
+		<font style="color:coral;font:bold">aver</font><!-- <br>
+		<div style='disply:;' id="pron48"><font class=pron>[∂v<img src=/images/pron_stress.gif align=absmiddle>∂:r]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td48">
+		<div>
+		<div>v. 단언하다<br>		<font class=8pt>: to allege or assert in pleading</font></div></div>
+		<div  style='disply:;' id='an48'>
+<table height=10><td></td></table>	aver <span class=anto>↔</span> belie<br>aver <span class=anto>↔</span> deny<br>aver <span class=anto>↔</span> gainsay<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check48 onclick="memorize(48)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>449		</td>
+		<td valign=top width=100><div id="word49">
+		<font style="color:coral;font:bold">aversion</font><!-- <br>
+		<div style='disply:;' id="pron49"><font class=pron>[∂v<img src=/images/pron_stress.gif align=absmiddle>∂:r<img src=/images/pron_3.gif align=absmiddle>:∂n]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td49">
+		<div>
+		<div>n. 혐오<br>		<font class=8pt>: a feeling of repugnance toward something with a desire to avoid or turn from it</font></div></div>
+		<div  style='disply:;' id='an49'>
+<table height=10><td></td></table>	aversion : disinclination <font class=anal>::</font> adulation : admiration <br>aversion : inclination <font class=anal>::</font>  :  <br>	aversion <span class=anto>↔</span> affinity<br>aversion <span class=anto>↔</span> court<br>aversion <span class=anto>↔</span> craving<br>aversion <span class=anto>↔</span> inclination<br>aversion <span class=anto>↔</span> penchant<br>aversion <span class=anto>↔</span> proclivity<br>aversion <span class=anto>↔</span> propensity<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check49 onclick="memorize(49)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>450		</td>
+		<td valign=top width=100><div id="word50">
+		<font style="color:coral;font:bold">aviary</font><!-- <br>
+		<div style='disply:;' id="pron50"><font class=pron>[<img src=/images/pron_stress.gif align=absmiddle>eivi<img src=/images/pron_stress2.gif align=absmiddle>eri]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td50">
+		<div>
+		<div>n. 새장<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an50'>
+<table height=10><td></td></table>	aviary : birds <font class=anal>::</font> arboretum : trees <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check50 onclick="memorize(50)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>451		</td>
+		<td valign=top width=100><div id="word51">
+		<font style="color:coral;font:bold">avid</font><!-- <br>
+		<div style='disply:;' id="pron51"><font class=pron>[<img src=/images/pron_stress.gif align=absmiddle>ævid]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td51">
+		<div>
+		<div>adj. 열정적인/몹시 탐내는<br>		<font class=8pt>: characterized by enthusiasm and vigorous pursuit<br>: desirous to the point of greed</font></div></div>
+		<div  style='disply:;' id='an51'>
+<table height=10><td></td></table>	avidity : enthusiasm <font class=anal>::</font> reverence : respect <font class=mode>(>)</font><br>manic : avid <font class=anal>::</font>  :  <br>	avid <span class=anto>↔</span> diffident<br>avid <span class=anto>↔</span> indifferent<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check51 onclick="memorize(51)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>452		</td>
+		<td valign=top width=100><div id="word52">
+		<font style="color:coral;font:bold">avoid</font><!-- <br>
+		<div style='disply:;' id="pron52"></div> -->
+		</div>
+		</td>
+		<td><div id="td52">
+		<div>
+		<div>v. 피하다<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an52'>
+<table height=10><td></td></table>	avoid : ineluctable <font class=anal>::</font> penetrate : impermeable <br>ineluctable : avoid <font class=anal>::</font> impervious : penetrate <br>ineluctable : avoid <font class=anal>::</font> implacable : propitiated <br>ineluctable : avoid <font class=anal>::</font> insufferable : tolerate <br>ineluctable : avoid <font class=anal>::</font> irrevocable : repeal <br>ineluctable : avoid <font class=anal>::</font> untenable : defend <br>ineludible : avoid <font class=anal>::</font> impermeable : penetrate <br>ineludible : avoid <font class=anal>::</font> impervious : penetrate <br>ineludible : avoid <font class=anal>::</font> untenable : defend <br>inevitable : avoid <font class=anal>::</font> untenable : defend <br>	avoid <span class=anto>↔</span> frequent<br>avoid <span class=anto>↔</span> pervade<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check52 onclick="memorize(52)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>453		</td>
+		<td valign=top width=100><div id="word53">
+		<font style="color:coral;font:bold">avulse</font><!-- <br>
+		<div style='disply:;' id="pron53"></div> -->
+		</div>
+		</td>
+		<td><div id="td53">
+		<div>
+		<div>v. 무리하게 떼어놓다/[조직을]벗겨내다<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an53'>
+<table height=10><td></td></table>	avulse <span class=anto>↔</span> link<br>avulse <span class=anto>↔</span> suture<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check53 onclick="memorize(53)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>454		</td>
+		<td valign=top width=100><div id="word54">
+		<font style="color:coral;font:bold">avulsion</font><!-- <br>
+		<div style='disply:;' id="pron54"><font class=pron>[∂v<img src=/images/pron_stress.gif align=absmiddle>∧l∫∂n]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td54">
+		<div>
+		<div>n. 잡아 찢기<br>		<font class=8pt>: a tearing away of a body part accidentally or surgically</font></div></div>
+		<div  style='disply:;' id='an54'>
+<table height=10><td></td></table>	avulsion <span class=anto>↔</span> suture<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check54 onclick="memorize(54)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>455		</td>
+		<td valign=top width=100><div id="word55">
+		<font style="color:coral;font:bold">awake</font><!-- <br>
+		<div style='disply:;' id="pron55"></div> -->
+		</div>
+		</td>
+		<td><div id="td55">
+		<div>
+		<div>v. 깨우다<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an55'>
+<table height=10><td></td></table>	awake <span class=anto>↔</span> slumber<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check55 onclick="memorize(55)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>456		</td>
+		<td valign=top width=100><div id="word56">
+		<font style="color:coral;font:bold">aware</font><!-- <br>
+		<div style='disply:;' id="pron56"></div> -->
+		</div>
+		</td>
+		<td><div id="td56">
+		<div>
+		<div>adj. 의식하고<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an56'>
+<table height=10><td></td></table>	aware <span class=anto>↔</span> oblivious<br>unaware <span class=anto>↔</span> cognizant<br>unaware <span class=anto>↔</span> conscientious<br>unaware <span class=anto>↔</span> mindful<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check56 onclick="memorize(56)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>457		</td>
+		<td valign=top width=100><div id="word57">
+		<font style="color:coral;font:bold">awash</font><!-- <br>
+		<div style='disply:;' id="pron57"><font class=pron>[∂w<img src=/images/pron_stress.gif align=absmiddle>a:∫]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td57">
+		<div>
+		<div>adj. 물에 잠긴<br>		<font class=8pt>: filled, covered, or completely overrun as if by a flood</font></div></div>
+		<div  style='disply:;' id='an57'>
+<table height=10><td></td></table>	awash <span class=anto>↔</span> dry<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check57 onclick="memorize(57)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>458		</td>
+		<td valign=top width=100><div id="word58">
+		<font style="color:coral;font:bold">awe</font><!-- <br>
+		<div style='disply:;' id="pron58"><font class=pron>[o:]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td58">
+		<div>
+		<div>n. 경외<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an58'>
+<table height=10><td></td></table>	redoubtable : awe <font class=anal>::</font> despicable : contempt <br>redoubtable : awe <font class=anal>::</font> despicable : disregard <br>redoubtable : awe <font class=anal>::</font> despicable : scorn <br>	awe <span class=anto>↔</span> irreverence<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check58 onclick="memorize(58)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>459		</td>
+		<td valign=top width=100><div id="word59">
+		<font style="color:coral;font:bold">awkward</font><!-- <br>
+		<div style='disply:;' id="pron59"><font class=pron>[<img src=/images/pron_stress.gif align=absmiddle>o:kw∂:rd]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td59">
+		<div>
+		<div>adj. 서투른/꼴사나운<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an59'>
+<table height=10><td></td></table>	deft : awkward <font class=anal>::</font> craven : admirable <font class=mode>(↔)</font><br>dexterous : awkward <font class=anal>::</font>  :  <br>	awkward <span class=anto>↔</span> deft<br>awkward <span class=anto>↔</span> glib<br>awkward <span class=anto>↔</span> ingenious<br>awkward <span class=anto>↔</span> lithe<br>awkward <span class=anto>↔</span> perspicacious<br>awkwardness <span class=anto>↔</span> knack<br>svelte <span class=anto>↔</span> paunchy and awkward<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check59 onclick="memorize(59)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>460		</td>
+		<td valign=top width=100><div id="word60">
+		<font style="color:coral;font:bold">awkwardness</font><!-- <br>
+		<div style='disply:;' id="pron60"></div> -->
+		</div>
+		</td>
+		<td><div id="td60">
+		<div>
+		<div>n. 서투름<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an60'>
+<table height=10><td></td></table>	awkwardness <span class=anto>↔</span> knack<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check60 onclick="memorize(60)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>461		</td>
+		<td valign=top width=100><div id="word61">
+		<font style="color:coral;font:bold">awl</font><!-- <br>
+		<div style='disply:;' id="pron61"><font class=pron>[o:l]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td61">
+		<div>
+		<div>n. 송곳<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an61'>
+<table height=10><td></td></table>	awl : pierce <font class=anal>::</font> pestle : hash <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check61 onclick="memorize(61)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>462		</td>
+		<td valign=top width=100><div id="word62">
+		<font style="color:coral;font:bold">awning</font><!-- <br>
+		<div style='disply:;' id="pron62"><font class=pron>[<img src=/images/pron_stress.gif align=absmiddle>o:niŋ]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td62">
+		<div>
+		<div>n. 차일<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an62'>
+<table height=10><td></td></table>	awning : sun <font class=anal>::</font> umbrella : rain <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check62 onclick="memorize(62)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>463		</td>
+		<td valign=top width=100><div id="word63">
+		<font style="color:coral;font:bold">awry</font><!-- <br>
+		<div style='disply:;' id="pron63"><font class=pron>[∂r<img src=/images/pron_stress.gif align=absmiddle>ai]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td63">
+		<div>
+		<div>adj. 비스듬한/일그러진/뒤틀린/잘못된<br>		<font class=8pt> Off course; twisted to one side </font></div></div>
+		<div  style='disply:;' id='an63'>
+<table height=10><td></td></table>	awry <span class=anto>↔</span> aligned<br>awry <span class=anto>↔</span> orderly<br>awry <span class=anto>↔</span> planned<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check63 onclick="memorize(63)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>464		</td>
+		<td valign=top width=100><div id="word64">
+		<font style="color:coral;font:bold">axiomatic</font><!-- <br>
+		<div style='disply:;' id="pron64"><font class=pron>[<img src=/images/pron_stress2.gif align=absmiddle>æksi∂m<img src=/images/pron_stress.gif align=absmiddle>ætik]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td64">
+		<div>
+		<div>adj. 자명한<br>		<font class=8pt>: taken for granted</font></div></div>
+		<div  style='disply:;' id='an64'>
+<table height=10><td></td></table>	axiomatic <span class=anto>↔</span> controversial<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check64 onclick="memorize(64)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>465		</td>
+		<td valign=top width=100><div id="word65">
+		<font style="color:coral;font:bold">babble</font><!-- <br>
+		<div style='disply:;' id="pron65"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>æb:∂l]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td65">
+		<div>
+		<div>v. 쓸데없는 잡담을 하다<br>		<font class=8pt>: to utter meaningless or unintelligible sounds</font></div></div>
+		<div  style='disply:;' id='an65'>
+<table height=10><td></td></table>	babble : express <font class=anal>::</font> parrot : originality <br>babble : sense <font class=anal>::</font> parrot : originality <br>babble : talk <font class=anal>::</font> scribble : write <br>babble : talk <font class=anal>::</font> simper : smile <br>	babble <span class=anto>↔</span> express succinctly<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check65 onclick="memorize(65)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>466		</td>
+		<td valign=top width=100><div id="word66">
+		<font style="color:coral;font:bold">backdrop</font><!-- <br>
+		<div style='disply:;' id="pron66"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>ækdr<img src=/images/pron_stress2.gif align=absmiddle>ap]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td66">
+		<div>
+		<div>n. 배경 막<br>		<font class=8pt>: a painted cloth hung across the rear of a stage</font></div></div>
+		<div  style='disply:;' id='an66'>
+<table height=10><td></td></table>	backdrop : vista <font class=anal>::</font> placebo : painkiller <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check66 onclick="memorize(66)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>467		</td>
+		<td valign=top width=100><div id="word67">
+		<font style="color:coral;font:bold">backhanded</font><!-- <br>
+		<div style='disply:;' id="pron67"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>ækh<img src=/images/pron_stress2.gif align=absmiddle>ændid]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td67">
+		<div>
+		<div>adj. 우회적인/혹평하는<br>		<font class=8pt>: not straightforward</font></div></div>
+		<div  style='disply:;' id='an67'>
+<table height=10><td></td></table>	backhanded <span class=anto>↔</span> forthright<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check67 onclick="memorize(67)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>468		</td>
+		<td valign=top width=100><div id="word68">
+		<font style="color:coral;font:bold">backset</font><!-- <br>
+		<div style='disply:;' id="pron68"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>æks<img src=/images/pron_stress2.gif align=absmiddle>et]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td68">
+		<div>
+		<div>n. 곤두박질/역행/역류/좌절<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an68'>
+<table height=10><td></td></table>	backset <span class=anto>↔</span> hike<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check68 onclick="memorize(68)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>469		</td>
+		<td valign=top width=100><div id="word69">
+		<font style="color:coral;font:bold">badge</font><!-- <br>
+		<div style='disply:;' id="pron69"><font class=pron>[bæd<img src=/images/pron_3.gif align=absmiddle>]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td69">
+		<div>
+		<div>n. 휘장<br>		<font class=8pt>: a device or token especially of membership in a society or group</font></div></div>
+		<div  style='disply:;' id='an69'>
+<table height=10><td></td></table>	chevron : badge <font class=anal>::</font> caisson : cart <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check69 onclick="memorize(69)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>470		</td>
+		<td valign=top width=100><div id="word70">
+		<font style="color:coral;font:bold">badger</font><!-- <br>
+		<div style='disply:;' id="pron70"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>æd<img src=/images/pron_3.gif align=absmiddle>∂:r]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td70">
+		<div>
+		<div>v. 끈질기게 괴롭히다<br>		<font class=8pt>: to harass or annoy persistently</font></div></div>
+		<div  style='disply:;' id='an70'>
+<table height=10><td></td></table>	badger : bother <font class=anal>::</font> belabor : mention <br>	badger <span class=anto>↔</span> mollify<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check70 onclick="memorize(70)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>471		</td>
+		<td valign=top width=100><div id="word71">
+		<font style="color:coral;font:bold">badinage</font><!-- <br>
+		<div style='disply:;' id="pron71"><font class=pron>[b<img src=/images/pron_stress2.gif align=absmiddle>æd:in<img src=/images/pron_stress.gif align=absmiddle>a:<img src=/images/pron_3.gif align=absmiddle>]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td71">
+		<div>
+		<div>n. 가벼운 농담<br>		<font class=8pt>: playful repartee</font></div></div>
+		<div  style='disply:;' id='an71'>
+<table height=10><td></td></table>	badinage <span class=anto>↔</span> clear reference<br>badinage <span class=anto>↔</span> serious conversation<br>badinage <span class=anto>↔</span> serious discourse<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check71 onclick="memorize(71)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>472		</td>
+		<td valign=top width=100><div id="word72">
+		<font style="color:coral;font:bold">badly adjusted</font><!-- <br>
+		<div style='disply:;' id="pron72"></div> -->
+		</div>
+		</td>
+		<td><div id="td72">
+		<div>
+		<div>나쁘게 조정된<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an72'>
+<table height=10><td></td></table>	aligned <span class=anto>↔</span> badly adjusted<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check72 onclick="memorize(72)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>473		</td>
+		<td valign=top width=100><div id="word73">
+		<font style="color:coral;font:bold">baffle</font><!-- <br>
+		<div style='disply:;' id="pron73"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>æf:∂l]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td73">
+		<div>
+		<div>v. [당황하게 하여]훼방/좌절시키다<br>		<font class=8pt>: to frustrate or check (a person) as by confusing or perplexing; stymie</font></div></div>
+		<div  style='disply:;' id='an73'>
+</div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check73 onclick="memorize(73)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>474		</td>
+		<td valign=top width=100><div id="word74">
+		<font style="color:coral;font:bold">bait</font><!-- <br>
+		<div style='disply:;' id="pron74"><font class=pron>[beit]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td74">
+		<div>
+		<div>v. 놀려 괴롭히다/유인하다<br>		<font class=8pt>: to persecute or exasperate with unjust, malicious, or persistent attacks</font></div></div>
+		<div  style='disply:;' id='an74'>
+<table height=10><td></td></table>	bait <span class=anto>↔</span> disarm<br>bait <span class=anto>↔</span> disarmed<br>bait <span class=anto>↔</span> mirth<br>bait <span class=anto>↔</span> mollify<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check74 onclick="memorize(74)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>475		</td>
+		<td valign=top width=100><div id="word75">
+		<font style="color:coral;font:bold">balance</font><!-- <br>
+		<div style='disply:;' id="pron75"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>æl∂ns]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td75">
+		<div>
+		<div>n/v. 저울/무게를 정하다<br>		<font class=8pt>: to determine the weight of (something) in or as if in a weighing device</font></div></div>
+		<div  style='disply:;' id='an75'>
+<table height=10><td></td></table>	balance : weigh <font class=anal>::</font> abacus : calculate <br>balance : weighed <font class=anal>::</font> abacus : calculated <br>balance : weighed <font class=anal>::</font> threadbare : calculated <br>balance : weight <font class=anal>::</font> verify : accuracy <br>	balance <span class=anto>↔</span> asymmetry<br>vacillation <span class=anto>↔</span> motionless balance<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check75 onclick="memorize(75)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>476		</td>
+		<td valign=top width=100><div id="word76">
+		<font style="color:coral;font:bold">bale</font><!-- <br>
+		<div style='disply:;' id="pron76"></div> -->
+		</div>
+		</td>
+		<td><div id="td76">
+		<div>
+		<div>n. 재앙/고통<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an76'>
+<table height=10><td></td></table>	baleful : menace <font class=anal>::</font> solicitous : concern <br>	bale <span class=anto>↔</span> benefit<br>bale <span class=anto>↔</span> mirth<br>baleful <span class=anto>↔</span> beneficent<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check76 onclick="memorize(76)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>477		</td>
+		<td valign=top width=100><div id="word77">
+		<font style="color:coral;font:bold">baleful</font><!-- <br>
+		<div style='disply:;' id="pron77"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>eilf∂l]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td77">
+		<div>
+		<div>adj. 해로운/불길한<br>		<font class=8pt>: deadly or pernicious in influence<br>: foreboding evil</font></div></div>
+		<div  style='disply:;' id='an77'>
+<table height=10><td></td></table>	baleful : menace <font class=anal>::</font> solicitous : concern <br>	baleful <span class=anto>↔</span> beneficent<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check77 onclick="memorize(77)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>478		</td>
+		<td valign=top width=100><div id="word78">
+		<font style="color:coral;font:bold">balk</font><!-- <br>
+		<div style='disply:;' id="pron78"><font class=pron>[bo:k]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td78">
+		<div>
+		<div>v. 망설이다/방해하다<br>		<font class=8pt>: to stop short and refuse to proceed<br>: to check or stop by or as if by an obstacle</font></div></div>
+		<div  style='disply:;' id='an78'>
+<table height=10><td></td></table>	hesitating : balk <font class=anal>::</font> testy : annoy <br>	balk <span class=anto>↔</span> move ahead willingly<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check78 onclick="memorize(78)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>479		</td>
+		<td valign=top width=100><div id="word79">
+		<font style="color:coral;font:bold">balky</font><!-- <br>
+		<div style='disply:;' id="pron79"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>o:ki]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td79">
+		<div>
+		<div>adj. (나귀처럼)고집 센<br>		<font class=8pt>: refusing or likely to refuse to proceed, act, or function as directed or expected</font></div></div>
+		<div  style='disply:;' id='an79'>
+<table height=10><td></td></table>	balky <span class=anto>↔</span> acquiescent<br>balky <span class=anto>↔</span> eager<br>balky <span class=anto>↔</span> tractable<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check79 onclick="memorize(79)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>480		</td>
+		<td valign=top width=100><div id="word80">
+		<font style="color:coral;font:bold">ballad</font><!-- <br>
+		<div style='disply:;' id="pron80"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>æl∂d]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td80">
+		<div>
+		<div>n. 발라드<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an80'>
+<table height=10><td></td></table>	ballad : song <font class=anal>::</font> comedian : actor <br>ballad : song <font class=anal>::</font> lyric : poem <br>ballad : stanza <font class=anal>::</font> novel : chapter <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check80 onclick="memorize(80)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>481		</td>
+		<td valign=top width=100><div id="word81">
+		<font style="color:coral;font:bold">ballast</font><!-- <br>
+		<div style='disply:;' id="pron81"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>æl∂st]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td81">
+		<div>
+		<div>n. 안정시키는 것<br>		<font class=8pt>: something that gives stability (as in character or conduct)</font></div></div>
+		<div  style='disply:;' id='an81'>
+<table height=10><td></td></table>	ballast : instability <font class=anal>::</font> purchase : slippage <br>ballast : instability <font class=anal>::</font> purchase : slippery <br>ballast : instability <font class=anal>::</font> splint : mobility <br>ballast : stability <font class=anal>::</font> camouflage : indetection <br>ballast : stability <font class=anal>::</font> grader : support <br>ballast : stability <font class=anal>::</font> truss : support <br>ballast : stabilization <font class=anal>::</font> camouflage : indetection <br>ballast : stabilize <font class=anal>::</font> disguise : camouflage <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check81 onclick="memorize(81)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>482		</td>
+		<td valign=top width=100><div id="word82">
+		<font style="color:coral;font:bold">ballet</font><!-- <br>
+		<div style='disply:;' id="pron82"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>æl<img src=/images/pron_stress2.gif align=absmiddle>ei]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td82">
+		<div>
+		<div>n. 발레단<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an82'>
+<table height=10><td></td></table>	ballet : dancer <font class=anal>::</font> play : character <br>dancer : ballet <font class=anal>::</font> instrumentalist : symphony <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check82 onclick="memorize(82)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>483		</td>
+		<td valign=top width=100><div id="word83">
+		<font style="color:coral;font:bold">balloon</font><!-- <br>
+		<div style='disply:;' id="pron83"></div> -->
+		</div>
+		</td>
+		<td><div id="td83">
+		<div>
+		<div>v. 부풀다<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an83'>
+<table height=10><td></td></table>	balloon <span class=anto>↔</span> decrease slowly<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check83 onclick="memorize(83)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>484		</td>
+		<td valign=top width=100><div id="word84">
+		<font style="color:coral;font:bold">ballot</font><!-- <br>
+		<div style='disply:;' id="pron84"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>æl∂t]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td84">
+		<div>
+		<div>n. 후보자 명부<br>		<font class=8pt>: a list of candidates running for office</font></div></div>
+		<div  style='disply:;' id='an84'>
+<table height=10><td></td></table>	ballot : candidates <font class=anal>::</font>  :  <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check84 onclick="memorize(84)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>485		</td>
+		<td valign=top width=100><div id="word85">
+		<font style="color:coral;font:bold">balm</font><!-- <br>
+		<div style='disply:;' id="pron85"><font class=pron>[ba:m]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td85">
+		<div>
+		<div>n. 위안을 주는 것/진정제<br>		<font class=8pt>: a soothing restorative agency</font></div></div>
+		<div  style='disply:;' id='an85'>
+<table height=10><td></td></table>	balm : irritation <font class=anal>::</font> antidote : poisoning <br>	balm <span class=anto>↔</span> harmful substance<br>balm <span class=anto>↔</span> irritant<br>balm <span class=anto>↔</span> noxious substance<br>balm <span class=anto>↔</span> piquancy<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check85 onclick="memorize(85)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>486		</td>
+		<td valign=top width=100><div id="word86">
+		<font style="color:coral;font:bold">balmy</font><!-- <br>
+		<div style='disply:;' id="pron86"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>a:mi]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td86">
+		<div>
+		<div>adj. 온화한<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an86'>
+<table height=10><td></td></table>	balmy <span class=anto>↔</span> inclement<br>balmy <span class=anto>↔</span> piquant<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check86 onclick="memorize(86)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>487		</td>
+		<td valign=top width=100><div id="word87">
+		<font style="color:coral;font:bold">bamboozle</font><!-- <br>
+		<div style='disply:;' id="pron87"><font class=pron>[bæmb<img src=/images/pron_stress.gif align=absmiddle>u:z:∂l]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td87">
+		<div>
+		<div>v. 속여먹다<br>		<font class=8pt>: to deceive by underhanded methods</font></div></div>
+		<div  style='disply:;' id='an87'>
+</div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check87 onclick="memorize(87)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>488		</td>
+		<td valign=top width=100><div id="word88">
+		<font style="color:coral;font:bold">ban</font><!-- <br>
+		<div style='disply:;' id="pron88"><font class=pron>[bæn]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td88">
+		<div>
+		<div>n. 금지<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an88'>
+</div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check88 onclick="memorize(88)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>489		</td>
+		<td valign=top width=100><div id="word89">
+		<font style="color:coral;font:bold">banal</font><!-- <br>
+		<div style='disply:;' id="pron89"><font class=pron>[b∂n<img src=/images/pron_stress.gif align=absmiddle>al]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td89">
+		<div>
+		<div>adj. 진부한/평범한<br>		<font class=8pt>: lacking originality, freshness, or novelty</font></div></div>
+		<div  style='disply:;' id='an89'>
+<table height=10><td></td></table>	banal : originality <font class=anal>::</font> disjointed : coherence <br>platitude : banal <font class=anal>::</font> equivocation : ambiguous <br>platitude : banal <font class=anal>::</font> postulate : presumed <br>platitude : banal <font class=anal>::</font> postulate : presumptive <br>platitude : banality <font class=anal>::</font> postulate : presumption <br>	banal <span class=anto>↔</span> arresting<br>banal <span class=anto>↔</span> novel<br>banal <span class=anto>↔</span> riveting<br>banality <span class=anto>↔</span> freshness<br>banality <span class=anto>↔</span> ingeniousness<br>banality <span class=anto>↔</span> original<br>unbanal <span class=anto>↔</span> trite<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check89 onclick="memorize(89)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>490		</td>
+		<td valign=top width=100><div id="word90">
+		<font style="color:coral;font:bold">banality</font><!-- <br>
+		<div style='disply:;' id="pron90"></div> -->
+		</div>
+		</td>
+		<td><div id="td90">
+		<div>
+		<div>n. 평범/진부한 말<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an90'>
+<table height=10><td></td></table>	platitude : banality <font class=anal>::</font> postulate : presumption <br>	banality <span class=anto>↔</span> freshness<br>banality <span class=anto>↔</span> ingeniousness<br>banality <span class=anto>↔</span> original<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check90 onclick="memorize(90)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>491		</td>
+		<td valign=top width=100><div id="word91">
+		<font style="color:coral;font:bold">bane</font><!-- <br>
+		<div style='disply:;' id="pron91"></div> -->
+		</div>
+		</td>
+		<td><div id="td91">
+		<div>
+		<div>n. 독<br>		<font class=8pt> Poison; torment; cause of harm </font></div></div>
+		<div  style='disply:;' id='an91'>
+<table height=10><td></td></table>	bane <span class=anto>↔</span> benefit<br>bane <span class=anto>↔</span> blessing<br>baneful <span class=anto>↔</span> beneficent<br>baneful <span class=anto>↔</span> benevolent<br>baneful <span class=anto>↔</span> salubrious<br>baneful <span class=anto>↔</span> salutary<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check91 onclick="memorize(91)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>492		</td>
+		<td valign=top width=100><div id="word92">
+		<font style="color:coral;font:bold">baneful</font><!-- <br>
+		<div style='disply:;' id="pron92"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>einf∂l]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td92">
+		<div>
+		<div>adj. 치명적인<br>		<font class=8pt>: seriously harmful or destructive</font></div></div>
+		<div  style='disply:;' id='an92'>
+<table height=10><td></td></table>	baneful <span class=anto>↔</span> beneficent<br>baneful <span class=anto>↔</span> benevolent<br>baneful <span class=anto>↔</span> salubrious<br>baneful <span class=anto>↔</span> salutary<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check92 onclick="memorize(92)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>493		</td>
+		<td valign=top width=100><div id="word93">
+		<font style="color:coral;font:bold">banish</font><!-- <br>
+		<div style='disply:;' id="pron93"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>æni∫]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td93">
+		<div>
+		<div>v. 추방하다<br>		<font class=8pt>: to require by authority to leave a country</font></div></div>
+		<div  style='disply:;' id='an93'>
+<table height=10><td></td></table>	banish : country <font class=anal>::</font> evict : residence <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check93 onclick="memorize(93)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>494		</td>
+		<td valign=top width=100><div id="word94">
+		<font style="color:coral;font:bold">banister</font><!-- <br>
+		<div style='disply:;' id="pron94"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>æn∂st∂:r]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td94">
+		<div>
+		<div>n. 계단의 난간<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an94'>
+<table height=10><td></td></table>	banister : staircase <font class=anal>::</font> fence : garden <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check94 onclick="memorize(94)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>495		</td>
+		<td valign=top width=100><div id="word95">
+		<font style="color:coral;font:bold">bankruptcy</font><!-- <br>
+		<div style='disply:;' id="pron95"></div> -->
+		</div>
+		</td>
+		<td><div id="td95">
+		<div>
+		<div>n. 파산<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an95'>
+<table height=10><td></td></table>	bankruptcy <span class=anto>↔</span> solvency<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check95 onclick="memorize(95)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>496		</td>
+		<td valign=top width=100><div id="word96">
+		<font style="color:coral;font:bold">banquet</font><!-- <br>
+		<div style='disply:;' id="pron96"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>æŋkwit]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td96">
+		<div>
+		<div>n. 진수성찬<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an96'>
+<table height=10><td></td></table>	chef : banquet <font class=anal>::</font> author : novel <br>chef : banquet <font class=anal>::</font> writer : novel <br>course : banquet <font class=anal>::</font> word : sentence <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check96 onclick="memorize(96)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>497		</td>
+		<td valign=top width=100><div id="word97">
+		<font style="color:coral;font:bold">banter</font><!-- <br>
+		<div style='disply:;' id="pron97"><font class=pron>[b<img src=/images/pron_stress.gif align=absmiddle>ænt∂r]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td97">
+		<div>
+		<div>n. [악의없는] 가벼운 농담<br>		<font class=8pt>: good-humored, playful conversation</font></div></div>
+		<div  style='disply:;' id='an97'>
+<table height=10><td></td></table>	playful : banter <font class=anal>::</font> exaggerated : hyperbole <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check97 onclick="memorize(97)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>498		</td>
+		<td valign=top width=100><div id="word98">
+		<font style="color:coral;font:bold">barb</font><!-- <br>
+		<div style='disply:;' id="pron98"><font class=pron>[ba:rb]</font></div> -->
+		</div>
+		</td>
+		<td><div id="td98">
+		<div>
+		<div>n. 가시/신랄한 말<br>		<font class=8pt>: a biting or pointedly critical remark or comment</font></div></div>
+		<div  style='disply:;' id='an98'>
+<table height=10><td></td></table>	barb : caustic <font class=anal>::</font> pan : harsh <br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check98 onclick="memorize(98)"></td>
+	</td></tr>
+	<tr class=listrow1>
+		<td valign=top width=30 nowrap class=pron>499		</td>
+		<td valign=top width=100><div id="word99">
+		<font style="color:coral;font:bold">barbaric</font><!-- <br>
+		<div style='disply:;' id="pron99"></div> -->
+		</div>
+		</td>
+		<td><div id="td99">
+		<div>
+		<div>n. 미개한<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an99'>
+<table height=10><td></td></table>	barbaric <span class=anto>↔</span> sophisticated<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check99 onclick="memorize(99)"></td>
+	</td></tr>
+	<tr>
+		<td valign=top width=30 nowrap class=pron>500		</td>
+		<td valign=top width=100><div id="word100">
+		<font style="color:coral;font:bold">barbarize</font><!-- <br>
+		<div style='disply:;' id="pron100"></div> -->
+		</div>
+		</td>
+		<td><div id="td100">
+		<div>
+		<div>v. 조잡하게 하다<br>		<font class=8pt></font></div></div>
+		<div  style='disply:;' id='an100'>
+<table height=10><td></td></table>	barbarize <span class=anto>↔</span> civilize<br></div>
+			<table height=10><td></td></table></div>
+		</td>
+		<td valign=top><input type=checkbox name=check100 onclick="memorize(100)"></td>
+	</td></tr>
+	</form></table>
+
+	<table height=20><td></td></table>
+
+<!--------------- next prev ----------------------------------------------------------------------->
+	<table width=625 cellpadding=0 cellspacing=0><td><a href=day4.html><img src="images/button_prev_on.gif" border=0></a></td><td align=right><a href=day6.html><img src="images/button_next_on.gif" border=0></a></td></table>
+
+<!------------------------------------------------------------------------------------------------------>
+<!------------------------------------------contents  end ---------------------------------------------->
+</td></table><img src=images/frame_bottom.gif>
+<table height=60 width=680><td class=8pt></td>
+<td align=right style="font:7pt;">WORDCOOK.COM | 2005.01.08 | version 1.0 </td></table>
+</div>
+</body></html>

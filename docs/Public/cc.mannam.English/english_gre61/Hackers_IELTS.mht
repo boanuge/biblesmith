@@ -1,0 +1,4109 @@
+From: <Saved by Windows Internet Explorer 7>
+Subject: =?ks_c_5601-1987?B?x9jEv726xeTHww==?=
+Date: Wed, 29 Aug 2007 21:32:26 +0900
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C7EA84.17E6E8E0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3138
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: text/html;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.gohackers.com/bbs/zboard.php?id=all_board1&no=1&open_mode=&gre_gra=6&page=&select_arrange=&headnum=&desc=&category=&sp=&sn=&ss=&sc=&sf=&keyword=&sp1=&sn1=&divpage=&sff=&sa=&md=&cmt=&outlink_frm=&show_bbs=&session=ielts
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>=C7=D8=C4=BF=BD=BA=C5=E4=C7=C3</TITLE>
+<SCRIPT language=3Djavascript=20
+src=3D"http://toeic.hackers.co.kr/js/bbs_ui.js"></SCRIPT>
+
+<SCRIPT language=3Djavascript=20
+src=3D"http://toeic.hackers.co.kr/js/bbs_scrap.js"></SCRIPT>
+
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dks_c_5601-1987">
+<SCRIPT language=3Djavascript>
+browserName =3D navigator.appName;
+browserVer =3D parseInt(navigator.appVersion);
+if(browserName =3D=3D "Netscape" && browserVer >=3D 3){ init =3D "net"; =
+}
+else { init =3D "ie"; }
+
+
+if(((init =3D=3D "net")&&(browserVer >=3D3))||((init =3D=3D =
+"ie")&&(browserVer >=3D 4))){
+
+ sp_on=3Dnew Image;
+ sp_off=3Dnew Image;
+ sp_on.src=3D "skin/all_board/spage_on.gif";
+ sp_off.src=3D "skin/all_board/spage_off.gif";
+
+ sn_on=3Dnew Image;
+ sn_off=3Dnew Image;
+ sn_on.src=3D "skin/all_board/name_on.gif";
+ sn_off.src=3D "skin/all_board/name_off.gif";
+
+ ss_on=3Dnew Image;
+ ss_off=3Dnew Image;
+ ss_on.src=3D "skin/all_board/subject_on.gif";
+ ss_off.src=3D "skin/all_board/subject_off.gif";
+
+ sc_on=3Dnew Image;
+ sc_off=3Dnew Image;
+ sc_on.src=3D "skin/all_board/content_on.gif";
+ sc_off.src=3D "skin/all_board/content_off.gif";
+
+ sf_on=3Dnew Image;
+ sf_off=3Dnew Image;
+ sf_on.src=3D "skin/all_board/form_on.gif";
+ sf_off.src=3D "skin/all_board/form_off.gif";
+
+ sa_on=3Dnew Image;
+ sa_off=3Dnew Image;
+ sa_on.src=3D "skin/all_board/topic_on.gif";
+ sa_off.src=3D "skin/all_board/topic_off.gif";
+}
+
+function OnOff(name) {
+if(((init =3D=3D "net")&&(browserVer >=3D3))||((init =3D=3D =
+"ie")&&(browserVer >=3D 4))) {
+=20
+ if(document.search[name].value=3D=3D'on')
+  {
+   document.search[name].value=3D'off';
+   ImgSrc=3Deval(name+"_off.src");
+   document[name].src=3DImgSrc;
+  }
+  else
+  {
+   document.search[name].value=3D'on';
+   ImgSrc=3Deval(name+"_on.src");
+   document[name].src=3DImgSrc;
+  }
+ }
+}
+
+
+function OnOff(spage) {
+if(((init =3D=3D "net")&&(browserVer >=3D3))||((init =3D=3D =
+"ie")&&(browserVer >=3D 4))) {
+=20
+ if(document.search[spage].value=3D=3D'on')
+  {
+   document.search[spage].value=3D'off';
+   ImgSrc=3Deval(spage+"_off.src");
+   document[spage].src=3DImgSrc;
+  }
+  else
+  {
+   document.search[spage].value=3D'on';
+   ImgSrc=3Deval(spage+"_on.src");
+   document[spage].src=3DImgSrc;
+  }
+ }
+}
+
+</SCRIPT>
+
+<SCRIPT language=3Djavascript>
+  function reverse() {
+   var i, chked=3D0;
+   if(confirm('=B8=F1=B7=CF=C0=BB =
+=B9=DD=C0=FC=C7=CF=BD=C3=B0=DA=BD=C0=B4=CF=B1=EE?\n\n=B9=DD=C0=FC=C0=BB =
+=BF=F8=C7=CF=C1=F6 =BE=CA=B4=C2=B4=D9=B8=E9 =C3=EB=BC=D2=B8=A6 =
+=B4=A9=B8=A3=BD=C3=B8=E9 =B4=D9=C0=BD=C0=B8=B7=CE =
+=B3=D1=BE=EE=B0=A9=B4=CF=B4=D9'))
+   {
+    for(i=3D0;i<document.list.length;i++)
+    {
+     if(document.list[i].type=3D=3D'checkbox')
+     {
+      if(document.list[i].checked) { document.list[i].checked=3Dfalse; }
+      else { document.list[i].checked=3Dtrue; }
+     }
+    }
+   }
+   for(i=3D0;i<document.list.length;i++)
+   {
+    if(document.list[i].type=3D=3D'checkbox')
+    {
+     if(document.list[i].checked) chked=3D1;
+    }
+   }
+   if(chked) {
+    if(confirm('=BC=B1=C5=C3=B5=C8 =C7=D7=B8=F1=C0=BB =
+=BA=B8=BD=C3=B0=DA=BD=C0=B4=CF=B1=EE?'))
+     {
+      document.list.selected.value=3D'';
+      document.list.exec.value=3D'view_all';
+      for(i=3D0;i<document.list.length;i++)
+      {
+       if(document.list[i].type=3D=3D'checkbox')
+       {
+        if(document.list[i].checked)
+        {
+         =
+document.list.selected.value=3Ddocument.list[i].value+';'+document.list.s=
+elected.value;
+        }
+       }
+      }
+      document.list.submit();
+      return true;
+     }
+    }
+   }
+
+ function delete_all() {
+  var i, chked=3D0;
+  for(i=3D0;i<document.list.length;i++)
+  {
+   if(document.list[i].type=3D=3D'checkbox')
+   {
+    if(document.list[i].checked) chked=3D1;
+    }
+   }
+  if(chked)
+  {
+    document.list.selected.value=3D'';
+    document.list.exec.value=3D'delete_all';
+    for(i=3D0;i<document.list.length;i++)
+    {
+     if(document.list[i].type=3D=3D'checkbox')
+     {
+      if(document.list[i].checked)
+      {
+       =
+document.list.selected.value=3Ddocument.list[i].value+';'+document.list.s=
+elected.value;
+      }
+     }
+    }
+    =
+window.open("select_list_all.php?id=3Dall_board1&selected=3D"+document.li=
+st.selected.value,"=B0=D4=BD=C3=B9=B0=C1=A4=B8=AE","width=3D260,height=3D=
+180,toolbars=3Dno,resize=3Dno,scrollbars=3Dno");
+  }
+  else {alert('=C1=A4=B8=AE=C7=D2 =B0=D4=BD=C3=B9=B0=C0=BB =
+=BC=B1=C5=C3=C7=CF=BF=A9 =C1=D6=BD=CA=BD=C3=BF=E4');}
+ }
+
+ function category_change(obj) {
+  var myindex=3Dobj.selectedIndex;
+  document.search.category.value=3Dobj.options[myindex].value;
+  document.search.submit();
+  return true;
+ }
+
+//-->
+</SCRIPT>
+
+<META content=3D"MSHTML 6.00.6000.16525" name=3DGENERATOR></HEAD>
+<BODY bgColor=3Dwhite leftMargin=3D0 topMargin=3D0 marginheight=3D"0" =
+marginwidth=3D"0">
+<DIV align=3Dcenter>
+<TABLE style=3D"TABLE-LAYOUT: fixed" height=3D1 cellSpacing=3D0 =
+cellPadding=3D0=20
+width=3D500 border=3D0>
+  <COLGROUP>
+  <COL width=3D"100%"></COL>
+  <TBODY>
+  <TR>
+    <TD><IMG height=3D1 =
+src=3D"http://www.gohackers.com/bbs/images/t.gif"=20
+      width=3D"98%" border=3D0 name=3Dzb_get_table_width><BR><IMG =
+height=3D1=20
+      src=3D"http://www.gohackers.com/bbs/images/t.gif" width=3D1 =
+border=3D0=20
+      name=3Dzb_target_resize></TD></TR></TBODY></TABLE>
+<STYLE type=3Dtext/css>.style1 {
+	COLOR: #ff0000
+}
+.style12 {
+	FONT-SIZE: 6pt; COLOR: #d40001
+}
+.style888 {
+	FONT-SIZE: 9pt; CURSOR: hand; COLOR: #ffffff; FONT-FAMILY: =
+=C6=BC=C6=BC=C3=BC; BACKGROUND-COLOR: #24476b; TEXT-DECORATION: none
+}
+</STYLE>
+
+<STYLE type=3Dtext/css>TD {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: "tahoma", "=B1=BC=B8=B2"; =
+TEXT-DECORATION: none
+}
+INPUT {
+	BORDER-RIGHT: #cdcdcd 1px solid; BORDER-TOP: #cdcdcd 1px solid; =
+FONT-SIZE: 9pt; BORDER-LEFT: #cdcdcd 1px solid; COLOR: #000000; =
+BORDER-BOTTOM: #cdcdcd 1px solid; FONT-FAMILY: "tahoma", "=B1=BC=B8=B2"; =
+BACKGROUND-COLOR: #f7f5f7; TEXT-DECORATION: none
+}
+.input10 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 9pt; BORDER-LEFT: 0px; =
+COLOR: #000000; BORDER-BOTTOM: 0px; FONT-FAMILY: "tahoma", =
+"=B1=BC=B8=B2"; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.input20 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 9pt; BORDER-LEFT: 0px; =
+COLOR: #000000; BORDER-BOTTOM: 0px; FONT-FAMILY: "tahoma", =
+"=B1=BC=B8=B2"; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #dfd7c0; TEXT-DECORATION: none
+}
+.A {
+	FONT-SIZE: 9pt; CURSOR: hand; COLOR: #ffffff; FONT-FAMILY: =
+=C6=BC=C6=BC=C3=BC; BACKGROUND-COLOR: #24476b; TEXT-DECORATION: none
+}
+.nodecoration {
+	TEXT-DECORATION: none
+}
+.button {
+	BORDER-RIGHT: #bbccbb 1px solid; BORDER-TOP: #bbccbb 1px solid; =
+FONT-SIZE: 9pt; BORDER-LEFT: #bbccbb 1px solid; COLOR: #ffffff; =
+BORDER-BOTTOM: #bbccbb 1px solid; FONT-FAMILY: Tahoma,=B1=BC=B8=B2; =
+HEIGHT: 21px; BACKGROUND-COLOR: #bbccbb
+}
+.none {
+	FONT-SIZE: 1px; LINE-HEIGHT: 1%; FONT-FAMILY: "Verdana", "Arial", =
+"sans-serif"; TEXT-DECORATION: none
+}
+.select {
+	BORDER-TOP: #00356a 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #00356a 1px =
+solid; COLOR: #00356a; LINE-HEIGHT: 130%; BACKGROUND-COLOR: #98c8ef; =
+TEXT-ALIGN: center
+}
+</STYLE>
+
+<SCRIPT language=3DJavaScript>
+<!--
+// ville =BB=F5=C3=A2=C0=B8=B7=CE
+function na_open_window(name, url, left, top, width, height, toolbar, =
+menubar, statusbar, scrollbar, resizable)
+{
+var v_left=3D (window.screen.width - 947) / 2;	// ville =C0=A7=C4=A1 =
+=C1=DF=BE=D3=C0=B8=B7=CE
+var v_top=3D (window.screen.height - 560) / 2;
+  toolbar_str =3D toolbar ? 'yes' : 'no';
+  menubar_str =3D menubar ? 'yes' : 'no';
+  statusbar_str =3D statusbar ? 'yes' : 'no';
+  scrollbar_str =3D scrollbar ? 'no' : 'no';
+  resizable_str =3D resizable ? 'yes' : 'no';
+  window.open(url, name, =
+'left=3D'+v_left+',top=3D'+v_top+',width=3D'+width+',height=3D'+height+',=
+toolbar=3D'+toolbar_str+',menubar=3D'+menubar_str+',status=3D'+statusbar_=
+str+',scrollbars=3D'+scrollbar_str+',resizable=3D'+resizable_str);
+}
+
+function pop(a,b) {
+popUpWin =3D window.open(a,'',b);
+}
+
+//-->
+</SCRIPT>
+
+<TABLE width=3D720>
+  <TBODY>
+  <TR>
+    <TD align=3Dleft>&nbsp;&nbsp;&nbsp;<IMG=20
+      src=3D"http://www.gohackers.com/sub/title/02_title13_e.gif"> </TD>
+    <TD><B>count : </B>117976 </TD></TR></TBODY></TABLE>
+<TABLE width=3D500 border=3D0>
+  <TBODY>
+  <TR><!--=BC=F6=C1=A4-->
+    <TD colSpan=3D2><SPAN style=3D"COLOR: #45250c; LINE-HEIGHT: 160%">
+      <STYLE type=3Dtext/css>.style7 {
+	FONT-WEIGHT: bold; COLOR: #a5862c; LINE-HEIGHT: 10pt
+}
+</STYLE>
+
+      <STYLE type=3Dtext/css>BODY {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma,=B1=BC=B8=B2
+}
+TD {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma,=B1=BC=B8=B2
+}
+SELECT {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma,=B1=BC=B8=B2
+}
+DIV {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma,=B1=BC=B8=B2
+}
+FORM {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma,=B1=BC=B8=B2
+}
+TEXTAREA {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma,=B1=BC=B8=B2
+}
+CENTER {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma,=B1=BC=B8=B2
+}
+OPTION {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma,=B1=BC=B8=B2
+}
+PRE {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma,=B1=BC=B8=B2
+}
+BLOCKQUOTE {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma,=B1=BC=B8=B2
+}
+A.9 {
+	FONT-SIZE: 9pt; COLOR: #336596; TEXT-DECORATION: none
+}
+.style8 {
+	FONT-WEIGHT: bold
+}
+.style9 {
+	FONT-WEIGHT: bold; COLOR: #a5862c
+}
+.style10 {
+	COLOR: #a5862c
+}
+.style11 {
+	FONT-WEIGHT: bold; COLOR: #e94040
+}
+</STYLE>
+
+      <SCRIPT language=3DJavaScript>
+
+
+var isDOM =3D (document.getElementById ? true : false);
+var isIE4 =3D ((document.all && !isDOM) ? true : false);
+var isNS4 =3D (document.layers ? true : false);
+var isNS =3D navigator.appName =3D=3D "Netscape";
+
+function getRef(id) {
+  if (isDOM) return document.getElementById(id);
+  if (isIE4) return document.all[id];
+  if (isNS4) return document.layers[id];
+}
+
+function getSty(id) {
+  x =3D getRef(id);
+  return (isNS4 ? getRef(id) : getRef(id).style);
+}
+
+var scrollerHeight =3D 88;
+var puaseBetweenImages =3D 3000;
+var imageIdx =3D 0;
+
+function moveRightEdge() {
+  var yMenuFrom, yMenuTo, yOffset, timeoutNextCheck;
+
+if(window.screen.width =3D=3D "1024"){
+  if (document.body.clientHeight) yTop=3Ddocument.body.clientHeight-460; =
+// A=A1=D7AE A=A1=D7A=A2=AE
+  else yTop=3D550;
+}else{
+	if (document.body.clientHeight) yTop=3Ddocument.body.clientHeight-460; =
+// A=A1=D7AE A=A1=D7A=A2=AE
+  else yTop=3D550;
+}
+yTop=3D60;
+
+  if (isNS4) {
+    yMenuFrom   =3D divMenu.top;
+    yMenuTo     =3D windows.pageYOffset + yTop;
+  } else if (isDOM) {
+    yMenuFrom   =3D parseInt (divMenu.style.top, 10);
+    yMenuTo     =3D (isNS ? window.pageYOffset : =
+document.body.scrollTop) + yTop;
+  }
+  timeoutNextCheck =3D 500;
+
+  if (yMenuFrom !=3D yMenuTo) {
+    yOffset =3D Math.ceil(Math.abs(yMenuTo - yMenuFrom) / 20);
+    if (yMenuTo < yMenuFrom)
+      yOffset =3D -yOffset;
+    if (isNS4)
+      divMenu.top +=3D yOffset;
+    else if (isDOM)
+      divMenu.style.top =3D parseInt (divMenu.style.top, 10) + yOffset;
+      timeoutNextCheck =3D 10;
+  }
+  setTimeout ("moveRightEdge()", timeoutNextCheck);
+}
+
+
+document.write("<div id=3DdivMenu =
+style=3D'left:expression((document.body.clientWidth-2833)/2+935+100); =
+visibility: visible; position: absolute'>");
+document.write("<div align=3Dleft><table width=3D180><tr><td width=3D181 =
+height=3D20 bgcolor=3D#A5862C><div align=3Dcenter><strong><font =
+color=3D#FFFFFF>IELTS</font></strong></div></td> </tr></table></div>");
+document.write("<div align=3Dleft><span class=3Dstyle1><span =
+class=3Dstyle4>&nbsp;</span><a href=3D#gre01> <span class=3Dstyle6> =
+<b>01. IELTS =B0=B3=BF=E4 </b></span></a></span><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre01_01 >IELTS=B6=F5?</a><br></div>");
+document.write("<div align=3Dleft><span class=3Dstyle1><span =
+class=3Dstyle4>&nbsp;</span><a href=3D#gre02> <span class=3Dstyle6> =
+<b>02. =BD=C3=C7=E8=C1=A2=BC=F6 =B9=D7 =
+=C0=CF=C1=A4</b></span></a></span><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre02_01 >IELTS =BD=C3=C7=E8=C1=A2=BC=F6</a><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre02_02 >IELTS =BD=C3=C7=E8=C0=CF </a><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre02_03 >IELTS =BD=C3=C7=E8=C0=E5=BC=D2 =
+</a><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre02_04 >=BD=C3=C7=E8 =BF=AC=B1=E2=BF=CD =
+=C3=EB=BC=D2/=C8=AF=BA=D2</a><br></div>");
+document.write("<div align=3Dleft><span class=3Dstyle1><span =
+class=3Dstyle4>&nbsp;</span><a href=3D#gre03><span class=3Dstyle6> =
+<b>03. =BD=C3=C7=E8=C0=C7 =B1=B8=BC=BA=B0=FA =C1=A6=C7=D1=BD=C3=B0=A3 =
+</b></span></a></span><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre03_01 >Listening</a><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre03_02 >Academic Reading</a><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre03_03>Academic Writing</a><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre03_04>Speaking</a><br></div>");
+document.write("<div align=3Dleft><span class=3Dstyle1><span =
+class=3Dstyle4>&nbsp;</span><a href=3D#gre04> <span class=3Dstyle6> =
+<b>04. =BD=C3=C7=E8 =C1=D8=BA=F1=BF=CD =
+=C0=C0=BD=C3=C0=FD=C2=F7</b></span></a></span><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre04_01 >=C1=D8=BA=F1=B9=B0</a><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre04_02 >IELTS =C0=C0=BD=C3=C0=FD=C2=F7</a><br></div>");
+document.write("<div align=3Dleft><span class=3Dstyle1><span =
+class=3Dstyle4>&nbsp;</span><a href=3D#gre05> <span class=3Dstyle6> =
+<b>05. =
+=BD=C3=C7=E8=C1=A1=BC=F6=C8=AE=C0=CE</b></span></a></span><br>&nbsp;&nbsp=
+;<img src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre05_01 >IELTS =
+=C1=A1=BC=F6=C8=AE=C0=CE/Reporting</a><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre05_01 >IELTS =C1=A1=BC=F6=BF=A1 =B4=EB=C7=D1 =
+=C6=F2=B0=A1</a></div>");
+document.write("<div align=3Dleft><span class=3Dstyle1><span =
+class=3Dstyle4>&nbsp;</span><a href=3D#gre06> <span class=3Dstyle6> =
+<b>06. IELTS =B5=E6=C1=A1=B0=FA =C1=D8=BA=F1=B9=E6=B9=FD =
+</b></span></a></span><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre06_01 >IELTS =B5=E6=C1=A1</a><br>&nbsp;&nbsp;<img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/arrow_a.gif><a =
+href=3D#gre06_02 >IELTS =C1=D8=BA=F1</a><br></div>");
+document.write("<div align=3Dleft><table width=3D180><tr><td width=3D180 =
+height=3D2 bgcolor=3DC96600></td> </tr></table></div>");
+document.write("<div align=3Dcenter><table width=3D180><tr =
+align=3Dcenter><td width=3D180 ><a =
+href=3Dhttp://www.gohackers.com/bbs/zboard.php?id=3Dg_faculty&no=3D&open_=
+mode=3D&gre_gra=3D&page=3D&select_arrange=3D&headnum=3D&desc=3D&category=3D=
+&sp=3D&sn=3D&ss=3D&sc=3D&sf=3D&keyword=3D&sp1=3D&sn1=3D&divpage=3D&sff=3D=
+&sa=3D&md=3D&cmt=3D&outlink_frm=3D><img =
+src=3Dhttp://www.gohackers.com/sub/toefl_img/sat_mainbtn.gif =
+border=3D0></a></td></tr></table></div>");
+document.write("</div>");
+
+if (isNS4) {
+  var divMenu =3D document["divMenu"];
+  divMenu.top =3D top.pageYOffset + 100;
+  divMenu.visibility =3D "visible";
+  moveRightEdge();
+} else if (isDOM) {
+
+  var divMenu =3D getRef('divMenu');
+  divMenu.style.top =3D (isNS ? window.pageYOffset : =
+document.body.scrollTop) + 300;
+  divMenu.style.visibility =3D "visible";
+  moveRightEdge();
+}
+
+</SCRIPT>
+
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD vAlign=3Dtop>
+            <DIV align=3Dcenter>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D844 =
+border=3D0>
+              <TBODY>
+              <TR></TR>
+              <TR>
+                <TD vAlign=3Dtop>
+                  <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D844 =
+border=3D0>
+                    <TBODY>
+                    <TR>
+                      <TD>
+                        <DIV align=3Dright>
+                        <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D844 border=3D0>
+                          <TBODY>
+                          <TR>
+                            <TD width=3D154 rowSpan=3D4>&nbsp;</TD></TR>
+                          <TR>
+                            <TD>
+                              <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D690>
+                                <TBODY>
+                                <TR>
+                                <TD>
+                                <DIV align=3Dcenter>
+                                <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D600=20
+                                align=3Dright border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD colSpan=3D2><IMG height=3D24=20
+                                =
+src=3D"http://www.gohackers.com/sub/gre_img/graduate1_img06_01.gif"=20
+                                width=3D125></TD></TR>
+                                <TR vAlign=3Dtop>
+                                <TD style=3D"LINE-HEIGHT: 150%" =
+colSpan=3D2>
+                                <P class=3Dstyle7><BR><A=20
+                                name=3Dgre01_01></A><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                IELTS=B6=F5 (International English =
+Language Testing=20
+                                System)</P>
+                                <P align=3Djustify>IELTS=B4=C2 =
+International English=20
+                                Language Testing System=C0=C7 =
+=BE=E0=C0=DA=B7=CE =BF=B5=B1=B9=C0=BB =BA=F1=B7=D4=C7=D1 =
+=C4=B3=B3=AA=B4=D9, =C8=A3=C1=D6,=20
+                                =B4=BA=C1=FA=B7=A3=B5=E5=BF=CD =
+=B0=B0=C0=BA =BF=B5=BF=AC=B9=E6 =B1=B9=B0=A1=C0=C7 =
+=B0=ED=B5=EE=B1=B3=C0=B0=B1=E2=B0=FC=C0=C7 =C0=D4=C7=D0=C0=BB =
+=C0=A7=C7=D1 =BD=C3=C7=E8=C0=B8=B7=CE =C7=F6=C0=E7 =C0=FC=BC=BC=B0=E8=20
+                                105=B0=B3=B1=B9 230=B0=B3=C0=C7 =
+=B1=E2=B0=FC=BF=A1=BC=AD =BD=C7=BD=C3=C7=CF=B0=ED =C0=D6=B4=D9. =
+=BD=C3=C7=E8=C0=BA British Council=B0=FA=20
+                                UCLES(University of Cambridge Local =
+Examination=20
+                                System), IDP(International Development =
+Program=20
+                                of Australian Universities and =
+Colleges)=B0=A1 =B0=F8=B5=BF=C0=B8=B7=CE=20
+                                =B0=B3=B9=DF=C7=CF=B0=ED =
+=C1=D6=B0=FC=C7=CF=B0=ED =C0=D6=B4=D9. </P>
+                                <P>IELTS=B4=C2 Academic Module=B0=FA =
+General Training=20
+                                Module=B7=CE =B3=AA=B4=B5=BE=EE=C1=AE =
+=C0=D6=B4=D9. Academic Module=C0=BA =C7=D0=BB=E7, =BC=AE=BB=E7, =
+=B9=DA=BB=E7 =B5=EE=20
+                                =C7=D0=C0=A7=B0=FA=C1=A4=C0=BB =
+=C0=CC=BC=F6=C7=CF=B1=E2 =C0=A7=C7=D8 =C0=AF=C7=D0=C0=BB =
+=C1=D8=BA=F1=C7=CF=B4=C2 =C0=CC=B5=E9=C0=BB =B4=EB=BB=F3=C0=B8=B7=CE =
+=C7=CF=B8=E7, General=20
+                                Training Module=C0=BA =C1=F7=BE=F7 =
+=B0=FC=B7=C3 =BF=AC=BC=F6 =C8=A4=C0=BA =BF=B5=B1=B9, =C8=A3=C1=D6, =
+=C4=B3=B3=AA=B4=D9, =B4=BA=C1=FA=B7=A3=B5=E5=20
+                                =C0=CC=B9=CE=C0=BB =
+=C1=D8=BA=F1=C7=CF=B4=C2 =C0=CC=B5=E9=BF=A1=B0=D4 =C0=AF=BF=EB=C7=D1 =
+=BD=C3=C7=E8=C0=CC=B4=D9. =B5=FB=B6=F3=BC=AD =BD=C3=C7=E8=C0=BB =
+=C1=A2=BC=F6=C7=CF=B1=E2 =C0=FC=BF=A1 =BE=EE=B6=B2 =BD=C3=C7=E8=C0=BB=20
+                                =C0=C0=BD=C3=C7=D8=BE=DF =
+=C7=CF=B4=C2=C1=F6 =C1=F6=BF=F8=C7=CF=B0=ED=C0=DA =C7=CF=B4=C2 =
+=B4=EB=C7=D0=C0=CC=B3=AA =B1=E2=B0=FC, =C0=CC=B9=CE =
+=B4=E3=B4=E7=C0=DA=BF=A1=B0=D4 =B9=DD=B5=E5=BD=C3 =
+=C8=AE=C0=CE=C7=D8=BE=DF =C7=D1=B4=D9.=20
+                                <BR><BR></P></TD></TR>
+                                <TR>
+                                <TD colSpan=3D2><A =
+name=3Dgre02></A>&nbsp;</TD></TR>
+                                <TR>
+                                <TD colSpan=3D2><IMG height=3D29=20
+                                =
+src=3D"http://www.gohackers.com/sub/gre_img/graduate1_img06_02.gif"=20
+                                width=3D174>=20
+                                <DIV align=3Dright></DIV></TD></TR>
+                                <TR>
+                                <TD style=3D"LINE-HEIGHT: 150%" =
+colSpan=3D2><A=20
+                                name=3Dgre02_01></A><BR><STRONG=20
+                                class=3Dstyle7><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                IELTS =BD=C3=C7=E8=C1=A2=BC=F6</STRONG>
+                                <P></P>
+                                <P>IELTS =BD=C3=C7=E8 =C1=A2=BC=F6=B4=C2 =
+=C1=D6=C7=D1=BF=B5=B1=B9=B9=AE=C8=AD=BF=F8=B0=FA =C8=A3=C1=D6 =
+IDP=BF=A1=B5=E0=C4=C9=C0=CC=BC=C7 =C7=D1=B1=B9=C1=F6=BB=E7=BF=A1=BC=AD =
+=C1=A2=BC=F6=C7=D2=20
+                                =BC=F6 =C0=D6=B4=D9. =
+<BR>=C1=D6=C7=D1=BF=B5=B1=B9=B9=AE=C8=AD=BF=F8=B0=FA =C8=A3=C1=D6 =
+IDP=BF=A1=B5=E0=C4=C9=C0=CC=BC=C7 =C7=D1=B1=B9=C1=F6=BB=E7=BF=A1=BC=AD =
+=C1=A2=BC=F6=C7=D2 =B0=E6=BF=EC =C0=FD=C2=F7=BF=A1=20
+                                =C2=F7=C0=CC=B0=A1 =C0=D6=C0=B8=B4=CF =
+=C8=AE=C0=CE=C7=CF=B0=ED =B5=EE=B7=CF=C7=CF=B4=C2 =B0=CD=C0=CC =
+=C1=C1=B4=D9. <BR><BR><STRONG>=C1=D6=C7=D1=20
+                                =BF=B5=B1=B9=B9=AE=C8=AD=BF=F8=C0=BB =
+=C5=EB=C7=D1 =C1=A2=BC=F6</STRONG><STRONG>(<A=20
+                                href=3D"http://www.ieltstest.or.kr/"=20
+                                =
+target=3D_blank>http://www.ieltstest.or.kr/</A>)<BR><BR><SPAN=20
+                                class=3Dstyle7><STRONG>1.</STRONG> =
+<STRONG>=BF=C2=B6=F3=C0=CE =C1=A2=BC=F6=20
+                                =
+=B9=E6=B9=FD<BR></STRONG></SPAN>=BF=B5=B1=B9 =
+=B9=AE=C8=AD=BF=F8=C0=C7<SPAN lang=3DEN-US>=20
+                                IELTS =BB=E7=C0=CC=C6=AE(<A =
+href=3D"http://www.ieltstest.or.kr/"=20
+                                =
+target=3D_blank>http://www.ieltstest.or.kr/</A>)=BF=A1=20
+                                =C1=A2=BC=D3=C7=CF=BF=A9 =
+=C8=B8=BF=F8=B0=A1=C0=D4=B0=FA =B7=CE=B1=D7=C0=CE =C8=C4 =BD=C3=C7=E8 =
+=C1=A2=BC=F6=B8=A6 =C7=D2 =BC=F6 =C0=D6=B4=D9.</SPAN></P>
+                                <P><BR><SPAN class=3Dstyle7>2.=20
+                                =
+=B9=E6=B9=AE=C1=A2=BC=F6</SPAN><BR>=B9=E6=B9=AE=C1=A2=BC=F6=B4=C2 =
+=BC=B1=C2=F8=BC=F8=C0=B8=B7=CE =B9=DE=B4=C2=B4=D9. =BE=C6=B7=A1=C0=C7 =
+=C1=A2=BC=F6 =BD=C3=B0=A3=C0=BB =C8=AE=C0=CE =C8=C4=20
+                                =B9=E6=B9=AE=C7=CF=B8=E9 =B5=C8=B4=D9. =
+(=BB=E7=C0=FC=BF=B9=BE=E0 =C7=CA=BF=E4 =BE=F8=C0=BD) <BR><BR>* =
+=BE=EE=C7=D0=BC=BE=C5=CD=C0=C7 =B5=EE=B7=CF =B1=E2=B0=A3(=B8=C5 =
+=C7=D0=B1=E2=20
+                                5=C1=D6, 7=C1=D6=C2=F7 =
+=BF=F9~=C5=E4)=B9=D7 =B8=C5=C1=D6 =C5=E4=BF=E4=C0=CF=B0=FA =
+=C1=A1=BD=C9=BD=C3=B0=A3 (12=BD=C3-2=BD=C3) =BF=A1=B4=C2 =
+IELTS=C1=A2=BC=F6 =BD=C3=20
+                                =B4=EB=B1=E2=BD=C3=B0=A3=C0=CC =
+=B1=E6=BE=EE =BA=D2=C6=ED=C7=D2 =BC=F6 =C0=D6=C0=B8=B4=CF, =
+=B0=A1=B4=C9=C7=D1 =C0=CC =BF=DC=C0=C7 =BD=C3=B0=A3=BF=A1 =
+=B9=E6=B9=AE=C7=CF=B4=C2 =B0=CD=C0=CC=20
+                                =C1=C1=B4=D9.<BR><BR>=C7=D0=B1=E2 =C1=DF =
+=C1=A2=BC=F6 =BD=C3=B0=A3 : =BF=F9-=B1=DD: 09:00- 18:30/=C5=E4:=20
+                                10:00-17:00<BR>=BC=F6=BE=F7=C0=CC =
+=BE=F8=B4=C2 =C1=D6=B0=A3 : =BF=F9-=B1=DD: 10:00 - 17:00/=C5=E4:=20
+                                =
+=C8=DE=B9=AB<BR>=BF=B5=B1=B9=B9=AE=C8=AD=BF=F8=C0=C7 =B0=B3=B0=FC =
+=BD=C3=B0=A3=C0=BA =BE=EE=C7=D0=BC=BE=C5=CD =C7=D0=B1=E2 =
+=C0=CF=C1=A4=BF=A1 =B5=FB=B6=F3 =BA=AF=B5=BF=B5=C7=B9=C7=B7=CE =
+=C8=AE=C0=CE =C8=C4=20
+                                =B9=E6=B9=AE=C7=D1=B4=D9.<BR><BR>* IELTS =
+=C1=A2=BC=F6 =BD=C3 =C1=D8=BA=F1=B9=B0:<BR>=BD=C5=BA=D0=C1=F5 =
+=BA=B9=BB=E7=BA=BB 1=B8=C5,=20
+                                =BF=A9=B1=C7=BF=EB =BB=E7=C1=F8 2 =
+=B8=C5, =BD=C3=C7=E8 =C0=C0=BD=C3=B7=E1(=C7=F6=B1=DD/=C4=AB=B5=E5 =
+=B0=A1=B4=C9), =BF=F8=BC=AD, =BD=C5=BA=D0=C1=F5<BR><BR>*=20
+                                =C0=A7=C4=A1 <BR>=B1=A4=C8=AD=B9=AE =
+=BB=E7=B0=C5=B8=AE=BF=A1=BC=AD =BC=AD=B4=EB=B9=AE =
+=B9=E6=B8=E9=C0=B8=B7=CE =BE=E0 5=BA=D0 =C1=A4=B5=B5 =B0=C5=B8=AE=BF=A1 =
+=C0=D6=B4=C2 =C8=EF=B1=B9=BB=FD=B8=ED=BA=F4=B5=F9=20
+                                4=C3=FE <BR>=C1=F6=C7=CF=C3=B6=C0=BB =
+=C0=CC=BF=EB=C7=D2 =B0=E6=BF=EC, 5=C8=A3=BC=B1 =B1=A4=C8=AD=B9=AE=BF=AA =
+6=B9=F8 =C3=E2=B1=B8 <BR>=C0=FC=C8=AD:=20
+                                02-3702-0600<BR><STRONG><A=20
+                                =
+onclick=3D"window.open('http://gohackers.com/sub/images/map_00.html','new=
+0','resizable=3Dno scrollbars=3Dno width=3D640, height=3D395');"=20
+                                =
+href=3D"javascript:;">=BE=E0=B5=B5=BA=B8=B1=E2 =
+=A2=D1</A></STRONG><BR><BR>*=20
+                                =C1=D6=C0=C7=BB=E7=C7=D7<BR>=C1=A2=BC=F6 =
+=BD=C3 =BD=C5=BA=D0=C1=F5 =BA=B9=BB=E7=BC=AD=BA=F1=BD=BA=B0=A1 =
+=C1=A6=B0=F8=B5=C7=C1=F6 =BE=CA=C0=B8=B4=CF =B9=DD=B5=E5=BD=C3 =
+=BA=B9=BB=E7=BA=BB=C0=BB =C1=F6=C2=FC=C7=D8=BE=DF=20
+                                =C7=D1=B4=D9 .<BR>=BD=C5=BA=D0=C1=F5 =
+=BA=B9=BB=E7=BA=BB=C0=C7 =BB=E7=C1=F8=C0=CC =BC=B1=B8=ED=C7=CF=C1=F6 =
+=BE=CA=C0=B8=B8=E9 =C1=A2=BC=F6=B0=A1 =BE=C8 =B5=C8=B4=D9 =
+.<BR>=BC=AD=B7=F9=B0=A1=20
+                                =B9=CC=BA=F1=C7=D2 =B0=E6=BF=EC, =
+=B5=EE=B7=CF=C0=CC =B5=C7=C1=F6 =BE=CA=C0=B8=B9=C7=B7=CE =
+=C1=D6=C0=C7=C7=D1=B4=D9. <BR>&nbsp;<BR>=BA=FC=B8=A5 =BC=F6=BC=D3=C0=BB=20
+                                =BF=F8=C7=CF=B8=E9 =B9=CC=B8=AE =
+<STRONG><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.britishcouncil.org/kr/application_form_nb06.pdf"=20
+                                =
+target=3D_blank>=C0=C0=BD=C3=BF=F8=BC=AD</A></STRONG><STRONG>,=20
+                                </STRONG><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.britishcouncil.org/kr/sms_exam_reminder.pdf"=20
+                                target=3D_blank>&nbsp;</A><STRONG><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.britishcouncil.org/kr/sms_exam_reminder.pdf"=20
+                                target=3D_blank>SMS =
+=B5=BF=C0=C7=BC=AD</A></STRONG>(=B5=BF=C0=C7=BC=AD=B8=A6 =
+=C0=DB=BC=BA=C7=CF=C1=F6 =BE=CA=C0=B8=B8=E9=20
+                                =C0=FB=C0=FD=C7=D1 =BF=AC=B6=F4=C0=BB =
+=B9=DE=C0=BB =BC=F6 =BE=F8=B4=D9.)=BF=CD <STRONG><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.britishcouncil.org/kr/info_06.pdf"=20
+                                target=3D_blank>=C0=DB=BC=BA=BD=C3 =
+=C0=AF=C0=C7=BB=E7=C7=D7</A></STRONG>=C0=BB =B4=D9=BF=EE=B7=CE=B5=E5 =
+=B9=DE=BE=C6 =C0=DB=BC=BA=C7=D2=20
+                                =BC=F6 =C0=D6=B4=D9 .(Adobe Acrobat =
+=C6=C4=C0=CF=C0=CC=B9=C7=B7=CE =C6=C4=C0=CF=C0=BB =BF=AD=B0=C5=B3=AA =
+=C3=E2=B7=C2=C7=CF=B7=C1=B8=E9 Adobe=20
+                                Acrobat Reader=B0=A1 =
+=C7=CA=BF=E4=C7=CF=B4=D9.)<BR><BR><STRONG><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.britishcouncil.org/kr/application_form_nb06.pdf"=20
+                                target=3D_blank>=A2=D1 =
+</A></STRONG><STRONG><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.britishcouncil.org/kr/sms_exam_reminder.pdf"=20
+                                target=3D_blank>SMS =B5=BF=C0=C7=BC=AD =
+</A></STRONG><STRONG><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.britishcouncil.org/kr/application_form_nb06.pdf"=20
+                                =
+target=3D_blank><BR>=C0=C0=BD=C3=BF=F8=BC=AD =
+=B4=D9=BF=EE=B7=CE=B5=E5=A2=D1=20
+                                <BR></A></STRONG><STRONG><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.britishcouncil.org/kr/info_06.pdf"=20
+                                target=3D_blank>=C0=DB=BC=BA=BD=C3 =
+=C0=AF=C0=C7=BB=E7=C7=D7 =B4=D9=BF=EE=B7=CE=B5=E5=20
+                                =A2=D1<BR></A></STRONG><STRONG><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.adobe.com/support/downloads/main.html"=20
+                                target=3D_blank>Adobe Acrobat Reader=20
+                                =A2=D1</A></STRONG><SPAN=20
+                                =
+class=3Dstyle9><BR></SPAN><STRONG><BR></STRONG></P>
+                                <TABLE borderColor=3D#d7d7d7 =
+cellSpacing=3D1=20
+                                cellPadding=3D0 width=3D500 border=3D1>
+                                <TBODY>
+                                <TR align=3Dmiddle bgColor=3D#f0f0f0>
+                                <TD width=3D131 =
+height=3D24>=B1=E2=B0=A3</TD>
+                                <TD width=3D72>=BF=E4=C0=CF</TD>
+                                <TD width=3D148>=C1=A2=BC=F6 =
+=BD=C3=B0=A3</TD>
+                                <TD width=3D134>=B3=BB=BF=EB</TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle height=3D48>1=BF=F9 =
+8=C0=CF ~ 2=BF=F9 24=C0=CF </TD>
+                                <TD align=3Dmiddle>=BF=F9-=B1=DD, =
+<BR>=C5=E4 </TD>
+                                <TD =
+align=3Dmiddle>09:00~18:30<BR>10:00-17:00</TD>
+                                <TD =
+align=3Dmiddle>=BE=EE=C7=D0=BC=BE=C5=CD 1=C7=D0=B1=E2 </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle height=3D24>2=BF=F9 =
+17=C0=CF, 19=C0=CF </TD>
+                                <TD align=3Dmiddle>=C5=E4, =BF=F9 </TD>
+                                <TD align=3Dmiddle>=C8=DE=B0=FC</TD>
+                                <TD align=3Dmiddle>=C0=BD=B7=C2 =
+=BC=B3=B3=AF =BF=AC=C8=DE </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle height=3D24>2=BF=F9 =
+26=C0=CF ~ 3=BF=F9 2=C0=CF </TD>
+                                <TD align=3Dmiddle>=BF=F9~=B1=DD</TD>
+                                <TD align=3Dmiddle>10:00 - 17:00 </TD>
+                                <TD align=3Dmiddle>=BC=F6=BE=F7 =
+=BE=F8=B4=C2 =C1=D6 </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle height=3D24>3=BF=F9 =
+1=C0=CF </TD>
+                                <TD align=3Dmiddle>=B8=F1</TD>
+                                <TD align=3Dmiddle>=C8=DE=B0=FC</TD>
+                                <TD =
+align=3Dmiddle>=BB=EF=C0=CF=C0=FD</TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle height=3D24>3=BF=F9 =
+3=C0=CF </TD>
+                                <TD align=3Dmiddle>=C5=E4</TD>
+                                <TD align=3Dmiddle>=C8=DE=B0=FC</TD>
+                                <TD align=3Dmiddle>-</TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle height=3D24>3=BF=F9 =
+5=C0=CF ~ 4=BF=F9 21=C0=CF </TD>
+                                <TD align=3Dmiddle>=BF=F9~=B1=DD, =
+<BR>=C5=E4 </TD>
+                                <TD align=3Dmiddle>09:00~18:30</TD>
+                                <TD =
+align=3Dmiddle>=BE=EE=C7=D0=BC=BE=C5=CD 2=C7=D0=B1=E2 </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle height=3D24>4=BF=F9 =
+23=C0=CF ~ 4=BF=F9 27=C0=CF </TD>
+                                <TD align=3Dmiddle>=BF=F9-=B1=DD</TD>
+                                <TD align=3Dmiddle>10:00 - 17:00 </TD>
+                                <TD align=3Dmiddle>=BC=F6=BE=F7 =
+=BE=F8=B4=C2 =C1=D6 </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle height=3D24>4=BF=F9 =
+28=C0=CF </TD>
+                                <TD align=3Dmiddle>=C5=E4 </TD>
+                                <TD align=3Dmiddle>=C8=DE=B0=FC</TD>
+                                <TD align=3Dmiddle>-</TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle height=3D48>4=BF=F9 =
+30=C0=CF~6=BF=F9 16=C0=CF </TD>
+                                <TD =
+align=3Dmiddle>=BF=F9~=B1=DD=C5=E4</TD>
+                                <TD =
+align=3Dmiddle>09:00~18:30<BR>10:00-17:00</TD>
+                                <TD =
+align=3Dmiddle>=BE=EE=C7=D0=BC=BE=C5=CD 3=C7=D0=B1=E2 </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle height=3D24>5=BF=F9 =
+5=C0=CF </TD>
+                                <TD align=3Dmiddle>=C5=E4</TD>
+                                <TD align=3Dmiddle>=C8=DE=B0=FC</TD>
+                                <TD align=3Dmiddle>-</TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle height=3D24>6=BF=F9 =
+18=C0=CF - 22=C0=CF </TD>
+                                <TD align=3Dmiddle>=BF=F9-=B1=DD</TD>
+                                <TD align=3Dmiddle>10:00-17:00</TD>
+                                <TD align=3Dmiddle>=BC=F6=BE=F7 =
+=BE=F8=B4=C2 =C1=D6 </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle height=3D24>6=BF=F9 =
+23=C0=CF </TD>
+                                <TD align=3Dmiddle>=C5=E4</TD>
+                                <TD align=3Dmiddle>=C8=DE=B0=FC</TD>
+                                <TD=20
+                                =
+align=3Dmiddle>-</TD></TR></TBODY></TABLE><BR><STRONG></STRONG><SPAN=20
+                                class=3Dstyle10><BR><SPAN =
+class=3Dstyle9>IDP =BF=A1=B5=E0=C4=C9=C0=CC=BC=C7=C0=BB=20
+                                =C5=EB=C7=D1 =C1=A2=BC=F6(<A =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                href=3D"http://www.idp.co.kr/"=20
+                                =
+target=3D_blank>http://www.idp.co.kr/</A>)<BR></SPAN></SPAN><BR>1.=20
+                                =BF=C2=B6=F3=C0=CE =C1=A2=BC=F6<BR>IDP =
+=BF=A1=B5=E0=C4=C9=C0=CC=BC=C7=C0=C7 IELTS =BB=E7=C0=CC=C6=AE(<A=20
+                                href=3D"http://www.idpieltsonline.org/"=20
+                                =
+target=3D_blank>http://www.idpieltsonline.org/</A>)=BF=A1=20
+                                =C1=A2=BC=D3=C7=CF=BF=A9 =
+=C8=B8=BF=F8=B0=A1=C0=D4=B0=FA =B7=CE=B1=D7=C0=CE =C8=C4 =
+=BD=C3=C7=E8=C1=A2=BC=F6=B8=A6 =C7=D2 =BC=F6 =C0=D6=B4=D9.<BR><BR>2 . =
+=B9=E6=B9=AE =B9=D7=20
+                                =B5=EE=B1=E2=BF=EC=C6=ED =C1=A2=BC=F6 =
+<BR>=BF=F8=C7=CF=B4=C2 =BD=C3=C7=E8=C0=CF=C0=DA=B0=A1 =B0=B3=BC=B3=B5=C8 =
+=BC=BE=C5=CD=BF=A1 =B9=E6=B9=AE =B9=D7 =C1=A2=BC=F6=C7=CF=BF=A9=BE=DF =
+=C7=CF=B8=E7, =BD=C3=C7=E8=20
+                                =BF=AC=B1=E2=B4=C2 =
+=C1=F6=BF=F8=C7=CF=BD=C5 =BC=BE=C5=CD=C0=C7 =BD=C3=C7=E8=C0=CF=C0=DA =
+=BE=C8=BF=A1=BC=AD=B8=B8 =B0=A1=B4=C9=C7=CF=B4=D9. =
+<BR>=BD=C3=C7=E8=C0=CF=B7=CE=BA=CE=C5=CD =B8=B8 5=C1=D6 =
+=C0=CC=B3=BB=BF=A1=20
+                                =BD=C3=C7=E8 =BD=C5=C3=BB=C0=BB =
+=C7=CF=B8=E9 =BF=AC=B1=E2=B3=AA =C3=EB=BC=D2=B0=A1 =BE=C8 =B5=C8=B4=D9. =
+<BR><STRONG><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.idp.co.kr/ielts/application_form.pdf"=20
+                                =
+target=3D_blank><BR></A></STRONG><STRONG><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.idp.co.kr/ielts/application_form.pdf"=20
+                                target=3D_blank>IELTS =BD=C5=C3=BB=BC=AD =
+=B4=D9=BF=EE=B7=CE=B5=E5 =A2=D1=20
+                                </A></STRONG><BR>&nbsp;<BR>3. =
+=C1=A2=BC=F6=C3=B3<BR>*IDP =BF=A1=B5=E0=C4=C9=C0=CC=BC=C7=20
+                                =BC=AD=BF=EF=C1=F6=BB=E7 (=C0=FC=C8=AD: =
+02-739-7246) <BR>=BC=AD=BF=EF=BD=C3 =C1=BE=B7=CE=B1=B8 =C1=BE=B7=CE 1 =
+=B0=A1 1 =B9=F8=C1=F6=20
+                                =B1=B3=BA=B8=BA=F4=B5=F9 1310 =C8=A3 =
+(=C1=F6=C7=CF=C3=B6 5 =C8=A3=BC=B1 =B1=A4=C8=AD=B9=AE=BF=AA 3 =B9=F8 =
+=C3=E2=B1=B8)<BR><STRONG><A=20
+                                =
+onclick=3D"window.open('http://gohackers.com/sub/images/map_01.html','new=
+1','resizable=3Dno scrollbars=3Dno width=3D480, height=3D296');"=20
+                                =
+href=3D"javascript:;">=BE=E0=B5=B5=BA=B8=B1=E2=20
+                                =A2=D1</A>&nbsp;</STRONG><BR><BR>* IDP =
+=BF=A1=B5=E0=C4=C9=C0=CC=BC=C7 =B0=AD=B3=B2=C1=F6=BB=E7=20
+                                (=C0=FC=C8=AD: =
+02-533-7246)<BR>=BC=AD=BF=EF=BD=C3 =BC=AD=C3=CA=B1=B8 =BC=AD=C3=CA=B5=BF =
+1304-5 =BF=EC=BD=C5=BA=F4=B5=F9 5=C3=FE=20
+                                (=C1=F6=C7=CF=C3=B6 2=C8=A3=BC=B1 =
+=B0=AD=B3=B2=BF=AA 6=B9=F8=C3=E2=B1=B8)<BR><A=20
+                                =
+onclick=3D"window.open('http://gohackers.com/sub/images/map_02.html','new=
+2','resizable=3Dno scrollbars=3Dno width=3D480, height=3D296');"=20
+                                =
+href=3D"javascript:;"><STRONG>=BE=E0=B5=B5=BA=B8=B1=E2=20
+                                =A2=D1</STRONG></A><BR><BR>* IDP =
+=BF=A1=B5=E0=C4=C9=C0=CC=BC=C7 =BA=D0=B4=E7=BC=BE=C5=CD (=C0=FC=C8=AD:=20
+                                031-781-7246) <BR>=B0=E6=B1=E2=B5=B5 =
+=BC=BA=B3=B2=BD=C3 =BA=D0=B4=E7=B1=B8 =BC=AD=C7=F6=B5=BF 246-1 =
+=C5=C2=BE=E7=BA=F4=B5=F9 6 =C3=FE=20
+                                (=C1=F6=C7=CF=C3=B6 =BA=D0=B4=E7=BC=B1 =
+=BC=AD=C7=F6=BF=AA 1 =B9=F8 =C3=E2=B1=B8) <BR><A=20
+                                =
+onclick=3D"window.open('http://gohackers.com/sub/images/map_03.html','new=
+3','resizable=3Dno scrollbars=3Dno width=3D480, height=3D414');"=20
+                                =
+href=3D"javascript:;"><STRONG>=BE=E0=B5=B5=BA=B8=B1=E2=20
+                                =A2=D1</STRONG></A><BR><BR>* IDP =
+=BF=A1=B5=E0=C4=C9=C0=CC=BC=C7 =BA=CE=BB=EA=C1=F6=BB=E7 (=C0=FC=C8=AD:=20
+                                051-625-5171) =
+<BR>=BA=CE=BB=EA=B1=A4=BF=AA=BD=C3 =B3=B2=B1=B8 =B4=EB=BF=AC 3 =B5=BF =
+73-35 =C0=AF=C1=F8=BA=F4=B5=F9 5 =C3=FE=20
+                                &nbsp;&nbsp; (=C1=F6=C7=CF=C3=B6 =
+=B0=E6=BC=BA=B4=EB, =BA=CE=B0=E6=B4=EB=BF=AA 4 =B9=F8 =C3=E2=B1=B8) =
+<BR><A=20
+                                =
+onclick=3D"window.open('http://gohackers.com/sub/images/map_04.html','new=
+4','resizable=3Dno scrollbars=3Dno width=3D480, height=3D296');"=20
+                                =
+href=3D"javascript:;"><STRONG>=BE=E0=B5=B5=BA=B8=B1=E2=20
+                                =A2=D1</STRONG></A><A=20
+                                =
+href=3D"http://www.gohackers.com/bbs/new/gre_graduate06_idp_map_busan.jpg=
+"><STRONG><BR></STRONG></A><STRONG><SPAN=20
+                                =
+class=3Dstyle10><BR></SPAN></STRONG><STRONG=20
+                                class=3Dstyle7><B><STRONG><FONT=20
+                                =
+color=3D#333333><STRONG><STRONG><STRONG><A=20
+                                name=3Dgre02_02></A><IMG height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></STRONG></FONT></STRONG></B></STRONG><STRONG=
+><SPAN=20
+                                class=3Dstyle10>=20
+                                =
+IELTS=BD=C3=C7=E8=C0=CF</SPAN><BR><BR></STRONG>IELTS=C0=C7 =
+=BD=C3=C7=E8=B3=AF=C2=A5=B4=C2=20
+                                =C0=AF=B5=BF=C0=FB=C0=B8=B7=CE =
+=C0=FC=BC=BC=B0=E8 =B4=EB=BA=CE=BA=D0=C0=C7 =
+=BD=C3=C7=E8=B1=E2=B0=FC=BF=A1=BC=AD =C3=D6=BC=D2 1=B4=DE=BF=A1 =
+=C7=D1=B9=F8=C0=CC=BB=F3 =BD=C3=C7=E8=C0=BB =BD=C3=C7=E0=C7=CF=B0=ED =
+=C0=D6=C0=B8=B8=E7,=20
+                                =C0=C0=BD=C3=C0=DA=B0=A1 =B8=B9=C0=BA =
+=B0=E6=BF=EC =C3=DF=B0=A1=B7=CE =BD=C3=C7=E8=C0=BB =
+=BD=C7=BD=C3=C7=CF=B1=E2=B5=B5 =C7=D1=B4=D9. =
+=BF=EC=B8=AE=B3=AA=B6=F3=BF=A1=BC=AD=B4=C2 =B8=C5=BF=F9 2~3=C2=F7=B7=CA =
+=B0=DD=C1=D6=20
+                                =C5=E4=BF=E4=C0=CF=BF=A1 =BF=B5=B1=B9 =
+=B9=AE=C8=AD=BF=F8=BF=A1=BC=AD =BD=C7=BD=C3 =B5=C7=B8=E7 =
+=BD=C3=C7=E8=B3=AF=C2=A5=BF=CD =C0=E5=BC=D2=B4=C2 =BA=AF=B0=E6=B5=C9 =
+=BC=F6 =C0=D6=C0=B8=B9=C7=B7=CE =C8=AE=C0=CE=C7=D8=BA=C1=BE=DF=20
+                                =C7=D1=B4=D9. <BR><BR>2007=B3=E2 =
+=BD=C3=C7=E8 =C0=CF=C1=A4=C0=BA =B4=D9=C0=BD=B0=FA =B0=B0=B4=D9. =
+<BR><BR>1.=20
+                                =BF=B5=B1=B9=B9=AE=C8=AD=BF=F8 =
+2007=B3=E2 =BD=C3=C7=E8 =C0=CF=C1=A4=20
+                                <P></P>
+                                <TABLE borderColor=3D#cccccc =
+cellSpacing=3D0=20
+                                cellPadding=3D0 width=3D350 border=3D1>
+                                <TBODY>
+                                <TR align=3Dmiddle bgColor=3D#efefef>
+                                <TD width=3D170 =
+height=3D28>=BD=C3=C7=E8=C0=CF=C0=DA</TD>
+                                <TD>=BD=C5=C3=BB =B0=A1=B4=C9=C7=D1 =
+=B8=F0=B5=E2 </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>1=BF=F9 13=C0=CF</TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>1=BF=F9 20=C0=CF</TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>2=BF=F9 3=C0=CF </TD>
+                                <TD>Academic only </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>2=BF=F9 10=C0=CF </TD>
+                                <TD>Academic only </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>2=BF=F9 24=C0=CF </TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>3=BF=F9 3=C0=CF </TD>
+                                <TD>Academic only </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>3=BF=F9 10=C0=CF</TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>3=BF=F9 31=C0=CF </TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>4=BF=F9 14=C0=CF</TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>4=BF=F9 21=C0=CF </TD>
+                                <TD>Academic only </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>4=BF=F9 28=C0=CF</TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>5=BF=F9 12=C0=CF </TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>5=BF=F9 19=C0=CF </TD>
+                                <TD>Academic only </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>6=BF=F9 2=C0=CF</TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>6=BF=F9 16=C0=CF </TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>7=BF=F9 7=C0=CF </TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>7=BF=F9 14=C0=CF </TD>
+                                <TD>Academic only </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>7=BF=F9 21=C0=CF </TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>8=BF=F9 11=C0=CF </TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>9=BF=F9 8=C0=CF</TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>9=BF=F9 22=C0=CF </TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>10=BF=F9 6=C0=CF </TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>10=BF=F9 20=C0=CF</TD>
+                                <TD>Academic only </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>11=BF=F9 3=C0=CF </TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>11=BF=F9 17=C0=CF </TD>
+                                <TD>Academic only </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>12=BF=F91=C0=CF</TD>
+                                <TD>Academic&amp;General </TD></TR>
+                                <TR align=3Dmiddle>
+                                <TD height=3D24>12=BF=F9 15=C0=CF </TD>
+                                <TD>Academic&amp;General=20
+                                </TD></TR></TBODY></TABLE><BR><BR>
+                                <P>2. IDP =BF=A1=B5=E0=C4=C9=C0=CC=BC=C7 =
+=BD=C3=C7=E8 =C0=CF=C1=A4</P>
+                                <TABLE borderColor=3D#e3e3e3 =
+height=3D1661=20
+                                cellSpacing=3D1 cellPadding=3D1 =
+width=3D364 border=3D1>
+                                <TBODY>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+bgColor=3D#efefef=20
+                                colSpan=3D2 height=3D26>
+                                <P>2007</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                bgColor=3D#efefef height=3D26>
+                                <P>=BC=AD=BF=EF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                bgColor=3D#efefef height=3D26>
+                                <P>=BA=D0=B4=E7</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                bgColor=3D#efefef height=3D26>
+                                <P>=BA=CE=BB=EA</P></TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D44=20
+                                bgColor=3D#dfdfdf height=3D75 =
+rowSpan=3D3>
+                                <P>1=BF=F9</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>6=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>13=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>20=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>0</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D44=20
+                                bgColor=3D#dfdfdf height=3D75 =
+rowSpan=3D3>
+                                <P>2=BF=F9</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>3=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>10=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>24=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D44=20
+                                bgColor=3D#dfdfdf height=3D75 =
+rowSpan=3D3>
+                                <P>3=BF=F9</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>3=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>10=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>31=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D44=20
+                                bgColor=3D#dfdfdf height=3D75 =
+rowSpan=3D3>
+                                <P>4=BF=F9</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>14=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>21=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>28=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D44=20
+                                bgColor=3D#dfdfdf height=3D75 =
+rowSpan=3D3>
+                                <P>5=BF=F9</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>5=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>12=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>19=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D44=20
+                                bgColor=3D#dfdfdf height=3D100 =
+rowSpan=3D4>
+                                <P>6=BF=F9</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>2=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>9=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>16=C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P =
+class=3Dstyle11>28=C0=CF(=B8=F1)</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D44=20
+                                bgColor=3D#dfdfdf height=3D75 =
+rowSpan=3D3>
+                                <P>7=BF=F9</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>7 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>14 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>21 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D44=20
+                                bgColor=3D#dfdfdf height=3D75 =
+rowSpan=3D4>
+                                <P>8=BF=F9</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>11 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D-1>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D-1>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D-1>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+bgColor=3D#f2f7fb=20
+                                height=3D26>16=C0=CF</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>18 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>25 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D44=20
+                                bgColor=3D#dfdfdf height=3D75 =
+rowSpan=3D3>
+                                <P>9=BF=F9</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>1 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>8 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>22 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D44=20
+                                bgColor=3D#dfdfdf height=3D75 =
+rowSpan=3D3>
+                                <P>10=BF=F9</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>6 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>13 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>20 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D44=20
+                                bgColor=3D#dfdfdf height=3D71 =
+rowSpan=3D3>
+                                <P>11=BF=F9</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>3 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>17 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D22>
+                                <P class=3Dstyle11>24 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D22>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D22></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D22></TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D44=20
+                                bgColor=3D#dfdfdf height=3D75 =
+rowSpan=3D3>
+                                <P>12=BF=F9</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>1 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>O</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P class=3Dstyle11>8 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                height=3D26>&nbsp;</TD></TR>
+                                <TR>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D71=20
+                                bgColor=3D#f2f7fb height=3D26>
+                                <P>15 =C0=CF</P></TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D72=20
+                                height=3D26>O</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D73=20
+                                height=3D26>&nbsp;</TD>
+                                <TD vAlign=3Dcenter align=3Dmiddle =
+width=3D76=20
+                                =
+height=3D26>&nbsp;</TD></TR></TBODY></TABLE>
+                                <P> </P><STRONG =
+class=3Dstyle7><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                IELTS =BD=C3=C7=E8=C0=E5=BC=D2<A =
+id=3Dgre02_03=20
+                                =
+name=3Dgre02_03></A></STRONG><BR><BR>IELTS =BD=C3=C7=E8=C0=BA =
+=BA=B8=C5=EB=20
+                                =B4=EB=C7=D0=B1=B3=BF=A1=BC=AD =
+=C0=CC=B7=E7=BE=EE=C1=F8=B4=D9. <BR>=C0=E5=BC=D2=B4=C2 =BD=C3=C7=E8 =
+=C0=CF=C1=D6=C0=CF =C0=FC=BF=A1 =C8=A8=C6=E4=C0=CC=C1=F6=BF=A1 =
+=B0=F8=B0=ED=B5=C7=B9=C7=B7=CE =BD=C3=C7=E8 =C0=FC=BF=A1=20
+                                =BF=B5=B1=B9=B9=AE=C8=AD=BF=F8 =
+=C8=A8=C6=E4=C0=CC=C1=F6=BF=CD IDP=BF=A1=B5=E0=C4=C9=C0=CC=BC=C7 =
+=C8=A8=C6=E4=C0=CC=C1=F6=C0=C7 =B0=F8=C1=F6=BB=E7=C7=D7=C0=BB =
+=B9=DD=B5=E5=BD=C3 =C8=AE=C0=CE=C7=D8=BA=C1=BE=DF =C7=D1=B4=D9.=20
+                                <BR><A=20
+                                =
+href=3D"http://www.britishcouncil.org/kr/korea-exams-ielts-venue-and-time=
+table.htm"=20
+                                =
+target=3D_blank><STRONG>=BF=B5=B1=B9=B9=AE=C8=AD=BF=F8 =
+=BD=C3=C7=E8=C0=E5=BC=D2 =C8=AE=C0=CE =A2=D1=20
+                                </STRONG></A><BR><STRONG><A=20
+                                =
+href=3D"http://public.jinhak.com/IELTSV1/Customer/NoticeList.aspx"=20
+                                target=3D_blank>IDP =
+=BF=A1=B5=E0=C4=C9=C0=CC=BC=C7 =BD=C3=C7=E8=C0=E5=BC=D2 =C8=AE=C0=CE =
+=A2=D1=20
+                                </A></STRONG><BR>*=C2=FC=B0=ED: =
+=BD=C3=C7=E8=B4=E7=C0=CF =BF=F8=BC=AD=BF=A1 =C0=DB=BC=BA=C7=CF=BD=C5 =
+=BD=C5=BA=D0=C1=F5=B8=B8 =C1=F6=C2=FC=20
+                                <BR>2007=B3=E2 1=BF=F9=BA=CE=C5=CD =
+=B0=B3=C0=CE =C7=CA=B1=E2=B5=B5=B1=B8 =C1=F6=C2=FC=C0=CC =
+=C7=E3=BF=EB-=BF=AC=C7=CA=B0=FA =C1=F6=BF=EC=B0=B3=B8=B8 =B0=A1=B4=C9 =
+<BR>=B1=E2=C5=B8=20
+                                =BC=D2=C1=F6=C7=B0=C0=BA =
+=B9=DD=C0=D4=B1=DD=C1=F6, =BD=C5=BA=D0=C1=F5, =C7=CA=B1=E2=B5=B5=B1=B8 =
+=C0=CC=BF=DC=C0=C7 =B0=B3=C0=CE =BC=D2=C1=F6=C7=B0=C0=CC =
+=B9=DF=B0=DF=B5=C9 =BD=C3=BF=A1=B4=C2 =C5=F0=BD=C7=C1=B6=C4=A1=20
+                                <BR>
+                                <P></P><STRONG =
+class=3Dstyle7><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                IELTS =BD=C3=C7=E8=C0=C7 =
+=BF=AC=B1=E2=BF=CD =C3=EB=BC=D2/=C8=AF=BA=D2<A id=3Dgre02_04=20
+                                =
+name=3Dgre02_04></A></STRONG><BR><BR>2007=B3=E2 =BD=C3=C7=E8=BA=CE=C5=CD =
+=B4=D9=B8=A5=20
+                                =B3=AF=C2=A5=B7=CE =BD=C3=C7=E8 =
+=BF=AC=B1=E2=BD=C3 10%=C0=C7 =BC=F6=BC=F6=B7=E1(18,000=BF=F8)=B0=A1 =
+=BA=CE=B0=FA=B5=C8=B4=D9.=20
+                                <BR><BR><STRONG>1. =BD=C3=C7=E8 =
+=BF=AC=B1=E2<BR></STRONG>=BD=C3=C7=E8=C0=CF=B7=CE=BA=CE=C5=CD 5=C1=D6=20
+                                =C0=FC=B1=EE=C1=F6 =BF=AC=B1=E2 =
+=BD=C5=C3=BB=C0=BB =C7=CF=BD=C3=B0=ED =BC=F6=BC=F6=B7=E1 =
+10%(18,000=BF=F8)=B8=A6 =C1=F6=BA=D2=C7=CF=BD=C3=B8=E9 =
+=B5=CB=B4=CF=B4=D9.=20
+                                =BF=B5=B1=B9=B9=AE=C8=AD=BF=F8=C0=C7 =
+=B0=E6=BF=EC=BF=A1=B4=C2 =C1=F6=BF=F8=C7=D1 =
+=BD=C3=C7=E8=C0=CF=B7=CE=BA=CE=C5=CD 2=B0=B3=BF=F9 =C0=CC=B3=BB=C0=C7 =
+=BD=C3=C7=E8=C0=B8=B7=CE, IDP =BF=A1=B5=E0=C4=C9=C0=CC=BC=C7=C0=C7=20
+                                =B0=E6=BF=EC 3=B0=B3=BF=F9 =
+=C0=CC=B3=BB=C0=C7 =BD=C3=C7=E8=C0=B8=B7=CE =BF=AC=B1=E2=B0=A1 =
+=B0=A1=B4=C9=C7=D5=B4=CF=B4=D9. 5=C1=D6 =C0=FC=B1=EE=C1=F6 =BF=AC=B1=E2 =
+=BD=C5=C3=BB=C0=BB =C7=CF=C1=F6 =BE=CA=C0=BA=20
+                                =B0=E6=BF=EC=BF=A1=B4=C2 =
+=C0=C0=BD=C3=B7=E1=B8=A6 =C0=FC=BE=D7 =C1=F6=BA=D2=C7=CF=B0=ED =
+=B4=D9=BD=C3 =BD=C3=C7=E8=C0=BB =C1=A2=BC=F6=C7=CF=BC=C5=BE=DF =
+=C7=D5=B4=CF=B4=D9.=20
+                                =
+<BR><BR>1)=BF=C2=B6=F3=C0=CE=BF=AC=B1=E2=BD=C5=C3=BB=BC=AD=C0=DB=BC=BA=C7=
+=CF=B1=E2<BR><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://db.britishcouncil.or.kr/exams/fcn3.php?lang=3Dkr"=20
+                                =
+target=3D_blank>=BF=B5=B1=B9=B9=AE=C8=AD=BF=F8 =
+=BF=AC=B1=E2=BD=C5=C3=BB=BC=AD =A2=D1 </A><BR><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.idp.co.kr/info/cancel.asp"=20
+                                target=3D_blank>=C8=A3=C1=D6 =
+IDP=BF=A1=B5=E0=C4=C9=C0=CC=BC=C7 =BF=AC=B1=E2 =BD=C5=C3=BB=BC=AD =A2=D1 =
+
+                                </A><BR><BR>2) =BD=C5=C3=BB =C8=C4 =
+2=BD=C3=B0=A3 =C0=CC=B3=BB=BF=A1 =BC=F6=BC=F6=B7=E1(18000=BF=F8)=C0=BB =
+=C0=D4=B1=DD=20
+                                <BR>=C0=D4=B1=DD=B0=E8=C1=C2 : =
+=BF=DC=C8=AF=C0=BA=C7=E0 010-11-00301-6 =
+=C1=D6=C7=D1=BF=B5=B1=B9=B9=AE=C8=AD=BF=F8 <BR>=C0=D4=B1=DD=B0=E8=C1=C2=20
+                                : =BF=EC=B8=AE=C0=BA=C7=E0 436-04-110344 =
+=BE=C6=C0=CC=B5=F0=C7=C7=BF=A1=B5=E0=C4=C9=C0=CC=BC=C7<BR><BR>3) =
+=BF=AC=B1=E2 =C3=B3=B8=AE=B4=C2=20
+                                =BF=AD=C8=EA =C1=A4=B5=B5=B0=A1 =
+=BC=D2=BF=E4=B5=C7=B8=E7 =C0=FD=C2=F7=B0=A1 =
+=BF=CF=B7=E1=B5=C7=BE=FA=B4=C2=C1=F6 =BF=B5=B1=B9=B9=AE=C8=AD=BF=F8 =
+=C8=A8=C6=E4=C0=CC=C1=F6=B3=AA =BA=BB=C0=CE=C0=C7 =B8=DE=C0=CF=B7=CE =
+=BF=AC=B1=E2 =C8=AE=C0=CE=20
+                                =B8=DE=C0=CF=C0=CC =
+=B9=DF=BC=DB=B5=C8=B4=D9.<BR><BR><STRONG>2. =BD=C3=C7=E8=20
+                                =
+=C3=EB=BC=D2<BR></STRONG>=BD=C3=C7=E8=C0=CF=B7=CE=BA=CE=C5=CD 5=C1=D6 =
+=C0=FC=B1=EE=C1=F6 =C3=EB=BC=D2 =BD=C5=C3=BB=C0=BB =C7=CF=BD=C3=B8=E9 =
+=C0=C0=BD=C3=B7=E1=C0=C7=20
+                                75%(135,000=BF=F8)=B8=A6 =C8=AF=BA=D2 =
+=B9=DE=C0=BB =BC=F6 =C0=D6=B4=D9. =B3=AA=B8=D3=C1=F6 25%=B4=C2 =
+=C1=A2=BC=F6 =BC=F6=BC=F6=B7=E1=B7=CE =B9=DD=C8=AF=B5=C7=C1=F6=20
+                                =BE=CA=B4=C2=B4=D9. =
+<BR><BR>1)=BF=C2=B6=F3=C0=CE=C3=EB=BC=D2=BD=C5=C3=BB=BC=AD=C0=DB=BC=BA=C7=
+=CF=B1=E2 <BR><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://db.britishcouncil.or.kr/exams/fcn2.php?lang=3Dkr"=20
+                                =
+target=3D_blank>=BF=B5=B1=B9=B9=AE=C8=AD=BF=F8 =
+=C3=EB=BC=D2=BD=C5=C3=BB=BC=AD =A2=D1 </A><BR><A=20
+                                =
+onclick=3Dwindow.event.cancelBubble=3Dtrue;=20
+                                =
+href=3D"http://www.idp.co.kr/info/cancel.asp"=20
+                                target=3D_blank>=C8=A3=C1=D6 =
+IDP=BF=A1=B5=E0=C4=C9=C0=CC=BC=C7 =C3=EB=BC=D2=BD=C5=C3=BB=BC=AD=20
+                                =A2=D1</A><STRONG></STRONG><BR><BR>2) =
+=C8=AF=BA=D2 =C3=B3=B8=AE=B4=C2 =BF=AD=C8=EA =C1=A4=B5=B5=B0=A1=20
+                                =BC=D2=BF=E4. =C0=FD=C2=F7=B0=A1 =
+=BF=CF=B7=E1=B5=C7=BE=FA=B4=C2=C1=F6 =
+=BF=B5=B1=B9=B9=AE=C8=AD=BF=F8=C8=A8=C6=E4=C0=CC=C1=F6=BF=A1=BC=AD =
+=C8=AE=C0=CE=C7=CF=B0=C5=B3=AA =BA=BB=C0=CE=C0=C7 =B8=DE=C0=CF=B7=CE =
+=C3=EB=BC=D2 =C8=AE=C0=CE=20
+                                =B8=DE=C0=CF=C0=BB =B9=DE=BE=C6 =BA=BC =
+=BC=F6 =B5=B5 =C0=D6=B4=D9.
+                                <P></P>
+                                <TABLE borderColor=3D#e2e2e2 =
+cellSpacing=3D0=20
+                                cellPadding=3D0 width=3D302 border=3D1>
+                                <TBODY>
+                                <TR align=3Dmiddle bgColor=3D#efefef>
+                                <TD width=3D121 =
+height=3D25>=BD=C3=C7=E8=C0=CF=C0=DA</TD>
+                                <TD width=3D175 =
+height=3D25>=BD=C3=C7=E8=BF=AC=B1=E2 =B9=D7 =C3=EB=BC=D2 =BD=C5=C3=BB =
+=B8=B6=B0=A8=C0=CF=20
+                                </TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD width=3D121 height=3D25>1=BF=F9 =
+13=C0=CF</TD>
+                                <TD width=3D175 height=3D25>2006=B3=E2 =
+12=BF=F9 08=C0=CF </TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>1=BF=F9 20=C0=CF</TD>
+                                <TD height=3D25>2006=B3=E2 12=BF=F9 =
+15=C0=CF </TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>2=BF=F9 3=C0=CF</TD>
+                                <TD height=3D25>2006=B3=E2 12=BF=F9 =
+29=C0=CF </TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>2=BF=F9 10=C0=CF </TD>
+                                <TD height=3D25>2007=B3=E2 01=BF=F9 =
+05=C0=CF </TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>2=BF=F9 24=C0=CF </TD>
+                                <TD height=3D25>1=BF=F9 19=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>3=BF=F9 3=C0=CF </TD>
+                                <TD height=3D25>1=BF=F9 =
+26=C0=CF</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>3=BF=F9 10=C0=CF </TD>
+                                <TD height=3D25>2=BF=F9 2=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>3=BF=F9 31=C0=CF </TD>
+                                <TD height=3D25>2=BF=F9 =
+23=C0=CF</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>4=BF=F9 14=C0=CF </TD>
+                                <TD height=3D25>3=BF=F9 9=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>4=BF=F9 21=C0=CF </TD>
+                                <TD height=3D25>3=BF=F9 =
+16=C0=CF</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>4=BF=F9 28=C0=CF </TD>
+                                <TD =
+height=3D25>3=BF=F923=C0=CF</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>5=BF=F9 12=C0=CF </TD>
+                                <TD height=3D25>4=BF=F9 6=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>5=BF=F9 19=C0=CF </TD>
+                                <TD height=3D25>4=BF=F9 13=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>6=BF=F9 2=C0=CF </TD>
+                                <TD height=3D25>7=BF=F9 27=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>6=BF=F9 16=C0=CF </TD>
+                                <TD height=3D25>5=BF=F9 11=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>7=BF=F9 7=C0=CF </TD>
+                                <TD height=3D25>6=BF=F9 1=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>7=BF=F9 14=C0=CF </TD>
+                                <TD height=3D25>6=BF=F9 15=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>7=BF=F9 21=C0=CF </TD>
+                                <TD height=3D25>6=BF=F9 22=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>8=BF=F9 11=C0=CF </TD>
+                                <TD height=3D25>7=BF=F9 6=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>9=BF=F9 8=C0=CF </TD>
+                                <TD height=3D25>8=BF=F9 3=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>9=BF=F9 22=C0=CF </TD>
+                                <TD =
+height=3D25>8=BF=F917=C0=CF</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>10=BF=F9 6=C0=CF </TD>
+                                <TD height=3D25>8=BF=F9 31=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>10=BF=F9 20=C0=CF </TD>
+                                <TD height=3D25>9=BF=F9 14=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>11=BF=F9 3=C0=CF </TD>
+                                <TD height=3D25>9=BF=F9 28=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>11=BF=F9 17=C0=CF </TD>
+                                <TD height=3D25>10=BF=F9 12=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>12=BF=F9 1=C0=CF </TD>
+                                <TD height=3D25>11=BF=F9 2=C0=CF =
+</TD></TR>
+                                <TR align=3Dmiddle bgColor=3D#ffffff>
+                                <TD height=3D25>12=BF=F9 15=C0=CF </TD>
+                                <TD height=3D25>11=BF=F9 9=C0=CF=20
+                                =
+</TD></TR></TBODY></TABLE><BR></STRONG></TD></TR>
+                                <TR>
+                                <TD colSpan=3D2><IMG height=3D25=20
+                                =
+src=3D"http://www.gohackers.com/sub/gre_img/graduate1_img06_03.gif"=20
+                                width=3D228><STRONG class=3Dstyle7><A =
+id=3Dgre03=20
+                                name=3Dgre03></A></STRONG></TD></TR>
+                                <TR>
+                                <TD style=3D"LINE-HEIGHT: 150%"=20
+                                colSpan=3D2><BR>Academic Module=B0=FA =
+General Training=20
+                                Module =B8=F0=B5=CE Listening=B0=FA =
+Speaking=C0=BA =B0=F8=C5=EB=C0=CC=B8=E7 Reading=B0=FA=20
+                                Writing=B8=B8 Academic=B0=FA =
+General=B7=CE =B1=B8=BA=D0=B5=C7=BE=EE =C0=D6=B4=D9. =
+=B1=B8=C3=BC=C0=FB=C0=CE =B1=B8=BC=BA=C0=BA=20
+                                =B4=D9=C0=BD=B0=FA =B0=B0=C0=B8=B8=E7 =
+=BF=A9=B1=E2=BC=AD=B4=C2 Academic Module=C0=BB =C1=DF=BD=C9=C0=B8=B7=CE =
+=BA=BB=B4=D9. <BR>
+                                <CENTER>
+                                <TABLE borderColor=3D#e2e2e2 =
+cellSpacing=3D0=20
+                                cellPadding=3D0 width=3D600 border=3D1>
+                                <TBODY>
+                                <TR bgColor=3D#efefef>
+                                <TD colSpan=3D2 height=3D25>
+                                <DIV =
+align=3Dcenter>=BF=B5=BF=AA</DIV></TD>
+                                <TD width=3D116 height=3D25>
+                                <DIV align=3Dcenter>=B9=AE=C1=A6 =
+=BC=F6</DIV></TD>
+                                <TD width=3D101>
+                                <DIV =
+align=3Dcenter>=BD=C3=B0=A3</DIV></TD></TR>
+                                <TR bgColor=3D#ffffff>
+                                <TD width=3D180 height=3D25>
+                                <DIV align=3Dcenter>Academic Module =
+</DIV></TD>
+                                <TD width=3D183 height=3D25>
+                                <DIV align=3Dcenter>General Training=20
+                                Module</DIV></TD>
+                                <TD width=3D116 height=3D25>
+                                <DIV align=3Dcenter>&nbsp;</DIV></TD>
+                                <TD width=3D101>
+                                <DIV =
+align=3Dcenter>&nbsp;</DIV></TD></TR>
+                                <TR bgColor=3D#ffffff>
+                                <TD colSpan=3D2 height=3D25>
+                                <DIV align=3Dcenter>Listening</DIV></TD>
+                                <TD height=3D25>
+                                <DIV =
+align=3Dcenter>40=B9=AE=C7=D7</DIV></TD>
+                                <TD>
+                                <DIV =
+align=3Dcenter>30=BA=D0</DIV></TD></TR>
+                                <TR bgColor=3D#ffffff>
+                                <TD height=3D25>
+                                <DIV align=3Dcenter>Academic Reading =
+</DIV></TD>
+                                <TD height=3D25>
+                                <DIV align=3Dcenter>General =
+Reading</DIV></TD>
+                                <TD height=3D25>
+                                <DIV =
+align=3Dcenter>40=B9=AE=C7=D7</DIV></TD>
+                                <TD>
+                                <DIV =
+align=3Dcenter>60=BA=D0</DIV></TD></TR>
+                                <TR bgColor=3D#ffffff>
+                                <TD height=3D25>
+                                <DIV align=3Dcenter>Academic Writing =
+</DIV></TD>
+                                <TD height=3D25>
+                                <DIV align=3Dcenter>General =
+Writing</DIV></TD>
+                                <TD height=3D25>
+                                <DIV =
+align=3Dcenter>2=B9=AE=C7=D7</DIV></TD>
+                                <TD>
+                                <DIV =
+align=3Dcenter>60=BA=D0</DIV></TD></TR>
+                                <TR bgColor=3D#ffffff>
+                                <TD colSpan=3D2 height=3D25>
+                                <DIV align=3Dcenter>Speaking</DIV></TD>
+                                <TD height=3D25>
+                                <DIV =
+align=3Dcenter>=C0=CE=C5=CD=BA=E4</DIV></TD>
+                                <TD>
+                                <DIV=20
+                                =
+align=3Dcenter>15=BA=D0</DIV></TD></TR></TBODY></TABLE></CENTER><STRONG=20
+                                class=3Dstyle7><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                Listening<A id=3Dgre03_01=20
+                                =
+name=3Dgre03_01></A><BR></STRONG><BR>=C1=D6=C1=A6=B4=C2 =B8=F0=B5=CE =
+=C0=CF=B9=DD=C0=FB=C0=CE=20
+                                =B0=FC=BD=C9=BB=E7=BF=A1 =B4=EB=C7=D1 =
+=B0=CD=C0=CC=B4=D9. Part 1=B0=FA 2=B4=C2 =C0=CF=BB=F3=C0=FB=C0=CE =
+=B4=EB=C8=AD =B3=BB=BF=EB=C0=CC =B4=D9=B7=EF=C1=F6=B0=ED Part 3,=20
+                                4=B4=C2 =C0=FC=B9=AE=C0=FB =
+=B3=BB=BF=EB=C0=CC =B5=E9=BE=EE=B0=A1=B8=E7 =B1=E6=C0=CC=B0=A1 =
+=B1=E6=BE=EE=C1=F8=B4=D9. =C1=D6=C0=C7=C7=D2 =B0=CD=C0=BA =
+=C5=E4=C0=CD=C0=CC=B3=AA =C5=E4=C7=C3=B0=FA=B4=C2 =B4=DE=B8=AE=20
+                                =C1=D6=B0=FC=BD=C4=C0=B8=B7=CE =
+=B9=AE=C0=E5=C0=CC=B3=AA =B4=DC=BE=EE=B8=A6 =B4=E4=C1=F6=BF=A1 =
+=BD=E1=B3=BB=BE=DF =C7=CF=B9=C7=B7=CE =B9=AE=C0=E5=C0=C7 =
+=BE=EE=B9=FD=C0=CC=B3=AA =B4=DC=BE=EE=C0=C7 =BD=BA=C6=E7=B8=B5=BF=A1 =
+=C6=AF=C8=F7=20
+                                =C0=AF=C0=C7=C7=D8=BE=DF =
+=C7=D1=B4=D9=B4=C2 =C1=A1=C0=CC=B4=D9.=20
+                                <P><STRONG =
+class=3Dstyle7><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                Academic Reading</STRONG><STRONG =
+class=3Dstyle7><A=20
+                                id=3Dgre03_02=20
+                                =
+name=3Dgre03_02></A></STRONG><BR><BR>=B3=ED=B9=AE =C7=FC=BD=C4=C0=C7 =
+=B1=DB=C0=CC =B3=AA=BF=CD=20
+                                =B3=BB=BF=EB=C0=BB =B9=AF=B4=C2 =
+=C1=FA=B9=AE=C0=CC =B4=EB=BA=CE=BA=D0=C0=CC=B4=D9. =C1=F6=B9=AE=BF=A1 =
+=B1=E6=C0=CC=BF=A1 =BA=F1=C7=D8 =BD=C3=B0=A3=C0=CC =
+=BA=CE=C1=B7=C7=CF=B9=C7=B7=CE =BD=C3=B0=A3=C0=BB =C0=E7=B8=E9=BC=AD=20
+                                =C7=AA=B4=C2 =B0=CD=C0=CC =
+=C1=C1=C0=B8=B8=E7 =B4=E4=BE=C8=C1=F6=B8=A6 =B8=B6=C1=F6=B8=B7=BF=A1 =
+=C0=DB=BC=BA=C7=CF=B4=C2 =B0=CD=BA=B8=B4=D9=B4=C2 =
+=B4=E4=BE=C8=C1=F6=B8=A6 =C0=DB=BC=BA=C7=CF=B8=E9=BC=AD =C7=AA=B4=C2 =
+=B0=CD=C0=CC=20
+                                =BD=C3=B0=A3 =C0=FD=BE=E0=BF=A1 =
+=C8=BF=B0=FA=C0=FB=C0=CC=B4=D9. <BR></P>
+                                <TABLE borderColor=3D#e2e2e2 =
+cellSpacing=3D0=20
+                                cellPadding=3D0 width=3D600 border=3D1>
+                                <TBODY>
+                                <TR>
+                                <TD bgColor=3D#ffffff>
+                                <DIV align=3Dcenter>
+                                <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D580=20
+                                border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD style=3D"LINE-HEIGHT: =
+150%"><EM><BR>Wind Power=20
+                                in the US</EM>
+                                <P></P>
+                                <P>Prompted by the oil crises of the =
+1970s, a=20
+                                wind-power industry flourished briefly =
+in the=20
+                                United States. But then world oil prices =
+
+                                dropped, and funding for research into =
+renewable=20
+                                energy was cut. By the mid 1980s US =
+interest in=20
+                                wind energy as a large-scale source of =
+energy=20
+                                had almost disappeared. The development =
+of wind=20
+                                power at this time suffered not only =
+from badly=20
+                                designed equipment, but also from poor =
+long-term=20
+                                planning, economic projections that were =
+too=20
+                                optimistic and the difficulty of finding =
+
+                                suitable locations for the wind =
+turbines.=20
+                                <BR>Only now are technological advances=20
+                                beginning to offer hope that wind power =
+will=20
+                                come to be accepted as a reliable and =
+important=20
+                                source of electricity. There have been=20
+                                significant successes in California, in=20
+                                particular, where wind farms now have a =
+capacity=20
+                                of 1500 megawatts, comparable to a large =
+nuclear=20
+                                or fossil-fuelled power station, and =
+produce 1.5=20
+                                per cent of the state's=20
+                                electricity.<BR>Nevertheless, in the =
+U.S., the=20
+                                image of wind power is still distorted =
+by early=20
+                                failures. One of the most persistent =
+criticisms=20
+                                is that wind power is not a significant =
+energy=20
+                                resource. Researchers at the Battelle =
+Northwest=20
+                                Laboratory, however, estimate that today =
+wind=20
+                                turbine technology could supply 20 per =
+cent of=20
+                                the electrical power the country needs. =
+As a=20
+                                local resource, wind power has even =
+greater=20
+                                potential. Minnesota's energy commission =
+
+                                calculates that a wind farm on one of =
+the=20
+                                state's south western ridges could =
+supply almost=20
+                                all that state's electricity. North =
+Dakota alone=20
+                                has enough sites suitable for wind farms =
+to=20
+                                supply more than a third of all =
+electricity=20
+                                consumed in the continental US.<BR>The=20
+                                prevailing notion that wind power is too =
+costly=20
+                                results largely from early research =
+which=20
+                                focused on turbines with huge blades =
+that stood=20
+                                hundreds of metres tall. These machines =
+were not=20
+                                designed for ease of production or =
+maintenance,=20
+                                and they were enormously expensive. =
+Because the=20
+                                major factors influencing the overall =
+cost of=20
+                                wind power are the cost of the turbine =
+and its=20
+                                supporting systems, including land, as =
+well as=20
+                                operating and maintenance costs, it is =
+hardly=20
+                                surprising that it was thought at the =
+time that=20
+                                wind energy could not be supplied at a=20
+                                commercially competitive price. More =
+recent=20
+                                developments such as those seen on =
+California=20
+                                wind farms have dramatically changed the =
+
+                                economic picture for wind energy. These =
+systems,=20
+                                like installations in Hawaii and several =
+
+                                European countries, have benefited from =
+the=20
+                                economies of scale that come through=20
+                                standardised manufacturing and =
+purchasing. The=20
+                                result has been a dramatic drop in =
+capital=20
+                                costs: the installed cost of new wind =
+turbines=20
+                                stood at $1000 per kilowatt in 1993, =
+down from=20
+                                about $4000 per kilowatt in 1980, and =
+continues=20
+                                to fall. Design improvements and more =
+efficient=20
+                                maintenance programs for large numbers =
+of=20
+                                turbines have reduced operating costs as =
+well.=20
+                                The cost of electricity delivered by =
+wind farm=20
+                                turbines has decreased from about 30 =
+cents per=20
+                                kilowatt-hour to between 7 and 9 cents, =
+which is=20
+                                generally less than the cost of =
+electricity from=20
+                                conventional power stations. Reliability =
+has=20
+                                also improved dramatically. The latest =
+turbines=20
+                                run more than 95 per cent of the time, =
+compared=20
+                                with around 60 per cent in the early =
+1980s.=20
+                                Another misconception is that improved =
+designs=20
+                                are needed to make wind power feasible. =
+Out of=20
+                                the numerous wind turbine designs =
+proposed or=20
+                                built by inventors or developers, the=20
+                                propeller-blade type, which is based on =
+detailed=20
+                                analytical models as well as extensive=20
+                                experimental data, has emerged as =
+predominant=20
+                                among the more than 20,000 machines now =
+in=20
+                                commercial operation world-wide. Like =
+the=20
+                                gas-driven turbines that power jet =
+aircraft,=20
+                                these are sophisticated pieces of =
+rotating=20
+                                machinery. They are already highly =
+efficient,=20
+                                and there is no reason to believe that =
+other=20
+                                configurations will produce major =
+benefits. Like=20
+                                other ways of generating electricity, =
+wind power=20
+                                does not leave the environment entirely=20
+                                unharmed. There are many potential =
+problems,=20
+                                ranging from interference with=20
+                                telecommunications to impact on wildlife =
+and=20
+                                natural habitats. But these effects must =
+be=20
+                                balanced against those associated with =
+other=20
+                                forms of electricity generation. =
+Conventional=20
+                                power stations impose hidden costs on =
+society,=20
+                                such as the control of air pollution, =
+the=20
+                                management of nuclear waste and global =
+warming.=20
+                                As wind power has been ignored in the US =
+over=20
+                                the past few years, expertise and =
+commercial=20
+                                exploitation in the field have shifted =
+to=20
+                                Europe. The European Union spends 10 =
+times as=20
+                                much as the US government on research =
+and=20
+                                development of wind energy. It estimates =
+that at=20
+                                least 10 per cent of Europe's electrical =
+power=20
+                                could be supplied by land-based =
+wind-turbines=20
+                                using current technology. Indeed, =
+according to=20
+                                the American Wind Energy Association, an =
+
+                                independent organisation based in =
+Washington,=20
+                                Denmark, Britain, Spain and the =
+Netherlands will=20
+                                each surpass the US in the generating =
+capacity=20
+                                of wind turbines installed during the =
+rest of=20
+                                the decade.</P><BR>Glossary :<BR>fossil =
+fuel:=20
+                                coal, oil and natural gas <BR>kilowatt: =
+1,000=20
+                                watts; a watt is a unit of power=20
+                                <BR>kilowatt-hour: one kilowatt for a =
+period of=20
+                                one hour <BR>megawatt: one million watts =
+
+                                <BR>wind farm: a group of wind turbines =
+in one=20
+                                location producing a large amount of =
+electricity=20
+                                <BR>wind turbine: a machine which =
+produces=20
+                                energy when the wind turns its blades
+                                <P></P><BR>Questions 1 - 5<BR>Complete =
+the=20
+                                summary below using words from the box. =
+Write=20
+                                your answers in boxes 1-5 on your answer =
+sheet.=20
+                                <P></P>
+                                <P>NB There are more words or phrases =
+than you=20
+                                will need to fill the gaps. You may use =
+any word=20
+                                or phrase more than=20
+                                once.</P><BR>Example:<BR><BR>The failure =
+during=20
+                                the late 1970s and early 1980s of an =
+attempt to=20
+                                establish a widespread wind power =
+industry in=20
+                                the United States resulted largely from =
+the=20
+                                ...(1)... in oil prices during this =
+period. The=20
+                                industry is now experiencing a steady =
+...(2)...=20
+                                due to improvements in technology and an =
+
+                                increased awareness of the potential in =
+the=20
+                                power of wind. The wind turbines that =
+are now=20
+                                being made, based in part on the =
+...(3)... of=20
+                                wide-ranging research in Europe, are =
+easier to=20
+                                manufacture and maintain than their=20
+                                predecessors. This has led wind-turbine =
+makers=20
+                                to be able to standardise and thus =
+minimise=20
+                                ...(4)... . There has been growing =
+...(5)... of=20
+                                the importance of wind power as an =
+energy=20
+source.
+                                <P></P>
+                                <TABLE borderColor=3D#e2e2e2 =
+cellSpacing=3D0=20
+                                cellPadding=3D0 border=3D1>
+                                <TBODY>
+                                <TR bgColor=3D#ffffff>
+                                <TD width=3D128 height=3D25>
+                                <P align=3Dcenter>criticism</P></TD>
+                                <TD width=3D145 height=3D25>
+                                <P align=3Dcenter>success </P></TD>
+                                <TD width=3D123 height=3D25>
+                                <P align=3Dcenter>design costs</P></TD>
+                                <TD width=3D153>
+                                <DIV align=3Dcenter>production =
+costs</DIV></TD>
+                                <TD width=3D104>
+                                <DIV =
+align=3Dcenter>failure</DIV></TD></TR>
+                                <TR bgColor=3D#ffffff>
+                                <TD width=3D128 height=3D24>
+                                <P align=3Dcenter>stability</P></TD>
+                                <TD width=3D145 height=3D24>
+                                <P align=3Dcenter>operating =
+costs</P></TD>
+                                <TD width=3D123 height=3D24>
+                                <P align=3Dcenter>fall</P></TD>
+                                <TD width=3D153>
+                                <DIV align=3Dcenter>growth</DIV></TD>
+                                <TD width=3D104>
+                                <DIV =
+align=3Dcenter>recognition</DIV></TD></TR>
+                                <TR bgColor=3D#ffffff>
+                                <TD width=3D128 height=3D25>
+                                <P align=3Dcenter>scepticism</P></TD>
+                                <TD width=3D145 height=3D25>
+                                <P align=3Dcenter>decisions</P></TD>
+                                <TD width=3D123 height=3D25>
+                                <P align=3Dcenter>effects</P></TD>
+                                <TD width=3D153>
+                                <DIV align=3Dcenter>decline</DIV></TD>
+                                <TD width=3D104>
+                                <DIV=20
+                                =
+align=3Dcenter>results</DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY><=
+/TABLE><BR><BR></DIV></TD></TR></TBODY></TABLE><STRONG=20
+                                class=3Dstyle7><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                Academic Writing</STRONG><STRONG =
+class=3Dstyle7><A=20
+                                id=3Dgre03_03=20
+                                =
+name=3Dgre03_03></A></STRONG><BR><BR>1=BD=C3=B0=A3 =B5=BF=BE=C8 =B5=CE =
+=B0=B3=C0=C7=20
+                                =B1=DB=C0=BB =C0=DB=BC=BA=C7=D1=B4=D9. =
+=C7=CF=B3=AA=B4=C2 =B5=B5=C7=A5=B8=A6 =BA=D0=BC=AE=C7=CF=B4=C2 =B5=EE =
+=B4=EB=C7=D0=BF=A1=BC=AD =B0=F8=BA=CE=C7=D2 =B6=A7 =BD=C7=C1=A6=B7=CE =
+=BB=E7=BF=EB=C7=D2 =B8=B8=C7=D1=20
+                                =B9=AE=C1=A6(150=C0=DA)=C0=CC=B0=ED, =
+=B4=D9=B8=A5 =C7=CF=B3=AA=B4=C2 =C5=E4=B7=D0=BF=A1=BC=AD =
+=C0=C7=B0=DF=C0=BB =C1=A6=BD=C3=C7=CF=B4=C2 =
+=B9=AE=C1=A6(250=C0=DA)=C0=CC=B4=D9. =C6=F2=B0=A1=B4=C2=20
+                                =C1=D6=C1=A6=BF=A1 =B8=C2=B4=C2 =
+=B1=DB=C0=CE=C1=F6, =C0=FB=C0=FD=C7=D1 =BE=EE=C8=D6 =
+=BC=F6=C1=D8=C0=B8=B7=CE =BE=EE=B9=FD=BF=A1 =B8=C2=B0=D4 =
+=BE=B2=BF=B4=B4=C2=C1=F6, =BA=D0=B7=AE=C0=BA =BE=EE=B4=C0 =
+=C1=A4=B5=B5=C0=CE=C1=F6=20
+                                =B5=EE=C0=BB =B1=E2=C1=D8=C0=B8=B7=CE =
+=C0=CC=B7=E7=BE=EE=C1=F8=B4=D9.
+                                <P></P>
+                                <TABLE borderColor=3D#e2e2e2 =
+cellSpacing=3D0=20
+                                cellPadding=3D0 width=3D600 border=3D1>
+                                <TBODY>
+                                <TR>
+                                <TD bgColor=3D#ffffff>
+                                <DIV align=3Dcenter>
+                                <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D580=20
+                                border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD style=3D"LINE-HEIGHT: =
+150%"><BR>Writing Task=20
+                                1<BR>You should spend about 20 minutes =
+on this=20
+                                task. <BR>Write a report for a =
+university=20
+                                lecturer describing the information =
+below. Write=20
+                                at least 150 words.
+                                <P></P><STRONG>The graph below shows the =
+
+                                different models of transport used to =
+travel to=20
+                                and from work in one Europeans city in =
+1960,=20
+                                1980 and 2000. </STRONG><BR>
+                                <P></P>
+                                <TABLE cellSpacing=3D0 cellPadding=3D0 =
+width=3D100=20
+                                align=3Dcenter border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD><IMG height=3D277=20
+                                =
+src=3D"http://www.gohackers.com/sub/gre_img/graduate06_1.gif"=20
+                                width=3D378></TD></TR></TBODY></TABLE>
+                                =
+<P>&nbsp;</P></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE><S=
+TRONG=20
+                                class=3Dstyle7><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                Academic Speaking<A id=3Dgre03_04=20
+                                =
+name=3Dgre03_04></A><BR></STRONG><BR>=BD=C3=C7=E8=B0=FC=B0=FA=C0=C7 =
+=C0=CE=C5=CD=BA=E4=B7=CE=20
+                                =C4=A1=B7=AF=C1=F6=B4=C2 =C0=CC =
+=BF=B5=BF=AA=C0=BA =BD=C3=C7=E8=B0=FC=C0=CC =C0=C0=BD=C3=C0=DA=C0=C7 =
+=BF=B5=BE=EE=B1=B8=BB=E7=B4=C9=B7=C2, =C0=FB=C0=FD=C7=CF=B0=ED =
+=BE=CB=B8=C2=C0=BA =B9=AE=B9=FD=B0=FA =BE=EE=C8=D6=B7=C2=C0=BB=20
+                                =C6=F2=B0=A1=C7=D1=B4=D9. =
+=C6=F2=B0=A1=B4=C2 =B4=EB=B7=AB 5=B4=DC=B0=E8=B7=CE =
+=B3=AA=B4=A9=BE=EE=C1=F6=B4=C2=B5=A5 =C0=DA=B1=E2 =BC=D2=B0=B3, =B1=E4 =
+=B4=EB=C8=AD, =B3=ED=B8=AE=C0=FC=B0=B3, =BD=C9=BB=E7 =B9=D7=20
+                                =C0=DA=BC=BC, =B0=E1=B7=D0 =
+=B5=EE=C0=CC=B4=D9. =B8=F0=B5=E7 =C0=CE=C5=CD=BA=E4 =B3=BB=BF=EB=C0=BA =
+=B3=EC=C0=BD=B5=C8=B4=D9.=20
+                                <P></P>
+                                <TABLE borderColor=3D#e2e2e2 =
+cellSpacing=3D0=20
+                                cellPadding=3D0 width=3D600 border=3D1>
+                                <TBODY>
+                                <TR>
+                                <TD bgColor=3D#ffffff>
+                                <DIV align=3Dcenter>
+                                <TABLE cellSpacing=3D0 cellPadding=3D5 =
+width=3D580=20
+                                border=3D0>
+                                <TBODY>
+                                <TR>
+                                <TD style=3D"LINE-HEIGHT: =
+150%"><STRONG><BR>Sample=20
+                                Question:</STRONG><BR><BR>Part Two: =
+<BR>Describe=20
+                                a teacher who has greatly influenced you =
+in your=20
+                                education.<BR>You should say: <BR>Where =
+you met=20
+                                them,<BR>What subject they =
+taught,<BR>What was=20
+                                special about them,<BR>and explain why =
+this=20
+                                person influenced you so much. <BR>You =
+will have=20
+                                to talk about the topic for 1 to 2 =
+minutes. You=20
+                                have one minute to think about what you =
+are=20
+                                going to say. You can make some notes if =
+you=20
+                                wish. <BR><BR>
+                                =
+<P></P></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE><BR></TD=
+></TR>
+                                <TR>
+                                <TD colSpan=3D2><A id=3Dgre04=20
+                                name=3Dgre04></A></TD></TR>
+                                <TR>
+                                <TD><IMG height=3D28=20
+                                =
+src=3D"http://www.gohackers.com/sub/gre_img/graduate1_img06_04.gif"=20
+                                width=3D203></TD>
+                                <TD>
+                                <DIV align=3Dright></DIV></TD></TR>
+                                <TR>
+                                <TD style=3D"LINE-HEIGHT: 150%"=20
+                                colSpan=3D2><BR><STRONG=20
+                                class=3Dstyle7><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                =C1=D8=BA=F1=B9=B0<A id=3Dgre04_01 =
+name=3Dgre04_01></A> </STRONG>
+                                <DIV align=3Dright>
+                                <P align=3Dleft>=BD=C3=C7=E8=C0=E5=BF=A1 =
+=B0=A5 =B6=A7=B4=C2 =BF=A9=B1=C7=C0=CC=B3=AA =
+=BF=EE=C0=FC=B8=E9=C7=E3=C1=F5, =C1=D6=B9=CE=B5=EE=B7=CF=C1=F5=B0=FA =
+=B0=B0=C0=BA=20
+                                =BD=C5=BA=D0=C1=F5=C0=BB =
+=B9=DD=B5=E5=BD=C3 =B0=A1=C1=AE=B0=A1=BE=DF =C7=D1=B4=D9. =
+=BD=C3=C7=E8=C0=E5 =BE=C8=BF=A1=B4=C2 =BF=C0=C1=F7 =C6=E6=B0=FA =
+=BF=AC=C7=CA, =C1=F6=BF=EC=B0=B3 =B8=B8=C0=BB =B0=A1=C1=F6=B0=ED=20
+                                =B5=E9=BE=EE=B0=A5 =BC=F6 =
+=C0=D6=C0=B8=B8=E7, =BC=F6=C1=A4=BE=D7=C0=BA =BB=E7=BF=EB=C7=D2 =BC=F6 =
+=BE=F8=B4=D9. =B1=E2=C5=B8 =B0=B3=C0=CE =BC=D2=C1=F6=C7=B0=C0=BA =
+=B0=A8=B5=B6=B0=FC=C0=C7 =C1=F6=BD=C3=BF=A1 =B5=FB=B6=F3=20
+                                =C1=F6=C1=A4=B5=C8 =C0=E5=BC=D2=BF=A1 =
+=BA=B8=B0=FC=C7=D8=BE=DF =C7=CF=B8=E7, =BA=B8=B0=FC =BD=C3=BF=A1=B4=C2 =
+=C8=DE=B4=EB=C6=F9=B0=FA =B1=E2=C5=B8 =C5=EB=BD=C5 =BC=F6=B4=DC =B9=D7 =
+=BC=D2=C7=FC =C0=FC=C0=DA=20
+                                =C1=A6=C7=B0=C0=C7 =C0=FC=BF=F8=C0=BA =
+=B9=DD=B5=E5=BD=C3 =B2=A8=B3=F5=BE=C6=BE=DF =C7=D1=B4=D9.</P>
+                                <P align=3Dleft><STRONG=20
+                                class=3Dstyle7><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                IELTS =C0=C0=BD=C3=C0=FD=C2=F7<A =
+id=3Dgre04_02=20
+                                =
+name=3Dgre04_02></A><BR></STRONG><BR>=BD=C3=C7=E8=C0=BA =BF=C0=C0=FC =
+9=BD=C3=BF=A1=20
+                                =BD=C3=C0=DB=B5=C7=B8=E7, =BD=C3=C7=E8 =
+=BD=C3=C0=DB =C0=FC=BF=A1 =BD=C5=BF=F8=C8=AE=C0=CE=C0=BB =
+=BA=F1=B7=D4=C7=D1 =B1=E2=C5=B8 =B4=D9=B8=A5 =C0=FD=C2=F7=B0=A1 =
+=C0=D6=C0=B8=B9=C7=B7=CE =BF=C0=C0=FC 8=BD=C3=20
+                                50=BA=D0=B1=EE=C1=F6 =B9=DD=B5=E5=BD=C3 =
+=C0=D4=BD=C7=C7=D8=BE=DF =C7=D1=B4=D9. =BD=C3=C7=E8=C0=BA Listening =
+40=BA=D0, Reading=B0=FA=20
+                                Writing =B0=A2=B0=A2 60=B5=BF=BE=C8 =
+=C2=F7=B7=CA=B7=CE =BD=C7=BD=C3=B5=C8=B4=D9. =BD=C3=C7=E8 =
+=C1=DF=BF=A1=B4=C2 =BA=B0=B5=B5=C0=C7 =BD=AC=B4=C2 =BD=C3=B0=A3=C0=CC =
+=BE=F8=C0=B8=B8=E7,=20
+                                Writing=B1=EE=C1=F6 =B3=A1=B3=AA=B8=E9 =
+=BA=B8=C5=EB 12=BD=C3 10=BA=D0=B0=E6=C0=CC =B5=C8=B4=D9.=20
+                                <BR><BR>Listening=B0=FA Reading, =
+Writing=C0=BA =B0=B0=C0=BA =C0=E5=BC=D2=BF=A1=BC=AD=20
+                                =C2=F7=B7=CA=B4=EB=B7=CE =
+=C4=A1=B7=AF=C1=F6=B0=D4 =B5=C7=B3=AA =BB=F3=C8=B2=BF=A1 =B5=FB=B6=F3 =
+Speaking =BD=C3=C7=E8=C0=BA =B4=D9=B8=A5 =B3=AF=BF=A1 =BA=BC =BC=F6 =
+=C0=D6=B4=D9.=20
+                                =B5=FB=B6=F3=BC=AD =BD=C3=C7=E8 =
+=B4=E7=C0=CF =BD=C3=C7=E8=C0=E5=BF=A1=BC=AD =C0=DA=BD=C5=C0=C7 Speaking =
+=BD=C3=C7=E8 =BD=C3=B0=A3=C0=BB =C8=AE=C0=CE=C7=D8=BE=DF =C7=D1=B4=D9. =
+=BD=C3=C7=E8=20
+                                =C1=DF=BF=A1=B4=C2 =C0=BD=BD=C4=C0=BB =
+=B8=D4=B0=C5=B3=AA =B9=B0=C0=BB =B8=B6=BD=C7 =BC=F6 =BE=F8=C0=B8=B8=E7, =
+=C7=D8=B4=E7 =BF=B5=BF=AA=C0=CC =BE=C6=B4=D1 =B4=D9=B8=A5 =
+=BF=B5=BF=AA=C0=BB =C7=AA=B4=C2 =B0=CD=20
+                                =BF=AA=BD=C3 =
+=BA=CE=C1=A4=C7=E0=C0=A7=B7=CE =B0=A3=C1=D6=B5=C8=B4=D9. =
+=BD=C3=C7=E8=C0=CC =B3=A1=B3=AA=B0=ED =B3=AA=B5=B5 =
+=B0=A8=B5=B6=B0=FC=C0=C7 =BD=C2=C0=CE=C0=BB =B9=DE=C0=BA =
+=C8=C4=BF=A1=BE=DF =C5=F0=BD=C7=C0=CC=20
+                                =B0=A1=B4=C9=C7=CF=B8=E7, =C5=F0=BD=C7 =
+=BD=C3=BF=A1=B4=C2 =B9=AE=C1=A6=C1=F6=BF=CD =B4=E4=BE=C8=C1=F6, =
+=B1=E2=C5=B8 =B0=A2=C1=BE =BF=AC=BD=C0=C1=F6 =B5=EE=C0=BA =B8=F0=B5=CE =
+=B3=F6=B5=CE=B0=ED =B3=AA=B0=A1=BE=DF=20
+                                =C7=D1=B4=D9. </P>
+                                <P align=3Dleft>=B6=C7=C7=D1 =
+=C1=D6=C0=C7=C7=D2 =C1=A1=C0=BA Listening=B0=FA Reading=C0=C7 =
+=B0=E6=BF=EC=20
+                                =B4=E4=BE=C8=C1=F6=B8=A6 =
+=B9=DD=B5=E5=BD=C3 =BF=AC=C7=CA=B7=CE =C7=A5=B1=E2=C7=D8=BE=DF =
+=C7=D1=B4=D9=B4=C2 =B0=CD=C0=CC=B4=D9. =C0=CC=B4=C2 =
+=B4=E4=BE=C8=C1=F6=B8=A6 =BD=BA=C4=B5=C7=CF=B4=C2 =
+=C4=C4=C7=BB=C5=CD=B0=A1 =C6=E6=C0=BB=20
+                                =C0=CE=BD=C4=C7=CF=C1=F6 =
+=B8=F8=C7=CF=B1=E2 =B6=A7=B9=AE=C0=CC=B4=D9. =
+<BR><BR></P></DIV></TD></TR>
+                                <TR>
+                                <TD colSpan=3D2><A id=3Dgre05 =
+name=3Dgre05></A><IMG=20
+                                height=3D27=20
+                                =
+src=3D"http://www.gohackers.com/sub/gre_img/graduate1_img06_05.gif"=20
+                                width=3D139>=20
+                                <DIV align=3Dright></DIV></TD></TR>
+                                <TR borderColor=3D#cccccc>
+                                <TD style=3D"LINE-HEIGHT: 150%"=20
+                                colSpan=3D2><STRONG><BR></STRONG><SPAN=20
+                                class=3Dstyle7><A id=3Dgre05_01=20
+                                name=3Dgre05_01></A><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                IELTS =C1=A1=BC=F6=C8=AE=C0=CE =B9=D7 =
+Score Report <BR></SPAN><BR>=BD=C3=C7=E8=B0=E1=B0=FA=B4=C2=20
+                                =BD=C3=C7=E8 2=C1=D6=C0=CF =C8=C4 =
+=BF=EC=C6=ED=C0=B8=B7=CE =B9=DF=BC=DB=B5=C8=B4=D9. =
+=BC=BA=C0=FB=C7=A5=B4=C2 =B0=B3=C0=CE =
+=BA=B8=B0=FC=BF=EB=C0=B8=B7=CE=B4=C2 =C0=E7=B9=DF=B1=DE=C0=CC =
+=BA=D2=B0=A1=B4=C9=C7=CF=B4=CF=20
+                                =BA=B8=B0=FC=BF=A1 =
+=C0=AF=C0=C7=C7=D8=BE=DF =C7=D1=B4=D9. =B4=DC =B4=EB=C7=D0 =B9=D7 =
+=B1=E2=B0=FC=BF=A1 =BC=BA=C0=FB=C7=A5=B8=A6 =C1=A6=C3=E2=C7=CF=B4=C2 =
+=B0=E6=BF=EC=BF=A1=B4=C2 =C0=E7=B9=DF=B1=DE=C0=CC=20
+                                =B0=A1=B4=C9=C7=CF=B4=D9. =
+=BC=BA=C0=FB=C7=A5 reporting=C0=BA =BD=C3=C7=E8 =C8=C4 2=B3=E2 =
+=C0=CC=B3=BB=BF=A1 5=BA=CE=B1=EE=C1=F6=B4=C2 =B9=AB=B7=E1=B7=CE, =B1=D7=20
+                                =C8=C4=B7=CE=B4=C2 =B0=C7=B4=E7 =
+5,000=BF=F8=C0=C7 =BC=F6=BC=F6=B7=E1=B0=A1 =
+=B5=E7=B4=D9(=BF=EC=C6=ED=B7=E1 =C1=A6=BF=DC). =BD=C3=C7=E8 =
+=BC=BA=C0=FB=C0=C7 =C0=AF=C8=BF=B1=E2=B0=A3=C0=BA =BA=B8=C5=EB=20
+                                1~2=B3=E2 =C1=A4=B5=B5=C0=CC=B4=D9.
+                                <P></P><A name=3Dgre05_01></A><SPAN=20
+                                class=3Dstyle7><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B><STRONG><=
+STRONG><STRONG>=20
+                                </STRONG></STRONG></STRONG></SPAN><SPAN=20
+                                class=3Dstyle10><STRONG>IELTS =
+=C1=A1=BC=F6=BF=A1 =B4=EB=C7=D1 =C6=F2=B0=A1=20
+                                </STRONG></SPAN>
+                                <P></P>
+                                <P>IELTS=C0=C7 =C1=A1=BC=F6=B4=C2 =B0=A2 =
+=BF=B5=BF=AA=C0=C7 Band =C1=A1=BC=F6=B8=A6 =BF=B5=BF=AA=C0=C7 =
+=BC=F6=C0=CE 4=B7=CE =B3=AA=B4=A9=BE=EE =B9=DD=BF=C3=B8=B2=C0=BB=20
+                                =C7=D1=B4=D9. =B4=EB=B0=B3 =
+=C0=D0=B1=E2=BF=CD =B5=E8=B1=E2 =BD=C3=C7=E8=C0=C7 =BC=BA=C0=FB=C0=BA =
+0.5 =B4=DC=C0=A7=B7=CE =C7=A5=BD=C3=B5=C7=B0=ED, =
+=B8=BB=C7=CF=B1=E2=BF=CD =BE=B2=B1=E2=C0=C7 =BC=BA=C0=FB=C0=BA=20
+                                =C1=A4=BC=F6=B7=CE =B3=AA=BF=C2=B4=D9. =
+</P>
+                                <P>=BF=B9=B8=A6 =B5=E9=B8=E9 , =
+=B5=E8=B1=E2(7.5), =C0=D0=B1=E2(6.5), =BE=B2=B1=E2(6.0),=20
+                                =B8=BB=C7=CF=B1=E2(7.0)=C0=CC=B8=E9, =
+=BA=BB=C0=CE=C0=C7 IELTS =C1=A1=BC=F6=B4=C2 7.0=C0=CC =B5=C8=B4=D9. </P>
+                                <P>*=B0=E8=BB=EA=B9=FD : =
+7.5+6.5+6.0+7.0=3D27,=20
+                                =
+27/4=3D6.75=3D&gt;7.0(=B9=DD=BF=C3=B8=B2)<BR><BR>=B0=A2=B1=DE =
+=C7=D0=B1=B3=B5=E9=C0=CC =BF=E4=B1=B8=C7=CF=B4=C2 IELTS=20
+                                =BC=BA=C0=FB=C0=BA =
+=B4=EB=BA=CE=BA=D0=C0=C7 =B0=E6=BF=EC TAFE=C0=C7 =B0=E6=BF=EC=B4=C2 =
+5.0~6.5 =C0=CF=B9=DD =B4=EB=C7=D0=C0=BA 5.5~6.5=20
+                                =B4=EB=C7=D0=BF=F8=C0=BA 6.0~7.0 =B0=A2 =
+=BA=D0=BE=DF=BF=A1 =B5=FB=B6=F3 =C1=B6=B1=DD=BE=BF =B4=D9=B8=A3=B4=D9. =
+=B5=FB=B6=F3=BC=AD =BA=BB=C0=CE=C0=CC =C0=AF=C7=D0=C0=BB =
+=C8=F1=B8=C1=C7=CF=B4=C2=20
+                                =C7=D0=B1=B3=C0=C7 =C1=A4=C8=AE=C7=D1 =
+=BF=E4=B1=B8 =C1=A1=BC=F6=B8=A6 =B8=D5=C0=FA =BE=CB=BE=C6=BA=B8=B0=ED =
+=C1=D8=BA=F1=C7=CF=B4=C2 =B0=CD=C0=CC =C1=DF=BF=E4=C7=CF=B4=D9.=20
+<BR><BR></P>
+                                <TABLE borderColor=3D#cccccc =
+cellSpacing=3D0=20
+                                cellPadding=3D0 width=3D600 border=3D1>
+                                <TBODY>
+                                <TR align=3Dmiddle bgColor=3D#eeeeee>
+                                <TD align=3Dmiddle width=3D79=20
+                                =
+height=3D27><STRONG>=BC=BA=C0=FB</STRONG></TD>
+                                <TD =
+width=3D174><STRONG>=BE=F0=BE=EE=BB=E7=BF=EB=C0=DA =BC=F6=C1=D8 =
+</STRONG></TD>
+                                <TD =
+width=3D339><STRONG>=BC=B3=B8=ED</STRONG></TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle =
+bgColor=3D#fffcf0>9</TD>
+                                <TD align=3Dmiddle>EXPERT USER </TD>
+                                <TD height=3D100>Has fully operational =
+command of=20
+                                the language: appropriate, accurate and =
+fluent=20
+                                with complete understanding. =
+<BR><BR>=BF=B5=BE=EE=B8=A6 =BF=CF=C0=FC=C8=F7=20
+                                =C0=CC=C7=D8=C7=CF=B0=ED =
+=B5=BF=BD=C3=BF=A1 =C0=FB=C0=FD=C7=CF=B8=E9=BC=AD=B5=B5 =
+=C1=A4=C8=AE=C7=CF=B0=D4, =B6=C7 =C0=AF=C3=A2=C7=CF=B0=D4 =
+=B1=B8=BB=E7=C7=D2 =BC=F6 =C0=D6=B4=C2 =BD=C7=B7=C2=C0=C7 =
+=BC=D2=C1=F6=C0=DA=B5=E9=C0=CC=20
+                                =B9=DE=B0=D4 =B5=C7=B4=C2 =
+=C3=D6=B0=ED=C0=C7 =C1=A1=BC=F6=C0=CC=B4=D9. </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle =
+bgColor=3D#fffcf0>8</TD>
+                                <TD align=3Dmiddle>VERY GOOD USER </TD>
+                                <TD height=3D130>Has fully operational =
+command of=20
+                                the language with only occasional =
+unsystematic=20
+                                inaccuracies and inappropriacies.=20
+                                Misunderstandings may occur in =
+unfamiliar=20
+                                situations. Handles complex detailed=20
+                                argumentation well. =
+<BR><BR>=C0=CD=BC=F7=C7=CF=C1=F6 =B8=F8=C7=D1 =BB=F3=C8=B2=BF=A1 =
+=B4=EB=C7=D8=BC=AD=B5=B5 =B0=A1=B2=FB=20
+                                =C0=DF=B8=F8 =C0=CC=C7=D8=C7=CF=B4=C2 =
+=B0=E6=BF=EC=B0=A1 =C0=D6=B1=E2=B4=C2 =C7=CF=C1=F6=B8=B8, =
+=BA=B9=C0=E2=C7=CF=B0=ED =BC=BC=BA=CE=C0=FB=C0=CE =C5=E4=B7=D0=C0=BB =
+=C0=DF =C0=CC=B2=F8=BE=EE =B3=AA=B0=A1=B8=E9=BC=AD=20
+                                =B3=ED=B8=AE=C0=FB =C1=D6=C0=E5=C0=BB =
+=C0=DF =B3=AA=C5=B8=B3=BB=B4=C2 =C0=CC=B5=E9=C0=CC =B9=DE=B0=D4 =
+=B5=C7=B4=C2 =C1=A1=BC=F6=C0=CC=B4=D9. </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle =
+bgColor=3D#fffcf0>7</TD>
+                                <TD align=3Dmiddle>GOOD USER </TD>
+                                <TD height=3D140>Has operational command =
+of the=20
+                                language, though with occasional =
+inaccuracies,=20
+                                inappropriacies and misunderstandings in =
+some=20
+                                situations. Generally handles complex =
+language=20
+                                well and understands detailed reasoning. =
+
+                                =
+<BR><BR>=BA=CE=C1=A4=C8=AE=C7=CF=B0=C5=B3=AA =BA=CE=C0=FB=C0=FD=C7=D1 =
+=BE=F0=BE=EE =BB=E7=BF=EB=B0=FA =C0=CF=BA=CE =BB=F3=C8=B2=BF=A1=BC=AD =
+=BF=C0=C7=D8=B8=A6 =C7=CF=B4=C2 =B0=E6=BF=EC=B0=A1=20
+                                =C0=D6=C1=F6=B8=B8, =B1=D7=B7=A1=B5=B5 =
+=BE=F0=BE=EE=B1=B8=BB=E7=B4=C9=B7=C2=C0=CC =C0=D6=B4=D9=B0=ED =
+=BF=A9=B0=DC=C1=FA =B0=E6=BF=EC =B9=DE=B0=D4 =B5=C7=B4=C2 =
+=C1=A1=BC=F6=B4=D9. =C0=CF=B9=DD=C0=FB=C0=B8=B7=CE=20
+                                =B3=AD=C0=CC=B5=B5=B0=A1 =B3=F4=C0=BA =
+=BE=F0=BE=EE=B8=A6 =C0=DF =B1=B8=BB=E7=C7=CF=B8=E7 =C0=DA=BC=BC=C7=D1 =
+=B3=BB=BF=EB =C0=CC=C7=D8=B0=A1 =B0=A1=B4=C9=C7=D1 =BF=B5=BE=EE =
+=BD=C7=B7=C2=C0=CC=B4=D9.=20
+                                </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle =
+bgColor=3D#fffcf0>6</TD>
+                                <TD align=3Dmiddle>COMPETENT USER </TD>
+                                <TD height=3D160>Has generally effective =
+command=20
+                                of the language despite some =
+inaccuracies,=20
+                                inappropriacies and misunderstandings. =
+Can use=20
+                                and understand fairly complex language,=20
+                                particularly in familiar situations.=20
+                                <BR><BR>=C0=FB=C0=FD=C7=CF=C1=F6 =
+=B8=F8=C7=CF=B0=ED =C1=A4=C8=AE=C7=CF=C1=F6=B5=B5 =BE=CA=C0=B8=B8=E7, =
+=B6=A7=B7=CE=B4=C2 =B3=BB=BF=EB=C0=BB =BF=C0=C7=D8=C7=CF=B0=ED =
+=C0=D6=B4=C2 =BA=CE=BA=D0=C0=CC=20
+                                =C1=BE=C1=BE =
+=B3=AA=C5=B8=B3=AA=B1=E2=B5=B5 =C7=CF=C1=F6=B8=B8, =
+=C0=CF=B9=DD=C0=FB=C0=B8=B7=CE =C8=BF=B0=FA=C0=FB=C0=CE =
+=BE=F0=BE=EE=B1=B8=BB=E7=B8=A6 =C7=CF=B0=ED =C0=D6=B4=D9=B0=ED =
+=C6=C7=B4=DC=B5=C9 =B0=E6=BF=EC 6=C1=A1=C0=BB=20
+                                =BE=F2=B4=C2=B4=D9. =
+=C0=AF=C3=A2=C7=D4=C0=CC =B4=D9=BC=D2 =BA=CE=C1=B7=C7=CF=C1=F6=B8=B8, =
+=C6=AF=C8=F7 =C0=CD=BC=F7=C7=D1 =BB=F3=C8=B2=BF=A1 =
+=B4=EB=C7=D8=BC=AD=B8=B8=C0=BA =BB=F3=B4=E7=C8=F7 =BA=B9=C0=E2=C7=D1=20
+                                =BE=F0=BE=EE=B6=F3=B5=B5 =
+=C0=CC=C7=D8=B8=A6 =C0=DF=C7=CF=B0=ED =B6=C7 =C0=CC=B8=A6 =
+=B1=B8=BB=E7=C7=D2 =BC=F6 =C0=D6=B4=C2 =C7=D0=BB=FD=BF=A1=B0=D4 =
+=C1=D6=BE=EE=C1=F6=B4=C2 =C1=A1=BC=F6=C0=CC=B4=D9.=20
+                                </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle =
+bgColor=3D#fffcf0>5</TD>
+                                <TD align=3Dmiddle>MODEST USER </TD>
+                                <TD height=3D150>Has partial command of =
+the=20
+                                language, coping with overall meaning in =
+most=20
+                                situations, though is likely to make =
+many=20
+                                mistakes. Should be able to handle basic =
+
+                                communication in own field. =
+<BR><BR>=B3=BB=BF=EB=C0=BB =BF=C0=C7=D8=C7=CF=B0=C5=B3=AA=20
+                                =BD=C7=BC=F6=B0=A1 =B8=B9=B0=ED, =B6=C7 =
+=C0=AF=C3=A2=C7=D4=C0=CC =BA=CE=C1=B7=C7=D8=BC=AD =B6=A7=B7=CE=B4=C2 =
+=C0=C7=BB=E7=BC=D2=C5=EB=C0=CC =B5=C7=C1=F6 =BE=CA=B4=C2 =
+=B0=E6=BF=EC=B0=A1 =C0=D6=B1=E2=B4=C2 =C7=CF=C1=F6=B8=B8,=20
+                                =C0=FC=B9=DD=C0=FB=C0=CE =B3=BB=BF=EB =
+=C0=CC=C7=D8=B0=A1 =B0=A1=B4=C9=C7=CF=B0=ED =BA=CE=BA=D0=C0=FB=C0=CE =
+=BE=F0=BE=EE =B1=B8=BB=E7=B7=C2=C0=BB =C1=F6=B4=CF=B0=ED =C0=D6=C0=BB =
+=B0=E6=BF=EC=B7=CE =C0=DA=BD=C5=C0=CC =BF=F8=C7=CF=B4=C2=20
+                                =B3=BB=BF=EB=BF=A1 =B4=EB=C7=D8=BC=AD =
+=B1=E2=BA=BB=C0=FB=C0=CE =C0=C7=BB=E7=BC=D2=C5=EB=C0=BA =
+=B0=A1=B4=C9=C7=D1 =BC=F6=C1=D8=C0=CC=B4=D9. </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle =
+bgColor=3D#fffcf0>4</TD>
+                                <TD align=3Dmiddle>LIMITED USER </TD>
+                                <TD height=3D140>Basic competence is =
+limited to=20
+                                familiar situations. Has frequent =
+problems in=20
+                                understanding and expression. Is not =
+able to use=20
+                                complex language. <BR><BR>=C0=CC =
+=B4=DC=B0=E8=C0=C7 =C7=D0=BB=FD=C0=BA =C0=DA=B1=E2=B0=A1 =
+=C0=CD=BC=F7=C7=D1 =B8=EE =B0=A1=C1=F6=20
+                                =BB=F3=C8=B2=BF=A1=BC=AD=B8=B8 =
+=BE=F0=BE=EE=B1=B8=BB=E7=B0=A1 =B0=A1=B4=C9=C7=CF=B0=ED, =
+=B3=BB=BF=EB=C0=C7 =C0=CC=C7=D8=B3=AA =C7=A5=C7=F6=BF=A1 =
+=C0=D6=BE=EE=BC=AD =BD=C7=BC=F6=B0=A1 =B8=B9=B4=D9. =B6=C7 =
+=BA=B9=C0=E2=C7=CF=B0=ED=20
+                                =BE=EE=B7=C1=BF=EE =BE=EE=C8=D6=B8=A6 =
+=BB=E7=BF=EB=C7=CF=C1=F6 =B8=F8=C7=D1=B4=D9. </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle =
+bgColor=3D#fffcf0>3</TD>
+                                <TD align=3Dmiddle>EXTREMELY LIMITED =
+USER </TD>
+                                <TD height=3D100>Conveys and u =
+nderstands only=20
+                                general meaning in very familiar =
+situations.=20
+                                Frequent breakdowns in communication =
+occur.=20
+                                <BR><BR>=BE=C6=C1=D6 =
+=C0=CD=BC=F7=C7=CF=B0=ED =B4=DC=BC=F8=C7=D1 =BB=F3=C8=B2=BF=A1=BC=AD =
+=C0=C7=B9=CC=C0=C7 =C0=FC=B4=DE =C8=A4=C0=BA =C0=CC=C7=D8=B8=B8=C0=CC =
+=B0=A1=B4=C9=C7=D1 =B0=E6=BF=EC=BF=A1=20
+                                =B9=DE=B4=C2 =C1=A1=BC=F6=C0=CC=B0=ED, =
+=BA=F3=B9=F8=C8=F7 =C0=C7=BB=E7 =BC=D2=C5=EB=C0=CC =
+=C2=F7=B4=DC=B5=C8=B4=D9. </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle =
+bgColor=3D#fffcf0>2</TD>
+                                <TD align=3Dmiddle>INTERMITTENT USER =
+</TD>
+                                <TD height=3D140>No real communication =
+is possible=20
+                                except for the most basic information =
+using=20
+                                isolated words or short formulae in =
+familiar=20
+                                situations and to meet immediate needs. =
+Has=20
+                                great difficulty understanding spoken =
+and=20
+                                written English. =
+<BR><BR>=B4=DC=BE=EE=B8=B8=C0=BB =BB=E7=BF=EB=C7=D8=BC=AD =B0=A1=C0=E5 =
+=B1=E2=BA=BB=C0=FB=C0=CE =C0=C7=BB=E7=B8=B8=C0=BB=20
+                                =C0=FC=B4=DE=C7=CF=B4=C2 =B0=CD=C0=BB =
+=C1=A6=BF=DC=C7=CF=B0=ED=B4=C2 =B0=C5=C0=C7 =
+=C0=C7=BB=E7=BC=D2=C5=EB=C0=CC =BA=D2=B0=A1=B4=C9=C7=D1 =
+=B0=E6=BF=EC=C0=CC=B4=D9. =C0=D0=B4=C2 =BF=B5=BE=EE=BF=CD =BE=B2=B4=C2 =
+=BF=B5=BE=EE=20
+                                =B8=F0=B5=CE =C0=CC=C7=D8=C7=CF=B1=E2 =
+=BE=EE=B7=C1=BF=EE =BF=B5=BE=EE =BD=C7=B7=C2=C0=CC=B4=D9. </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle =
+bgColor=3D#fffcf0>1</TD>
+                                <TD align=3Dmiddle>NON USER </TD>
+                                <TD height=3D100>Essentially has no =
+ability to use=20
+                                the language beyond possibly a few =
+isolated=20
+                                words. <BR><BR>=BB=E7=BD=C7=BB=F3 =
+=BE=F0=BE=EE=B1=B8=BB=E7=B4=C9=B7=C2=C0=CC =C0=FC=C7=F4 =
+=BE=F8=B4=D9=B0=ED =C6=C7=B4=DC=B5=C7=B0=C5=B3=AA, =BF=B5=BE=EE =
+=B4=C9=B7=C2=20
+                                =C6=F2=B0=A1=BF=A1 =B5=B5=BF=F2=C0=CC =
+=B5=C9 =B8=B8=C7=D1 =BE=EE=B6=B0=C7=D1 =B4=C9=B7=C2=B5=B5 =BE=F8=B4=C2 =
+=BB=F3=C5=C2=C0=CC=B4=D9. </TD></TR>
+                                <TR>
+                                <TD align=3Dmiddle =
+bgColor=3D#fffcf0>0</TD>
+                                <TD align=3Dmiddle>&nbsp;</TD>
+                                <TD height=3D60>DID NOT ATTEMPT THE TEST =
+: No=20
+                                assessable information provided. =
+<BR><BR>=BD=C3=C7=E8=BF=A1=20
+                                =C0=C0=BD=C3=C7=CF=C1=F6 =
+=BE=CA=BE=C6=BC=AD =C6=F2=B0=A1=C7=D2 =BC=F6 =BE=F8=C0=BB =B0=E6=BF=EC =
+0=C1=A1 =C3=B3=B8=AE=B5=C8=B4=D9.=20
+                                </TD></TR></TBODY></TABLE>
+                                <P> </P><BR><BR>
+                                <P></P></TD></TR>
+                                <TR>
+                                <TD><A id=3Dgre06 name=3Dgre06></A><IMG =
+height=3D24=20
+                                =
+src=3D"http://www.gohackers.com/sub/gre_img/graduate1_img06_06.gif"=20
+                                width=3D228></TD>
+                                <TD>
+                                <DIV align=3Dright></DIV></TD></TR>
+                                <TR>
+                                <TD style=3D"LINE-HEIGHT: 150%" =
+colSpan=3D2>
+                                <P class=3Dstyle7><BR><A id=3Dgre06_01=20
+                                name=3Dgre06_01></A><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                IELTS =B5=E6=C1=A1</P>
+                                <P>=BD=C3=C7=E8=C0=BA =
+1=C1=A1=BA=CE=C5=CD 9=C1=A1=B1=EE=C1=F6 =B0=A2 =BF=B5=BF=AA=BA=B0 =
+=C1=A1=BC=F6=BF=CD =C6=F2=B1=D5 =C1=A1=BC=F6=B0=A1 =
+=B1=E2=B7=CF=B5=C7=B8=E7 9=C1=A1=C0=CC =C3=D6=B0=ED=20
+                                =C1=A1=BC=F6=C0=CC=B4=D9. =
+=B4=EB=C7=D0=B5=E9=C0=BA =BA=B8=C5=EB =C6=F2=B1=D5 6.0~6.5=C1=A1=C0=BB =
+=BF=E4=B1=B8=C7=CF=B0=ED =C0=D6=B4=D9. =B6=C7=C7=D1 =C7=D0=B1=B3=BF=A1 =
+=B5=FB=B6=F3=20
+                                =BF=E4=B1=B8=C7=CF=B4=C2 =
+=BF=B5=BF=AA=BF=A1 =B4=EB=C7=D1 =C3=D6=C0=FA =C1=A1=BC=F6=B0=A1 =
+=B4=D9=B8=A3=B9=C7=B7=CE =C7=D0=B1=B3=BF=A1 =C1=F7=C1=A2 =C8=AE=C0=CE =
+=C8=C4 =B1=D7=BF=A1 =B8=C2=B0=D4 =B0=F8=BA=CE=C7=CF=B4=C2=20
+                                =B0=CD=C0=CC =C1=DF=BF=E4=C7=CF=B4=D9. =
+=BD=C3=C7=E8=BF=A1 =C0=C0=BD=C3=C7=CF=C1=F6 =BE=CA=C0=B8=B8=E9 0=C1=A1 =
+=C3=B3=B8=AE=B0=A1 =B5=C8=B4=D9. </P>
+                                <P class=3Dstyle7><BR><A id=3Dgre06_02=20
+                                name=3Dgre06_02></A><B><STRONG><FONT=20
+                                color=3D#333333><STRONG><SPAN=20
+                                class=3Dstyle8><STRONG><STRONG><IMG =
+height=3D7=20
+                                =
+src=3D"http://www.gohackers.com/sub/btn/bbtn01.gif"=20
+                                =
+width=3D6></STRONG></STRONG></SPAN></STRONG></FONT></STRONG></B>=20
+                                IELTS =C1=D8=BA=F1=B9=E6=B9=FD</P>
+                                <P>IELTS =B0=F8=BD=C4 =
+=C0=A5=BB=E7=C0=CC=C6=AE=B8=A6 =C2=FC=B0=ED=C7=D1 =B0=A2 =
+=BF=B5=BF=AA=BA=B0 =B0=ED=B5=E6=C1=A1 =C0=FC=B7=AB=C0=BA =
+=B4=D9=C0=BD=B0=FA =B0=B0=B4=D9. </P>
+                                <P>1. Listening <BR>- =
+=C1=F6=BD=C3=BB=E7=C7=D7=C0=BB =C1=D6=C0=C7 =B1=ED=B0=D4 =
+=C0=D0=B4=C2=B4=D9. =C1=F6=BD=C3=BB=E7=C7=D7=C0=CC =B1=E2=C3=E2=20
+                                =B9=AE=C1=A6 =C8=A4=C0=BA =
+=BF=AC=BD=C0=B9=AE=C1=A6=BF=A1 =B3=AA=BF=CD=C0=D6=B4=C2 =B0=CD=B0=FA =
+=B4=D9=B8=A6 =BC=F6 =C0=D6=C0=B8=B9=C7=B7=CE =B4=EB=C3=E6 =
+=C8=C8=BE=EE=BA=B8=B0=ED =C1=F6=B3=AA=C4=A1=B8=E9 =BE=C8=20
+                                =B5=C8=B4=D9.<BR>- =C8=AD=C0=DA=B0=A1 =
+=B9=AE=C1=A6=C0=C7 =B4=E4=C0=BB =B8=BB=C7=D1 =C8=C4, =B8=BB=C0=BB =
+=B9=D9=B2=D9=B4=C2 =C7=FC=BD=C4=C0=C7 =B9=AE=C1=A6=B0=A1 =C1=BE=C1=BE=20
+                                =C3=E2=C1=A6=B5=C7=B9=C7=B7=CE =
+=C0=CC=B7=B1 =B9=AE=C1=A6=BF=A1 =C0=AF=C0=C7=C7=D8=BC=AD =
+=C3=BB=C3=EB=C7=D1=B4=D9.<BR>- =C8=AD=C0=DA=B0=A1 =B9=AB=BD=BC =
+=B8=BB=C0=BB =C7=D2 =B0=CD=C0=CE=C1=F6 =B9=CC=B8=AE=20
+                                =BF=B9=C3=F8=C7=CF=B8=E7 =
+=C1=FD=C1=DF=C7=CF=BF=A9 =B5=E8=B4=C2=B4=D9. <BR>- =
+=B0=ED=B5=E6=C1=A1=C0=BB =BF=F8=C7=D1=B4=D9=B8=E9 Part I=B0=FA Part =
+II=B4=C2=20
+                                =B8=B8=C1=A1=C0=BB =B9=DE=B5=B5=B7=CF =
+=C7=D1=B4=D9. =BD=AC=BF=EE section=C0=CC=B1=E2 =B6=A7=B9=AE=BF=A1 =
+=BA=CE=C1=D6=C0=C7=B7=CE =C0=CE=C7=D1 =BD=C7=BC=F6=B8=A6 =C7=CF=C1=F6 =
+=BE=CA=B5=B5=B7=CF=20
+                                =C7=D1=B4=D9.<BR>- =
+=BD=C3=C1=DF=BF=A1=BC=AD =B1=B8=C7=D2 =BC=F6 =C0=D6=B4=C2 IELTS =
+=BD=C3=C7=E8=BF=EB =C0=DA=BD=C0=BC=AD=B4=C2 =B1=D7=B8=AE =B8=B9=C1=F6 =
+=BE=CA=B4=D9.=20
+                                =B5=FB=B6=F3=BC=AD =
+=C4=B7=BA=EA=B8=AE=C1=F6 FCE=B3=AA CAE =BD=C3=C7=E8=BF=EB =
+=C0=DA=BD=C0=BC=AD=B8=A6 =C8=B0=BF=EB=C7=CF=B4=C2 =B0=CD=B5=B5 =
+=C1=C1=C0=BA =B9=E6=B9=FD=C0=CC=B4=D9.=20
+                                <BR>- =B8=C2=C3=E3=B9=FD =BF=C0=B7=F9, =
+=BA=CE=C1=A4=C8=AE=C7=D1 =BD=C3=B0=A2 =C7=A5=BD=C3(e.g. =
+1:30)=B5=EE=B0=FA =B0=B0=C0=BA =BB=E7=BC=D2=C7=D1 =BD=C7=BC=F6=B0=A1=20
+                                =B0=ED=B5=E6=C1=A1 =C0=FC=B7=AB=BF=A1 =
+=C4=A1=B8=ED=C5=B8=B0=A1 =B5=C9 =BC=F6 =C0=D6=B4=D9.<BR>- =
+=B5=BF=BD=C3=BF=A1 =C0=D0=B0=ED, =BE=B2=B0=ED, =B5=E8=B4=C2 =
+=BD=C0=B0=FC=C0=BB=20
+                                =B5=E9=C0=CE=B4=D9.<BR>- =C0=FD=B4=EB =
+=BA=F3=C4=AD=C0=BB =B3=B2=B0=DC=B5=CE=C1=F6 =BE=CA=B4=C2=B4=D9. =
+=B0=A8=C1=A1=C0=BB =B4=E7=C7=CF=C1=F6 =BE=CA=C0=B8=B7=C1=B8=E9 =
+=B8=F0=B8=A3=B4=C2 =B9=AE=C1=A6=B6=F3=B5=B5=20
+                                =B9=DD=B5=E5=BD=C3 =B4=E4=C0=BB =
+=C0=FB=B4=C2 =B0=CD=C0=CC =C1=C1=B4=D9. </P>
+                                <P>2. Reading <BR>- =B8=F0=B8=A3=B4=C2 =
+=B9=AE=C1=A6=B4=C2 =C0=CF=B4=DC =B3=D1=BE=EE=B0=A3=B4=D9. =C7=D1 =
+=B9=AE=C1=A6=B8=A6 =C7=AA=B4=C2 =B5=A5=20
+                                =B3=CA=B9=AB =B8=B9=C0=BA =
+=BD=C3=B0=A3=C0=BB =BC=D2=BA=F1=C7=CF=B4=C2 =B0=CD=C0=BA =C0=FD=B4=EB =
+=B1=DD=B9=B0=C0=CC=B4=D9. =B9=AE=C1=A6=B8=A6 =B4=D9 =C7=AC =B4=D9=C0=BD =
+=BD=C3=B0=A3=C0=CC =B3=B2=C0=B8=B8=E9=20
+                                =B8=F0=B8=A3=B4=C2 =B9=AE=C1=A6=B7=CE =
+=B4=D9=BD=C3 =B5=B9=BE=C6=B0=A1=B4=C2 =B0=D4 =
+=B9=D9=B6=F7=C1=F7=C7=CF=B4=D9.<BR>- =C1=F6=B9=AE =B3=BB=BF=EB=BF=A1 =
+=B4=EB=C7=D1 =C6=AF=BA=B0=C7=D1 =C1=F6=BD=C4=C0=BB=20
+                                =B9=AF=B4=C2 =B9=AE=C1=A6=B4=C2 =
+=C3=E2=C1=A6=B5=C7=C1=F6 =BE=CA=C0=B8=B9=C7=B7=CE =C1=F6=B9=AE=C0=C7 =
+=B3=BB=BF=EB=C0=CC =BB=FD=BC=D2=C7=CF=B4=F5=B6=F3=B5=B5 =
+=B4=E7=C8=B2=C7=CF=C1=F6 =BE=CA=B5=B5=B7=CF =C7=D1=B4=D9. =B8=F0=B5=E7=20
+                                =B9=AE=C1=A6=BF=A1 =B4=EB=C7=D1 =
+=B4=E4=C0=BA =C1=F6=B9=AE =BE=C8=BF=A1=BC=AD =C3=A3=C0=BB =BC=F6 =
+=C0=D6=B4=D9.<BR>- =B5=E8=B1=E2 =BD=C3=C7=E8=C3=B3=B7=B3 =
+=B4=E4=BE=C8=C1=F6=B8=A6 =C0=DB=BC=BA=C7=CF=B4=C2=20
+                                =BD=C3=B0=A3=C0=BB =BA=B0=B5=B5=B7=CE =
+=C1=D6=C1=F6 =BE=CA=C0=B8=B9=C7=B7=CE =B9=AE=C1=A6=B8=A6 =C7=AA=B4=C2 =
+=C1=EF=BD=C3 =B4=E4=BE=C8=C1=F6=B8=A6 =C0=DB=BC=BA=C7=CF=B5=B5=B7=CF =
+=C7=D1=B4=D9. <BR>-=20
+                                =BD=C3=C7=E8=BA=B8=B1=E2 =C0=FC=BF=A1 =
+=BD=C5=B9=AE, =C0=E2=C1=F6, =C7=D0=BC=FA=C1=F6 =B5=EE =B0=A1=B4=C9=C7=D1 =
+=C7=D1 =B4=D9=BE=E7=C7=D1 =C7=FC=BD=C4=C0=C7 =BF=B5=B9=AE=C0=BB =
+=B8=B9=C0=CC =C0=D0=B5=B5=B7=CF=20
+                                =C7=D1=B4=D9. =C7=D1=B0=A1=C1=F6 =
+=C7=FC=BD=C4=C0=C7 =B1=DB=BF=A1 =C4=A1=BF=EC=C4=A1=C1=F6 =B8=BB=B0=ED, =
+=B0=A1=B4=C9=C7=CF=B8=E9 =C7=D0=BC=FA=C1=F6 =B9=AE=C3=BC=B7=CE =B5=C8 =
+=B1=DB=C0=BB =B8=B9=C0=CC =C0=D0=B5=B5=B7=CF=20
+                                =C7=D1=B4=D9. </P>
+                                <P>3. Writing <BR>- =
+=C7=D9=BD=C9=B4=DC=BE=EE=B8=A6 =C7=A5=BD=C3=C7=CF=B0=ED =
+=B4=DC=B6=F4=C0=BB =C1=A4=C8=AE=C7=CF=B0=D4 =B1=B8=BA=D0=C7=CF=BF=A9 =
+=B4=E4=BE=C8=C0=BB=20
+                                =C0=DB=BC=BA=C7=D1=B4=D9. <BR>- =
+=C7=A5=C7=F6=B9=E6=BD=C4=B8=B8 =B9=D9=B2=D9=BE=EE =B5=BF=C0=CF=C7=D1 =
+=BE=C6=C0=CC=B5=F0=BE=EE=B8=A6 =B9=DD=BA=B9=C7=CF=C1=F6 =
+=BE=CA=B4=C2=B4=D9.<BR>-=20
+                                =BD=C3=B0=A3 =BE=C8=B9=E8=B8=A6 =
+=C0=DF=C7=D8=BE=DF =C7=D1=B4=D9. Task Two=C0=C7 =B0=E6=BF=EC =
+=B9=AE=C1=A6=B0=A1 =B4=F5 =B1=E6=B0=ED, =C1=A1=BC=F6 =B9=E8=C1=A1=B5=B5=20
+                                =B3=F4=C0=B8=B9=C7=B7=CE =
+=C3=E6=BA=D0=C7=D1 =BD=C3=B0=A3=C0=CC =C7=CA=BF=E4=C7=CF=B4=D9. <BR>- =
+=BA=F1=B0=F8=BD=C4=C0=FB=C0=CE =BE=F0=BE=EE=B4=C2 =
+=BB=E7=BF=EB=C7=CF=C1=F6=20
+                                =BE=CA=B4=C2=B4=D9.<BR>- =BD=C3=C7=E8 =
+=C0=FC=BF=A1 150=B4=DC=BE=EE=B0=A1 =BE=EE=B4=C0 =C1=A4=B5=B5 =
+=BA=D0=B7=AE=C0=CE=C1=F6 =B9=CC=B8=AE =C6=C4=BE=C7=C7=D8=B5=CE=B4=C2 =
+=B0=CD=C0=CC=20
+                                =C1=C1=B4=D9. =BD=C3=C7=E8 =B6=A7=B4=C2 =
+=B4=DC=BE=EE =BC=F6=B8=A6 =C0=CF=C0=CF=C0=CC =BC=BF =BC=F6 =C0=D6=B4=C2 =
+=BD=C3=B0=A3=C0=FB =BF=A9=C0=AF=B0=A1 =BE=F8=B4=D9.=20
+                                <BR><BR>4. Speaking <BR>- =
+=B9=AE=B9=FD=BF=A1 =B8=C2=B0=D4 =C7=A5=C7=F6=C7=CF=B4=C2 =B0=CD=B5=B5 =
+=C1=DF=BF=E4=C7=CF=C1=F6=B8=B8=20
+                                =C8=BF=B0=FA=C0=FB=C0=B8=B7=CE =
+=C4=BF=B9=C2=B4=CF=C4=C9=C0=CC=BC=C7=C0=CC =
+=B0=A1=B4=C9=C7=D1=C1=F6=B8=A6 =C3=F8=C1=A4=C7=CF=B4=C2 =
+=BD=C3=C7=E8=C0=CC=B4=D9. <BR>- =B4=DC=B4=E4=C7=FC=C0=B8=B7=CE =
+=B4=EB=B4=E4=C7=CF=C1=F6=20
+                                =B8=BB=B0=ED, =C3=E6=BA=D0=C7=D1 =
+=BC=B3=B8=ED=C0=BB =B0=E7=B5=E9=BF=A9 =B4=EB=B4=E4=C7=CF=B4=C2 =
+=B0=CD=C0=CC =C1=C1=B4=D9. <BR>- =B8=F0=B9=FC =B4=E4=BE=C8=C0=BB =
+=B9=CC=B8=AE =BE=CF=B1=E2=C7=D8=BC=AD=20
+                                =B4=E4=C7=CF=C1=F6 =BE=CA=B4=C2=B4=D9. =
+=BD=C3=C7=E8=B0=FC=B5=E9=C0=BA =C0=CC=B7=B1 =BB=E7=B6=F7=C0=BB =
+=B0=A1=B8=AE=B1=E2 =C0=A7=C7=D8 =BB=F5=B7=CE=BF=EE =C1=FA=B9=AE=C0=BB =
+=C1=A6=BD=C3=C7=D1=B4=D9. <BR>-=20
+                                =B0=A1=B4=C9=C7=CF=B8=E9 =
+=BD=C3=C7=E8=B0=FC=BA=B8=B4=D9=B4=C2 =B8=BB=C0=BB =B8=B9=C0=CC =
+=C7=D1=B4=D9. <BR>- =C6=F2=BC=D2=BF=A1 =B3=EC=C0=BD=B1=E2=B8=A6 =
+=BB=E7=BF=EB=C7=D8 =C0=DA=BD=C5=C0=C7 =B4=E4=BA=AF=C0=BB=20
+                                =B3=EC=C0=BD=C7=CF=B0=ED =
+=B5=E9=BE=EE=BA=B8=B4=C2 =BF=AC=BD=C0=C0=BB =C7=CF=B8=E9 =C1=C1=B4=D9. =
+<BR><BR></P></TD></TR>
+                                <TR>
+                                <TD colSpan=3D2>
+                                <DIV align=3Dright><A=20
+                                =
+href=3D"http://www.gohackers.com/bbs/zboard.php?id=3Dall_board1&amp;no=3D=
+1&amp;open_mode=3D&amp;gre_gra=3D6&amp;page=3D&amp;select_arrange=3D&amp;=
+headnum=3D&amp;desc=3D&amp;category=3D&amp;sp=3D&amp;sn=3D&amp;ss=3D&amp;=
+sc=3D&amp;sf=3D&amp;keyword=3D&amp;sp1=3D&amp;sn1=3D&amp;divpage=3D&amp;s=
+ff=3D&amp;sa=3D&amp;md=3D&amp;cmt=3D&amp;outlink_frm=3D&amp;show_bbs=3D&a=
+mp;session=3Dielts#"><IMG=20
+                                height=3D17=20
+                                =
+src=3D"http://www.gohackers.com/sub/images/top_btn.gif"=20
+                                width=3D42=20
+                                =
+border=3D0></A></DIV></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></=
+TABLE></TD></TR>
+                          =
+<TR></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></TD></TR></TBOD=
+Y></TABLE></DIV></TD></TR>
+        <TR>
+          <TD vAlign=3Dcenter height=3D50>
+            <DIV align=3Dcenter><STRONG>Copyrights(c) 2001 goHackers.com =
+All=20
+            rights reserved</STRONG></DIV></TD></TR></TBODY></TABLE><MAP =
+
+        name=3DMap><AREA shape=3DRECT target=3D_top coords=3D4,5,60,31=20
+        =
+href=3D"http://www.gohackers.com/bbs/new/http://www.gohackers.com/html/mo=
+ve.htm?id=3Dall_board1&amp;no=3D1&amp;open_mode=3D&amp;gre_gra=3D"><AREA =
+
+        shape=3DRECT target=3D_top coords=3D64,1,124,30=20
+        =
+href=3D"http://www.gohackers.com/bbs/new/http://www.gohackers.com/html/mo=
+ve.htm?id=3Dall_board1&amp;no=3D1&amp;open_mode=3D&amp;gre_gra=3D2"><AREA=
+=20
+        shape=3DRECT target=3D_top coords=3D126,1,187,29=20
+        =
+href=3D"http://www.gohackers.com/bbs/new/http://www.gohackers.com/html/mo=
+ve.htm?id=3Dall_board1&amp;no=3D1&amp;open_mode=3D&amp;gre_gra=3D3"><AREA=
+=20
+        shape=3DRECT target=3D_top coords=3D189,3,244,27=20
+        =
+href=3D"http://www.gohackers.com/bbs/new/http://www.gohackers.com/html/mo=
+ve.htm?id=3Dall_board1&amp;no=3D1&amp;open_mode=3D&amp;gre_gra=3D4"><AREA=
+=20
+        shape=3DRECT target=3D_top coords=3D251,2,307,28=20
+        =
+href=3D"http://www.gohackers.com/bbs/new/http://www.gohackers.com/html/mo=
+ve.htm?id=3Dall_board1&amp;no=3D1&amp;open_mode=3D&amp;gre_gra=3D5"><AREA=
+=20
+        shape=3DRECT target=3D_top coords=3D469,4,529,30=20
+        =
+href=3D"http://www.gohackers.com/bbs/new/http://www.gohackers.com/html/mo=
+ve.htm?id=3Dall_board1&amp;no=3D1&amp;open_mode=3D&amp;gre_gra=3D7"></MAP=
+></SPAN></TD></TR></TBODY></TABLE><!-- =B0=A3=B4=DC=C7=D1 =B4=E4=B1=DB =
+=BD=C3=C0=DB=C7=CF=B4=C2 =BA=CE=BA=D0 --><!-- =0D<Br>=0D<table =
+border=3D0 cellspacing=3D0 cellpadding=3D3 width=3D500 =
+bgcolor=3D#F9F9F9>=0D<tr>=0D	<td height=3D1 bgcolor=3D#E5E5E5 =
+colspan=3D5></td>=0D</tr>=0D</form>
+
+<!-- =B8=B6=B9=AB=B8=AE =BA=CE=BA=D0=C0=D4=B4=CF=B4=D9 --><TR><TD =
+height=3D"25" align=3D"center"><FONT=20
+style=3D"FONT-SIZE: 7pt">Copyright 2001-2007</FONT> <A onfocus=3Dblur()=20
+href=3D"http://www.gohackers.com/" target=3D_top><FONT=20
+style=3D"FONT-SIZE: 8pt; FONT-FAMILY: =
+tahoma,=B1=BC=B8=B2">gohackers.com</A><FONT=20
+style=3D"FONT-SIZE: 7pt"> All rights reserved.</FONT></TD> =
+</TR><!--=BD=BA=C5=B2skin/all_board--></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gohackers.com/bbs/images/t.gif
+
+R0lGODlhCgAKAIAAAP///wAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gohackers.com/sub/title/02_title13_e.gif
+
+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
+O/3pUI+61BsbBAA7
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gohackers.com/sub/gre_img/graduate1_img06_01.gif
+
+R0lGODlhfQAYAMQAAOPTqPr38PXw4aWHNsGfQfHp1NC2bcuuXt7MmbSUO9W9fOfatcamT+zixdnE
+ipd8Mf///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAA
+fQAYAAAF/yAkjmRpnmiqrmzrvnAsz3Rt33heF42gj4XD4PEgAE4CRyPFC4h4jag0+mw4gdNsT9Qw
+ML6IK0qghQAYR8bDYWqoHwOHmAUg2okGk2OdUi8hb3d2In4kgYJEbAiICXMle4IQe2xqbCR1ggSO
+KAVEBAUQAZCWEAWjfQ9/agYOra6WhSMArgaJrlZDaAUAQ3koZ18ERJJ8lSQCQwQLor0tBw+NJJA+
+kImoqqnXKA3D0nCXRD4riwTElHwjiw/iEArfKwFERyQBQwhmXwnoJ7Gx/NknuD0ooeYAvSF/VNRS
+QMxAA2GkiJUbIZBFRRPPDI6YpA0QwH8JS1xMRySkCwHhiP/dibggpYg9E1WQO7GHgbeIBAGuetVq
+nj+R3UYgI5LAAAB2K57ZJJaAwRCcRA74AKCP4YqaNB8sfbnPRD9ERJb+JDFyRIBndxhsKrFogDiO
+xsARGVJkLdsiWbea66gGgRZQHk1SDFpCwAIFwoogLYFpwcZiXc3oS9ui7IiMN/l+9LqZLOEAVEgs
+sIfC3YN7j8/hrBmAB+EU8R44Png6M4qvgkeMHTyQt6NnvkoUGDBgdmqPq7VyeZ3imSZv62yDJNTZ
+UPXlvUeQNqtPo4kCgDMbU/CFgb4BwcKWn3eik1YfoohYPX5b5wNWPB342MnziGVIBoASQC3XpQAX
+ZGCBhRNjY2DFRB8EDbQizlcJLnEIZZZBkJggwblwIBtQaCHiYm2gBc2CECrxGECziDNLfhKaAaMD
+RySxoCiTacXeCx/+YAMkufkoJGMqDikDGVYYqeSSTDbp5JNQRinllFRWaeWVPoYAADs=
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gohackers.com/sub/btn/bbtn01.gif
+
+R0lGODlhBgAHALMAAPz8/OXk5OLh4d/e3vDw8O3t7fn5+dnY2Orq6v///9PS0gAAAAAAAAAAAAAA
+AAAAACH5BAAAAAAALAAAAAAGAAcAAAQUEKU51SlU6UOS/sKnIIAWGNOAUhEAOw==
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gohackers.com/sub/gre_img/graduate1_img06_02.gif
+
+R0lGODlhrgAdAMQAAPr38OLTqPHp1KSHN8qtX/Xw4dS9fbOTPMCeQs+1bt3LmefatuzixdjDisWm
+UJZ7Mv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAA
+rgAdAAAF/yAkjmRpnmiqrmzrvnAsz3Rt33iu73zv/8CgcEgsGo/IpHLJbDqf0KiRwQCUAg5HCUB1
+FRiCaZX2Dbe+hZiAMHg8EAETg+A+JKyrQINRcvNJDW4lDIIiDYeIh3EQgVonhA9/LAWJiIsQfioF
+CQgDBAuAD46MlYd/gQ0wAW6sbgkkC61uCHgpDg+pJJkGWQ4Hbr1akCOyrI6NKJCXK5Cyo5koAm2t
+CiPIIsVuuagvArNhAIG4I78OVQpu1Sq3ucSRELfZgsOGh+WKhqIoBm4GLoQHEN169g7FrwMBFsQ7
+pa+eOAem8rVjQedALUZu0kCqhaBhin593glg8GtAgl8PFP/woUeinMOBJwBMe5CGBaFR1zAVNOHt
+waU2/jCOcjcRY9EUANwsgyAzJQQBDoKK4DfURFKP2ArGoiniFoEv6B6UKOBmgBVnVjsO+IWgpoqb
+1jxCk1NIBJ1jWJ+6IZCV1dFkdUnQ4XviF2EUq9xchBbocKwB4gJDoKONVAOYIwAEmBZA2oMBCi7S
+xSl35yA3oEQAzVeV8oMwvX79PYEOwYmcJBKgXsdKXVaGB+L6dNBR7Ah+D3QnjzuqwDQEZgrEG+B2
+NHN3kkywDVCAMsOhidtAjzvbBO7rJKRXTvHwsxmdfyARELB5OQR6AJC/SnwgDG4DBCwFwQIEvJJC
+M60QlF3/CZ61YqBQIyTmAABqLcJNC7XdhtUCnKmQ2B0d9ffbCMqxYpYI9IgjFUkD+JdXDVAFk4VU
+c52wxizLXEMZLUwV52J5pxlXwmAkfqOCfiJQ+BkoNQYQ4h0jsGTAgk+JgEVQMmYp4wtcjFEjDGVY
++YBUVqpzIQtXpZZZG+roJ5oJHZEJgAMtwnfGIbcVxcAefckjywuQUPmWn+1UZ+UhApxJ0RsXiZMG
+WfatAICa6Y1YAi9aVpVVCRdS4SkV6XzaxQqIKJcAIi3EKGMbswmA0l5vqtCTA2mEAxIEiS0g6nsw
+fAmPnycAE4xsH5nmgp9CysBOTG2YFA+ZLSQmi21TyaMFtCUNCIiCr7ck8GlYwcpTnq8sIEIZAaja
+RChtGeXzQKxvuRYQCXqUku19wBxr7K8TsaRLJJ/qNu6+L8Sj6aBvZKltYyNAKigQkBz8yBglLBul
+ZJuGUl4WvL7Q3WeGwUsXwRoOEGG7RnTZsbLAmrAuDwIY0KwArn5mwMojy3MCpJ8o0IbEUqSAqZYn
+ZOqAtja4mWQDq62gKtEnSFsWzkFX7UIAb2om8g1zzLi11WCHLfbYZM8QAgA7
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gohackers.com/sub/gre_img/graduate1_img06_03.gif
+
+R0lGODlh5AAZAMQAAPr38PHp1OPTqKWHNvXw4cGfQdC2bcuuXrSUO+fatdW9fN7MmezixcamT9nE
+ipd8Mf///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAA
+5AAZAAAF/yAkjmRpnmiqrmzrvnAsz3Rt33iu73zv/8CgcEgs6ggMgqnRCJQCDICLES0ilSykswaV
+kpiCEtWbTba03MPg8SiExerBIdFiON4jx8NhYjNKDQ9/JAJMcyR+K1SLjFUmCg0KJXp8IlCNZnoN
+KphRhWGBgyNslaOCJnZ4IpQiAJ1bmjQCbLRsBoS1bKoosSSsAUxMbAXBTqEkBrm3IokqubmiXw+b
+vnsjgc98vSjPgqzHwdgIwWHN1dR51hAM3dTbMAHDTgB66gRsBwEEyQgsev3V+LDrlujYKlsJkj2g
+A8EcLwcQI9aLdm3aJHUQIIVbo81iCiYIHgxgEuDbKYKkGv+euggwXSUCEh2EdOcxxoEHCMhAqKeE
+3QASIXeZqHeRjyuFDW4+OFDFIIQCD5Y9XcpsZQyHpgpUpVXKREg673jVNPmHQYI1tQyYwbqTTdET
+AFK2Rfci7oNdANYsWHeHBNSuJ5TqZCWCo4hZD5AwgCqKDcO5VSmecWsiAS0nuQAjOhX2RCyIgfgY
+VIAzCs/IJgQHPDFrABY9Bca8GBiYamU2W1Dk1bUaQrwHZDjWEgVV6k1qbFnQXkLrQO8RshN1NqFQ
+ZUqDQUeE3Gu95u67z0cEMHyQluQUC9p4rikCkq0V6Yf1Hjjo3oMFTNaI0jNgAUzeKp0HH3siKFRP
+KYSZkgT/G1LwR1IKaCUAmjUGOTbCTZXUgk586rlUAgBQ5ZTOSE28MF1YtQhFwnjTyNVWKSEVkMBi
+InnhFIi5oJPcCqRJBQEABmaET4MYRbZcPTtySJNoK4XknG9scOcQi9ggWCQDawyQG2QxpKfVUASa
+hc1jT4QIAGn3HVSKZbng4dSPMuHU1Y4ahRPMGuOQBNUDkpTnRIKRFdLndCPspoBeL0JgUD0IKDSA
+F+YEYCaa3BG2zzA6cQnDciXc9CRzn66Y5RYK3QJoAGosFc2bzlgFCErPMCDAAGSuwxCgAV5E14dQ
+acWmAGSNgCYbCOTWDItaFvgeYXsakKmmdVlIwm57QUIm/2KstTEYeLimAOxrMRkQjCA7nuDiCgAA
+60BJ1sAE0TDBhEQoBMkU4MUsBwQ7AgELOJCATs3MYm81YRAWgAFYgLmrCzcNnE5i9LJX3QmOkPBa
+kYfZGc4WsD7wm4DmYowCi7RINRBBBcwLpE7/6ruCORXvq2YL86rwWwNK0MNGnwOp9V9UM3SLZKwi
+dFJxuX2IbMJuA4i7cyudnCODyyKEVgLS4a1DWToLu4BYLl+WV4vD6rogdBuNYK3gC+eiEJ8XaJpN
+IM0Uuqqo0iZizKkODCglZ2VKpUwGNnJrhqLdKahtimZgfvox3V2vQPXdjOcN2N5GqED4GWboejXi
+KMjmAlsY/uA0AmLPnoBGDd++WrkLV4ixdeY2U3HD0NDQTjE+CSywRuSZY9PN63XAqnsPhWj84PEl
+cMiGa8yTUKfGKr4AjPJMRK+97n0z4UDq24cv/vjkl2/++einb34IADs=
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gohackers.com/sub/gre_img/graduate06_1.gif
+
+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
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gohackers.com/sub/gre_img/graduate1_img06_04.gif
+
+R0lGODlhywAcAMQAAKSHN+LTqPHp1Pr38PXw4cCeQrOTPMqtX93Lmc+1btS9fefatuzixdjDisWm
+UJZ7Mv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAA
+ywAcAAAF/yAkjmRpnmiqrmzrvnAsz3Rt33iu73zv/8CgcEgsGo/IIoFBMDkcgpKAqWREWQMG4xV4
+OhSDWHbbWl5JgQZZNG4JDoDHoxBQIdQsRqNOajwaJnJrIg5/K16IXgokBHsjemR+DiVdT3wQDHIu
+CXKdAE0oDQ2gIpkPI6KpqXySToaPmisBnbQJKAtygCutfYYCiHIFXnWFuim0yA+TsMsQfrq8Ipy1
+pbErCLkEAQbKxw+DpiPJcsvRqdwOonXhKgLBUQN+ryQDcfMpfgAlz5jjnYDFVmjREgfAwDP9mvFz
+1k3ErAcJGExbZ01FoQMjHnoDZ+2cMnUiovmbxC7FgQcGwv+gkkNKxMlcLOTtM5RlmoNpB6gEbPHw
+wSUSmRS+ilao2UmSFVPshODuQcsRA+QgAJoUghyMzkQVRSUKHciSJ6L6LFHvwdSMDwBwMpZiWsuF
+EOLowuVUS4F7KbChlGrCFDJoDSEsnaUPrEmUIxSkRWGKrWFTn6zSajaC2yJYp1IYdvkAKwQCce7g
+PWHvbMhXTVVC4NZzdIkFdyEKJreAKgAv3AA3U+yZk63NJ0wZUFDINQTFiDHT43Y1ntbAIgjIMUBV
+mYOfI7AVOEG0G1wUepOf1tW09mc5C57IVSEPwCUE9owFXal7RNNRDeLUNqXlqYkA9shxmQllCaIc
+G3e5F0f/AaBEc5qB1fzDHXQrLYNNZN+ZAJoyAtJX2RwLMJCgSkuFdUAAqrGBgGcJecgQZch1gpVf
+xtGTBgL+jXASAHelFKEIC9hThwD21OYgZGmpxB8VJmg34SQbnpUhIyPqJeU8RCJzSYkkTDHQl2Bq
+EcV8451GGSYFrWGKJf8l4mYi0sgRwIYFhMHOLAacMUAC271o34JZMthPZoxVBcFJGG1V5glZAnDF
+NLZ890YcOZHA5QjF+YMMUsnUV4KiP4ai6TgDvHRWo1NYg5CGVpRSUBONamEoVOiRFZpkwjzBjQHX
+/TcHQtgAMiUKaQyChiqiTIOsIzRK6GdWXaGUgK4yobBE/5jY9hfHTwIUUOdmzdKiy10FnCEAN6kS
+isJJdfbilGT+sPVIitEt2uWbT6yqAnAxNTTqH7MSmIA9BZjXpb4D2FnVL26uB8EACNDL1KArNOVA
+E/F0OKG8L0wZbifGugIIv7s0FAC2oJBMT2zMjfWCypbWWB0LrXXS58YZiZKjCR7PAeZdIX9qCMyi
+nlmounkZSMCOMICrKcfBBQzUSyhB/QgehEBYMsdkYvrNITK34KBmUnttiwhNBX10X8G4id3aQxSn
+dglL+Nd11nNnbfULZrTQBgtHofWAvin8XV3eKhgehJcSN60p4pmOk4SvDyggwDbi2fBxJ5MTwfCb
+hJNAHCy+Rk8+jSehx/D5m5237joPCxzwBBiv12777bjnrvvuvPfu++/ABy/88DGEAAA7
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gohackers.com/sub/gre_img/graduate1_img06_05.gif
+
+R0lGODlhiwAbAMQAAPr38PHp1MCeQuLTqPXw4aSHN8qtX8+1brOTPOfatt3LmdS9fezixcWmUNjD
+ipZ7Mv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAA
+iwAbAAAF/yAkjmRpnmiqrmzrvnAsz3Rt33iu73zv/8Cg0ERgEEyNRqAUYABcDKdt0ViUos9W8bgK
+GAqPh2BQIjjOaAdjxXCQSY6HwxRekxoPezuN5tZReFZEUQwCYoRPfyMACgYGClkicXMqA2GXYQck
+CZiXlClxDSWTEAFJSWECp0t4dnGdiop0D6Imr7B5ELIBYJcFS5JyKgGpSwCvn6F8dqAPCKPCDLiX
+a60iewdhfSKyJARhBScDeODgSrq5EABgBQfZziOkKQbOkRCvXNmfLq/QcwAM3jWg98CAFGtwwjwp
+EqXbCILCTFjKxekBMEUTgUl78EbeCQBh3iwCo0AEngQxCP/a8wiG0kSGhpiJIIjylsN7YRCEtFVw
+hCFKiuIIIKGTkkcTG0/QM8CtYJIDwFSs2xkvIrEHkVpikvktFYRxqNKJSEBOEzkDXERYeqYuzMVL
+DeKwFVE02L4SCsScCNUWVgN7JvJ6rUppo52uCpKAYQbAEAIwmkbIIlegpIgFnkiAQbBA51xMDSba
+qYgS592EtaCJ2uigCcHTI3jR0kZ4hE4BCQo9KJAFIQFDFicKsLMLgQPABA4gsGfqElrJ6QDofOBu
+sOkUeYfyFAUwKgTHKAI4BoD5gWWPFTGJtCa7QOkEYGrdhBHompHimAREPXoljNKeJwh2QnvAvKPJ
+UV6AYdD/HekcoB8JjGTxBxWnVGhhEhQqBssrMgEwwBkDrBTRR2GUNpJ5pRhBgoASiSEiGfyl8GFa
+K5xxBDnTdILjJaokocZ8e434nwAiPnAEXz7pdYIUZdgl0YWrPAllLU0QEoUhB1gZBY0o2MiPkCZc
+1cARx4QhSFdQJUebDDHa1IlMwUyTAh6wkZCjWFWl5mQluGinFiyRfXXGl6cJpeVNcWRppX+AgDnL
+NHDipCcMDEBknAkJEDQGgw8Qul0JiILJ6Al0zhDqpEOMQI4LW3xqJ557QpcCFSLBcGqqA0Zxg5tb
+8SSnD6HmiCsOYEHpnVpToprDTcVCOeyz0EYr7bTUVmvtBrXYZhttCAA7
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gohackers.com/sub/gre_img/graduate1_img06_06.gif
+
+R0lGODlh5AAYAMQAAPr38OLTqPXw4fHp1KSHN8+1bsCeQt3LmbOTPMqtX9S9fefatsWmUOzixdjD
+ipZ7Mv///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAA
+5AAYAAAF/yAkjmRpnmiqrmzrvnAsz3Rt33iu73zv/8DgTNAQtACNgZBEVLKQjdegKE0QHg9DwARw
+GB6IAgDWiIrK6LSzPB6l32xRoMBgJLasgGPP5xtHfX1mDg8OI1NwRg0PDCx1j5AMCkwOeBANDoOM
+IgJ7bpVnWCOdlphmEAyFLgFYrVgFJABfrgRtLaIirrqNEFinvbq6UQXBBo7Brb/IqhCEhiKpwYaL
+vCrLWNWXmyLO3NuLD4DfuNrV3dDMKwNYBkpdWM8QCg8EBwABX/Es5PCBoMC/+qRC0IcIljsDDmA5
+sCLVATgNbDXbg22PpngKIl2Ztk1FmisE0DgJZY4ZIV7gxP+hJEdNXLxU+lIkACOR0AMjABaOoifR
+WrhcP1H4QnGyBLFsxBA0fPBrBbwzZYjFJOGw3AtWWCyRaOntWVFtjOogGBd0EYFHYx0gyvckawkA
+VxguoFdiSs8U/IKeGHri64iNJNbpPZGqaYq523RN/cvUaguFYHSWAKfY28pgl+FRduUg2tMVKU3M
+TNCMUYOMDBzc9TmC3N7GfTuKmIngzwvP0kx4joI2HdQxQ7mqWDALVjQGC7bS6+2VLJqjocIGEO4M
+NeAVCo2ZKErsiisDq4UG7RfIDN/tsiEgzqJgQfgSqCPV0QoB6xcCI8+1ZprzprazDIxUgk0EWHKA
+d/FQZxL/WSpF50ZH+sHEgl8kFOVZAQsQkx5rQCHzzHkDbjjALK1MogNkYtzXXEy+hLaZYSIAcEdP
+ABxA2oMlNXfZcwyGAiADaY0gIXZZxNbITA8wJAJktjk1HlOJAAVjadkENsdYG3Ljz5YWIQkLBDJi
+YYR+Ui7AwJfCmYAIRHAooaCO0e3iYJycCekbCqGVMFpp/nECIofA+DQlhU2UAJmA+12j2AAETZZc
+aSzChmMKuCm6yWatwAlBJ/7gkScLGdF3Qn+PjgBXkhBAZkt/U5qQl6BEyZadCWMpORmbEDWJZyZa
+2mRAb2mWoEcgGnYKVmVUpiDAAZUM4IkJmNC3h64ozARe/4VibuqWHFggiteTsBoZGIiC2ZrDAPI9
+goeiBgQLmmsvUEjCPK0UGGuVf6IgGAM42WQiBLRtEcBY2t3yJJdAFeBPFPKmQoACRghwH7UkKLoY
+pnVeAodyVRKmyqfxZumrAt5RTAhBfeSLAla6FAwmiVjgd8a03yaKTIe5ySuAd7qIWkK6DFw3WYto
+sMWCu7p9DK8L8oow1pcQXAE1tsu0Ci2SYEwFQAFjhWGbTa0+OxHCYy98yT+xcN1KAlarMOTQg73t
+UZY/3ylD0wCNME/HpbWbhso/gL3E4HZeDK/cKSDhbdKLwVCoq6g6/cCNIeIr6RJEREQ44YjTiawO
+leqSQzt3DmS4bYhVb6666p1DgC7QPtcQX7o5yKLL1CQEAHSAq/e+xBQU+y5EjXXcIfzxyCev/PLM
+N+/88yuEAAA7
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gohackers.com/sub/images/top_btn.gif
+
+R0lGODlhKgARAKIAAE1NTeLi4kZGQ7CwsP///wAAAAAAAAAAACH5BAAAAAAALAAAAAAqABEAAANd
+OLrc/vCRSau9OFelu+/cJ47haGqlBVzBmaUUIFttJdwTTtwCBhOyYKVmyxl7u8tvsqJdkNCdzrIE
+sp7GJNI3yDSH2Fz01cV8KUTXpqxuE6ruDzwOYtNNkbx+P0gAADs=
+
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://toeic.hackers.co.kr/js/bbs_ui.js
+
+//    IE Script=0A=
+var NS4;=0A=
+var IE4;=0A=
+=0A=
+if (document.all)=0A=
+{=0A=
+    NS4 =3D false;=0A=
+    IE4 =3D true;=0A=
+}=0A=
+else=0A=
+{=0A=
+    NS4 =3D true;=0A=
+    IE4 =3D false;=0A=
+}=0A=
+=0A=
+=0A=
+// =3D=3DName UI Handling =3D=3D=0A=
+if (IE4) =0A=
+{=0A=
+    document.onclick =3D MouseDown;=0A=
+}=0A=
+else if (NS4) =0A=
+{=0A=
+    document.captureEvents(Event.CLICK)=0A=
+    document.onclick =3D MouseDown;=0A=
+} =0A=
+=0A=
+var memberid =3D "";=0A=
+var memberno =3D "";=0A=
+var open_type =3D "";=0A=
+var nickname =3D "";=0A=
+=0A=
+function ui(p_memberno, lv_open_type, p_nickname) =0A=
+{=0A=
+    //memberid =3D p_memberid;=0A=
+    memberno =3D p_memberno;=0A=
+    =0A=
+    if (lv_open_type =3D=3D null)=0A=
+        open_type =3D "3"    =0A=
+    open_type =3D lv_open_type.toString();=0A=
+    =0A=
+    if (p_nickname =3D=3D null)=0A=
+        nickname =3D "";=0A=
+    else=0A=
+        nickname =3D p_nickname;=0A=
+}=0A=
+=0A=
+function execMenuItem(opType) =0A=
+{=0A=
+    switch(opType) =0A=
+    {=0A=
+        case "EVENT1" :=0A=
+            sendMemo(memberno);=0A=
+            break;=0A=
+        case "EVENT2" :=0A=
+            viewLecInfo(memberno);=0A=
+            break;      =0A=
+    }=0A=
+    hideAll();=0A=
+}=0A=
+=0A=
+function getTop()=0A=
+{=0A=
+    return (screen.height - 500) / 2;=0A=
+}=0A=
+function getLeft()=0A=
+{=0A=
+    return (screen.width - 330) / 2;=0A=
+}=0A=
+function sendMemo(memberno)=0A=
+{	=0A=
+    =
+window.open("http://www.hacademia.com/bbs/view_info.php?member_no=3D" + =
+memberno + =
+"","popWin","width=3D600,height=3D500,scrollbars=3Dno,resizable=3Dyes,top=
+=3D" + getTop() + ", left=3D" + getLeft());=0A=
+}=0A=
+function viewLecInfo(memberno)=0A=
+{=0A=
+	=
+window.open("http://www.hacademia.com/admin/Diagnosistest/total_list1.php=
+?member_join=3D" + memberno + =
+"","popWin","width=3D880,height=3D600,scrollbars=3Dno,resizable=3Dyes,top=
+=3D" + getTop() + ", left=3D" + getLeft());=0A=
+}=0A=
+=0A=
+var mouse_top;=0A=
+var mouse_left;=0A=
+var status_over =3D false;    =0A=
+var parent_menu_name =3D "menu_parent";=0A=
+var column_height =3D 18;=0A=
+var mainmenu_top_indent =3D 0;   =0A=
+=0A=
+function MouseDown(e) =0A=
+{=0A=
+	=0A=
+    if (!e) e =3D window.event;=0A=
+    var event_target =3D (NS4) ? e.target : e.srcElement;=0A=
+    event_target =3D event_target.toString();=0A=
+    =0A=
+    =0A=
+    var event_check =3D event_target.indexOf("javascript:ui(");        =0A=
+    //alert(event_check);return;=0A=
+    if (!status_over) hideAll();=0A=
+    =0A=
+    if (!event_check)     	=0A=
+        viewMenu(e,  parent_menu_name);=0A=
+    else =0A=
+    {=0A=
+        if (!status_over) hideAll();=0A=
+        return;=0A=
+    }=0A=
+}    =0A=
+function hideAll() =0A=
+{=0A=
+    document.getElementById('menu_parent').style.display =3D "none";=0A=
+	=0A=
+	=0A=
+}=0A=
+=0A=
+=0A=
+function viewMenu(e, ar_id) =0A=
+{=0A=
+    if (ar_id =3D=3D "none") return;=0A=
+    var menuLocBod =3D window.document.body;=0A=
+    =0A=
+    =0A=
+=0A=
+    var xPos =3D (NS4) ? e.pageX : e.clientX;=0A=
+    var yPos =3D (NS4) ? e.pageY : e.clientY;=0A=
+=0A=
+    var objMenu =3D eval("document.getElementById('" + ar_id + "')");=0A=
+    objMenu.style.top =3D yPos + menuLocBod.scrollTop;=0A=
+    objMenu.style.left =3D xPos + menuLocBod.scrollLeft;=0A=
+    objMenu.style.display =3D "block";=0A=
+}=0A=
+document.write("<style>#menu_parent {border:1px solid =
+#B6B6B6;background-color:#fff;width:95px;text-align:left;position:absolut=
+e;display:none;top:0;left:0;z-index:10;font-size:1px}#menu_parent ul =
+{padding:0; margin:0; list-style-type:none;}#menu_parent ul li.line =
+{height:1px; background:url(http://blogimgs.naver.com/imgs/bg_dot.gif) =
+repeat-x}#menu_parent ul a =
+{color:#404040;font-size:12px;text-decoration:none; display:block; =
+border:1px solid =
+#fff;height:23px;line-height:23px;padding-left:10px;}#menu_parent ul =
+a:hover {color:#404040;background-color:#FFC000}</style>");=0A=
+document.write("<div id=3D\"menu_parent\" style=3D\display:none\"><ul>");=0A=
+document.write("<li><a =
+href=3D\"javascript:execMenuItem('EVENT1');\">=C2=CA=C1=F6=BA=B8=B3=BB=B1=
+=E2</a></li>");=0A=
+document.write("<li class=3D\"line\"><table width=3D\"100%\" =
+border=3D\"0\" cellspacing=3D\"0\" cellpadding=3D\"0\"><tr><td =
+background=3D\"http://blogimgs.naver.com/imgs/bg_dot.gif\" =
+height=3D\"1\"></td></tr></table></li>");=0A=
+document.write("<li><a =
+href=3D\"javascript:execMenuItem('EVENT2');\">=BC=F6=B0=AD=C1=A4=BA=B8</a=
+></li>");=0A=
+document.write("</ul></div>");
+------=_NextPart_000_0000_01C7EA84.17E6E8E0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://toeic.hackers.co.kr/js/bbs_scrap.js
+
+//    IE Script=0A=
+var NS4;=0A=
+var IE4;=0A=
+var mouse_top;=0A=
+var mouse_left;=0A=
+var scroll_top;=0A=
+var scroll_left;=0A=
+var event_id =3D "none";=0A=
+var status_over =3D false;    =0A=
+var parent_menu_name =3D "";=0A=
+var parent_menu_name_org =3D "menu_parent";//id=C5=AC=B7=B0=BF=EB ui=0A=
+var child_menu_array =3D ["menu_child1"];=0A=
+//    var child_menu_array =3D ["menu_child1", "menu_child2", =
+"menu_child3"];=0A=
+var submenu_left_indent =3D 70;=0A=
+var column_height =3D 18;=0A=
+var submenu_top_indent =3D 0;=0A=
+var mainmenu_top_indent =3D 0;    =0A=
+var menuover_bgcolor =3D "#FFC000";=0A=
+var menuover_fgcolor =3D "#FFFFFF";=0A=
+var default_menuover_bgcolor =3D "#FFFFFF";=0A=
+var default_menuover_fgcolor =3D "#000000";=0A=
+var event_check;=0A=
+=0A=
+var jsv_logNo =3D "";=0A=
+var jsv_openYn =3D "";=0A=
+var jsv_valid =3D "";=0A=
+var jsv_site =3D "";=0A=
+var jsv_bt =3D "";=0A=
+var jsv_num =3D "";=0A=
+var jsv_ctgno =3D "";=0A=
+var jsv_scrapopen =3D 1;=0A=
+=0A=
+function ui_scrap(type,site,bt,num) =0A=
+{=0A=
+	jsv_bt	=3D bt;	//=BA=B8=B5=E5=B8=ED=0A=
+    jsv_num =3D num;	=0A=
+    jsv_site =3D site;=0A=
+    jsv_scrapopen =3D type;=0A=
+=0A=
+    parent_menu_name =3D "";=0A=
+}=0A=
+=0A=
+function win_open(url, name, option)=0A=
+{=0A=
+    var popup =3D window.open(url, name, option);=0A=
+    popup.focus();=0A=
+}=0A=
+=0A=
+function articleCopy(tsite,jsv_bt,jsv_num){=0A=
+	=0A=
+	var urls =
+=3D"http://hac.educamp.org/adm/site/SiteBoardCopy.php?site=3D"+jsv_site+"=
+&id=3D"+jsv_bt+"&no=3D"+jsv_num+"&target=3D"+tsite;=0A=
+	var msg =3D "=C1=A4=B8=BB =
+=BA=B9=BB=E7=C7=CF=BD=C3=B0=DA=BD=C0=B4=CF=B1=EE?";=0A=
+	if(confirm(msg)){=0A=
+		//alert(urls);return;=0A=
+		alert('=BA=BB=B9=AE=C0=CC =
+=BA=B9=BB=E7=B5=C7=BE=FA=BD=C0=B4=CF=B4=D9.');		=0A=
+		win_open(urls, "hiddenframe");=0A=
+		=0A=
+	}=0A=
+	=0A=
+=0A=
+}=0A=
+=0A=
+=0A=
+function exec_menuitem_scrap(key) =0A=
+{=0A=
+    switch(key) =0A=
+    {=0A=
+        case "EVENT1" ://=C7=D0=B4=E7=BA=B9=BB=E7=0A=
+            articleCopy(1,jsv_bt,jsv_num);=0A=
+            break;=0A=
+        case "EVENT2" ://=B8=B6=C4=C9=C6=C3=BA=B9=BB=E7=0A=
+            articleCopy(2,jsv_bt,jsv_num);=0A=
+            break;=0A=
+        case "EVENT3" ://=B8=B6=C4=C9=C6=C3=BA=B9=BB=E7=0A=
+            articleCopy(3,jsv_bt,jsv_num);=0A=
+            break;    =0A=
+        case "EVENT4" ://=C7=C1=B8=B0=C6=AE=C7=CF=B1=E2=0A=
+            boardPrint(jsv_num);=0A=
+            break;=0A=
+        case "EVENT5" ://=BD=C5=B0=ED=C7=CF=B1=E2=0A=
+            badArticleReport(jsv_num);=0A=
+            break;=0A=
+    }=0A=
+	hideAll();=0A=
+}=0A=
+=0A=
+=0A=
+if (document.all)=0A=
+{=0A=
+    NS4 =3D false;=0A=
+    IE4 =3D true;=0A=
+}=0A=
+else=0A=
+{=0A=
+    NS4 =3D true;=0A=
+    IE4 =3D false;=0A=
+}=0A=
+isWin =3D (navigator.appVersion.indexOf("Win") !=3D -1)=0A=
+=0A=
+if (NS4) =0A=
+{=0A=
+    document.captureEvents(Event.CLICK)=0A=
+    document.onclick =3D MouseDownScrap;=0A=
+} =0A=
+else if (IE4) =0A=
+{=0A=
+    document.onclick =3D MouseDownScrap;=0A=
+}=0A=
+=0A=
+function startIt() {}=0A=
+    =0A=
+function menuOver(ar_obj, ar_id) =0A=
+{=0A=
+    status_over =3D true;=0A=
+    changeOnColor(ar_obj);=0A=
+    hideChild(event_id);=0A=
+}=0A=
+    =0A=
+function menuOut(ar_obj) =0A=
+{=0A=
+    status_over =3D false;=0A=
+	changeOutColor(ar_obj);=0A=
+}=0A=
+=0A=
+function SubmenuOver(ar_obj) =0A=
+{=0A=
+    status_over =3D true;=0A=
+    changeColor(ar_obj);=0A=
+}=0A=
+=0A=
+function MouseDownScrap(e) =0A=
+{=0A=
+    parent_menu_name=3D"";=0A=
+=0A=
+    if (!e) e =3D window.event;=0A=
+    event_target =3D (NS4) ? e.target : e.srcElement;=0A=
+    event_target =3D event_target.toString();=0A=
+    event_check =3D event_target.indexOf("javascript:ui_scrap(");        =0A=
+	=0A=
+    if (parent_menu_name=3D=3D"")=0A=
+    {=0A=
+        if (event_target.indexOf("javascript:ui_scrap(0"))     //scrap =
+hidden=0A=
+        {=0A=
+            parent_menu_name =3D "menu_parent_scrap";            =0A=
+        } =0A=
+        else if (!event_target.indexOf("javascript:ui_scrap(0"))     =0A=
+        {=0A=
+            parent_menu_name =3D "menu_parent_scrap2";=0A=
+        }=0A=
+    }=0A=
+    =0A=
+    if (!status_over) hideAll();=0A=
+    =0A=
+    =0A=
+    if (!event_check) =0A=
+    {=0A=
+        viewMenuScrap(e, parent_menu_name);=0A=
+    }=0A=
+    else =0A=
+    {=0A=
+    	=0A=
+        if (!event_target.indexOf("javascript:ui("))=0A=
+        {=0A=
+            viewMenu(e, parent_menu_name_org);=0A=
+        } =0A=
+        else =0A=
+        {=0A=
+        	=0A=
+            if (!status_over) hideAll();=0A=
+            return;=0A=
+        }=0A=
+    }=0A=
+}=0A=
+=0A=
+function hideChild(ar_id) =0A=
+{=0A=
+    if (event_id =3D=3D "none") =0A=
+        return;=0A=
+    for (i=3D0; i<child_menu_array.length; i++) =0A=
+        eval(child_menu_array[i] + ".style.display =3D \"none\"");=0A=
+}=0A=
+    =0A=
+function hideAll() =0A=
+{=0A=
+    document.getElementById("menu_parent_scrap").style.display =3D =
+"none";=0A=
+    document.getElementById("menu_parent_scrap2").style.display =3D =
+"none";=0A=
+    eval("document.getElementById('" + parent_menu_name_org + =
+"').style.display =3D \"none\"");=0A=
+        =0A=
+    if (event_id =3D=3D "none") =0A=
+        return;=0A=
+    for (i=3D0; i<child_menu_array.length; i++) =0A=
+        eval(child_menu_array[i] + ".style.display =3D \"none\"");=0A=
+}=0A=
+=0A=
+function viewMenuScrap(e, ar_id) =0A=
+{=0A=
+    if (ar_id =3D=3D "none") =0A=
+        return;=0A=
+    =0A=
+    menuLocBod =3D window.document.body;=0A=
+    xPos =3D menuLocBod.scrollLeft + e.clientX;=0A=
+    yPos =3D e.clientY + menuLocBod.scrollTop;=0A=
+    screen_height =3D window.document.body.offsetHeight;=0A=
+    screen_width =3D window.document.body.offsetWidth;=0A=
+    mouse_top =3D e.y;=0A=
+    mouse_left =3D e.x;=0A=
+    mainmenu_top_indent =3D eval("document.getElementById('" + =
+parent_menu_name + "').childNodes[0].childNodes[0].childNodes.length");=0A=
+    mainmenu_top_indent =3D mainmenu_top_indent * column_height;=0A=
+=0A=
+    if (screen_height > mouse_top + mainmenu_top_indent) =0A=
+	    yPos =3D e.clientY + menuLocBod.scrollTop;=0A=
+    else=0A=
+        yPos =3D (e.clientY + menuLocBod.scrollTop) - =
+mainmenu_top_indent;=0A=
+=0A=
+	if (mouse_top - mainmenu_top_indent < 0) =0A=
+        yPos =3D e.clientY + menuLocBod.scrollTop;=0A=
+=0A=
+	=0A=
+	if (event_target.indexOf("javascript:ui("))=0A=
+    {=0A=
+		yPos =3D yPos - 55;=0A=
+        xPos =3D xPos - 105;=0A=
+	}=0A=
+    if (!event_target.indexOf("javascript:ui_scrap(0"))=0A=
+	{=0A=
+        yPos =3D yPos + 20;=0A=
+    }=0A=
+=0A=
+	var objMenu =3D eval("document.getElementById('" + ar_id + "')");=0A=
+	objMenu.style.top =3D yPos;=0A=
+	objMenu.style.left =3D xPos;=0A=
+	objMenu.style.display =3D "";=0A=
+}=0A=
+    =0A=
+function changeOnColor(obj)=0A=
+{=0A=
+    obj.style.backgroundColor =3D menuover_bgcolor;=0A=
+}=0A=
+function changeOutColor(obj)=0A=
+{=0A=
+    obj.style.backgroundColor =3D default_menuover_bgcolor;=0A=
+}        =0A=
+=0A=
+document.write("<div id=3D\"menu_parent_scrap\" =
+style=3D\"position:absolute;display:none;top:0;left:0\">");=0A=
+document.write("<table width=3D\"115\" border=3D\"0\" =
+cellspacing=3D\"1\" cellpadding=3D\"0\" bgcolor=3D\"#B6B6B6\">");=0A=
+document.write("<tr><td> ");=0A=
+document.write("<table width=3D\"100%\" border=3D\"0\" =
+cellspacing=3D\"1\" cellpadding=3D\"0\" bgcolor=3D\"#FFFFFF\">");=0A=
+document.write("<tr> ");=0A=
+document.write("<td style=3D\"padding: 3 0 0 10\" height=3D\"23\" =
+onmouseout=3D\"menuOut(this);\" onmouseover=3D\"menuOver(this, =
+'none');\" onclick=3D\"exec_menuitem_scrap('EVENT1');\" =
+style=3D\"cursor:hand\"><span class=3D\"n_id\"><font =
+color=3D#404040>=C7=D0=B4=E7 =
+=BC=F6=B0=AD=BB=FD=B0=C7=C0=C7</font></span></td>");=0A=
+document.write("</tr><tr> ");=0A=
+document.write("<td =
+background=3D\"http://blogimgs.naver.com/imgs/bg_dot.gif\" =
+height=3D\"1\"></td>");=0A=
+document.write("</tr><tr> ");=0A=
+document.write("<td style=3D\"padding: 2 0 0 10\" height=3D\"22\" =
+onmouseout=3D\"menuOut(this);\" onmouseover=3D\"menuOver(this, =
+'none');\" onclick=3D\"exec_menuitem_scrap('EVENT2');\" =
+style=3D\"cursor:hand\"><span class=3D\"n_id\"><font =
+color=3D#404040>=B8=B6=C4=C9=C6=C3 =
+=C0=AF=C0=FA=B0=C7=C0=C7</font></span></td>");=0A=
+document.write("</tr><tr> ");=0A=
+document.write("<td =
+background=3D\"http://blogimgs.naver.com/imgs/bg_dot.gif\" =
+height=3D\"1\"></td>");=0A=
+document.write("</tr><tr> ");=0A=
+document.write("<td style=3D\"padding: 2 0 0 10\" height=3D\"22\" =
+onmouseout=3D\"menuOut(this);\" onmouseover=3D\"menuOver(this, =
+'none');\" onclick=3D\"exec_menuitem_scrap('EVENT3');\" =
+style=3D\"cursor:hand\"><span class=3D\"n_id\"><font =
+color=3D#404040>=BF=AC=B1=B8=BC=D2 =
+=C0=AF=C0=FA=B8=AE=BA=E4</font></span></td>");=0A=
+document.write("</tr><tr> ");=0A=
+document.write("</tr></table></td></tr></table>");=0A=
+document.write("</div>");=0A=
+=0A=
+=0A=
+document.write("<div id=3D\"menu_parent_scrap2\" =
+style=3D\"position:absolute;display:none;top:0;left:0\">");=0A=
+document.write("<table width=3D\"115\" border=3D\"0\" =
+cellspacing=3D\"1\" cellpadding=3D\"0\" bgcolor=3D\"#B6B6B6\"><tr><td>");=0A=
+document.write("<table width=3D\"100%\" border=3D\"0\" =
+cellspacing=3D\"1\" cellpadding=3D\"0\" bgcolor=3D\"#FFFFFF\">");=0A=
+document.write("<tr><td style=3D\"padding: 2 0 0 10\" height=3D\"22\" =
+onmouseout=3D\"menuOut(this);\" onmouseover=3D\"menuOver(this, =
+'none');\" onclick=3D\"exec_menuitem_scrap('EVENT4');\" =
+style=3D\"cursor:hand\"><span class=3D\"n_id\"><font =
+color=3D#404040>=C7=C1=B8=B0=C6=AE =
+=C7=CF=B1=E2</font></span></td></tr>");=0A=
+document.write("<tr><td =
+background=3D\"http://blogimgs.naver.com/imgs/bg_dot.gif\" =
+height=3D\"1\"></td></tr>");=0A=
+document.write("<tr><td style=3D\"padding: 2 0 0 10\" height=3D\"22\" =
+onmouseout=3D\"menuOut(this);\" onmouseover=3D\"menuOver(this, =
+'none');\" onclick=3D\"exec_menuitem_scrap('EVENT5');\" =
+style=3D\"cursor:hand\"><span class=3D\"n_id\"><font =
+color=3D#404040>=BD=C5=B0=ED =C7=CF=B1=E2</font></span></td></tr>");=0A=
+document.write("</table>");=0A=
+document.write("</td></tr></table>");=0A=
+document.write("</div>");
+------=_NextPart_000_0000_01C7EA84.17E6E8E0--

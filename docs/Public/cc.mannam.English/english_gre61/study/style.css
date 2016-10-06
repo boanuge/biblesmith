@@ -1,0 +1,274 @@
+body,td,select,input,form,textarea,center,option,pre,blockquote {font-size:9pt; font-family:verdana; color:#555555;}
+td {line-height:160%}
+
+.8pt {font-size:8pt;}
+.8pt_bold {font:bold 8pt;}
+.8pt_red {font-size:8pt;color:#ff0a44}
+
+.red_bold_10pt {font:bold 10pt; color:#FF0A44;}
+.red_bold_9pt {font:9pt; color:#FF0A44;}
+.red_8pt {font:8pt; color:#FF0A44;}
+
+.red {color:#ff0a44;}
+.green {color:#83BB44;}
+.gr {color:#59B61C;}
+.dotted {border-bottom: 1px dotted #23C75C;}
+
+.copy {font:8pt;}
+.box_page {font:bold;color:coral;}
+.pageis {font:bold;color:coral;}
+.word {font:15pt;color:#ff0a44;}
+.word_s {font:bold;color:coral;}
+.anto {color:#ff0a44;}
+.anal {font:bold;color:deepskyblue;}
+.mode {font:8pt;color:orchid;}
+.syn {color:green}
+.pron {font:8pt;color:#777777}
+.pron_light {font:8pt;color:#aaaaaa}
+.stitle_red {font:bold 8pt; color:#ff0a44}
+.stitle_coral {font:bold 8pt; color:coral}
+.ety_point {font:bold;color:#B566FF;background-color:#eeeeee;padding-left:3pt;padding-right:4pt;}
+
+.word_an {font:14pt;color:#ff0a44;}
+
+/* recommendation letter 에 쓰이는 스타일 */ 
+.recomm_box { font:8pt;border:1px solid #B2D0B6;padding:3;}
+.recomm_box2 {
+	font:8pt; 
+	border:1px solid #B2D0B6; padding:3;
+	scrollbar-face-color:#F7F7F7;
+	scrollbar-highlight-color:#ffffff; 
+	scrollbar-shadow-color:#cccccc; 
+	scrollbar-3dlight-color:#FFFFFF;
+	scrollbar-arrow-color:#aaaaaa; 
+	scrollbar-track-color:#FFFFFF;
+	scrollbar-darkshadow-color:#ffffff;
+}
+
+/* admin에 쓰이는 스타일 */ 
+.a_button {background:coral;color:white;font:bold 8pt;padding:5 15 5 15;align:center;cursor:hand}
+
+/* comment에 쓰이는 스타일 */ 
+.time {font:7pt;color:#999999}
+.comment {font:8pt;color:#777777;line-height:160%}
+.comment_name {font:bold 8pt;color:#98C234}
+.note_line {background-color:#DAECAD}
+
+/* label에 쓰이는 스타일 */ 
+.label_0 {color:#dadada;background-color:#dadada;}
+.label_1 {color:#FF0A44;background-color:#FF0A44;}
+.label_2 {color:#DF81FF;background-color:#DF81FF;}
+.label_3 {color:#2FC37E;background-color:#2FC37E;}
+.label_4 {color:#ABE227;background-color:#ABE227;}
+.label_5 {color:#FFB33B;background-color:#FFB33B;}
+.label_6 {color:#FF83E7;background-color:#FF83E7;}
+.label_9 {color:#dadada;background-color:#dadada;}
+
+.label_f_0 {color:#aaaaaa;}
+.label_f_1 {color:#FF0A44;}
+.label_f_2 {color:#CE63F2;}
+.label_f_3 {color:#2FC37E;}
+.label_f_4 {color:#9ACC23;}
+.label_f_5 {color:#FF9E09;}
+.label_f_6 {color:#FF83E7;}
+.label_f_9 {color:#cecece;}
+
+/* vocab 에 쓰이는 스타일 */ 
+.vocab_w {background-color:#F8BB82;}
+.vocab_k {background-color:#D7A7E1;}
+.vocab_g {background-color:#9DEBE4;}
+.vocab_a {background-color:#DEF494;}
+
+/* anal 에 쓰이는 스타일 */ 
+.an_kr {font:8pt;line-height:160%;filter:alpha(opacity=50);}
+.anal_td {background:#F7F6F2;} 
+.anal_td_gichul {font:8pt;color:#79CA30;background:#F3F9E5;} 
+.anal_td_kgre {font:8pt;color:#bbbbbb;background:#F9F9F6;} 
+.anal_kr {font:8pt 돋움,;color:#aaaaaa;line-height:160%;}
+.an_comment {font:7pt; color:#ff0a44}
+
+a.anal:link { font:9pt;text-decoration:none; color:#FF3B69}
+a.anal:visited { font:9pt;text-decoration:none; color:#FF3B69}
+a.anal:hover {font:9pt;text-decoration:none;color:#ff0a44}
+
+a.w_anal:link { font:bold 9pt;text-decoration:none; color:#7FA2AA}
+a.w_anal:visited { font:bold 9pt;text-decoration:none; color:#7FA2AA}
+a.w_anal:hover {font:bold 9pt;border-bottom:1px dotted #23C75C;color:#7FA2AA}
+
+/* anto 에 쓰이는 스타일 */ 
+.anto_td {background:#F7F5F6;} 
+.anto_td_gichul {font:8pt;color:#B8688C;background:#F7EEED;} 
+.anto_td_kgre {font:8pt;color:#bbbbbb;background:#F9F7F7;} 
+.anto_kr {font:8pt 돋움,;color:#aaaaaa;line-height:160%;background-color:white;}
+
+a.anto_comment:link { font:7pt;text-decoration:none; color:#C16F98; line-height:180%;}
+a.anto_comment:visited {font:7pt;text-decoration:none; color:#C16F98; line-height:180%;}
+a.anto_comment:hover {font:7pt;text-decoration:underline;color:#C16F98; line-height:180%;}
+
+a.w_anto:link { font:bold 9pt;text-decoration:none; color:#C578AC}
+a.w_anto:visited { font:bold 9pt;text-decoration:none; color:#C578AC}
+a.w_anto:hover {font:bold 9pt;border-bottom:1px dotted #23C75C;color:#C578AC}
+
+
+
+/* 발음기호 테이블에 쓰이는 스타일 */ 
+.td_over_pron {background:skyblue;}
+.td_out_pron {background:white;}
+
+A:link {color:#555555;text-decoration:none;}
+A:visited {color:#555555;text-decoration:none;}
+A:hover {color:coral;text-decoration:none;}
+/*A:hover {color:coral;text-decoration:none;border-bottom: 1px dotted #23C75C;}*/
+
+a.w:link { font:bold;text-decoration:none; color:coral}
+a.w:visited { font:bold;text-decoration:none; color:coral}
+a.w:hover {font:bold;text-decoration:underline;color:#FF6600}
+
+/* study_search_word 에서 linked word */
+a.a:link { text-decoration:none; color:coral}
+a.a:visited {text-decoration:none; color:coral}
+a.a:hover {text-decoration:underline;color:#FF0a44}
+
+a.coral:link { text-decoration:none; color:coral}
+a.coral:visited {text-decoration:none; color:coral}
+a.coral:hover {text-decoration:none;color:coral}
+
+
+/* study_search_word 에서 linked anal, anto */
+a.an:link { font:8pt;text-decoration:none; color:#888888}
+a.an:visited {font:8pt;text-decoration:none; color:#888888}
+a.an:hover {font:8pt;text-decoration:underline;color:#FF0a44}
+
+/* study_word 에서 linked anal, anto */
+a.w_an:link { font:9pt;text-decoration:none; color:#888888; line-height:180%;}
+a.w_an:visited {font:9pt;text-decoration:none; color:#888888; line-height:180%;}
+a.w_an:hover {font:9pt;text-decoration:underline;color:#FF0a44; line-height:180%;}
+
+/* study_word 에서 commnets of linked anal, anto */
+a.word_an_comment:link { font:7pt;text-decoration:none; color:#34A743; line-height:180%;}
+a.word_an_comment:visited {font:7pt;text-decoration:none; color:#34A743; line-height:180%;}
+a.word_an_comment:hover {font:7pt;text-decoration:underline;color:#FF0a44; line-height:180%;}
+
+/* study_word 에서 prev, next word */
+a.l:link { text-decoration:none; color:#0000E6}
+a.l:visited { text-decoration:none; color:#0000E6}
+a.l:hover {text-decoration:underline;color:#FF0a44}
+
+a.addr:link { font:text-decoration:none;}
+a.addr:visited { text-decoration:none;}
+a.addr:hover {text-decoration:underline;color:#FF6600}
+
+/* input  */ 
+.input {font:8pt verdana; color:#626F74; line-height:130%; background-color:transparent;height:19px;border-width:1px;border-bottom: 1px dotted #DDDDDD;border-top: 0px dotted transparent; border-right: 0px dotted transparent; border-left: 0px dotted transparent;}
+
+.input_login {font:8pt verdana; color:#dddddd; line-height:130%; background-color:#333333;height:17px;border-width:0px;}
+.input_login_focus {font:8pt verdana; color:#ffffff; line-height:130%; background-color:#ffffff;height:18px;border-width:0px;}
+
+.scroll {scrollbar-face-color:#F7F7F7;
+scrollbar-highlight-color:#ffffff; 
+scrollbar-shadow-color:#cccccc; 
+scrollbar-3dlight-color:#FFFFFF;
+scrollbar-arrow-color:#aaaaaa; 
+scrollbar-track-color:#FFFFFF;
+scrollbar-darkshadow-color:#ffffff;}
+
+/*****************************
+* for guide
+******************************/
+.imgbox {border:1px solid #dddddd}
+.guidebox {background-color:#F8F7F4;}
+
+/*****************************
+* for info
+******************************/
+/* box title */
+a.link:link{font:8pt;color:#aaaaaa;text-decoration:none;line-height:120%;}
+a.link:visited{font:8pt;color:#aaaaaa;text-decoration:none;line-height:120%;}
+a.link:active{font:8pt;color:#aaaaaa;text-decoration:none;line-height:120%;}
+a.link:hover{font:8pt;color:coral;text-decoration:none;line-height:120%;}
+
+
+
+/*****************************
+* for board
+******************************/
+/* box list top title */
+a.box_t:link{font:8pt;color:#555555;text-decoration:none}
+a.box_t:visited{font:8pt;color:#555555;text-decoration:none}
+a.box_t:active{font:8pt;color:#555555;text-decoration:none}
+a.box_t:hover{font:8pt;color:#555555;text-decoration:none}
+
+/* box title */
+a.b:link{font:8pt;color:#555555;text-decoration:none}
+a.b:visited{font:8pt;color:#555555;text-decoration:none}
+a.b:active{font:8pt;color:#555555;text-decoration:none}
+a.b:hover{font:8pt;color:#555555;border-bottom:1px dotted #23C75C;}
+
+.box_comment {font:7pt; color:#34A743;}
+/*.box_no {font:7pt; color:#00BFC0;}
+.box_date {font:7pt; color:#62C5C6;}*/
+.box_no {font:7pt; color:#58B61C;}
+.box_date {font:7pt; color:#89C367;}
+.bt {font:8pt;color:#30B8BF;}
+
+/* box page number */
+a.box_page:link{font:bold;color:#555555;text-decoration:none}
+a.box_page:active{font:bold;color:#555555;text-decoration:none}
+a.box_page:hover{font:bold;color:#ff0a44;text-decoration:none;}
+
+.memobox2 {
+	font:8pt; color:#777777;line-height:200%;
+	border: 0px solid transparent;
+	background:url(/images/back_memo2.gif);margin-left:0;
+	scrollbar-face-color:#F7F7F7;
+	scrollbar-highlight-color:#ffffff; 
+	scrollbar-shadow-color:#cccccc; 
+	scrollbar-3dlight-color:#FFFFFF;
+	scrollbar-arrow-color:#aaaaaa; 
+	scrollbar-track-color:#FFFFFF;
+	scrollbar-darkshadow-color:#ffffff;
+}
+
+.file_input {
+	font:8pt; color:#8CC16B; background-color:transparent;height:19px;border-width:1px;
+	border-bottom: 1px dotted #63CA1F;
+	border-top:0px transparent;
+	border-right: 0px transparent;
+	border-left: 0px transparent;
+}
+
+.input_title {
+	font:8pt; color:#59B61C; background-color:transparent;height:19px;border-width:1px;
+	border-bottom: 1px dotted #63CA1F;
+	border-top:0px transparent;
+	border-right: 0px transparent;
+	border-left: 0px transparent;
+}
+/*****************************
+* for studyroom
+******************************/
+.listrow1 {background-color:#F7F6F2;}
+.listrow0 {background-color:#ffffff;}
+.listrow {background-color:#ffffff;}
+
+.atoz {font:8pt;color:#777777;cursor:hand;}
+.atoz_now {font:bold 8pt;color:#00BFC0}
+.atoz_none {font:8pt;color:#bbbbbb}
+
+.memobox {
+	font:8pt; color:#777777;line-height:200%;
+	border: 0px solid transparent;
+	background:url(/images/back_memo.gif);margin-left:0;
+	scrollbar-face-color:#F7F7F7;
+	scrollbar-highlight-color:#ffffff; 
+	scrollbar-shadow-color:#cccccc; 
+	scrollbar-3dlight-color:#FFFFFF;
+	scrollbar-arrow-color:#aaaaaa; 
+	scrollbar-track-color:#FFFFFF;
+	scrollbar-darkshadow-color:#ffffff;
+}
+
+/* 추가 스타일 */
+.table1 {border: dashed 1px #aaaaaa;}
+
+/* www.wordcook.com */
