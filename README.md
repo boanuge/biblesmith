@@ -1,15 +1,15 @@
 <!-- Information -->
-<!-- Last Updated Date: 20160521 -->
+<!-- Last Updated Date: 20170331 -->
 
 ※ The Bible-smith Project: "The Gospel for Everyone"
 
-This project develops any kind of Bible related Apps/Info. for more effective and efficient evangelism.
+This project supports any kind of computer related Bible works for more effective and efficient Evangelism.
 
-ps. Please walk together with this project by prayer, and you can send us the Bible text (VPL: Verse Per Line Format) in any language where needs the gospel. We will develop a Bible android app. of that language. Every processes and products are free of charge.
+ps. Please walk together with this project by prayer, and you can send us the Bible text (VPL: Verse Per Line Format) in any language where needs the Gospel. We will develop a Bible android application of that language. Every processes and products are free of charge.
 
-+ We are conscious that all things are working together for good to those who have love for God in His purpose. [Romans 8:28]
-+ My life is to complete the task the Lord has given me to testify to the Gospel of the grace of God, so that I may finish my race with joy. [Acts 20:24]
-+ He who overcomes, and keeps my works to the end, to him I will give rule over the nations. [Revelation 2:26]
+<br>+ We are conscious that all things are working together for good to those who have love for God in His purpose. [Romans 8:28]
+<br>+ My life is to complete the task the Lord has given me to testify to the Gospel of the grace of God, so that I may finish my race with joy. [Acts 20:24]
+<br>+ He who overcomes, and keeps my works to the end, to him I will give rule over the nations. [Revelation 2:26]
 
 http://krns.org
 
@@ -19,7 +19,7 @@ http://krns.org
 | name              = The Bible-smith Project 
 | mission_statement = The Gospel for Everyone 
 | owner             = The Holy Spirit 
-| founder           = Dr. Seung-Hwa Chung 
+| operator          = Dr. Seung-Hwa Chung 
 | established       = {{Start date|mf=yes|1997|06|21}} 
 | current status    = Active 
 | url_home          = {{URL|http://krns.org}} 
@@ -30,7 +30,7 @@ http://krns.org
 
 '''The Bible-smith Project''' is the project that works on any kind of [[Bible]] related applications and information for more effective and efficient [[Evangelism]] with the vision "The [[Gospel]] for Everyone".
 
-From the project, more than 10,000 Gospel related contents<ref>{{cite web|url=http://youtube.com/boanuge | title=YouTube Biblesmith shared contents}}</ref> and more than 200 android/iOS applications<ref>{{cite web|url=https://play.google.com/store/apps/developer?id=The+Bible-smith+Project | title=Google Play Biblesmith applications}}</ref><ref>{{cite web|url=https://itunes.apple.com/us/developer/seung-hwa-chung/id645392612 | title=Apple iOS Biblesmith applications}}</ref> - including Bibles in more than 70 different languages - have been developed and/or shared to the world since 1997.
+From the project, more than 10,000 Gospel related contents<ref>{{cite web|url=http://youtube.com/boanuge | title=YouTube Biblesmith shared contents}}</ref> and more than 200 android/iOS applications<ref>{{cite web|url=https://play.google.com/store/apps/developer?id=The+Bible-smith+Project | title=Google Play Biblesmith applications}}</ref> - including Bibles in more than 70 different languages - have been developed and/or shared to the world since 1997.
 
 == About Bible ==
 The Bible<br>
@@ -45,5 +45,5 @@ All texts/contents in the Scripture testify about Jesus Christ either directly o
 ==References==
 {{reflist}}
 
-[[Category:Christianity]]
-[[Category:Bible]]
+==See also==
+* https://en.wikipedia.org/wiki/User:Boanuge/The_Bible-smith_Project
