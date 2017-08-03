@@ -1,5 +1,5 @@
 <!-- Information -->
-<!-- Last Updated Date: 20170331 -->
+<!-- Last Updated Date: 20170531 -->
 
 ※ The Bible-smith Project: "The Gospel for Everyone"
 
@@ -44,6 +44,25 @@ All texts/contents in the Scripture testify about Jesus Christ either directly o
 
 ==References==
 {{reflist}}
+
+== External links ==
+* {{cite web|title=The Bible-smith Project|url=http://krns.org}}
+* {{cite web|title=Donate:The Bible-smith Project|url=https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CXZ7VHF5S4DV2&lc=IE&item_name=The%20Bible%2dsmith%20Project&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted}}
+* {{cite web|title=FB:The Bible-smith Project|url=http://www.facebook.com/Biblesmith.Project}}
+* {{cite web|title=Kids Bible Story Android Apps|url=http://play.google.com/store/search?q=cc.mannam+kbs&c=apps}}
+* {{cite web|title=Simple Bible Android Apps|url=http://play.google.com/store/search?q=cc.mannam+simplebible&c=apps}}
+* {{cite web|title=Biblesmith Android Apps|url=http://play.google.com/store/search?q=cc.mannam+biblesmith&c=apps}}
+* {{cite web|title=Biblesmith Wiki|url=https://en.wikipedia.org/wiki/User:Boanuge/The_Bible-smith_Project}}
+* {{cite web|title=Biblesmith YouTube|url=http://youtube.com/boanuge}}
+
+* {{cite web|title=[APK] Biblesmith-Tube|url=http://boanuge.github.io/biblesmith/Public/ftp/BiblesmithTube.apk}}
+* {{cite web|title=[APK] Christian Chat - Dublin|url=http://mannam.cc/ftp//ChristianChat.apk}}
+* {{cite web|title=[APK] Simple Bible - Gift|url=http://boanuge.github.io/biblesmith/Public/ftp/SimpleBibleGift_English.apk}}
+* {{cite web|title=[APK] Simple Bible - Gift (KR)|url=http://boanuge.github.io/biblesmith/Public/ftp/SimpleBibleGift_Korean.apk}}
+* {{cite web|title=[APK] Kids Bible Story 22|url=http://boanuge.github.io/biblesmith/Public/ftp/kbs22_English.apk}}
+* {{cite web|title=[APK] Kids Bible Story 22 (KR)|url=http://boanuge.github.io/biblesmith/Public/ftp/kbs22_Korean.apk}}
+* {{cite web|title=[APK] Kids Bible Story 144|url=http://boanuge.github.io/biblesmith/Public/ftp/kbs144_English.apk}}
+* {{cite web|title=[EXE] SimpleBible Windows (KR)|url=http://boanuge.github.io/biblesmith/Public/ftp/SimpleBible_Windows.exe}}
 
 ==See also==
 * https://en.wikipedia.org/wiki/User:Boanuge/The_Bible-smith_Project
