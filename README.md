@@ -1,5 +1,5 @@
 <!-- Information -->
-<!-- Last Updated Date: 20170531 -->
+<!-- Last Updated Date: 20171119 -->
 
 ※ The Bible-smith Project: "The Gospel for Everyone"
 
@@ -63,6 +63,14 @@ All texts/contents in the Scripture testify about Jesus Christ either directly o
 * {{cite web|title=[APK] Kids Bible Story 22 (KR)|url=http://boanuge.github.io/biblesmith/Public/ftp/kbs22_Korean.apk}}
 * {{cite web|title=[APK] Kids Bible Story 144|url=http://boanuge.github.io/biblesmith/Public/ftp/kbs144_English.apk}}
 * {{cite web|title=[EXE] SimpleBible Windows (KR)|url=http://boanuge.github.io/biblesmith/Public/ftp/SimpleBible_Windows.exe}}
+
+* {{cite web|title=[iOS] Simple Bible - World Version|url=https://itunes.apple.com/us/app/simple-bible-world-version/id645392609?ls=1&mt=8}}
+* {{cite web|title=[iOS] Kids Bible Story by Holy Bible|url=https://itunes.apple.com/us/app/kids-bible-story-by-holy-bible/id654819117?ls=1&mt=8}}
+* {{cite web|title=[iOS] Kids Bible Story by Mom and Dad|url=https://itunes.apple.com/us/app/kids-bible-story-by-mom-and-dad/id651371930?ls=1&mt=8}}
+
+== Process ==
+· Search > Collect > Polish > Share <b>the Gospel</b>
+<br>[Revelation 2:26]
 
 ==See also==
 * https://en.wikipedia.org/wiki/User:Boanuge/The_Bible-smith_Project
