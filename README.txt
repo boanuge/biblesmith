@@ -1,7 +1,7 @@
 <!-- Information -->
-<!-- Last Updated Date: 20171119 -->
+<!-- Last Updated Date: 20190201 -->
 
-※ The Bible-smith Project: "The Gospel for Everyone"
+<b>※ The Bible-smith Project: "The Gospel for Everyone"</b>
 
 This project supports any kind of computer related Bible works for more effective and efficient Evangelism.
 
@@ -11,9 +11,7 @@ ps. Please walk together with this project by prayer, and you can send us the Bi
 <br>+ My life is to complete the task the Lord has given me to testify to the Gospel of the grace of God, so that I may finish my race with joy. [Acts 20:24]
 <br>+ He who overcomes, and keeps my works to the end, to him I will give rule over the nations. [Revelation 2:26]
 
-http://krns.org
-
-<!-- Wikipedia Syntax -->
+<br><!-- Wikipedia Syntax --><br>
 
 {{Infobox project 
 | name              = The Bible-smith Project 
@@ -30,7 +28,7 @@ http://krns.org
 
 '''The Bible-smith Project''' is the project that works on any kind of [[Bible]] related applications and information for more effective and efficient [[Evangelism]] with the vision "The [[Gospel]] for Everyone".
 
-From the project, more than 10,000 Gospel related contents<ref>{{cite web|url=http://youtube.com/boanuge | title=YouTube Biblesmith shared contents}}</ref> and more than 200 android/iOS applications<ref>{{cite web|url=https://play.google.com/store/apps/developer?id=The+Bible-smith+Project | title=Google Play Biblesmith applications}}</ref> - including Bibles in more than 70 different languages - have been developed and/or shared to the world since 1997.
+From the project, more than 20,000 Gospel related contents<ref>{{cite web|url=http://youtube.com/boanuge | title=YouTube: The Bible-smith Project}}</ref> and more than 200 android/iOS applications<ref>{{cite web|url=https://www.appbrain.com/dev/The+Bible-smith+Project/ | title=Statistics: The Bible-smith Apps}}</ref> - including Bibles in more than 70 different languages - have been developed and/or shared to the world since 1997.
 
 == About Bible ==
 The Bible<br>
@@ -46,17 +44,14 @@ All texts/contents in the Scripture testify about Jesus Christ either directly o
 {{reflist}}
 
 == External links ==
-* {{cite web|title=The Bible-smith Project|url=http://krns.org}}
-* {{cite web|title=Donate:The Bible-smith Project|url=https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CXZ7VHF5S4DV2&lc=IE&item_name=The%20Bible%2dsmith%20Project&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted}}
-* {{cite web|title=FB:The Bible-smith Project|url=http://www.facebook.com/Biblesmith.Project}}
-* {{cite web|title=Kids Bible Story Android Apps|url=http://play.google.com/store/search?q=cc.mannam+kbs&c=apps}}
-* {{cite web|title=Simple Bible Android Apps|url=http://play.google.com/store/search?q=cc.mannam+simplebible&c=apps}}
-* {{cite web|title=Biblesmith Android Apps|url=http://play.google.com/store/search?q=cc.mannam+biblesmith&c=apps}}
-* {{cite web|title=Biblesmith Wiki|url=https://en.wikipedia.org/wiki/User:Boanuge/The_Bible-smith_Project}}
-* {{cite web|title=Biblesmith YouTube|url=http://youtube.com/boanuge}}
+* {{cite web|title=The Bible in Many Languages|url=http://krns.org/bible}}
+* {{cite web|title=FB: The Bible-smith Project|url=http://www.facebook.com/Biblesmith.Project}}
+* {{cite web|title=Donate: Bible-smith Project|url=https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CXZ7VHF5S4DV2&lc=IE&item_name=The%20Bible%2dsmith%20Project&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted}}
+* {{cite web|title=Wikipedia: Biblesmith Project|url=https://en.wikipedia.org/wiki/User:Boanuge/The_Bible-smith_Project}}
+* {{cite web|title=Web: The Bible-smith Project|url=http://krns.org}}
+* {{cite web|title=World Bible for Apple|url=https://itunes.apple.com/us/app/simple-bible-world-version/id645392609?ls=1&mt=8}}
+* {{cite web|title=Simple Bible Android Apps|url=http://android.oms.apps.bemobi.com/en_in/catalog.php?search=Simple+Bible}}
 
-* {{cite web|title=[APK] Biblesmith-Tube|url=http://boanuge.github.io/biblesmith/Public/ftp/BiblesmithTube.apk}}
-* {{cite web|title=[APK] Christian Chat - Dublin|url=http://mannam.cc/ftp//ChristianChat.apk}}
 * {{cite web|title=[APK] Simple Bible - Gift|url=http://boanuge.github.io/biblesmith/Public/ftp/SimpleBibleGift_English.apk}}
 * {{cite web|title=[APK] Simple Bible - Gift (KR)|url=http://boanuge.github.io/biblesmith/Public/ftp/SimpleBibleGift_Korean.apk}}
 * {{cite web|title=[APK] Kids Bible Story 22|url=http://boanuge.github.io/biblesmith/Public/ftp/kbs22_English.apk}}
@@ -64,13 +59,9 @@ All texts/contents in the Scripture testify about Jesus Christ either directly o
 * {{cite web|title=[APK] Kids Bible Story 144|url=http://boanuge.github.io/biblesmith/Public/ftp/kbs144_English.apk}}
 * {{cite web|title=[EXE] SimpleBible Windows (KR)|url=http://boanuge.github.io/biblesmith/Public/ftp/SimpleBible_Windows.exe}}
 
-* {{cite web|title=[iOS] Simple Bible - World Version|url=https://itunes.apple.com/us/app/simple-bible-world-version/id645392609?ls=1&mt=8}}
-* {{cite web|title=[iOS] Kids Bible Story by Holy Bible|url=https://itunes.apple.com/us/app/kids-bible-story-by-holy-bible/id654819117?ls=1&mt=8}}
-* {{cite web|title=[iOS] Kids Bible Story by Mom and Dad|url=https://itunes.apple.com/us/app/kids-bible-story-by-mom-and-dad/id651371930?ls=1&mt=8}}
-
 == Process ==
-· Search > Collect > Polish > Share <b>the Gospel</b>
-<br>[Revelation 2:26]
+· Prayer > Search > Gathering > Polish > Share <b>the Gospel</b> [Hebrews 7:27]<br>
+Who has no need to make offerings for sins every day; because he did this once and for ever when he made an offering of himself.
 
 ==See also==
 * https://en.wikipedia.org/wiki/User:Boanuge/The_Bible-smith_Project
