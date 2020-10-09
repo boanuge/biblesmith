@@ -1,5 +1,5 @@
 <!-- Information -->
-<!-- Last Updated Date: 20191201 -->
+<!-- Last Updated Date: 20201010 -->
 
 <b>※ The Bible-smith Project: "The Gospel for Everyone"</b>
 <br>
