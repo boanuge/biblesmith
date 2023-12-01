@@ -4,7 +4,20 @@
 <span style="font-size: 150%;">'''※ The Bible-smith Project : "The Gospel for Everyone"'''<span><br>
 
 <!-- Wikipedia Syntax -->
-{{Infobox project|name=The Bible-smith Project <br>성경대장장이 프로젝트|logo=<b>"The Gospel for everyone"</b>, making it universally accessible and useful <br><i>Mission based on Acts 20:24</i>|owner=The Holy Spirit|operator=Dr. Seung-Hwa Chung|established={{Start date|mf=yes|1997|06|21}}|current status=Active|url_home={{URL|http://krns.org}}|url_video={{URL|http://youtube.com/boanuge}}|num_users=1 million and more companions on Android/iOS apps and YouTube|mission_statement="The Bible-smith Project" is the project that works on any kind of Bible related applications and information for more effective and efficient Evangelism with the vision "The Gospel for Everyone", making it universally accessible and useful. <br>"성경대장장이 프로젝트"는 "모든 사람에게 복음을"이라는 비전으로 보다 정확하고 효율적인 복음전파를 위해 성경과 관련된 모든 종류의 프로그램들과 정보들을 작업하여 누구나 접근 가능하고 활용할 수 있도록 만드는 프로젝트 입니다.}}
+{{Infobox project
+|name = The Bible-smith Project <br>성경대장장이 프로젝트
+|logo = <b>"The Gospel for everyone"</b>, making it universally accessible and useful <br><i>Mission based on Acts 20:24</i>
+|owner = The Holy Spirit
+|operator = Dr. Seung-Hwa Chung
+|established = {{Start date|mf=yes|1997|06|21}}
+|current status = Active
+|url_home = {{URL|http://krns.org}}
+|url_video = {{URL|http://youtube.com/boanuge}}
+|num_users = 1 million and more companions on Android/iOS apps and YouTube
+|mission_statement = "The Bible-smith Project" is the project that works on any kind of Bible related applications and information for more effective and efficient Evangelism with the vision "The Gospel for Everyone", making it universally accessible and useful. <br>"성경대장장이 프로젝트"는 "모든 사람에게 복음을"이라는 비전으로 보다 정확하고 효율적인 복음전파를 위해 성경과 관련된 모든 종류의 프로그램들과 정보들을 작업하여 누구나 접근 가능하고 활용할 수 있도록 만드는 프로젝트 입니다.
+| footnotes = This project develops any kind of Bible related Apps/Info. for more effective and efficient evangelism. 
+| korean = 성경대장장이 프로젝트 
+}}
 
 '''{{cite web|url=http://krns.org|title=The Bible-smith Project}}''' is the project that works on any kind of [[Bible]] related applications and information for more effective and efficient [[Evangelism]] with the vision '''"The Gospel for Everyone"''', making it universally accessible and useful.
 
