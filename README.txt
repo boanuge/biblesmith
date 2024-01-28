@@ -1,5 +1,5 @@
 <!-- Information -->
-<!-- Last Updated Date: 2023-12-01 -->
+<!-- Last Updated Date: 2023-12-31 -->
 
 <span style="font-size: 150%;">'''※ The Bible-smith Project : "The Gospel for Everyone"'''<span><br>
 
@@ -11,7 +11,7 @@
 |operator = Dr. Seung-Hwa Chung
 |established = {{Start date|mf=yes|1997|06|21}}
 |current status = Active
-|url_home = {{URL|http://krns.org}}
+|url_home = {{URL|http://mannam.cc}}
 |url_video = {{URL|http://youtube.com/boanuge}}
 |num_users = 1 million and more companions on Android/iOS apps and YouTube
 |mission_statement = "The Bible-smith Project" is the project that works on any kind of Bible related applications and information for more effective and efficient Evangelism with the vision "The Gospel for Everyone", making it universally accessible and useful. <br>"성경대장장이 프로젝트"는 "모든 사람에게 복음을"이라는 비전으로 보다 정확하고 효율적인 복음전파를 위해 성경과 관련된 모든 종류의 프로그램들과 정보들을 작업하여 누구나 접근 가능하고 활용할 수 있도록 만드는 프로젝트 입니다.
@@ -19,7 +19,7 @@
 | korean = 성경대장장이 프로젝트 
 }}
 
-'''{{cite web|url=http://krns.org|title=The Bible-smith Project}}''' is the project that works on any kind of [[Bible]] related applications and information for more effective and efficient [[Evangelism]] with the vision '''"The Gospel for Everyone"''', making it universally accessible and useful.
+'''{{cite web|url=http://mannam.cc|title=The Bible-smith Project}}''' is the project that works on any kind of [[Bible]] related applications and information for more effective and efficient [[Evangelism]] with the vision '''"The Gospel for Everyone"''', making it universally accessible and useful.
 
 From the project, more than 20,000 [[Gospel]] related contents<ref>{{cite web|url=http://youtube.com/boanuge|title=YouTube: The Bible-smith Project}}</ref> and more than 200 android/iOS applications<ref>{{cite web|url=https://www.appbrain.com/dev/The+Bible-smith+Project/|title=Statistics: The Bible-smith Apps}}</ref> - including Bibles in more than 70 different languages - have been developed and/or shared to the world since 1997.
 
@@ -59,7 +59,7 @@ All texts/contents in the Scripture testify about Jesus Christ either directly o
 
 ————————————————————————————————————————
 
-* {{cite web|url=http://krns.org|title=Web-page : The Bible-smith Project}}
+* {{cite web|url=http://mannam.cc|title=Web-page : The Bible-smith Project}}
 * {{cite web|url=http://www.facebook.com/Biblesmith.Project|title=Facebook-page : The Bible-smith Project}}
 * {{cite web|url=https://en.wikipedia.org/wiki/User:Boanuge/The_Bible-smith_Project|title=Wikipedia-page : 성경대장장이프로젝트}}
 * {{cite web|url=http://youtube.com/boanuge|title=Youtube-page : The Bible-smith Project}}
@@ -82,7 +82,7 @@ All texts/contents in the Scripture testify about Jesus Christ either directly o
 
 * {{cite web|url=https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9A%A9%EC%9E%90:Boanuge|title=성경대장장이프로젝트 : "모든사람에게 복음을"}}
 
-<div style="display: none"><a href="http://krns.org" itemprop="sameAs">성경대장장이 프로젝트</a></div>
+<div style="display: none"><a href="http://mannam.cc" itemprop="sameAs">성경대장장이 프로젝트</a></div>
 
 == Bible app ==
 This project supports any kind of computer related Bible works for more effective and efficient Evangelism.
