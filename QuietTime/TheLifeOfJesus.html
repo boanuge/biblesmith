@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>예수님의 생애 타임라인</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: #ccc;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -2px;
+}
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+.container::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -10px;
+  background-color: #fff;
+  border: 4px solid #007bff;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.left {
+  left: 0;
+}
+.right {
+  left: 50%;
+}
+.left::before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #fff;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #fff;
+}
+.right::before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #fff;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #fff transparent transparent;
+}
+.right::after {
+  left: -10px;
+}
+.content {
+  padding: 20px 30px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.content h3 {
+  margin-top: 0;
+}
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left: 31px;
+  }
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  .container::before {
+    left: 60px;
+    border: medium solid #fff;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #fff transparent transparent;
+  }
+  .left::after, .right::after {
+    left: 15px;
+  }
+  .right {
+    left: 0%;
+  }
+}
+</style>
+</head>
+<body>
+<h1>예수님의 생애 타임라인</h1>
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h3>탄생 예고</h3>
+      <p>천사 가브리엘이 마리아에게 나타나 성령으로 메시아를 잉태할 것을 예고하였다. 마리아의 약혼자 요셉도 꿈에 나타난 천사의 지시를 받아들였다.</p>
+      <p><strong>복음서:</strong> 마 1:18-25, 눅 1:26-38</p>
+      <p><strong>구약:</strong> 사 7:14</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>예수님의 탄생</h3>
+      <p>마리아가 베들레헴의 마구간에서 예수님을 낳아 구유에 뉘었다. 들에서 양을 치던 목자들이 천사의 소식을 듣고 아기 예수께 와서 경배하였다.</p>
+      <p><strong>복음서:</strong> 마 1:25, 눅 2:1-7</p>
+      <p><strong>구약:</strong> 미 5:2</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>동방 박사의 방문</h3>
+      <p>동방에서 온 박사들이 하늘에 나타난 별을 따라 아기 예수를 찾아와 경배하고 황금과 유향과 몰약의 예물을 드렸다.</p>
+      <p><strong>복음서:</strong> 마 2:1-12</p>
+      <p><strong>구약:</strong> 사 60:6</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>애굽 피신과 나사렛 귀향</h3>
+      <p>헤롯 왕이 아기 예수를 해치려 하자 요셉은 하나님의 지시에 따라 밤중에 가족을 데리고 애굽으로 피신하였다. 이후 헤롯이 죽은 뒤 요셉의 가정은 이스라엘로 돌아와 갈릴리 나사렛에 정착하였다.</p>
+      <p><strong>복음서:</strong> 마 2:13-15, 마 2:19-23, 눅 2:39-40</p>
+      <p><strong>구약:</strong> 호 11:1</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>소년 예수의 성전 방문</h3>
+      <p>12세 된 예수님이 가족과 함께 예루살렘에 갔다가, 부모를 떠나 성전에서 율법 교사들과 질문하며 대화하였다. 부모는 사흘 만에 성전에서 예수님을 찾아냈고, 예수님은 하나님의 집에 있어야 함을 말씀하셨다.</p>
+      <p><strong>복음서:</strong> 눅 2:41-52</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>세례</h3>
+      <p>예수님께서 요한에게 요단강에서 세례를 받으실 때, 성령이 비둘기같이 임하고 하늘에서 “너는 내 사랑하는 아들이다”라는 하나님의 음성이 들렸다.</p>
+      <p><strong>복음서:</strong> 마 3:13-17, 막 1:9-11, 눅 3:21-22, 요 1:32-34</p>
+      <p><strong>신약:</strong> 행 10:37-38</p>
+      <p><strong>구약:</strong> 사 42:1</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>광야 시험</h3>
+      <p>예수님께서 성령에 이끌려 40일 동안 광야에서 금식하며 사탄에게 시험을 받으셨다. 사탄의 세 가지 유혹을 모두 성경 말씀으로 물리치심으로써 죄 없이 승리하셨다.</p>
+      <p><strong>복음서:</strong> 마 4:1-11, 막 1:12-13, 눅 4:1-13</p>
+      <p><strong>신약:</strong> 히 4:15</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>제자들을 부르심</h3>
+      <p>예수님께서 갈릴리에서 어부였던 시몬 베드로와 안드레, 야고보와 요한 등을 부르시며 “내가 너희를 사람을 낚는 어부가 되게 하겠다”고 말씀하셨다. 이들이 예수님의 첫 제자들이 되었다.</p>
+      <p><strong>복음서:</strong> 마 4:18-22, 막 1:16-20, 눅 5:1-11, 요 1:35-51</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>가나 혼인잔치 기적</h3>
+      <p>갈릴리 가나에서 열린 혼인잔치에서 포도주가 떨어지자, 예수님께서 물을 포도주로 바꾸시는 첫 기적을 행하셨다. 이를 통해 예수님의 영광을 나타내시니 제자들이 예수님을 믿게 되었다.</p>
+      <p><strong>복음서:</strong> 요 2:1-11</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>산상수훈</h3>
+      <p>예수님께서 갈릴리에서 산에 올라 무리에게 하나님 나라의 복음과 윤리에 대해 가르치셨다. 팔복, 주기도문, 황금률 등 예수님의 핵심 가르침이 선포되었다.</p>
+      <p><strong>복음서:</strong> 마 5:1-7:29, 눅 6:17-49</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>오병이어의 기적</h3>
+      <p>예수님께서 갈릴리 들판에서 보리떡 다섯 개와 물고기 두 마리로 약 5천 명을 먹이시는 기적을 베푸셨다. 먹고 남은 조각도 열두 바구니에 가득 찼다.</p>
+      <p><strong>복음서:</strong> 마 14:13-21, 막 6:30-44, 눅 9:10-17, 요 6:1-14</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>베드로의 신앙 고백</h3>
+      <p>예수님께서 제자들에게 “너희는 나를 누구라 하느냐”고 물으셨을 때, 시몬 베드로가 “주님은 그리스도시요 살아 계신 하나님의 아들이십니다”라고 고백하였다.</p>
+      <p><strong>복음서:</strong> 마 16:13-20, 막 8:27-30, 눅 9:18-20, 요 6:68-69</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>변화산 사건</h3>
+      <p>예수님께서 베드로, 야고보, 요한과 함께 높은 산에 올라 기도하시다가 영광스럽게 변모되셨다. 그 때 모세와 엘리야가 나타나 예수님과 이야기했고, 하나님의 음성이 “이는 내 사랑하는 아들이니 그의 말을 들으라”고 증언하였다.</p>
+      <p><strong>복음서:</strong> 마 17:1-8, 막 9:2-8, 눅 9:28-36</p>
+      <p><strong>신약:</strong> 벧후 1:16-18</p>
+      <p><strong>구약:</strong> 신 18:15</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>나사로의 부활</h3>
+      <p>예수님께서 죽은 지 나흘 된 나사로의 무덤에 가셔서 “나사로야 나오라”고 외치시자, 죽었던 나사로가 살아 나왔다. 이 일로 많은 유대인이 예수님을 믿게 되었다.</p>
+      <p><strong>복음서:</strong> 요 11:1-44</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>예루살렘 입성</h3>
+      <p>예수님께서 십자가에 달리시기 전 예루살렘에 입성하실 때, 나귀새끼를 타고 오셨다. 많은 무리가 종려 가지를 흔들며 “호산나”를 외치고 예수님을 왕으로 맞이하였다.</p>
+      <p><strong>복음서:</strong> 마 21:1-11, 막 11:1-10, 눅 19:28-38, 요 12:12-19</p>
+      <p><strong>구약:</strong> 슥 9:9</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>성전 정화</h3>
+      <p>예수님께서 성전에 들어가 장사하는 자들의 상을 뒤엎고 그들을 쫓아내셨다. “내 집은 만민이 기도하는 집이라 불리리라” 하신 성경 말씀대로, 예수님은 성전을 강도의 소굴로 만들지 말라고 책망하셨다.</p>
+      <p><strong>복음서:</strong> 마 21:12-13, 막 11:15-18, 눅 19:45-46</p>
+      <p><strong>구약:</strong> 시 69:9</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>최후의 만찬</h3>
+      <p>예수님께서 십자가에 못 박히시기 전날 밤 제자들과 마지막 유월절 만찬을 드셨다. 떡을 “내 몸”이라고 하시고 잔을 “내 피”라고 하시며 새 언약을 세우셨다.</p>
+      <p><strong>복음서:</strong> 마 26:26-29, 막 14:22-25, 눅 22:14-20</p>
+      <p><strong>신약:</strong> 고전 11:23-26</p>
+      <p><strong>구약:</strong> 렘 31:31</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>겟세마네 기도</h3>
+      <p>예수님께서 겟세마네 동산에서 잡히시기 전 제자들과 깨어 기도하셨다. 심히 고뇌하시며 “할만하시거든 이 잔을 지나가게 하옵소서. 그러나 나의 원대로 마옵시고 아버지의 원대로 되기를 원하나이다”라고 기도하셨다.</p>
+      <p><strong>복음서:</strong> 마 26:36-46, 막 14:32-42, 눅 22:39-46</p>
+      <p><strong>신약:</strong> 히 5:7</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>체포와 재판</h3>
+      <p>가룟 유다가 배신하여 예수님을 대제사장들에게 넘겨주었고, 예수님은 군병들에게 체포되셨다. 유대 공회는 예수님께 사형 판결을 내렸으며, 총독 본디오 빌라도는 무리의 압력에 못 이겨 예수님께 십자가형을 언도하였다.</p>
+      <p><strong>복음서:</strong> 마 26:47-27:26, 막 14:43-15:15, 눅 22:47-23:25, 요 18:2-19:16</p>
+      <p><strong>구약:</strong> 사 53:7-8</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>십자가 처형</h3>
+      <p>예수님께서 금요일 오전 9시경 골고다 언덕에서 십자가에 못 박혀 달리셨고, 오후 3시경 운명하셨다. 그 때 성전 휘장이 위에서 아래로 찢어지고, 로마 백부장은 “이 사람은 진실로 하나님의 아들이었다”고 고백하였다.</p>
+      <p><strong>복음서:</strong> 마 27:27-50, 막 15:16-37, 눅 23:26-46, 요 19:17-30</p>
+      <p><strong>신약:</strong> 고전 1:18</p>
+      <p><strong>구약:</strong> 사 53:5, 시 22:16-18</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>부활</h3>
+      <p>예수님께서 죽으신 지 사흘째 되던 날 새벽에 무덤에서 살아나 나오셨다. 천사가 돌을 굴려내어 빈 무덤을 보였고, 부활하신 예수님께서 여인들과 제자들에게 여러 번 나타나셨다.</p>
+      <p><strong>복음서:</strong> 마 28:1-10, 막 16:1-8, 눅 24:1-12, 요 20:1-18</p>
+      <p><strong>신약:</strong> 고전 15:4</p>
+      <p><strong>구약:</strong> 시 16:10</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>승천</h3>
+      <p>예수님께서 부활 후 40일째 되는 날 감람산에서 제자들이 지켜보는 가운데 하늘로 올라가셨다. 구름이 예수님을 가리었고, 천사들이 예수님께서 하늘로 올라가신 그대로 다시 오실 것이라고 전하였다.</p>
+      <p><strong>복음서:</strong> 막 16:19, 눅 24:50-51</p>
+      <p><strong>신약:</strong> 행 1:9-11</p>
+      <p><strong>구약:</strong> 시 110:1</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
