@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock & Stopwatch</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            background: #ffffff; /* ← 순수한 흰색 배경 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+            color: #333333;
+            overflow: hidden;
+        }
+
+        #app-container {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            padding: 26px 30px 24px;
+            background: rgba(248, 248, 248, 0.95);
+            border-radius: 18px;
+            box-shadow:
+                0 18px 45px rgba(0, 0, 0, 0.14),
+                0 2px 8px rgba(0, 0, 0, 0.06);
+            min-width: 420px;
+            max-width: 520px;
+            border: 1px solid rgba(221, 221, 221, 0.9);
+        }
+
+        .section {
+            width: 100%;
+            margin-bottom: 26px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 18px 14px 14px;
+            border-radius: 14px;
+            background: #ffffff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+            border: 1px solid #e6e9ee;
+        }
+
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        .section-header {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 0.9rem;
+            letter-spacing: 0.18em;
+            color: #2c3e50;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .pill {
+            font-size: 0.7rem;
+            padding: 3px 10px;
+            border-radius: 999px;
+            background: #ecf0f3;
+            color: #7a8a9a;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .display-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .display {
+            font-family: "SF Mono", "Roboto Mono", Consolas, monospace;
+            font-size: 3.5rem;
+            color: #34495e;
+            letter-spacing: 0.12em;
+            text-shadow:
+                0 1px 0 rgba(255,255,255,0.6),
+                0 0 4px rgba(0,0,0,0.12);
+            transition: 0.15s ease-out;
+            min-width: 280px;
+            text-align: center;
+            padding: 6px 0 2px;
+        }
+
+        #time-display { font-size: 3.9rem; }
+        #stopwatch-display { font-size: 2.7rem; min-width: 240px; }
+
+        #date-display {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-top: 6px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            margin-top: 14px;
+            gap: 8px;
+        }
+
+        .controls button {
+            background: linear-gradient(135deg, #5d6d7e, #4a596a);
+            color: #ffffff;
+            border: none;
+            padding: 7px 18px;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: 0.12s ease-out;
+        }
+
+        .controls button:hover:not(:disabled) {
+            transform: translateY(-1px);
+        }
+
+        .controls button:disabled {
+            opacity: 0.45;
+            cursor: default;
+        }
+
+        .hint {
+            margin-top: 4px;
+            font-size: 0.7rem;
+            color: #9aa4af;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app-container">
+
+    <div class="section" id="clock-section">
+        <div class="section-header">
+            <div class="title">Current Time</div>
+            <div class="pill">Local</div>
+        </div>
+        <div class="display-wrapper">
+            <div class="display" id="time-display">00:00:00</div>
+            <div id="date-display"></div>
+        </div>
+    </div>
+
+    <div class="section" id="stopwatch-section">
+        <div class="section-header">
+            <div class="title">Stop Watch</div>
+            <div class="pill">Timer</div>
+        </div>
+        <div class="display-wrapper">
+            <div class="display" id="stopwatch-display">00:00:00.000</div>
+            <div class="controls">
+                <button id="start-btn">Start</button>
+                <button id="pause-btn" disabled>Pause</button>
+                <button id="reset-btn" disabled>Reset</button>
+            </div>
+            <div class="hint">Space: start/pause · R: reset</div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    // Clock
+    function updateClock() {
+        const now = new Date();
+        const h = String(now.getHours()).padStart(2, '0');
+        const m = String(now.getMinutes()).padStart(2, '0');
+        const s = String(now.getSeconds()).padStart(2, '0');
+
+        document.getElementById('time-display').textContent = `${h}:${m}:${s}`;
+        document.getElementById('date-display').textContent =
+            now.toLocaleDateString('en-US', {
+                year: 'numeric', month: 'short', day: 'numeric', weekday: 'short'
+            });
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+
+    // Stopwatch
+    const stopwatchDisplay = document.getElementById('stopwatch-display');
+    const startBtn = document.getElementById('start-btn');
+    const pauseBtn = document.getElementById('pause-btn');
+    const resetBtn = document.getElementById('reset-btn');
+
+    let startTime = 0;
+    let elapsed = 0;
+    let interval;
+
+    function formatTime(t) {
+        const ms = String(t % 1000).padStart(3, '0');
+        const totalSec = Math.floor(t / 1000);
+        const sec = String(totalSec % 60).padStart(2, '0');
+        const totalMin = Math.floor(totalSec / 60);
+        const min = String(totalMin % 60).padStart(2, '0');
+        const hr = String(Math.floor(totalMin / 60)).padStart(2, '0');
+        return `${hr}:${min}:${sec}.${ms}`;
+    }
+
+    function start() {
+        startTime = Date.now() - elapsed;
+        interval = setInterval(() => {
+            elapsed = Date.now() - startTime;
+            stopwatchDisplay.textContent = formatTime(elapsed);
+        }, 10);
+        startBtn.disabled = true;
+        pauseBtn.disabled = false;
+        resetBtn.disabled = false;
+    }
+
+    function pause() {
+        clearInterval(interval);
+        startBtn.disabled = false;
+        pauseBtn.disabled = true;
+    }
+
+    function reset() {
+        clearInterval(interval);
+        elapsed = 0;
+        stopwatchDisplay.textContent = '00:00:00.000';
+        startBtn.disabled = false;
+        pauseBtn.disabled = true;
+        resetBtn.disabled = true;
+    }
+
+    startBtn.onclick = start;
+    pauseBtn.onclick = pause;
+    resetBtn.onclick = reset;
+
+    document.addEventListener('keydown', e => {
+        if (e.code === 'Space') {
+            e.preventDefault();
+            startBtn.disabled ? pause() : start();
+        } else if (e.key === 'r' || e.key === 'R') {
+            reset();
+        }
+    });
+</script>
+
+</body>
+</html>
