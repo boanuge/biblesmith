@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock & Stopwatch</title>
+    <style>
+        /* 폰트 임포트 제거: 시스템 내장 폰트 사용 */
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            /* 배경색을 순수한 흰색으로 변경 */
+            background-color: #ffffff; 
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            font-family: Consolas, "Courier New", monospace; 
+            /* 기본 텍스트 색상을 검은색 계열로 변경 */
+            color: #333333;
+            overflow: hidden;
+        }
+
+        #app-container {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            padding: 30px;
+            /* 컨테이너 배경색을 밝은 회색으로 변경 */
+            background: #f8f8f8; 
+            border-radius: 20px;
+            /* 그림자 효과를 어둡게 변경 */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+            min-width: 450px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .section {
+            width: 100%;
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+        
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        .title {
+            font-size: 1.5em;
+            /* 제목 색상을 어두운 네이비 계열로 변경 */
+            color: #2c3e50; 
+            margin-bottom: 10px;
+            text-shadow: none; /* 네온 효과 제거 */
+            font-weight: bold;
+        }
+
+        .display {
+            font-size: 4.5em; 
+            /* 디스플레이 폰트 색상을 진한 남색 계열로 변경 */
+            color: #34495e; 
+            letter-spacing: 3px; 
+            /* 네온 효과를 약하게, 어두운 색상으로 변경 */
+            text-shadow: 
+                0 0 5px rgba(0, 0, 0, 0.1), 
+                0 0 10px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s;
+            min-width: 280px; 
+            display: inline-block;
+            text-align: center;
+        }
+        
+        #stopwatch-display {
+            font-size: 3em; 
+            min-width: 150px; 
+        }
+
+        #date-display {
+            font-size: 1.2em;
+            /* 날짜 텍스트 색상을 다크 그레이로 변경 */
+            color: #7f8c8d; 
+            text-shadow: none;
+            margin-top: 10px;
+        }
+
+        .controls {
+             display: flex;
+             justify-content: center;
+        }
+
+        .controls button {
+            /* 버튼 색상 유지: 어두운 회색 계열 */
+            background-color: #5d6d7e; 
+            color: #ffffff;
+            border: none;
+            padding: 8px 15px; 
+            margin: 4px; 
+            border-radius: 4px; 
+            font-size: 0.9em; 
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+        }
+
+        .controls button:hover {
+            background-color: #4a596a; 
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+<body>
+
+<div id="app-container">
+
+    <div class="section" id="clock-section">
+        <div class="title">CURRENT TIME</div>
+        <div class="display" id="time-display">00:00:00</div>
+        <div id="date-display"></div>
+    </div>
+    
+    <div class="section" id="stopwatch-section">
+        <div class="title">STOP WATCH</div>
+        <div class="display" id="stopwatch-display">00:00</div> 
+        <div class="controls">
+            <button id="start-btn">START</button>
+            <button id="pause-btn" disabled>PAUSE</button>
+            <button id="reset-btn" disabled>RESET</button>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    // --- Clock Functionality ---
+    function updateClock() {
+        const now = new Date();
+        
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        
+        const timeString = `${hours}:${minutes}:${seconds}`;
+        document.getElementById('time-display').textContent = timeString;
+
+        const options = { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric',
+            weekday: 'long' 
+        };
+        const dateString = now.toLocaleDateString('en-US', options);
+        document.getElementById('date-display').textContent = dateString;
+    }
+    
+    updateClock();
+    setInterval(updateClock, 1000);
+
+
+    // --- Stopwatch Functionality ---
+    const stopwatchDisplay = document.getElementById('stopwatch-display');
+    const startBtn = document.getElementById('start-btn');
+    const pauseBtn = document.getElementById('pause-btn');
+    const resetBtn = document.getElementById('reset-btn');
+
+    let startTime = 0;
+    let elapsedTime = 0;
+    let timerInterval;
+
+    function formatTime(time) {
+        const totalSeconds = Math.floor(time / 1000);
+        const seconds = String(totalSeconds % 60).padStart(2, '0');
+        const totalMinutes = Math.floor(totalSeconds / 60);
+        const minutes = String(totalMinutes).padStart(2, '0'); 
+        
+        return `${minutes}:${seconds}`;
+    }
+
+    function startStopwatch() {
+        startTime = Date.now() - elapsedTime;
+        timerInterval = setInterval(function printTime() {
+            elapsedTime = Date.now() - startTime;
+            stopwatchDisplay.textContent = formatTime(elapsedTime);
+        }, 1000); 
+        
+        startBtn.disabled = true;
+        pauseBtn.disabled = false;
+        resetBtn.disabled = false;
+    }
+
+    function pauseStopwatch() {
+        clearInterval(timerInterval);
+        startBtn.disabled = false;
+        pauseBtn.disabled = true;
+    }
+
+    function resetStopwatch() {
+        clearInterval(timerInterval);
+        elapsedTime = 0;
+        stopwatchDisplay.textContent = '00:00';
+        
+        startBtn.disabled = false;
+        pauseBtn.disabled = true;
+        resetBtn.disabled = true;
+    }
+
+    startBtn.addEventListener('click', startStopwatch);
+    pauseBtn.addEventListener('click', pauseStopwatch);
+    resetBtn.addEventListener('click', resetStopwatch);
+
+</script>
+
+</body>
+</html>
