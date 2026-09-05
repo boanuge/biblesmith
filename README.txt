@@ -61,20 +61,10 @@ The AI to generate Holy Bible based answer - The knowledge of good and evil shou
 == External links ==
 * {{cite web|url=http://krns.org/bible|title=다국어 성경 : Holy Bible in Many Languages}}
 * {{cite web|url=http://boanuge.github.io/biblesmith/Public/cc.mannam.Biblesmith/English_BBE/Bible4BBE.html|title=영어 성경 : The Holy Bible in Basic English, Published by Cambridge University, Translated by Prof. S. H. Hooke, University of London, BBE is composed of a total of 1,000 words since 1949.}}
-* {{cite web|url=http://boanuge.github.io/biblesmith/Public/cc.mannam.Biblesmith/Korean/Bible4Simple.html|title=한글 성경 : The Holy Bible in Korean, New Standard Translation Version, Spoken in Korean Peninsula in Far East Asia, Since 2001}}
-————————————————————————————————————————
-* {{cite web|url=http://boanuge.github.io/biblesmith/Public/cc.mannam.Biblepage/new/ple001.htm.html|title=만화 성경 (Bible cartoon) : Preaching the good new of the kingdom of God}}
-* {{cite web|url=http://boanuge.github.io/biblesmith/Public/cc.mannam.Biblepage/new/plk001.htm.html|title=만화 성경 (Bible cartoon) : 천국복음의 선포 1부~4부}}
-* {{cite web|url=http://krns.org/ftp/Wonderful_Story_OT_English_PDF.html|title=Wonderful Stoty in Bible (The Old Testament)}}
-* {{cite web|url=http://krns.org/ftp/Wonderful_Story_NT_English_PDF.html|title=Wonderful Stoty in Bible (The New Testament)}}
-* {{cite web|url=http://krns.org/ftp/Wonderful_Story_OT_Korean_PDF.html|title=원더풀 성경이야기 (구약)}}
-* {{cite web|url=http://krns.org/ftp/Wonderful_Story_NT_Korean_PDF.html|title=원더풀 성경이야기 (신약)}}
+* {{cite web|url=http://krns.org/bible/Bible4KoreanEasy.html|title=한글 성경 : The Holy Bible in Korean, Agape Easy Bible Sourced by Church Software Bible Repository, Since 1994}}
 ————————————————————————————————————————
 * {{cite web|url=http://krns.org/QuietTime/365.html|title=복음 묵상 (Gospel meditation for 365 days) : My Utmost for His Highest}}
 * {{cite web|url=http://krns.org/OswaldChambers/index.html|title=복음 묵상 (Gospel meditation for 365 days) : 오스왈드 챔버스의 주님은 나의 최고봉}}
-————————————————————————————————————————
-* {{cite web|url=https://1billion.org/|title=✞ Find Jesus Christ (삶의 진정한 목적과 의미를 찾아보세요) @ 1Billion.Org}}
-* {{cite web|url=https://searchforjesus.net/|title=✞ Find purpose & be fulfilled @ Billy Graham Evangelistic Association}}
 ————————————————————————————————————————
 * {{cite web|url=http://krns.org|title=Web-page : The Bible-smith Project}}
 * {{cite web|url=http://www.facebook.com/Biblesmith.Project|title=Facebook-page : The Bible-smith Project}}
